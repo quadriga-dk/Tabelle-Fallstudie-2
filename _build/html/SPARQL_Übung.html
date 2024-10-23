@@ -1,0 +1,885 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>SPARQL Übung - Benutzung &amp; Beispiel &#8212; Template Book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/quadriga.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'SPARQL_Übung';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Zusammenfassung" href="zusammenfassung.html" />
+    <link rel="prev" title="Metadatenqualität" href="metadaten.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.jpg" class="logo__image only-light" alt="Template Book - Home"/>
+    <script>document.write(`<img src="_static/logo.jpg" class="logo__image only-dark" alt="Template Book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Ihre QUADRIGA OER
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="semanticweb.html">Semantic Web - Konzept &amp; Erläuterung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dcat_ap.html">DCAT-AP - Metadatenstandard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="metadaten.html">Metadatenqualität</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">SPARQL Übung - Benutzung &amp; Beispiel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zusammenfassung.html">Zusammenfassung</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/quadriga-dk/Book_Template/main?urlpath=lab/tree/SPARQL_Übung.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/quadriga-dk/Book_Template/blob/main/SPARQL_Übung.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-play"></i>
+  </span>
+<span class="btn__text-container">Live Code</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/quadriga-dk/Book_Template" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2FSPARQL_Übung.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/SPARQL_Übung.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>SPARQL Übung - Benutzung & Beispiel</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="sparql-ubung-benutzung-beispiel">
+<h1>SPARQL Übung - Benutzung &amp; Beispiel<a class="headerlink" href="#sparql-ubung-benutzung-beispiel" title="Permalink to this heading">#</a></h1>
+<p>In diesem Teil widmen uns einer praktischen SPARQL-Übung, indem wir uns mit der folgenden Forschungsfrage auseinandersetzen:</p>
+<p><strong>Wie viele Datensätze in der Form von offenen Daten bietet jedes Bundesland an?</strong></p>
+<p>Das Ziel ist, eine realistische Verwendung der Abfragesprache darzustellen. Bevor wir solch ein Beispiel aufweisen, müssen wir bestimmen, welches Verfahren für die Gestaltung und Versand für Abfragen benutzt werden sollte. Die Handhabung davon hängt meistens von der persönlichen Bevorzugung des/der Benutzers/in. Deswegen schlagen wir einige Alternativen vor.</p>
+<p>Der erste Weg ist derjenige, mithilfe dessen dieses ganze Materiail samt seiner Code-Anteile angefertigt worden ist. Es handelt sich um das Jupyter Notebook - ein Dateiformat, das die zeitgleiche Einwebung von  Fließtext und Codeanteilen von diversen Programmiersprachen einrichtet. Somit wird die visuelle Darstellung von echtem Code, der für die Gestaltung von Abfragen verwendet wird, derer Ergebnissen und den Erläuterungen der aufgerufenen Befehle samt anderer Kommentare ermöglicht.</p>
+<p>Die Jupyter-Notebook-Ausweitung lautet <em>.ipynb</em> . Durch die Erstellung einer normalen <em>.txt</em>-Datei kann man dann die Ausweitung ändern. Darüber hinaus bräuchte man ein beliebiges Bearbeitungsprogramm, mit Hilfe dessen man intuitiv, bequem und entspannt arbeiten kann. Dafür eignet sich Microsoft Visual Studio Code (VSC) ganz gut. VSC ist einer der gängigsten Editors im heutigen Programmierbereich und bietet  Möglichkeiten für die intuitive Bearbeitung und Verwaltung von Dateien in unterschiedlichsten Programmiersprachen. Für die Integrierung von SPARQL-Abfragen benötigt man aber auch einen Kernel - ein Motor, der auf die Programmiersprache bezogen ist und es ermöglicht, die Ergebnisse der Abfrate aufweisen zu lassen. Die Aufgabe ist somit erstmal einen entwickelten SPARQL-Kernel zu finden und dann herunterzuladen. Glücklicherweise gibt es schon einen entwickelten SPARQL-Kernel, der auf der Basis von Python funktioniert. Hiermit verweisen wir auf der Git-Hub-Seite des Kernels, auf der die ganzen Informationen dazu stehen, wie er zu installieren ist - https://github.com/paulovn/sparql-kernel .</p>
+<p><strong>Frage: das ganze Prozess des Installierens beschreiben / auf andere Seiten verweisen?</strong></p>
+<p>Nichtsdestotrotz, es bedarf nicht zwingend eines Kernels und der Arbeit mit einem lokalen Editor für die Gestaltung von SPARQL-Abfragen, da es schon mehrere Online-Werkzeuge gibt, die die vollständige Benutzung von SPARQL erlauben. Selbst das deutsche Open-Data-Portal GOVDATA bietet einen SPARQL-Assistenten - https://www.govdata.de/web/guest/sparql-assistent . Damit kann man online arbeiten und sich die Mühe sparen, indem man auf die Arbeit mit einem Editor und einem Kernel verzichtet.</p>
+<p>Somit können wir uns der Analyse der SPARQL-Syntax widmen, indem wir uns die Abfragen für die Forschungsfragen ansehen. Als allererstes muss ein Endepunkt definiert werden. Der Endepunkt bestimmt das maschinelesbare Verweis auf das Repositorium, in dem die Metadaten aufbewahrt sind. Bei der Arbeit mit einem Online-SPARQL-Werkzeug ist die Definierung eines Endpunkts oft nicht nötig, da der schon automatisch definiert ist. Im Portal GOVDATA ist der Endepunkt natürlich der Verweis auf das Repositorium mit allen Metadaten für die Datensätze, die auch über die interne Suchmaschine zu finden sind.</p>
+<p>Für unsere Beispiele wollen wir das deutsche Datenportal GOVDATA durchstöbern. Dafür müssen wir uns den Endpunkt des europäischen Datenportal holen. Den finden wir auf der folgenden Webseite - . Danach verwenden den wir folgende Magic, d.h. einen Befehl, der Teil vom SPARQL-Python-Paket ist, die uns erlaubt, alle künftigen Abfragen mit unserem Endpunkt zu verknüpfen.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div></div>
+</div>
+<p>Mit dem festgelegten Endpunkt können wir schon SPARQL-Abfragen errichten, indem wir Metadaten aus dem Portal erfragen. Bevor wir damit anfangen, wäre es eine gute Idee, sich mit der Onthologie bekanntzumachen. Das früher schon erklärte Konzept von DCAT-AP ist zentral für die Entdeckung von den Metadateneigentschaften und dient als das Stanard für die Referenzliste von Properties - https://www.dcat-ap.de/def/. Somit können wir uns schon die Struktur einer Abfrage anschauen.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">pg</span><span class="p">:</span> <span class="nl">&lt;https://www.dcat-ap.de/def/politicalGeocoding/&gt;</span>
+
+<span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?stateKey</span>
+<span class="k">WHERE</span> <span class="p">{</span>
+    <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?title</span> <span class="p">.</span>
+    <span class="nv">?uri</span> <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorid</span> <span class="p">.</span>
+  <span class="k">OPTIONAL</span> <span class="p">{</span><span class="nv">?uri</span> <span class="nn">pg</span><span class="p">:</span><span class="nt">stateKey</span> <span class="nv">?stateKey</span><span class="p">}</span> <span class="p">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>uri</th>
+<th>title</th>
+<th>contributorid</th>
+<th>stateKey</th></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b7cad163-8d99-4d97-b781-e4f5a11078d3" target="_other">http://data.europa.eu/88u/dataset/b7cad163-8d99-4d97-b781-e4f5a11078d3</a></td>
+<td class=val>Digitale Topographische Karte 1 : 10 000 - 3952-NO Friedland - Groß Muckrow</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b7cad163-8d99-4d97-b781-e4f5a11078d3" target="_other">http://data.europa.eu/88u/dataset/b7cad163-8d99-4d97-b781-e4f5a11078d3</a></td>
+<td class=val>Digitale Topographische Karte 1 : 10 000 - 3952-NO Friedland - Groß Muckrow</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/openDataBrandenburg" target="_other">http://dcat-ap.de/def/contributors/openDataBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topographische Karte 1 : 25 000 - Ausgabe Staat (1981-1989) N-33-123-B-c Berlin (West)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topográfiai térkép 1 : 25 000 – Kibocsátó állam (1981–1989) N-33-123-B-c Berlin (Nyugat)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topografinen kartta 1 : 25 000 - Liikkeeseenlaskuvaltio (1981-1989) N-33-123-B-c Berliini (Länsi)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topogrāfiskā karte Nr. 1 : 25 000 - Izdevējvalsts (1981-1989) N-33-123-B-c Berlīne (rietumi)-Šarlotenburga</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topografická mapa 1 : 25 000 - Štátne vydanie (1981-1989) N-33-123-B-c Berlín (Západ)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topografinis žemėlapis 1 : 25 000 - Leidimo valstybė (1981-1989) N-33-123-B-c Berlynas (Vakarai)-Šarlotenburgas</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topografická mapa 1 : 25 000 - Vydavatelský stát (1981-1989) N-33-123-B-c Berlin (West)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Mapa topograficzna 1 : 25 000 - Stan emisji (1981-1989) N-33-123-B-c Berlin (Zachód)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Carta topografica 1 : 25 000 - Stato di emissione (1981-1989) N-33-123-B-c Berlin (West)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Топографска карта 1: 25000 — Емисионна държава (1981—1989 г.) N-33—123-B-c Berlin (Запад)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Mapa topográfico 1 : 25 000 - Estado de emisión (1981-1989) N-33-123-B-c Berlín (Oeste)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Harta topografică 1 : 25 000 - Statul emitent (1981-1989) N-33-123-B-c Berlin (Vest)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topografisk kort 1 : 25 000 - Udstedelsesstat (1981-1989) N-33-123-B-c Berlin (Vest)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topografisk karta 1 : 25 000 - Utgivningsstat (1981-1989) N-33-123-B-c Berlin (Väst)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topografska karta 1 : 25 000 – Država izdaje (1981–1989) N-33-123-B-c Berlin (zahod)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Léarscáil topagrafach 1 : 25 000 - Stát Eisiúna (1981-1989) N-33-123-B-c Beirlín (Iarthar)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Topograafiline kaart 1 : 25 000 - käibelelaskmise riik (1981-1989) N-33-123-B-c Berliin (lääne)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1" target="_other">http://data.europa.eu/88u/dataset/b911982d-33ef-408c-8840-96a0702021db~~1</a></td>
+<td class=val>Mapa topográfico 1 : 25 000 - Estado de emissão (1981-1989) N-33-123-B-c Berlim (Oeste)-Charlottenburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/landBrandenburg" target="_other">http://dcat-ap.de/def/contributors/landBrandenburg</a></td>
+<td class=val></td></tr></table><div class="tinfo">Total: 50000, Shown: 20</div></div></div></div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Erklärung des Codes</p>
+<p>Als erstes sehen wir die sogenannten PREFIXES. Die Prefixes sind ein nützliches Tool, das dabei helfen, auf die diversen Eigenschaftenkategorien zu verweisen und auf eine abgekürzte Art und Weise die Bezüge zwischen jenen Eigenschaften zu schaffen. Sie sind wichtig für eine einfachere Gestaltung der Abfragen, aber nicht essenziell. Sie helfen lediglich, indem die ganzen Links nicht immer wieder ausgeschrieben werden müssen, und ermöglichen nur die Angabe von den Endungen nach den Prefixes. Alles wird klarer, wenn wir uns den WHERE-Abschnitt ansehen.</p>
+<p>Zuvor gibt es aber den SELECT-Befehl. SELECT wählt die Properties bzw. die Eigenschaften, die aufgelistet werden sollen. Jede Eigenschaft entspricht einer Spalte, die in der Tabelle mit Ergebnissen zu sehen ist. Da im SELECT-Befehl die folgenden 3 Properties ausgeschrieben werden - ?uri ?title ?contributorid ?stateKey - bekommen wir die URIs, die Titel, die Namen der Datenbereitsteller und das Kürzel des jeweiligen Landes, aus dem der Datensatz stammt.</p>
+<p>Die genauen Benennungen der Properties könnte man nicht ahnen - diese stehen fest in dem Vokabular. Deswegen müsste man oft auf das Handbuch DCAT-AP zurückgreifen, um die genauen Labels für jede Property zu finden.</p>
+<p>Was Ihnen noch auffallen könnte, ist, dass die Spalte für das Bundesland (stateKey) leer ist. Leider liegt das daran, dass das Land nicht codiert worden ist. Somit bleiben diese Felder leer. Dies ist ein klares Beispiel für lückenhaftes Metadatenmanagement, das die Beantowrtung unserer Forschungsfrage erschwierigt. In der Praxis kommt es oft zu Fällen, in denen Abfragen nicht sehr erfolgreich wegen unvollkommenes Harvestings oder unvoller Datebanken ist. Man sollte damit rechnen können.</p>
+<p>Als nächstes haben wir den Kern jeder SPARQL-Abfrage - den WHERE-Befehl. Die WHERE-Befehl definiert die Beobachtungen, die aufgelistet werden sollen, indem die Bedingungen ausgeschrieben werden. Somit werden nur die Beobachtungen aufgelistet, die alle Bedungungen erfüllen. In der Abfrage ist auch OPTIONAL zu sehen - dies besagt, dass die folgende Bedingung nicht zwingend zu erfüllen ist. Das bedeutet, dass selbst die Beobachtungen, in unserem Fall die Datensätze, in der Liste stehen, die keine Ausprägung für die Eigentschaft stateKey (Verweis auf Land) haben. Da leider stateKey nicht mit codiert ist, können wir uns alle Datensätze ansehen, die auf die anderen Bedingungen treffen (URI, Titel und ID der Bereitsteller), ohne dass wir eine leere Liste bekommen. OPTIONAL ist ein gutes Werkzeug, das benutzt werden kann, wenn man sich nicht sicher ist, ob gewisse Properties ordentlich codiert sind.</p>
+<p>Was wahrscheinlich Ihnen auch auffällt ist, dass in jeder Zeile in der WHERE-Funktion 3 Elemente zu sehen sind. Diese Struktur ist essentiell für die SPARQL-Sprache - durch die sogenannten “triplets” werden Bezüge zwischen den Eigenschaften erstellt. Jede Zeile bestimmt einen Bezug zwischen 2 Eigenschaften. Die erste Eigenschaft ist somit das Subjekt (S), das zweite Element - der Bezug, der aus einem Prefix und einer zusätzlichen Spezifizierung besteht, heißt das Prädikat (P), und das dritte - die zweite Eigenschaft, ist das Objekt (O). P entspricht einem Link, der darauf verweist, wo die zweite Eigentschaft zu finden ist. Die Einordnung der Eigenschaften ist nach dem W3C-Standard, das schon in einem früheren Kapitel erklärt wurde, definiert. In dem DCAT-AP-Handbuch ist dann die genaue Verortung von jeder Eingenschaft zu finden. Durch die Triplets fragen wir genau ab, welche Datensätze wir erfragen wollen, je nach den Bedingungen, die solche Datensätze erfüllen sollen. Mit unserer Abfrage suchen wir die Datensätze ab, die einen Titel, ein URI, einen mitcodierten Datenbereitsteller, und wenn vorhanden, einen Schlüssel für das Bundesland, haben, was leider bei keinen Datensätzen der Fall ist. Es lässt sich einfach ableiten, dass diese Bedingungen nicht so strikt ist. Trotzdem konnten wir unsere Fragestellung wegen mangelhafter Daten nicht ganz befriedigen. Jedoch kann man viel spezifischer sein. Wir würden also versuchen, unsere Fragestellung zu ändern und zusätzliche Beispiele von SPARQL aufzuzeigen.</p>
+<p>Wichtig zu bedenken ist, dass SPARQL leider keine Paginierungsfunktion unterstützt. Man muss es in der Regel auf Anwendungsebene handhaben, da SPARQL von sich aus nicht das Durchblättern von Ergebnissen wie eine Weboberfläche unterstützt.Stattdessen muss die Paginierung manuell durch die Verwendung von LIMIT und OFFSET in den Abfragen implementiert werden. Dies erfordert eine zusätzliche Logik in der Anwendung, um die aktuelle Seite zu verfolgen und die richtigen Offset-Werte zu berechnen.</p>
+</div>
+<p>Somit lautet unsere neue Fragestellung also:</p>
+<p><strong>Welche sind die Datensätze, die das Wort “Baumkataster” im Titel beinhalten und im Zeitschnitt 2022-2024 erschienen sind? Welche sind die Bereitsteller, die jene Datensätze liefern? In welchen Formaten kommen die Datensätze vor?</strong></p>
+<p>Hierbei ist es wichtig zu erwähnen, dass SPARQL über keine native Paginierungsfunktion verfügt. Dies besagt, dass man leider nicht die Ergebnisse durchblättern kann. Gewöhnlicherweise wird das über die UI-Funktionalitäten umgesetzt - ein Merkmal davon, wie rudimentär SPARQL in ihrer Basis ist. Deswegen muss man in der Abfrage zusätzlich spezifizieren, welche Ergebnisse bzw. Seiten aufgelistet werden sollen.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
+
+<span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
+    <span class="p">{</span>
+        <span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
+            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?title</span> <span class="p">.</span>
+            <span class="nv">?uri</span> <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorid</span> <span class="p">.</span>
+            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span> <span class="p">.</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">isURI</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">))</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">strstarts</span><span class="p">(</span><span class="nf">str</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">),</span> <span class="s">&quot;http://dcat-ap.de/def/contributors/&quot;</span><span class="p">))</span>       
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?title</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div><div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>uri</th>
+<th>title</th>
+<th>contributorid</th>
+<th>modified</th></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Francoforte sul Meno</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt am Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt na Majni</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt na Majni</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt nad Menem</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt nad Mohanem</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt nad Mohanom</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurt pe Main</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurtas prie Maino</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Frankfurte pie Mainas</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr></table><div class="tinfo">Total: 47, Shown: 20</div></div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
+
+<span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
+    <span class="p">{</span>
+        <span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
+            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?title</span> <span class="p">.</span>
+            <span class="nv">?uri</span> <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorid</span> <span class="p">.</span>
+            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span> <span class="p">.</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">isURI</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">))</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">strstarts</span><span class="p">(</span><span class="nf">str</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">),</span> <span class="s">&quot;http://dcat-ap.de/def/contributors/&quot;</span><span class="p">))</span>       
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?title</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
+        <span class="p">}</span>
+                <span class="k">LIMIT</span> <span class="mi">6</span> <span class="k">OFFSET</span> <span class="mi">20</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div><div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>uri</th>
+<th>title</th>
+<th>contributorid</th>
+<th>modified</th></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Fráncfort del Meno</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Φραγκφούρτη</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Франкфурт на Майн</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2023-08-23T05:44:14.694853</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/fcdceb2e-d16d-410c-ba0f-521ba8c6effa" target="_other">http://data.europa.eu/88u/dataset/fcdceb2e-d16d-410c-ba0f-521ba8c6effa</a></td>
+<td class=val>Fachpläne - Baumkataster</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/datenBW" target="_other">http://dcat-ap.de/def/contributors/datenBW</a></td>
+<td class=val>2024-10-10T13:45:21.322762</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/c1c61928-c602-4e37-af31-2d23901e2540" target="_other">http://data.europa.eu/88u/dataset/c1c61928-c602-4e37-af31-2d23901e2540</a></td>
+<td class=val>Straßenbaumkataster Hamburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
+<td class=val>2024-08-09T00:10:58.572825</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/19676799-fedb-4d1a-a89a-26fba887b3f0~~2" target="_other">http://data.europa.eu/88u/dataset/19676799-fedb-4d1a-a89a-26fba887b3f0~~2</a></td>
+<td class=val>Straßenbaumkataster Hamburger Hafen</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
+<td class=val>2024-08-08T03:15:01.540503</td></tr></table><div class="tinfo">Total: 6, Shown: 6</div></div></div></div>
+</div>
+<p>Die Abfrage mit LIMIT 6 OFFSET 20 gibt uns genau die Ergebnisse 21 bis 26 zurück. Wenn man also die Anzahl der zurückgegebenen Ergebnisse begrenzen möchte, ist es sinnvoll, LIMIT zu verwenden.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Erklärung des Codes</p>
+<p>Da wir uns schon mit der Struktur einer SPARQL-Abfrage auseinandergesetzt haben, können wir schon viel von der obigen ablesen. Erstmal haben wir den definierten Endpunkt, den wir nennen müssen, um auf den Standort der Metadaten hinzuweisen. Danach beschreiben wir die Prefixes, die unsere Verlinkungen in dem WHERE-Teil erleichtern. Neu hier ist der PREFIX dcatde - hier sind alle Eigentschaften verortet, die spezifisch für aus Deutschland stammende Datensätze sind. Wir verweisen somit auf contributorid - hier ist die Information über die Datenbereitsteller gespeichert. Die andere neue Eigenschaft ist modified, was besagt, wann zum letzen der jeweilige Datensatz bearbeitet worden ist. Diese Eigenschaft gibt die aktuellste Auskunft darüber, aus welchem Jahr der Datensatz stammt. Eine andere neue Bedingung, die in der Absprache zu finden ist, wäre FILTER. FILTER beschreibt eine spezifische Bedingung, die zwingend zu erfüllen ist, und somit schränkt die Ergebnisse darauf ein. Somit lassen wir uns Ergebnisse angeben, die ihre contributorid ausschließlich als URI haben und zwar die mit “http://dcat-ap.de/def/contributors/” anfangen. Das schließt alle leerstehende Ausprägungen und auch solche, die nicht in der Form von URIs sind. Wichtig sind auch die Befehle strstarts und str. Die Funktion str() konvertiert den Wert der Variable ?contributorid in einen String. In SPARQL-Abfragen werden Variablen oft als IRIs (Internationalized Resource Identifiers) dargestellt, also als URLs. Die Funktion str() nimmt diesen IRI und wandelt ihn in eine einfache Zeichenkette (String) um. Die Funktion strstarts() überprüft, ob ein gegebener String mit einer bestimmten Zeichenkette beginnt. Für die Eigenschaft modified legen wir fest, welche Jahre in der Form einer vierstelligen Zahl in der Zeichenkette sein sollten, also 2022, 2023, 2024.</p>
+</div>
+<p>Als nächstes wollen wir uns eine Liste von den Datenbereitstellern ansehen, sowie die Anzahl an Datensätzen je Bereitsteller. Damit können wir herausfinden, welcher Bereitstellende “am produktivsten” ist.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dcat</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/ns/dcat#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">pg</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/politicalGeocoding/&gt;</span>
+
+<span class="k">SELECT</span> <span class="nv">?contributorID</span> <span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span> <span class="nv">?datasetTitle</span><span class="p">)</span> <span class="k">AS</span> <span class="nv">?uniqueDatasetTitleCount</span><span class="p">)</span>
+<span class="k">WHERE</span> <span class="p">{</span>
+  <span class="nv">?datasetURI</span> <span class="k">a</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">Dataset</span><span class="p">;</span>
+              <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?datasetTitle</span><span class="p">;</span>
+              <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorID</span><span class="p">;</span>
+              <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span><span class="p">.</span>
+  <span class="k">FILTER</span><span class="p">((</span><span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;&quot;</span> <span class="o">||</span> <span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;de&quot;</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
+  <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
+<span class="p">}</span>
+<span class="k">GROUP BY</span> <span class="nv">?contributorID</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Erklärung des Codes</p>
+<p>Der COUNT Befehl in SPARQL wird verwendet, um die Anzahl der Ergebnisse zu zählen, die eine bestimmte Bedingung erfüllen. Der AS Befehl folgt dem COUNT und dient dazu, das Ergebnis der Zählung einer Variablen zuzuweisen, die dann im Ergebnis verwendet werden kann. DISTINCT gibt an, dass nur eindeutige (DISTINCT) Werte der Variable ?datasetTitle gezählt werden sollen. AS ?uniqueDatasetTitleCount  weist das Ergebnis der Zählung der Variable ?uniqueDatasetTitleCount zu. Diese Variable kann dann im Ergebnis verwendet werden, um die Anzahl der eindeutigen datasetTitle für jeden contributorID anzuzeigen. Die Bedingung (LANG(?datasetTitle) = “” || LANG(?datasetTitle) = “de”) wird verwendet, um sicherzustellen, dass nur Titel (?datasetTitle) ausgewählt werden, die entweder keine Sprachinformation haben oder explizit als Deutsch (“de”) gekennzeichnet sind. Die Bedingung für das Aufnehmen von Ergebnisse mit keiner Sprachinformation ist auch wichtig, da nicht alle Datenbereitsteller Information über die Sprache des Datensatzes einschließen. Die Bedingung, dass nur Datensätze als jene auf Deutsch aufgelistet werden sollen, ist vielleicht in diesem Fall überflüssig, denn das Wort “Baumkataster” sollte auch erwähnt werden, also ein deutsches Wort. Trotzdem wollen wir diese Funktion hierbei hervorheben, weil wir später davon Gebrauch machen.</p>
+</div>
+<p>Es erweist sich, dass die Datenbereitsteller Open Data Bayern und Open NRW, also die zwei deutsche Bundesländer, die größte Anzahl an Datensätzen leisten, mit jeweils 5. Das Ergebnis dieser Aufsummierung klingt plausibel, da Bayern und NRW die zwei größten Bundesländer in Deutschland sind.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dcat</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/ns/dcat#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">pg</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/politicalGeocoding/&gt;</span>
+
+<span class="k">SELECT</span> <span class="nv">?contributorID</span> <span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span> <span class="nv">?format</span><span class="p">)</span> <span class="k">AS</span> <span class="nv">?formatCount</span><span class="p">)</span>
+<span class="k">WHERE</span> <span class="p">{</span>
+  <span class="nv">?datasetURI</span> <span class="k">a</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">Dataset</span><span class="p">;</span>
+              <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?datasetTitle</span><span class="p">;</span>
+              <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorID</span><span class="p">;</span>
+              <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span><span class="p">.</span>
+  <span class="k">OPTIONAL</span> <span class="p">{</span> <span class="nv">?datasetURI</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">catalog</span> <span class="nv">?catalog</span><span class="p">.</span> <span class="p">}</span>
+  <span class="k">FILTER</span><span class="p">((</span><span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;&quot;</span> <span class="o">||</span> <span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;de&quot;</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
+  <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
+
+  <span class="nv">?datasetURI</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">distribution</span> <span class="nv">?distribution</span><span class="p">.</span>
+  <span class="nv">?distribution</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">format</span> <span class="nv">?format</span><span class="p">.</span>
+<span class="p">}</span>
+<span class="k">GROUP BY</span> <span class="nv">?contributorID</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>contributorID</th>
+<th>formatCount</th></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/gdiDE" target="_other">http://dcat-ap.de/def/contributors/gdiDE</a></td>
+<td class=val>2</td></tr><tr class=even><td class=val><a href="https://offenedaten-konstanz.de/" target="_other">https://offenedaten-konstanz.de/</a></td>
+<td class=val>2</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/schleswigHolstein" target="_other">http://dcat-ap.de/def/contributors/schleswigHolstein</a></td>
+<td class=val>4</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/openNRW" target="_other">http://dcat-ap.de/def/contributors/openNRW</a></td>
+<td class=val>26</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/openDataBayern" target="_other">http://dcat-ap.de/def/contributors/openDataBayern</a></td>
+<td class=val>21</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/mobilithek" target="_other">http://dcat-ap.de/def/contributors/mobilithek</a></td>
+<td class=val>1</td></tr><tr class=even><td class=val><a href="https://gdi-sh.de" target="_other">https://gdi-sh.de</a></td>
+<td class=val>3</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/freistaatSachsen" target="_other">http://dcat-ap.de/def/contributors/freistaatSachsen</a></td>
+<td class=val>2</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtErlangen" target="_other">http://dcat-ap.de/def/contributors/stadtErlangen</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/datenBW" target="_other">http://dcat-ap.de/def/contributors/datenBW</a></td>
+<td class=val>3</td></tr><tr class=even><td class=val><a href="https://opendata.stadt-muenster.de/" target="_other">https://opendata.stadt-muenster.de/</a></td>
+<td class=val>7</td></tr><tr class=odd><td class=val><a href="https://offenedaten-koeln.de/" target="_other">https://offenedaten-koeln.de/</a></td>
+<td class=val>4</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
+<td class=val>8</td></tr></table><div class="tinfo">Total: 14, Shown: 14</div></div></div></div>
+</div>
+<p>Anbei auch die Ergebnisse der aufsummierten Datenformate je Datenbereitsteller. Nicht überraschend festzustellen ist, dass NRW und Bayern die breitesten Auswahl an Datenformaten leisten. Damit wird nicht impliziert, dass alle Datensätze in jeweils jedem Format vorhanden sind. Jedoch dient das als eine Maß für Flexibilität.</p>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "quadriga-dk/Book_Template",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "sparql"
+        },
+        kernelOptions: {
+            name: "sparql",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'sparql'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="metadaten.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Metadatenqualität</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="zusammenfassung.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Zusammenfassung</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Hannes Schnaitter
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024, QUADRIGA.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

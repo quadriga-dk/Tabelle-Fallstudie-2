@@ -1,0 +1,988 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Unix &#8212; Template Book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/quadriga.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'develop/unix';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.jpg" class="logo__image only-light" alt="Template Book - Home"/>
+    <script>document.write(`<img src="../_static/logo.jpg" class="logo__image only-dark" alt="Template Book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Ihre QUADRIGA OER
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../semanticweb.html">Semantic Web - Konzept &amp; Erläuterung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dcat_ap.html">DCAT-AP - Metadatenstandard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metadaten.html">Metadatenqualität</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SPARQL_%C3%9Cbung.html">SPARQL Übung - Benutzung &amp; Beispiel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../zusammenfassung.html">Zusammenfassung</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/quadriga-dk/Book_Template/main?urlpath=lab/tree/develop/unix.md" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/quadriga-dk/Book_Template/blob/main/develop/unix.md" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="initThebeSBT()"
+  class="btn btn-sm btn-launch-thebe dropdown-item"
+  title="Launch Thebe"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-play"></i>
+  </span>
+<span class="btn__text-container">Live Code</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/quadriga-dk/Book_Template" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2Fdevelop/unix.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/develop/unix.ipynb" target="_blank"
+   class="btn btn-sm btn-download-notebook-button dropdown-item"
+   title="Download notebook file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-code"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="../_sources/develop/unix.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Unix</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#navigation-in-der-shell">Navigation in der Shell</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pwd-print-working-directory"><code class="docutils literal notranslate"><span class="pre">pwd</span></code> – Print Working Directory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cd-change-directory"><code class="docutils literal notranslate"><span class="pre">cd</span></code> – Change Directory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ls-list-directory-contents"><code class="docutils literal notranslate"><span class="pre">ls</span></code> – LiSt directory contents</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arbeiten-mit-ordnern-und-dateien">Arbeiten mit Ordnern und Dateien</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mkdir-make-directory"><code class="docutils literal notranslate"><span class="pre">mkdir</span></code> – MaKe DIRectory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#touch-touch-a-file"><code class="docutils literal notranslate"><span class="pre">touch</span></code> – TOUCH a file</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mv-move-a-file-or-directory"><code class="docutils literal notranslate"><span class="pre">mv</span></code> – MoVe a file or directory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ls-a-list-all-files"><code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-a</span></code> – LiSt All files</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rm-remove-a-file-or-directory"><code class="docutils literal notranslate"><span class="pre">rm</span></code> – ReMove a file or directory</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="unix">
+<h1>Unix<a class="headerlink" href="#unix" title="Permalink to this heading">#</a></h1>
+<p>Viele der Kommandozeilenbefehle, die in dieser Anleitung genutzt werden, gehen von einer Unix-Umgebung aus. In einer solchen Umgebung gibt es eine sogenannte Shell – ein Programm, das textuell bedient wird und mit dem viele essentielle Tätigkeiten, wie das Anlegen und Verschieben von Ordnern, möglich sind. Eine Shell wird in einem sogenannten Terminal-Programm angezeigt, welches das grafische Fenster in Ihrem Betriebssystem darstellt und die Text Ein- und Ausgabe verwaltet. Diese Unterscheidung ist nur manchmal relevant und oft werden beide Namen – Shell und Terminal – gleichwertig benutzt, aber es sollte Ihnen klar sein, dass es einen Unterschied gibt.</p>
+<p>Die Befehle, die eine Shell ausführen kann können dabei Bestandteil der Shell sein – eine Shell beherbergt auch eine Programmiersprache – oder sie können andere Programme sein, die eine textuelle Bedienoberfläche haben. <code class="docutils literal notranslate"><span class="pre">git</span></code> ist ein solches Programm, das nicht Kernfunktionalität der Shell ist, sondern von dieser ausgeführt wird.</p>
+<p>Eine der Besonderheiten einer Shell ist, dass eingebaute Befehle und Programme gleichwertig miteinander verbunden werden können, sodass komplexe Abläufe durch die Kombination einfacher Befehlen definiert werden können.</p>
+<p>In Unix-basierten Betriebssystemen gibt es verschiedene Shell-Programme wie <code class="docutils literal notranslate"><span class="pre">bash</span></code>, <code class="docutils literal notranslate"><span class="pre">fish</span></code> oder <code class="docutils literal notranslate"><span class="pre">zsh</span></code>, welche von der “Ur-Shell” <code class="docutils literal notranslate"><span class="pre">sh</span></code> abstammen und diese erweitern. Unter Windows gibt es die Möglichkeit eine <code class="docutils literal notranslate"><span class="pre">bash</span></code> über das Programm <em>Git Bash</em> zu nutzen.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>Unter Windows gibt es auch “nativ” ähnliche Programme mit der <em>Eingabeaufforderung</em> bzw. der <em>Power Shell</em>. Diese unterscheiden sich jedoch teilweise in ihrer Funktionalität und Mächtigkeit und verwenden insbesondere andere Befehle und eine andere Programm-Syntax. Befehle können nicht eins zu eins kopiert werden.</p>
+</aside>
+<section id="navigation-in-der-shell">
+<h2>Navigation in der Shell<a class="headerlink" href="#navigation-in-der-shell" title="Permalink to this heading">#</a></h2>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>Je nachdem, welche Shell Sie nutzen, können Sie deren Startkonfiguration mit Dateien wie <code class="docutils literal notranslate"><span class="pre">.profile</span></code>, <code class="docutils literal notranslate"><span class="pre">.bashrc</span></code>, <code class="docutils literal notranslate"><span class="pre">.zshrc</span></code>, … anpassen.Sehen Sie dazu in der Dokumentation Ihrer Shell nach.</p>
+</aside>
+<p>Wenn Sie eine Shell öffnen dann werden ggf. ein paar Zeilen Text ausgegeben – das hängt von der Konfiguration des Shell-Starts ab. Dann wird der sogenannte Prompt ausgegeben. Dieser kann den aktuellen Ordner o.ä. anzeigen (und kann in der Konfigurationsdatei angepasst werden). Am Ende des Prompts werden oft die zwei Zeichen <code class="docutils literal notranslate"><span class="pre">$</span> </code> angezeigt. Nach der Zeichenkette <code class="docutils literal notranslate"><span class="pre">$</span> </code> geben Sie dann Ihre Befehle ein. In den weiteren Beispielen wird dieses Zeichen genutzt, um Zeilen mit Befehlen von Zeilen mit der Ausgabe der Programme – den Ergebnissen der Befehle – zu unterscheiden.</p>
+<p>Nehmen wir für die weiteren Übungen die folgende Ordnerstruktur (<code class="xref std std-numref docutils literal notranslate"><span class="pre">fig-d-u-ordnerstruktur</span></code>) an. Bauen Sie diese bspw. über den Windows Explorer oder den macOS Finder nach, um die Navigation selbst nachzuvollziehen. Die <code class="docutils literal notranslate"><span class="pre">.md</span></code>-Dateien können Sie schon anlegen oder Sie warten, bis Sie gelernt haben, wie Sie in der Shell eine leere Datei anlegen können.</p>
+<p>Unter Windows nehmen wir an, dass die Ordner in <code class="docutils literal notranslate"><span class="pre">C:\Users\Testnutzer\Documents\</span></code> liegen. Unter macOS wäre das Äquivalent <code class="docutils literal notranslate"><span class="pre">/Users/Testnutzer/Documents/</span></code>. Denken Sie also immer an Ihr <em>Dokumentenverzeichnis</em>, wenn Sie hier <code class="docutils literal notranslate"><span class="pre">/User/Testnutzer/Documents/</span></code> lesen. Unter Linux liegt der Ordner in <code class="docutils literal notranslate"><span class="pre">/home/Testnutzer/Documents/</span></code>. Unter Unix-basierten Betriebssystemen kann dies auch noch abgekürzt geschrieben werden: <code class="docutils literal notranslate"><span class="pre">~/Documents/</span></code>.</p>
+<figure class="align-left" id="fig-d-u-ordnerstruktur">
+<a class="reference internal image-reference" href="../_images/Ordnerstruktur.svg"><img alt="../_images/Ordnerstruktur.svg" src="../_images/Ordnerstruktur.svg" width="50%" /></a>
+<figcaption>
+<p><span class="caption-text">Darstellung der Ordnerstruktur die für die nachfolgenden Beispiele genutzt wird. In einem Ordner <code class="docutils literal notranslate"><span class="pre">/User/Testnutzer/Documents/Tutorial</span></code> liegen zwei Ordner <code class="docutils literal notranslate"><span class="pre">Markdown</span></code> und <code class="docutils literal notranslate"><span class="pre">Bilder</span></code> sowie eine Datei <code class="docutils literal notranslate"><span class="pre">README.md</span></code>. <code class="docutils literal notranslate"><span class="pre">Bilder</span></code> ist leer. <code class="docutils literal notranslate"><span class="pre">Markdown</span></code> enthält wiederum zwei Ordner <code class="docutils literal notranslate"><span class="pre">01_Technologie</span></code> und <code class="docutils literal notranslate"><span class="pre">02_Didaktik</span></code> sowie eine Datei <code class="docutils literal notranslate"><span class="pre">Einleitung.md</span></code>. In <code class="docutils literal notranslate"><span class="pre">01_Technologie</span></code> liegen zwei Dateien <code class="docutils literal notranslate"><span class="pre">Git.md</span></code> und <code class="docutils literal notranslate"><span class="pre">Github.md</span></code>. In <code class="docutils literal notranslate"><span class="pre">02_Didaktik</span></code> liegt eine Datei <code class="docutils literal notranslate"><span class="pre">Interaktive_Lehrbücher.md</span></code></span><a class="headerlink" href="#fig-d-u-ordnerstruktur" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="pwd-print-working-directory">
+<h3><code class="docutils literal notranslate"><span class="pre">pwd</span></code> – Print Working Directory<a class="headerlink" href="#pwd-print-working-directory" title="Permalink to this heading">#</a></h3>
+<p>Öffnen Sie ein Terminal. Sie können mit dem Befehl <code class="docutils literal notranslate"><span class="pre">pwd</span></code> herausfinden, in welchem Ordner des Dateisystems Sie sich gerade befinden.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/
+</pre></div>
+</div>
+<p>Manche Shell-Prompts haben eingebaut, dass Sie sehen, wo Sie gerade sind. In diesem Fall könnte das so aussehen:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>~<span class="w"> </span>$<span class="w"> </span>
+</pre></div>
+</div>
+<p>Wenn Sie in einem anderen Ordner wären (bspw. in <code class="docutils literal notranslate"><span class="pre">/Users/Testnutzer/Documents/Tutorial</span></code>), dann könnte das so aussehen:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>~/Documents/Tutorial<span class="w"> </span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+</pre></div>
+</div>
+</section>
+<section id="cd-change-directory">
+<h3><code class="docutils literal notranslate"><span class="pre">cd</span></code> – Change Directory<a class="headerlink" href="#cd-change-directory" title="Permalink to this heading">#</a></h3>
+<p>Mit dem Befehl <code class="docutils literal notranslate"><span class="pre">cd</span></code> können Sie den Ordner wechseln, in dem Sie sich befinden. Das geht entweder <em>absolut</em> oder <em>relativ</em>. Ein absoluter Pfad beginnt in Unix-basierten Systemen immer mit einem <code class="docutils literal notranslate"><span class="pre">/</span></code>. Ein relativer Pfad beginnt nicht mit einem <code class="docutils literal notranslate"><span class="pre">/</span></code> sondern mit einem Ordnernamen oder den speziellen Namen für den aktuellen Ordner <code class="docutils literal notranslate"><span class="pre">.</span></code> oder den übergeordneten Ordner <code class="docutils literal notranslate"><span class="pre">..</span></code>.</p>
+<div class="tip admonition">
+<p class="admonition-title">Übung</p>
+<p>Nutzen Sie eine absolute Pfadangabe, um in den Ordner <code class="docutils literal notranslate"><span class="pre">/Users/Testnutzer/Documents/Tutorial</span></code> zu wechseln. Beachten Sie dabei, dass Sie den korrekten Nutzernamen verwenden müssen.</p>
+<div class="dropdown admonition">
+<p class="admonition-title">Lösung</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>/Users/Testnutzer/Documents/Tutorial
+</pre></div>
+</div>
+<p>Um sicherzustellen, dass Sie im richtigen Ordner sind, können Sie <code class="docutils literal notranslate"><span class="pre">pwd</span></code> nutzen.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="ls-list-directory-contents">
+<h3><code class="docutils literal notranslate"><span class="pre">ls</span></code> – LiSt directory contents<a class="headerlink" href="#ls-list-directory-contents" title="Permalink to this heading">#</a></h3>
+<p>Den Inhalt eines Ordners können Sie Sich mit dem Befehl <code class="docutils literal notranslate"><span class="pre">ls</span></code> ausgeben lassen.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<p>Falls Sie die <code class="docutils literal notranslate"><span class="pre">.md</span></code>-Dateien nicht angelegt haben, wird Ihnen hier die <code class="docutils literal notranslate"><span class="pre">README.md</span></code> nicht angezeigt.</p>
+</aside>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>ls
+Bilder
+Markdown
+README.md
+</pre></div>
+</div>
+<p>Sie können <code class="docutils literal notranslate"><span class="pre">ls</span></code> auch einen Ordnernamen bzw. einen Pfad übergeben wodurch der Inhalt dieses Pfads ausgegeben wird.</p>
+<div class="tip admonition">
+<p class="admonition-title">Übung</p>
+<p>Welche Ausgaben ergeben die folgenden Befehle?</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span>ls
+
+$<span class="w"> </span>ls<span class="w"> </span>Bilder
+
+$<span class="w"> </span>ls<span class="w"> </span>Markdown
+
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>Markdown<span class="p">;</span><span class="w"> </span>ls<span class="w"> </span>..
+
+$<span class="w"> </span><span class="nb">pwd</span>
+</pre></div>
+</div>
+<div class="dropdown admonition">
+<p class="admonition-title">Lösung</p>
+<p>Wenn SIe nacheinander die Befehle eingeben sollte Ihr Terminal ungefähr so aussehen:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span>ls
+Bilder
+Markdown
+README.md
+
+$<span class="w"> </span>ls<span class="w"> </span>Bilder
+
+$<span class="w"> </span>ls<span class="w"> </span>Markdown
+01_Technologie
+02_Didaktik
+Einleitung.md
+
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>Markdown<span class="p">;</span><span class="w"> </span>ls<span class="w"> </span>..
+Bilder
+Markdown
+README.md
+
+$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial/Markdown
+</pre></div>
+</div>
+<p>Wenn Sie andere Ergebnisse erhalten haben oder Sie nicht sicher sind, warum diese Ausgabe korrekt ist, dann gehen Sie am besten jeden Befehl noch einmal Schritt für Schritt durch.</p>
+</div>
+</div>
+<div class="cell tag_remove_input docutils container">
+</div>
+</section>
+</section>
+<section id="arbeiten-mit-ordnern-und-dateien">
+<h2>Arbeiten mit Ordnern und Dateien<a class="headerlink" href="#arbeiten-mit-ordnern-und-dateien" title="Permalink to this heading">#</a></h2>
+<p>Nachdem Sie nun navigieren können wollen wir Ordner und leere Dateien erstellen, sowie diese verschieben, umbenennen und löschen. Dabei lernen Sie auch noch versteckte Dateien und Ordner kennen.</p>
+<section id="mkdir-make-directory">
+<h3><code class="docutils literal notranslate"><span class="pre">mkdir</span></code> – MaKe DIRectory<a class="headerlink" href="#mkdir-make-directory" title="Permalink to this heading">#</a></h3>
+<p>Um einen neuen Ordner anzulegen benutzt man den Befehl <code class="docutils literal notranslate"><span class="pre">mkdir</span></code>. Sie können entweder in den Ordner navigieren, in dem Sie einen Unterordner erstellen wollen, oder Sie können absolute oder relative Pfade nutzen, um den neuen Ordner an der richtigen Stelle zu erstellen.</p>
+<p>Wenn Sie im Ordner <code class="docutils literal notranslate"><span class="pre">Tutorial</span></code> sind, dann können Sie einen Ordner <code class="docutils literal notranslate"><span class="pre">Videos</span></code> mit diesem Befehl anlegen:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>mkdir<span class="w"> </span>Videos
+</pre></div>
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Übung</p>
+<p>Legen Sie mit verschiedenen Kombinationen aus Navigation sowie absoluten und relativen Pfaden drei neue Unterordner im Ordner Markdown an. Diese sollen <code class="docutils literal notranslate"><span class="pre">03_Assessment</span></code>, <code class="docutils literal notranslate"><span class="pre">04_Übungen</span></code>, <code class="docutils literal notranslate"><span class="pre">05_Fazit</span></code> lauten. Überprüfen Sie mit <code class="docutils literal notranslate"><span class="pre">ls</span></code>, ob Sie alle Ordner korrekt angelegt haben.</p>
+<div class="dropdown admonition">
+<p class="admonition-title">Lösung</p>
+<p>Mögliche Lösungswege sind:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>Markdown
+
+$<span class="w"> </span>mkdir<span class="w"> </span>03_Assessment
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span>mkdir<span class="w"> </span>Markdown/04_Übungen
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span>mkdir<span class="w"> </span>/Users/Testnutzer/Documents/Tutorial/Markdown/05_Fazit
+</pre></div>
+</div>
+<p>Bonus:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>Markdown/02_Didaktik
+
+$<span class="w"> </span>mkdir<span class="w"> </span>../06_Anhang
+</pre></div>
+</div>
+<p>Überprüfung mit <code class="docutils literal notranslate"><span class="pre">ls</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span>ls<span class="w"> </span>Markdown
+01_Technologie
+02_Didaktik
+03_Assessment
+04_Übungen
+05_Fazit
+06_Anhang
+Einleitung.md
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="touch-touch-a-file">
+<h3><code class="docutils literal notranslate"><span class="pre">touch</span></code> – TOUCH a file<a class="headerlink" href="#touch-touch-a-file" title="Permalink to this heading">#</a></h3>
+<p>Mit <code class="docutils literal notranslate"><span class="pre">touch</span></code> können Sie eine leere Datei erstellen.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>touch<span class="w"> </span>LICENSE.md
+</pre></div>
+</div>
+</section>
+<section id="mv-move-a-file-or-directory">
+<h3><code class="docutils literal notranslate"><span class="pre">mv</span></code> – MoVe a file or directory<a class="headerlink" href="#mv-move-a-file-or-directory" title="Permalink to this heading">#</a></h3>
+<p>Erstellen Sie im Ordner <code class="docutils literal notranslate"><span class="pre">Tutorial</span></code> eine Datei mit dem Namen <code class="docutils literal notranslate"><span class="pre">Multiple_Choice.md</span></code>. Mit <code class="docutils literal notranslate"><span class="pre">mv</span></code> können Sie diese nun an die richtige Stelle bewegen:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span>touch<span class="w"> </span>Multiple_Choice.md
+
+$<span class="w"> </span>mv<span class="w"> </span>Multiple_Choice.md<span class="w"> </span>Markdown/03_Assessment/
+</pre></div>
+</div>
+<p>Der Slash (<code class="docutils literal notranslate"><span class="pre">/</span></code>) am Ende des Befehls sagt, dass die Datei <em>in</em> den Ordner <code class="docutils literal notranslate"><span class="pre">03_Assessment</span></code> verschoben werden soll. Um sicherzugehen können Sie auch die nachfolgende Pfadangabe nutzen:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial
+
+$<span class="w"> </span>touch<span class="w"> </span>Multiple_Choice.md
+
+$<span class="w"> </span>mv<span class="w"> </span>Multiple_Choice.md<span class="w"> </span>Markdown/03_Assessment/.
+</pre></div>
+</div>
+<p>Das macht nochmals explizit, dass Sie die Datei <em>in</em> den Ordner verschieben.</p>
+<p><code class="docutils literal notranslate"><span class="pre">mv</span></code> wird auch benutzt, um eine Datei umzubenennen.</p>
+<div class="tip admonition">
+<p class="admonition-title">Übung</p>
+<p>Legen Sie eine Datei mit einem Tippfehler im Namen, bspw. <code class="docutils literal notranslate"><span class="pre">Kaulsur.md</span></code>, und korrigieren Sie dann den Dateinamen.</p>
+<div class="dropdown admonition">
+<p class="admonition-title">Lösung</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial/Markdown/03_Assessment
+
+$<span class="w"> </span>touch<span class="w"> </span>Kaulsur.md
+
+$<span class="w"> </span>mv<span class="w"> </span>Kaulsur.md<span class="w"> </span>Klausur.md
+</pre></div>
+</div>
+<p>Sie können eine Datei auch gleichzeitig verschieben und umbenennen:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial/
+
+$<span class="w"> </span>touch<span class="w"> </span>Kaulsur.md
+
+$<span class="w"> </span>mv<span class="w"> </span>Kaulsur.md<span class="w"> </span>Markdown/03_Assessment/Klausur.md
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="ls-a-list-all-files">
+<h3><code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-a</span></code> – LiSt All files<a class="headerlink" href="#ls-a-list-all-files" title="Permalink to this heading">#</a></h3>
+<p>Erstellen Sie eine Datei mit dem Namen <code class="docutils literal notranslate"><span class="pre">.hidden</span></code> und einen Ordner mit dem Namen <code class="docutils literal notranslate"><span class="pre">.secrets</span></code>. Da beide Namen mit einem <code class="docutils literal notranslate"><span class="pre">.</span></code> beginnen werden sie bei Nutzung von <code class="docutils literal notranslate"><span class="pre">ls</span></code> ohne Kommando-Optionen nicht angezeigt. Um sie anzuzeigen müssen Sie die Option <code class="docutils literal notranslate"><span class="pre">-a</span></code> an den Befehl anhängen.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial/
+
+$<span class="w"> </span>touch<span class="w"> </span>.hidden
+
+$<span class="w"> </span>mkdir<span class="w"> </span>.secrets
+
+$<span class="w"> </span>ls
+Bilder
+Markdown
+README.md
+Videos
+
+$<span class="w"> </span>ls<span class="w"> </span>-a
+.
+..
+.hidden
+.secrets
+Bilder
+Markdown
+README.md
+Videos
+</pre></div>
+</div>
+<p>Wie Sie sehen beinhaltet der Ordner neben <code class="docutils literal notranslate"><span class="pre">.hidden</span></code> und <code class="docutils literal notranslate"><span class="pre">.secrets</span></code> auch noch die zwei speziellen Ordner <code class="docutils literal notranslate"><span class="pre">.</span></code> und <code class="docutils literal notranslate"><span class="pre">..</span></code>. Wie oben einmal erwähnt steht <code class="docutils literal notranslate"><span class="pre">.</span></code> für den <em>aktuellen</em> Ordner und <code class="docutils literal notranslate"><span class="pre">..</span></code> für den <em>übergeordneten</em> Ordner.</p>
+<div class="tip admonition">
+<p class="admonition-title">Übung</p>
+<p>Wenn Sie im Ordner <code class="docutils literal notranslate"><span class="pre">Markdown</span></code> sind, was geben die folgenden Befehle aus? Überlegen Sie zuerst selbst und notieren Sie sich Ihr Ergebnis. Überprüfen Sie dann in der Shell, ob die tatsächlichen Ergebnisse mit Ihren Antworten übereinstimmen.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial/Markdown
+
+$<span class="w"> </span>ls
+
+$<span class="w"> </span>ls<span class="w"> </span>-a
+
+$<span class="w"> </span>ls<span class="w"> </span>..
+
+$<span class="w"> </span>ls<span class="w"> </span>../Markdown/.
+
+$<span class="w"> </span>ls<span class="w"> </span>01_Technologie/../../Bilder/..
+</pre></div>
+</div>
+<div class="dropdown admonition">
+<p class="admonition-title">Lösung</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial/Markdown
+
+$<span class="w"> </span>ls
+01_Technologie
+02_Didaktik
+03_Assessment
+04_Übungen
+05_Fazit
+06_Anhang
+Einleitung.md
+
+$<span class="w"> </span>ls<span class="w"> </span>-a
+.
+..
+01_Technologie
+02_Didaktik
+03_Assessment
+04_Übungen
+05_Fazit
+06_Anhang
+Einleitung.md
+
+$<span class="w"> </span>ls<span class="w"> </span>-a<span class="w"> </span>..
+.
+..
+.hidden
+.secrets
+Bilder
+Markdown
+README.md
+Videos
+
+$<span class="w"> </span>ls<span class="w"> </span>../Markdown/.
+01_Technologie
+02_Didaktik
+03_Assessment
+04_Übungen
+05_Fazit
+06_Anhang
+Einleitung.md
+
+$<span class="w"> </span>ls<span class="w"> </span>01_Technologie/../../Bilder/..
+Bilder
+Markdown
+README.md
+Videos
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="rm-remove-a-file-or-directory">
+<h3><code class="docutils literal notranslate"><span class="pre">rm</span></code> – ReMove a file or directory<a class="headerlink" href="#rm-remove-a-file-or-directory" title="Permalink to this heading">#</a></h3>
+<p>Wollen Sie eine Datei löschen, so geht das mit <code class="docutils literal notranslate"><span class="pre">rm</span></code>.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Wenn Sie eine Datei mit <code class="docutils literal notranslate"><span class="pre">rm</span></code> löschen, dann ist sie endgültig gelöscht und kann nicht wiederhergestellt werden.</p>
+<p>Anders als beim Löschen im Windows Explorer oder im macOS Finder gibt es <em>keinen</em> Papierkorb.</p>
+</div>
+<p>Um einen Ordner zu löschen müssen Sie die Option <code class="docutils literal notranslate"><span class="pre">-r</span></code> nutzen.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">pwd</span>
+/Users/Testnutzer/Documents/Tutorial/Markdown
+
+$<span class="w"> </span>rm<span class="w"> </span>.hidden
+
+$<span class="w"> </span>rm<span class="w"> </span>.secrets
+rm:<span class="w"> </span>.secrets:<span class="w"> </span>is<span class="w"> </span>a<span class="w"> </span>directory
+
+$<span class="w"> </span>ls<span class="w"> </span>-a
+.
+..
+.secrets
+Bilder
+Markdown
+README.md
+Videos
+
+$<span class="w"> </span>rm<span class="w"> </span>-r<span class="w"> </span>.secrets
+
+$<span class="w"> </span>ls<span class="w"> </span>-a
+.
+..
+Bilder
+Markdown
+README.md
+Videos
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "quadriga-dk/Book_Template",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./develop"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#navigation-in-der-shell">Navigation in der Shell</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pwd-print-working-directory"><code class="docutils literal notranslate"><span class="pre">pwd</span></code> – Print Working Directory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cd-change-directory"><code class="docutils literal notranslate"><span class="pre">cd</span></code> – Change Directory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ls-list-directory-contents"><code class="docutils literal notranslate"><span class="pre">ls</span></code> – LiSt directory contents</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#arbeiten-mit-ordnern-und-dateien">Arbeiten mit Ordnern und Dateien</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mkdir-make-directory"><code class="docutils literal notranslate"><span class="pre">mkdir</span></code> – MaKe DIRectory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#touch-touch-a-file"><code class="docutils literal notranslate"><span class="pre">touch</span></code> – TOUCH a file</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#mv-move-a-file-or-directory"><code class="docutils literal notranslate"><span class="pre">mv</span></code> – MoVe a file or directory</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ls-a-list-all-files"><code class="docutils literal notranslate"><span class="pre">ls</span> <span class="pre">-a</span></code> – LiSt All files</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rm-remove-a-file-or-directory"><code class="docutils literal notranslate"><span class="pre">rm</span></code> – ReMove a file or directory</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Hannes Schnaitter
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024, QUADRIGA.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
