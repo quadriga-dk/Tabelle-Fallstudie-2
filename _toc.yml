@@ -3,21 +3,9 @@
 
 format: jb-book
 root: intro
-parts:
-  - caption: Entwicklungsumgebung
-    chapters:
-      - file: develop/intro
-      - file: develop/git
-      - file: develop/unix
-      - file: develop/python
-      - file: develop/jupyter_book
-      - file: develop/editor
-  - caption: Datentypen und Formatierung
-    chapters:
-      - file: formatting/markdown
-      - file: formatting/notebooks
-      - file: formatting/markdown-notebooks
-  - caption: Assessment
-    chapters:
-      - file: assessment/introduction
-      - file: assessment/jupyterquiz
+chapters:
+- file: semanticweb
+- file: dcat_ap
+- file: metadaten
+- file: SPARQL_Übung
+- file: zusammenfassung
