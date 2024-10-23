@@ -38,3 +38,12 @@ launch_buttons:
 html:
   use_issues_button: true
   use_repository_button: true
+
+# Enable MyST extensions, including admonitions
+parse:
+  myst_enable_extensions:
+    - admonition        # Enables admonitions like tips, warnings, etc.
+    - colon_fence       # Allows the use of ::: for block content
+    - deflist           # Definition lists
+    - dollarmath        # Support for $math$ and $$math$$ syntax
+    - tasklist          # Checklists/todos
