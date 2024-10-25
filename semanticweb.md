@@ -11,7 +11,7 @@ Um dies zu erreichen, verwendet das Semantic Web neue Websprachen, die auf RDF (
 Insgesamt zielt das Semantic Web darauf ab, die Art und Weise zu revolutionieren, wie Informationen im Internet strukturiert und interpretiert werden, wodurch eine intelligentere und effizientere Interaktion zwischen Benutzern und Maschinen ermöglicht wird. Tatsächlich ist das Semantic Web die natürliche Entwicklung von dem World Wide Web, wie gedacht von dem Informationswissehschaftler Tim Berners-Lee. Wenn Web 1.0 auf verlinkten Webseiten beruhte, und Web 2.0  - verlinkten Apps, steht Web 3.0 in Beziehung mit verlinkten Daten (https://www.techtarget.com/searchcio/definition/Semantic-Web).
 
 ## "Layer cake" Architektur
-(![alt text](image.png))
+![The Semantic Web Layer Cake](The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png)
 
 The Semantic Web "layer cake" presented by Tim Berners-Lee at the XML 2000 conference.
 
