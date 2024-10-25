@@ -1,5 +1,5 @@
 # Literaturverzeichnis 
 
 ```{bibliography}
-:style: author-year
+:style: alpha
 ```
