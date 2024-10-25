@@ -22,8 +22,8 @@ bibtex_bibfiles:
   - references.bib
 
 sphinx:
-  extra_extensions:
-    - sphinxcontrib.bibtex
+  config:
+    bib_tex_reference: author_year
 
 # Information about where the book exists on the web
 repository:
