@@ -21,6 +21,10 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.bibtex
+
 # Information about where the book exists on the web
 repository:
   url: https://github.com/quadriga-dk/Book_Template  # Online location of your book
