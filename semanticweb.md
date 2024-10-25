@@ -12,7 +12,7 @@ Insgesamt zielt das Semantic Web darauf ab, die Art und Weise zu revolutionieren
 
 ## "Layer cake" Architektur
 ![The Semantic Web Layer Cake](The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png)
-*Abbildung 1: Der Semantic Web Layer Cake* Bildquelle: Hendler, James. (2001). Agents and the Semantic Web. Intelligent Systems, IEEE. 16. 30 - 37. 10.1109/5254.920597. 
+*Abbildung 1: Der Semantic Web Layer Cake* Bildquelle: {cite}`Hendler2001`
 
 The Semantic Web "layer cake" presented by Tim Berners-Lee at the XML 2000 conference.
 
