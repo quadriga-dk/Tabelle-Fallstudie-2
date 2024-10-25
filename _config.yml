@@ -18,10 +18,13 @@ latex:
     targetname: book.tex
 
 # Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Reference style
 sphinx:
   config:
     bib_tex_reference: author_year
-    bibtex_bibfiles: references.bib
 
 # Information about where the book exists on the web
 repository:
