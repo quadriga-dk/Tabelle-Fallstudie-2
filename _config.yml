@@ -47,3 +47,4 @@ parse:
     - deflist           # Definition lists
     - dollarmath        # Support for $math$ and $$math$$ syntax
     - tasklist          # Checklists/todos
+    - citations
