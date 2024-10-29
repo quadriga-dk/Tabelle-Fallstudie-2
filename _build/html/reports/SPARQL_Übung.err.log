@@ -18,9 +18,18 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-%endpoint https://data.europa.eu/sparql
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcatde: <http://dcat-ap.de/def/dcatde/>
+PREFIX pg: <https://www.dcat-ap.de/def/politicalGeocoding/>
+
+SELECT ?uri ?title ?contributorid ?stateKey
+WHERE {
+    ?uri dct:title ?title .
+    ?uri dcatde:contributorID ?contributorid .
+  OPTIONAL {?uri pg:stateKey ?stateKey} .
+}
 ------------------
 
 
-UsageError: Line magic function `%endpoint` not found.
+<Error>: 
 
