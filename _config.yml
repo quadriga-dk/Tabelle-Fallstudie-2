@@ -24,7 +24,7 @@ bibtex_bibfiles:
 # Reference style
 sphinx:
   config:
-    bib_tex_reference: author_year
+    bibtex_reference_style: author_year
 
 # Information about where the book exists on the web
 repository:
