@@ -1,6 +1,5 @@
 # Literaturverzeichnis 
 
 ```{bibliography}
-:style: unsrt
-:sorting: nyt
+:style: plain
 ```
