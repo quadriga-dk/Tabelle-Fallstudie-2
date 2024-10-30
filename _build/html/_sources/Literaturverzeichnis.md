@@ -1,5 +1,6 @@
 # Literaturverzeichnis 
 
 ```{bibliography}
-:style: alpha
+:style: unsrt
+:sorting: nyt
 ```

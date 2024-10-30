@@ -1,5 +1,5 @@
 # Literaturverzeichnis 
 
 ```{bibliography}
-:style: alpha
+:style: unsrt
 ```
