@@ -185,6 +185,7 @@
 <li class="toctree-l1"><a class="reference internal" href="metadaten.html">Metadatenqualität</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">SPARQL Übung - Benutzung &amp; Beispiel</a></li>
 <li class="toctree-l1"><a class="reference internal" href="zusammenfassung.html">Zusammenfassung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Literaturverzeichnis.html">Literaturverzeichnis</a></li>
 </ul>
 
     </div>
@@ -424,7 +425,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -440,6 +443,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung-in-jupyter-notebook">Einführung in Jupyter Notebook</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung-zur-abfragesprache-sparql">Einführung zur Abfragesprache SPARQL</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sparql-ubung-fallstudie-baumkataster">SPARQL-Übung - Fallstudie “Baumkataster”</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -451,13 +464,29 @@ document.write(`
                   
   <section id="sparql-ubung-benutzung-beispiel">
 <h1>SPARQL Übung - Benutzung &amp; Beispiel<a class="headerlink" href="#sparql-ubung-benutzung-beispiel" title="Permalink to this heading">#</a></h1>
-<p>In diesem Teil widmen uns einer praktischen SPARQL-Übung, indem wir uns mit der folgenden Forschungsfrage auseinandersetzen:</p>
+<div class="keypoints admonition">
+<p class="admonition-title">Metadatensuche und Abfragen</p>
+<ul class="simple">
+<li><p>Die Lernenden kennen Techniken der Metadatensuche und können diese praktisch anwenden.</p></li>
+<li><p>Die Lernenden können geeignete Werkzeuge und Verfahren für die Lösung einer spezifischen Forschungsfrage auswählen.</p></li>
+<li><p>Die Lernenden können Daten in wertvolle Informationen umwandeln, indem sie relevante Abfragesprachen wie SPARQL effektiv nutzen.</p></li>
+<li><p>Die Lernenden sind mit der Auswertung von SPARQL-Abfragen vertraut.</p></li>
+<li><p>Die Lernenden verstehen die Wichtigkeit von Endpunkten und Ontologien für die Abfrage von Metadaten in verteilten Datenportalen.</p></li>
+<li><p>Die Lernenden sind in der Lage, durch geeignete Formate und Techniken (wie z. B. die GOVDATA- oder das europäische Datenportal) SPARQL-Abfragen umzusetzen und zu interpretieren.</p></li>
+<li><p>Die Lernenden können die Rolle und den Aufbau von Standards wie DCAT-AP für die Metadaten-Entdeckung und -Referenzierung in Datenportalen nachvollziehen.</p></li>
+</ul>
+</div>
+<p>In diesem Teil widmen wir uns einer praktischen SPARQL-Übung, indem wir uns mit der folgenden Forschungsfrage auseinandersetzen:</p>
 <p><strong>Wie viele Datensätze in der Form von offenen Daten bietet jedes Bundesland an?</strong></p>
-<p>Das Ziel ist, eine realistische Verwendung der Abfragesprache darzustellen. Bevor wir solch ein Beispiel aufweisen, müssen wir bestimmen, welches Verfahren für die Gestaltung und Versand für Abfragen benutzt werden sollte. Die Handhabung davon hängt meistens von der persönlichen Bevorzugung des/der Benutzers/in. Deswegen schlagen wir einige Alternativen vor.</p>
+<p>Das Ziel ist, eine realistische Verwendung der Abfragesprache zu demonstieren. Bevor wir solch ein Beispiel aufweisen, müssen wir bestimmen, welches Verfahren für die Gestaltung und Versand für Abfragen benutzt werden sollte. Die Handhabung davon hängt meistens von der persönlichen Bevorzugung des/der Benutzers/in. Deswegen schlagen wir einige Alternativen vor.</p>
+<section id="einfuhrung-in-jupyter-notebook">
+<h2>Einführung in Jupyter Notebook<a class="headerlink" href="#einfuhrung-in-jupyter-notebook" title="Permalink to this heading">#</a></h2>
 <p>Der erste Weg ist derjenige, mithilfe dessen dieses ganze Materiail samt seiner Code-Anteile angefertigt worden ist. Es handelt sich um das Jupyter Notebook - ein Dateiformat, das die zeitgleiche Einwebung von  Fließtext und Codeanteilen von diversen Programmiersprachen einrichtet. Somit wird die visuelle Darstellung von echtem Code, der für die Gestaltung von Abfragen verwendet wird, derer Ergebnissen und den Erläuterungen der aufgerufenen Befehle samt anderer Kommentare ermöglicht.</p>
 <p>Die Jupyter-Notebook-Ausweitung lautet <em>.ipynb</em> . Durch die Erstellung einer normalen <em>.txt</em>-Datei kann man dann die Ausweitung ändern. Darüber hinaus bräuchte man ein beliebiges Bearbeitungsprogramm, mit Hilfe dessen man intuitiv, bequem und entspannt arbeiten kann. Dafür eignet sich Microsoft Visual Studio Code (VSC) ganz gut. VSC ist einer der gängigsten Editors im heutigen Programmierbereich und bietet  Möglichkeiten für die intuitive Bearbeitung und Verwaltung von Dateien in unterschiedlichsten Programmiersprachen. Für die Integrierung von SPARQL-Abfragen benötigt man aber auch einen Kernel - ein Motor, der auf die Programmiersprache bezogen ist und es ermöglicht, die Ergebnisse der Abfrate aufweisen zu lassen. Die Aufgabe ist somit erstmal einen entwickelten SPARQL-Kernel zu finden und dann herunterzuladen. Glücklicherweise gibt es schon einen entwickelten SPARQL-Kernel, der auf der Basis von Python funktioniert. Hiermit verweisen wir auf der Git-Hub-Seite des Kernels, auf der die ganzen Informationen dazu stehen, wie er zu installieren ist - https://github.com/paulovn/sparql-kernel .</p>
-<p><strong>Frage: das ganze Prozess des Installierens beschreiben / auf andere Seiten verweisen?</strong></p>
 <p>Nichtsdestotrotz, es bedarf nicht zwingend eines Kernels und der Arbeit mit einem lokalen Editor für die Gestaltung von SPARQL-Abfragen, da es schon mehrere Online-Werkzeuge gibt, die die vollständige Benutzung von SPARQL erlauben. Selbst das deutsche Open-Data-Portal GOVDATA bietet einen SPARQL-Assistenten - https://www.govdata.de/web/guest/sparql-assistent . Damit kann man online arbeiten und sich die Mühe sparen, indem man auf die Arbeit mit einem Editor und einem Kernel verzichtet.</p>
+</section>
+<section id="einfuhrung-zur-abfragesprache-sparql">
+<h2>Einführung zur Abfragesprache SPARQL<a class="headerlink" href="#einfuhrung-zur-abfragesprache-sparql" title="Permalink to this heading">#</a></h2>
 <p>Somit können wir uns der Analyse der SPARQL-Syntax widmen, indem wir uns die Abfragen für die Forschungsfragen ansehen. Als allererstes muss ein Endepunkt definiert werden. Der Endepunkt bestimmt das maschinelesbare Verweis auf das Repositorium, in dem die Metadaten aufbewahrt sind. Bei der Arbeit mit einem Online-SPARQL-Werkzeug ist die Definierung eines Endpunkts oft nicht nötig, da der schon automatisch definiert ist. Im Portal GOVDATA ist der Endepunkt natürlich der Verweis auf das Repositorium mit allen Metadaten für die Datensätze, die auch über die interne Suchmaschine zu finden sind.</p>
 <p>Für unsere Beispiele wollen wir das deutsche Datenportal GOVDATA durchstöbern. Dafür müssen wir uns den Endpunkt des europäischen Datenportal holen. Den finden wir auf der folgenden Webseite - . Danach verwenden den wir folgende Magic, d.h. einen Befehl, der Teil vom SPARQL-Python-Paket ist, die uns erlaubt, alle künftigen Abfragen mit unserem Endpunkt zu verknüpfen.</p>
 <div class="cell docutils container">
@@ -561,6 +590,9 @@ document.write(`
 <p>Was wahrscheinlich Ihnen auch auffällt ist, dass in jeder Zeile in der WHERE-Funktion 3 Elemente zu sehen sind. Diese Struktur ist essentiell für die SPARQL-Sprache - durch die sogenannten “triplets” werden Bezüge zwischen den Eigenschaften erstellt. Jede Zeile bestimmt einen Bezug zwischen 2 Eigenschaften. Die erste Eigenschaft ist somit das Subjekt (S), das zweite Element - der Bezug, der aus einem Prefix und einer zusätzlichen Spezifizierung besteht, heißt das Prädikat (P), und das dritte - die zweite Eigenschaft, ist das Objekt (O). P entspricht einem Link, der darauf verweist, wo die zweite Eigentschaft zu finden ist. Die Einordnung der Eigenschaften ist nach dem W3C-Standard, das schon in einem früheren Kapitel erklärt wurde, definiert. In dem DCAT-AP-Handbuch ist dann die genaue Verortung von jeder Eingenschaft zu finden. Durch die Triplets fragen wir genau ab, welche Datensätze wir erfragen wollen, je nach den Bedingungen, die solche Datensätze erfüllen sollen. Mit unserer Abfrage suchen wir die Datensätze ab, die einen Titel, ein URI, einen mitcodierten Datenbereitsteller, und wenn vorhanden, einen Schlüssel für das Bundesland, haben, was leider bei keinen Datensätzen der Fall ist. Es lässt sich einfach ableiten, dass diese Bedingungen nicht so strikt ist. Trotzdem konnten wir unsere Fragestellung wegen mangelhafter Daten nicht ganz befriedigen. Jedoch kann man viel spezifischer sein. Wir würden also versuchen, unsere Fragestellung zu ändern und zusätzliche Beispiele von SPARQL aufzuzeigen.</p>
 <p>Wichtig zu bedenken ist, dass SPARQL leider keine Paginierungsfunktion unterstützt. Man muss es in der Regel auf Anwendungsebene handhaben, da SPARQL von sich aus nicht das Durchblättern von Ergebnissen wie eine Weboberfläche unterstützt.Stattdessen muss die Paginierung manuell durch die Verwendung von LIMIT und OFFSET in den Abfragen implementiert werden. Dies erfordert eine zusätzliche Logik in der Anwendung, um die aktuelle Seite zu verfolgen und die richtigen Offset-Werte zu berechnen.</p>
 </div>
+</section>
+<section id="sparql-ubung-fallstudie-baumkataster">
+<h2>SPARQL-Übung - Fallstudie “Baumkataster”<a class="headerlink" href="#sparql-ubung-fallstudie-baumkataster" title="Permalink to this heading">#</a></h2>
 <p>Somit lautet unsere neue Fragestellung also:</p>
 <p><strong>Welche sind die Datensätze, die das Wort “Baumkataster” im Titel beinhalten und im Zeitschnitt 2022-2024 erschienen sind? Welche sind die Bereitsteller, die jene Datensätze liefern? In welchen Formaten kommen die Datensätze vor?</strong></p>
 <p>Hierbei ist es wichtig zu erwähnen, dass SPARQL über keine native Paginierungsfunktion verfügt. Dies besagt, dass man leider nicht die Ergebnisse durchblättern kann. Gewöhnlicherweise wird das über die UI-Funktionalitäten umgesetzt - ein Merkmal davon, wie rudimentär SPARQL in ihrer Basis ist. Deswegen muss man in der Abfrage zusätzlich spezifizieren, welche Ergebnisse bzw. Seiten aufgelistet werden sollen.</p>
@@ -726,6 +758,23 @@ document.write(`
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>contributorID</th>
+<th>uniqueDatasetTitleCount</th></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/gdiDE" target="_other">http://dcat-ap.de/def/contributors/gdiDE</a></td>
+<td class=val>1</td></tr><tr class=even><td class=val><a href="https://offenedaten-konstanz.de/" target="_other">https://offenedaten-konstanz.de/</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/schleswigHolstein" target="_other">http://dcat-ap.de/def/contributors/schleswigHolstein</a></td>
+<td class=val>3</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/openNRW" target="_other">http://dcat-ap.de/def/contributors/openNRW</a></td>
+<td class=val>5</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/openDataBayern" target="_other">http://dcat-ap.de/def/contributors/openDataBayern</a></td>
+<td class=val>5</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/mobilithek" target="_other">http://dcat-ap.de/def/contributors/mobilithek</a></td>
+<td class=val>1</td></tr><tr class=even><td class=val><a href="https://gdi-sh.de" target="_other">https://gdi-sh.de</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/freistaatSachsen" target="_other">http://dcat-ap.de/def/contributors/freistaatSachsen</a></td>
+<td class=val>1</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtErlangen" target="_other">http://dcat-ap.de/def/contributors/stadtErlangen</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/datenBW" target="_other">http://dcat-ap.de/def/contributors/datenBW</a></td>
+<td class=val>2</td></tr><tr class=even><td class=val><a href="https://opendata.stadt-muenster.de/" target="_other">https://opendata.stadt-muenster.de/</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="https://offenedaten-koeln.de/" target="_other">https://offenedaten-koeln.de/</a></td>
+<td class=val>2</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
+<td class=val>2</td></tr></table><div class="tinfo">Total: 14, Shown: 14</div></div></div></div>
 </div>
 <div class="tip dropdown admonition">
 <p class="admonition-title">Erklärung des Codes</p>
@@ -776,6 +825,7 @@ document.write(`
 <td class=val>8</td></tr></table><div class="tinfo">Total: 14, Shown: 14</div></div></div></div>
 </div>
 <p>Anbei auch die Ergebnisse der aufsummierten Datenformate je Datenbereitsteller. Nicht überraschend festzustellen ist, dass NRW und Bayern die breitesten Auswahl an Datenformaten leisten. Damit wird nicht impliziert, dass alle Datensätze in jeweils jedem Format vorhanden sind. Jedoch dient das als eine Maß für Flexibilität.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -832,6 +882,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung-in-jupyter-notebook">Einführung in Jupyter Notebook</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einfuhrung-zur-abfragesprache-sparql">Einführung zur Abfragesprache SPARQL</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sparql-ubung-fallstudie-baumkataster">SPARQL-Übung - Fallstudie “Baumkataster”</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

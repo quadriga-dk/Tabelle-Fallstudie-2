@@ -37,8 +37,8 @@ nbclient.exceptions.CellTimeoutError: A cell timed out while it was being execut
 The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------
-['PREFIX dcat: <http://www.w3.org/ns/dcat#>', 'PREFIX dct: <http://purl.org/dc/terms/>', 'PREFIX dcatde: <http://dcat-ap.de/def/dcatde/>', 'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>', 'PREFIX pg: <http://dcat-ap.de/def/politicalGeocoding/>']
+['%endpoint https://data.europa.eu/sparql', 'PREFIX dct: <http://purl.org/dc/terms/>', 'PREFIX dcatde: <http://dcat-ap.de/def/dcatde/>', '', 'SELECT ?uri ?title ?contributorid ?modified WHERE {']
 ...
-['              dct:modified ?modified.', '  FILTER((LANG(?datasetTitle) = "" || LANG(?datasetTitle) = "de") && CONTAINS(LCASE(?datasetTitle), "baumkataster"))', '  FILTER(CONTAINS(STR(?modified), "2022") || CONTAINS(STR(?modified), "2023") || CONTAINS(STR(?modified), "2024"))', '}', 'GROUP BY ?contributorID']
+['            FILTER(CONTAINS(LCASE(?title), "baumkataster"))', '            FILTER(CONTAINS(STR(?modified), "2022") || CONTAINS(STR(?modified), "2023") || CONTAINS(STR(?modified), "2024"))', '        }', '    }', '}']
 -------------------
 

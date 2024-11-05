@@ -21,6 +21,11 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
+# Reference style
+sphinx:
+  config:
+    bibtex_reference_style: author_year
+
 # Information about where the book exists on the web
 repository:
   url: https://github.com/quadriga-dk/Book_Template  # Online location of your book
@@ -47,3 +52,4 @@ parse:
     - deflist           # Definition lists
     - dollarmath        # Support for $math$ and $$math$$ syntax
     - tasklist          # Checklists/todos
+    - citations

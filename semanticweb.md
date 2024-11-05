@@ -2,7 +2,7 @@
 ## Definition & theoretische Grundsätze
 Bevor wir beginnen, uns mit der praktischen Arbeit von Metadatensuchen mit der SPARQL-Abfragesprache zu beschäftigen, müssen wir uns den Konzepten und Spezifikationen widmen, die maßgebend für die Struktur von RDF-Daten, das Verständnis von Ontologien und die Formulierung effektiver Abfragen sind. Es wäre sinnvoll mit Semantic Web zu beginnen.
 
-Das Semantic Web ist eine neue Generation von Webtechnologien, die darauf abzielt, die Kommunikation zwischen Menschen, die unterschiedliche Terminologien verwenden, zu verbessern (Hendler 2002). Menschen benutzen grundsätzlich unterschiedlichen Wortschatz, selbst wenn sie über die gleichen Themen sprechen oder schreiben. Von daher ist es vernünftig, über eine Art "Klebstoff" zu verfügen, die die Interoperabilität von Datenbanken erweitert und Werkzeuge für die Interaktion mit multimedialen Sammlungen bietet. Darüber hinaus ermöglicht das Semantic Web neue Mechanismen zur Unterstützung des "agentenbasierten" Rechnens, bei dem Menschen und Maschinen interaktiver zusammenarbeiten.
+Das Semantic Web ist eine neue Generation von Webtechnologien, die darauf abzielt, die Kommunikation zwischen Menschen, die unterschiedliche Terminologien verwenden, zu verbessern {cite}`Hendler2003ScienceAT`. Menschen benutzen grundsätzlich unterschiedlichen Wortschatz, selbst wenn sie über die gleichen Themen sprechen oder schreiben. Von daher ist es vernünftig, über eine Art "Klebstoff" zu verfügen, die die Interoperabilität von Datenbanken erweitert und Werkzeuge für die Interaktion mit multimedialen Sammlungen bietet. Darüber hinaus ermöglicht das Semantic Web neue Mechanismen zur Unterstützung des "agentenbasierten" Rechnens, bei dem Menschen und Maschinen interaktiver zusammenarbeiten.
 
 Im Gegensatz zum aktuellen Web, das Links zwischen Seiten bereitstellt, die für den menschlichen Konsum gedacht sind, ergänzt das Semantic Web diese Struktur um Seiten, die maschinenlesbare Beschreibungen von Webseiten und anderen Webressourcen enthalten. Diese Dokumente können so miteinander verknüpft werden, dass der Computer Informationen darüber erhält, wie die Begriffe in einem Dokument mit den Begriffen in einem anderen in Beziehung stehen.
 
@@ -11,7 +11,8 @@ Um dies zu erreichen, verwendet das Semantic Web neue Websprachen, die auf RDF (
 Insgesamt zielt das Semantic Web darauf ab, die Art und Weise zu revolutionieren, wie Informationen im Internet strukturiert und interpretiert werden, wodurch eine intelligentere und effizientere Interaktion zwischen Benutzern und Maschinen ermöglicht wird. Tatsächlich ist das Semantic Web die natürliche Entwicklung von dem World Wide Web, wie gedacht von dem Informationswissehschaftler Tim Berners-Lee. Wenn Web 1.0 auf verlinkten Webseiten beruhte, und Web 2.0  - verlinkten Apps, steht Web 3.0 in Beziehung mit verlinkten Daten (https://www.techtarget.com/searchcio/definition/Semantic-Web).
 
 ## "Layer cake" Architektur
-(![alt text](image.png))
+![The Semantic Web Layer Cake](The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png)
+*Abbildung 1: Der Semantic Web Layer Cake* Bildquelle: {cite}`Hendler2001`
 
 The Semantic Web "layer cake" presented by Tim Berners-Lee at the XML 2000 conference.
 
