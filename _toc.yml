@@ -2,11 +2,11 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: Intro
 chapters:
-- file: semanticweb
-- file: dcat_ap
-- file: metadaten
+- file: Semantic_Web
+- file: DCAT_AP
+- file: Metadaten
 - file: SPARQL_Übung
-- file: zusammenfassung
+- file: Zusammenfassung
 - file: Literaturverzeichnis

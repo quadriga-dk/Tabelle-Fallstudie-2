@@ -2,5 +2,4 @@
 
 ```{bibliography}
 :style: unsrt
-:sorting: nyt
-```
+``` 
