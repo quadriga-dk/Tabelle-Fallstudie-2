@@ -358,7 +358,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -374,6 +376,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kontrolle-und-werkzeuge">Kontrolle und Werkzeuge</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ubung-zur-bewertung-der-metadatenqualitat-von-govdata">Übung zur Bewertung der Metadatenqualität von GovData</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -385,11 +396,35 @@ document.write(`
                   
   <section id="metadatenqualitat">
 <h1>Metadatenqualität<a class="headerlink" href="#metadatenqualitat" title="Permalink to this heading">#</a></h1>
+<section id="kontrolle-und-werkzeuge">
+<h2>Kontrolle und Werkzeuge<a class="headerlink" href="#kontrolle-und-werkzeuge" title="Permalink to this heading">#</a></h2>
 <p>Das Erfragen von Metadaten ist das zentrale Ziel für die Gestaltung von Abfragen. Deshalb ist es vernünftig, sich mit dem Konzept der Metadaten auseinanderzusetzen. Die einfachste Beschreibung ist “Daten über Daten”, also Daten, die zwecks der Einordnung und Kategorisierung von anderen Datensätzen dienen, damit jene intuitiv auffindbar übersichtlich sind. Verschiedene Arten von Metadaten erfüllen unterschiedliche Funktionen. So enthält zum Beispiel beschreibende Metadaten für ein Dokument Informationen wie den Autor, das Erstellungsdatum, die Dateigröße und Schlagwörter. Technische Metadaten für eine relationale Datenbank könnten dagegen die Struktur der Tabellen, Datentypen und Beziehungen zwischen den Tabellen beschreiben.</p>
 <p>Angesichts der enormen Datenmenge, die Unternehmen heute verarbeiten, sind Metadaten unverzichtbar. Sie verbessern den Datenzugriff und erleichtern das Navigieren durch große Datensätze, um rohe Informationen in umsetzbare Erkenntnisse zu verwandeln. Ein Einzelhandelsunternehmen könnte beispielsweise Metadaten nutzen, um Verkaufsdaten für einen bestimmten Monat, gefiltert nach Produktkategorie und Region, schnell zu finden, ohne das gesamte Datenvolumen durchsuchen zu müssen. Metadaten sind auch somit entscheidend für die Datenverwaltung und das Datenmanagement.</p>
 <p>Metadaten, wie alle anderen Datentype, sollen auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Ein nützliches Prinzipien-Schema, an das Metadaten sich halten sollen, ist beispielsweise FAIR. In unserer 1. Fallstudie gehen wir auf die Philosophie und Regeln ein, die die FAIR-Prinzipien vorschreiben - <a class="reference external" href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/06_FairPrinzipien.html">hier</a>.</p>
 <p>Die FAIR-Prinzipien dienen dazu als der Grundstein eines vom Konsortium des data.europa.eu Portals entwickelten Werkzeugs zur Untersuchung der Qualität der von data.europa.eu gesammelten Metadaten - das <strong>Metadata Quality Assessment (MQA)</strong>.</p>
 <p>Das <a class="reference external" href="https://data.europa.eu/mqa/methodology?locale=de">MQA</a> zielt darauf ab, die Qualität der Metadaten für öffentliche Sektor-Daten in Europa zu bewerten und die größten Hindernisse für eine bessere Qualität zu identifizieren. Die Untersuchung konzentriert sich auf spezifische Fragestellungen, wie die Einhaltung von DCAT-AP-Standards, die Offenlegung zusätzlicher Informationen, die Zugänglichkeit und Maschinenlesbarkeit der referenzierten Daten sowie die Lizenzverwendung.</p>
+<p>Auf der <a class="reference external" href="https://data.europa.eu/mqa/?locale=de">Metadata Quality</a> Seite des europäischen Metadatenportals wird eine gesamte Bewertung aller aufgesammelten europäischen Portale zusammengefügt und dargestellt. Mithilfe dieser Werkzeuge können wir einschätzen, welche Portale nach den FAIR-Prinzipien die vollsten und “saubersten” Datensätze anbieten. Die Prozentzahlen besagen den Anteil an Datensätzen, die dem entsprechenden Kriterium zustimmen. Durch den Verlauf kann man sich ansehen, wie die jeweilige Prozentzahl durch die Jahre schwankt, in Hinsicht darauf, dass ständig neue Datensätze hinzugefügt werden, die entweder die Kriterien erfüllen oder nicht. Im Übersichtfeld kann man beispielsweise sichten, dass <a class="reference external" href="https://data.europa.eu/mqa/catalogues/yoda/?locale=de">das nationale spanische Datenportal</a> eine ausgezeichnete Bewertung verdient hat. Lassen Sie uns aber zum <a class="reference external" href="https://data.europa.eu/mqa/catalogues/govdata/?locale=de">Open Data Portal Germany</a> gehen und einschätzen, wie fortgeschritten die Open-Data-Initiative in Deutschland ist und welche Schwachstellen noch bestehen. In dieser Übung können Sie alleine die Seite durchstöbern und herausfinden, welche Fehlerhaftigkeiten ausfindig gemacht werden können.</p>
+</section>
+<section id="ubung-zur-bewertung-der-metadatenqualitat-von-govdata">
+<h2>Übung zur Bewertung der Metadatenqualität von GovData<a class="headerlink" href="#ubung-zur-bewertung-der-metadatenqualitat-von-govdata" title="Permalink to this heading">#</a></h2>
+<p>Die Bewertungsevolution von GovData beträgt 240 Punkte aus maximal 405, was eine “gute” Note bedeutet. Trotzdem gibt es große Lücken, die sich nicht vernachlässigen lassen. Auf diese werden wir genauer eingehen.</p>
+<div class="solution admonition">
+<p class="admonition-title">Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal?</p>
+<div class="dropdown admonition">
+<p class="admonition-title">Lösung</p>
+<p>Wählen wir “Zugangsprobleme” in der oberen Leiste. Diese Seite gibt einen Überblick über alle Datensätze mit nicht erreichbaren Distributions. Nehmen wir uns z.B. das erste Ergebnis - Statistisches Jahrbuch - Hamburg 2018/2019. Man kann prüfen, ob der Datensatz über eine eindeutige und beständige PID (Persistent Identifier) verfügt, z. B. eine DOI, die den langfristigen Zugriff und die Auffindbarkeit gewährleistet. PIDs sind ein wesentliches Element für die Auffindbarkeit von Daten, da sie dafür sorgen, dass ein Datensatz langfristig und zuverlässig zugänglich bleibt, auch wenn sich der Speicherort oder der URL ändert. Ohne eine PID kann es zu Zugangsproblemen kommen, die durch “tote Links” oder veraltete URLs verursacht werden. Solche Probleme sind im deutschen Datenportal häufig und betreffen die FAIR-Dimension Findable besonders stark, da Nutzer Schwierigkeiten haben, die gewünschten Daten zu finden oder darauf zuzugreifen. Die gesamte Bewertungsnote des Portal leidet somit darunter.</p>
+</div>
+</div>
+<div class="solution admonition">
+<p class="admonition-title">Warum sind Elemente der DCAT-AP-Schema verletzt? Warum wird das zum Problem?</p>
+<div class="dropdown admonition">
+<p class="admonition-title">Lösung</p>
+<p>Wählen wir “DCAT-AP Schema Verletzungen” in der oberen Leiste. Diese Seite gibt einen Überblick über Datensätze, die das DCAT-AP Schema nicht vollständig einhalten und somit potenzielle Nutzungsprobleme aufweisen. Schauen wir uns als Beispiel den Datensatz “Entwicklung von Umsatz und Beschäftigung im Großhandel in Schleswig-Holstein Februar 2022” an. Der Fehler bezieht sich hier auf das Element http://www.w3.org/ns/dcat#mediaType. Laut Fehlerbeschreibung wird für dieses Element ein BlankNode oder eine IRI erwartet, jedoch ist der tatsächliche Wert auf “application/pdf” gesetzt, was nicht den Schema-Anforderungen entspricht.</p>
+<p>Dieser Fehler stellt eine Verletzung des DCAT-AP Standards dar, der Metadaten für offene Daten in der EU harmonisieren soll. Das DCAT-AP Schema erwartet für das mediaType-Feld eine Verknüpfung mit einem spezifischen IRI oder BlankNode, um eine einheitliche und maschinenlesbare Metadatenstruktur zu gewährleisten. Durch die falsche Angabe (“application/pdf” anstatt einer IRI) wird die maschinelle Lesbarkeit beeinträchtigt, was zu Zugangsproblemen führen kann. In der Praxis bedeutet dies, dass andere Systeme oder Anwendungen Schwierigkeiten haben könnten, den Dateityp automatisch zu erkennen und korrekt darzustellen. Der Wert ist zwar für Menschen verständlich, jedoch fehlt die Standardisierung für die maschinelle Verarbeitung, die das DCAT-AP Schema verlangt.</p>
+<p>Das Problem besteht daher darin, dass die Interoperabilität und Konsistenz der Metadaten leiden. Wenn Metadaten uneinheitlich oder fehlerhaft sind, können Portale und Anwendungen Daten nicht effizient verarbeiten oder austauschen, was den Zugang und die Nutzbarkeit der Daten für Nutzer stark einschränkt. Dies wirkt sich negativ auf die Gesamtbewertung der Metadatenqualität im Portal aus und untergräbt die Ziele des DCAT-AP Standards, nämlich die Harmonisierung und Vernetzung von Datenkatalogen in Europa.</p>
+</div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -446,6 +481,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kontrolle-und-werkzeuge">Kontrolle und Werkzeuge</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ubung-zur-bewertung-der-metadatenqualitat-von-govdata">Übung zur Bewertung der Metadatenqualität von GovData</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
