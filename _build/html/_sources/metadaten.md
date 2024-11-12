@@ -1,4 +1,11 @@
 # Metadatenqualität
+```{admonition} Lernziele
+:class: keypoints
+- Lernende erkennen, dass die FAIR-Prinzipien ein Grundgerüst zur Messung von Metadatenqualität ist
+- Lernenden lernen ein Messverfahren zur Metadatenqualität im europäischen Datenportal kennen
+- Lernende setzen sich mit typischen Problemen in der Metadatenqualität auseinander und indem sie Prüfberichten bewerten.
+```
+
 ## Kontrolle und Werkzeuge
 Das Erfragen von Metadaten ist das zentrale Ziel für die Gestaltung von Abfragen. Deshalb ist es vernünftig, sich mit dem Konzept der Metadaten auseinanderzusetzen. Die einfachste Beschreibung ist "Daten über Daten", also Daten, die zwecks der Einordnung und Kategorisierung von anderen Datensätzen dienen, damit jene intuitiv auffindbar übersichtlich sind. Verschiedene Arten von Metadaten erfüllen unterschiedliche Funktionen. So enthält zum Beispiel beschreibende Metadaten für ein Dokument Informationen wie den Autor, das Erstellungsdatum, die Dateigröße und Schlagwörter. Technische Metadaten für eine relationale Datenbank könnten dagegen die Struktur der Tabellen, Datentypen und Beziehungen zwischen den Tabellen beschreiben.
 
