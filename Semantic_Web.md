@@ -1,4 +1,10 @@
 # Semantic Web - Konzept & Erläuterung
+```{admonition}
+:class: keypoints
+–	Die Lernenden sind vertraut mit semantischen Technologien und Linked Data
+–	Die Lernenden verstehen, dass Open Data Portale auf semantischen Technologien basieren und kennen die Linked Data Grundprinzipien, die hier angewendet werden.
+```
+
 ## Definition & theoretische Grundsätze
 Bevor wir beginnen, uns mit der praktischen Arbeit von Metadatensuchen mit der SPARQL-Abfragesprache zu beschäftigen, müssen wir uns den Konzepten und Spezifikationen widmen, die maßgebend für die Struktur von RDF-Daten, das Verständnis von Ontologien und die Formulierung effektiver Abfragen sind. Es wäre sinnvoll mit Semantic Web zu beginnen.
 
