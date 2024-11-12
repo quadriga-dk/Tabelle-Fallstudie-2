@@ -1,6 +1,7 @@
 # Semantic Web - Konzept & Erläuterung
 ```{admonition}
 :class: keypoints
+
 - Die Lernenden sind vertraut mit semantischen Technologien und Linked Data
 - Die Lernenden verstehen, dass Open Data Portale auf semantischen Technologien basieren und kennen die Linked Data Grundprinzipien, die hier angewendet werden.
 ```
