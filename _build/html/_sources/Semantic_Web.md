@@ -1,5 +1,5 @@
 # Semantic Web - Konzept & Erläuterung
-```{admonition}
+```{admonition} Lernziele
 :class: keypoints
 
 - Die Lernenden sind vertraut mit semantischen Technologien und Linked Data
