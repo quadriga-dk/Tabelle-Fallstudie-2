@@ -1,17 +1,4 @@
-# DCAT-AP - Metadatenstandard
-```{admonition} Lernziele
-:class: keypoints
-- Lernende haben sich mit dem Zweck von Metadatastandards befasst und kennen die Struktur von DCAT-AP.
-```
-
-## Einführung in DCAT-AP
-In Deutschland findet zwischen GovData - dem zentralen Datenportal, und Datenbereitstellern (z.B. Datenportalen der Bundesländer oder Kommunen) ein ständiger Datenaustausch statt.
-
-Die Fachgruppe GovData hat am 21. November 2016 beschlossen, dass dem Datenaustausch zwischen dem Datenportal GovData und anderen Datenportalen eine deutsche Ableitung des europäischen Metadatenstandards DCAT-AP zugrunde gelegt werden soll. DCAT-AP.de ist die spezifische nationale Anpassung des Application Profiles „DCAT-AP v2.0“ und dient zukünftig als bundesweit einheitlicher Metadatenstandard zum Austausch von Metadaten zu öffentlichen Verwaltungsdaten in Deutschland {cite}`DCAT-AP.de2022`.
-
-Seit Anfang 2019 werden Metadaten nur noch im Standard DCAT-AP.de entgegengenommen.
-
-## Struktur und Elemente von DCAT-AP
+# Struktur und Elemente von DCAT-AP
 Als allererstes müssen wir uns mit den grundlegenden Konzepten, auf denen das DCAT-AP-Schema beruht, auseinandersetzen. Das Benennungsschema ist auf die *Dublin Core Metadata Workshop Series*, die im Jahr 1995 begann, zurückzuführen. Das Workshop brachte Bibliothekar*innen, digitale Bibliothekarforschende, Inhalt- und Textinhaltexperte zusammen zwecks der Förderung von bessern Entdeckungsstandards für elektronische Ressourcen {cite}`Weibel1998RFC2413`. Da Metadaten als ein Grundpfeiler der im Web entstehende Informationelemente verstanden werden, wird *Dublin Core* verwendet, um Inhalte und Dienste miteinander zu verknüpfen und sie für Benutzer sichtbarer zu machen. Die Dublin Core Metadata Initiative (DCMI) hat die Entwicklung von strukturierten Metadaten zur Unterstützung der Ressourcensuche vorangetrieben. Infolgedessen entstand ein Kernstandard, der die interdisziplinäre Entdeckung verbessertte und bis heute in 25 Sprachen übersetzt worden ist. Darüber hinaus dient es als ein konzeptionelles Rahmenwerk, das die modulare Entwicklung von ergänzenden Metadatenelementen unterstützt {cite}`WeibelKoch2000DublinCore`. 
 
 Das Dublin-Core-Metadatenstandard ist für Interoperabilität auf der Basis vom Semantic Web und Linked data entworfen. Anders gesagt, Dublin Core™ bezieht sich auf URIs als globale Identifikatoren für die durch die Metadaten beschriebenen Dinge sowie für die Begriffe, die benutzt werden (Vokabularien). Es zeichnet auch durch das *Anwendungsprofil* (Application Profile - AP) aus - eine Spezifikation, die beschreibt, wie bekannte generische Vokabulare wie der Dublin Core™ genutzt, eingeschränkt oder mit spezialisierteren Vokabularen kombiniert werden, um die Anforderungen spezifischer Anwendungen zu erfüllen{cite}`DCMI_Metadata_Basics`.
@@ -25,10 +12,3 @@ Darauf aufbauend gehen wir zu Data Catalog Vocabulary (DCAT). DCAT ist ein RDF-V
 In Deutschland nutzen verschiedene staatliche Datenportale wie GovData sowie Datenportale der Bundesländer (z. B. das Transparenzportal Hamburg) DCAT-AP.de zur Standardisierung der Metadaten. Dies ermöglicht eine konsistente Katalogisierung von Daten und vereinfacht die Datenveröffentlichung und -nutzung, sowohl innerhalb der öffentlichen Verwaltung als auch für Bürger*innen.
 
 Durch die Anlehnung an den europäischen DCAT-AP-Standard ermöglicht DCAT-AP.de eine reibungslose Zusammenarbeit und Datenintegration mit dem Europäischen Datenportal. Deutsche Datensätze, die mit DCAT-AP.de beschrieben sind, lassen sich so problemlos auf das Europäische Datenportal übertragen, was eine einheitliche und grenzübergreifende Datennutzung innerhalb der EU fördert{cite}`CKAN_DCAT_AP`.
-
-## Beispiel und Implementierungen 
-Die Umsetzung von Metadatenrepositorien samt DCAT-AP-Vokabularien erfolgt meistens durch die Verwendung von **Comprehensive Knowledge Archive Network (CKAN)**. CKAN ist die weltweit führende Open-Source-Plattform für Datenportale. CKAN erleichtert das Veröffentlichen, Teilen und Arbeiten mit Daten. Es handelt sich um ein Datenmanagementsystem, das eine leistungsstarke Plattform zum Katalogisieren, Speichern und Zugreifen auf Datensätze bietet, einschließlich einer benutzerfreundlichen Oberfläche, einer vollständigen Application Programming Interface, oder API (für Daten und Katalog), Visualisierungstools und mehr {cite}`CKAN_User_Guide`.
-
-In CKAN wird Daten als „Datensätze“ organisiert, die jeweils eine Sammlung von Informationen wie Kriminalstatistiken oder Wetterdaten enthalten. Jeder Datensatz umfasst Metadaten (z. B. Titel, Herausgeber, Format) und mehrere „Ressourcen“, die die eigentlichen Daten in verschiedenen Formaten (z. B. CSV, PDF) bereitstellen. Ressourcen können direkt in CKAN gespeichert oder als Links auf externe Quellen bereitgestellt werden. CKAN ermöglicht so eine flexible Datenverwaltung und Zugänglichkeit in diversen Formaten und somit die Zusammenarbeit auf interinstitutioneller Ebene sowie bürgerliches Vertrauen dank Transparenz.
-
-Das deutsche Metadatenportal [govdata.de](https://www.govdata.de/) ist genau nach den schon beschribenen Standards und Systemen entstanden. Im Portal kann man unterscheidlichste Datensätze durchstöbern und Auskunft darüber, woher sie stammen, durch welche Institution sie entstanden sind und viel mehr. Im nächsten Kapitel setzten wir uns mit gewissen Datensätzen auseinandersetzen, die im Portal zu finden sind (dank interoperabler Technologien) und die Vorteile sowie die Schwachstellen, die bei der jetzigen Umsetzung der Philosophie der offenen Daten bestehen. 

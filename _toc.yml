@@ -8,17 +8,21 @@ parts:
     chapters: 
     - file: Zielgruppe
 
-  - caption: 2. Semantic Web und Linked Data
+  - caption: 2. Semantic Web & Linked Data
     chapters:
-    - file: Semantic_Web
+    - file: Semantic_Web_Definition
+    - file: Semantic_Web_Layer_Cake
 
   - caption: 3. DCAT-AP Metadatenstandard
     chapters:
-    - file: DCAT_AP
+    - file: DCAT_AP_Einführung
+    - file: DCAT_AP_Struktur
+    - file: DCAT_AP_Beispiel
 
   - caption: 4. Metadatenqualität
     chapters:
-    - file: Metadaten
+    - file: Metadaten_Kontrolle
+    - file: Metadaten_Übung
 
   - caption: 5. SPARQL
     chapters:
