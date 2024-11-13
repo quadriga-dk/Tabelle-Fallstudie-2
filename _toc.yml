@@ -10,10 +10,10 @@ parts:
     - file: Semantic_Web
   - caption: 3. DCAT-AP Metadatenstandard
     - file: DCAT_AP
-  caption: 4. Metadatenqualität
+  - caption: 4. Metadatenqualität
     - file: Metadaten
-  caption: 5. SPARQL
+  - caption: 5. SPARQL
     - file: SPARQL_Übung
-  caption: 6. Zusammenfassung & Ausblick
+  - caption: 6. Zusammenfassung & Ausblick
     - file: Zusammenfassung
     - file: Literaturverzeichnis
