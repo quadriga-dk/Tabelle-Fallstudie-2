@@ -5,21 +5,26 @@ format: jb-book
 root: Intro
 parts:
   - caption: 1. Einführung
-    chapters: []
+    chapters: 
+    - file: Zielgruppe
 
   - caption: 2. Semantic Web und Linked Data
     chapters:
-     - file: Semantic_Web
+    - file: Semantic_Web
 
   - caption: 3. DCAT-AP Metadatenstandard
-      - file: DCAT_AP
+    chapters:
+    - file: DCAT_AP
 
   - caption: 4. Metadatenqualität
-      - file: Metadaten
+    chapters:
+    - file: Metadaten
 
   - caption: 5. SPARQL
-      - file: SPARQL_Übung
+    chapters:
+    - file: SPARQL_Übung
 
   - caption: 6. Zusammenfassung & Ausblick
-      - file: Zusammenfassung
-      - file: Literaturverzeichnis
+    chapters:
+    - file: Zusammenfassung
+    - file: Literaturverzeichnis
