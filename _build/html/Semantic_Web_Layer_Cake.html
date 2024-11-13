@@ -7,8 +7,9 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; Template Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>“Layer cake” Architektur &#8212; Template Book</title>
   
   
   
@@ -58,9 +59,11 @@
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'genindex';</script>
-    <link rel="index" title="Index" href="#" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Semantic_Web_Layer_Cake';</script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Einführung in DCAT-AP" href="DCAT_AP_Einf%C3%BChrung.html" />
+    <link rel="prev" title="Definition &amp; theoretische Grundsätze" href="Semantic_Web_Definition.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -123,8 +126,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -183,9 +184,9 @@
 <li class="toctree-l1"><a class="reference internal" href="Zielgruppe.html">Zielgruppe</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Semantic Web &amp; Linked Data</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Definition.html">Definition &amp; theoretische Grundsätze</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Layer_Cake.html">“Layer cake” Architektur</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">“Layer cake” Architektur</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">3. DCAT-AP Metadatenstandard</span></p>
 <ul class="nav bd-sidenav">
@@ -277,7 +278,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2FSemantic_Web_Layer_Cake.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -289,6 +290,54 @@
   </span>
 <span class="btn__text-container">Open issue</span>
 </a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Semantic_Web_Layer_Cake.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
 </li>
       
   </ul>
@@ -341,7 +390,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1></h1>
+    <h1>“Layer cake” Architektur</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -355,13 +404,45 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
+  <section id="layer-cake-architektur">
+<h1>“Layer cake” Architektur<a class="headerlink" href="#layer-cake-architektur" title="Permalink to this heading">#</a></h1>
+<p><img alt="The Semantic Web Layer Cake" src="_images/The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png" />
+<em>Abbildung 1: Der Semantic Web Layer Cake</em> Bildquelle: <span id="id1">[<a class="reference internal" href="Literaturverzeichnis.html#id2" title="James Hendler. Agents and the semantic web. Intelligent Systems, IEEE, 16:30 - 37, 04 2001. doi:10.1109/5254.920597.">Hendler, 2001</a>]</span></p>
+<p>The Semantic Web “layer cake” presented by Tim Berners-Lee at the XML 2000 conference.</p>
+<p>Auf der obenstehenden Grafik wird die Struktur vom Semantic Web dargestellt als eine geschichtete Architektur, indem verschiedene Technologien und Konzepte zusammenkommen und interagieren, um das Framework von sinnvollen und strukturierten Daten und den Bezügen darunter zu unterstützen.
+Wir gehen stufenmäßig bei der Erklärung jeder Schicht vor:</p>
+<ol class="arabic simple">
+<li><p>Unicode &amp; URI (Universal Resource Indicator) - Unicode in der Grundschicht stellt sicher, dass der ganze Text konsistent repräsentiert durch eine globale Codierung von allen Zeichen wird. URI dient als Standartidentifikator für alle Ressourcen im Web.</p></li>
+<li><p>XML, Namespace, &amp; XML Schema - eXtensible Markup Language (XML) ist ein flexibles Textformat für Datenstrukturierung. Es ist eine Datenvermittlungswerkzeug. Namespace verhilft dazu, Namenkonflikte durch die Identifizierung von Vokabularien zu vermeiden. XML-Schemata definieren die Struktur und Datentypen von XML-Dokumenten durch die Feststellung von Regeln diesbezüglich.</p></li>
+<li><p>RDF (Resource Description Framework) &amp; RDF Schema - die schon obenerklärten Konzepte werden mit eingewoben, damit Informationen über Datenressourcen strukturierend dargestellt werden können.</p></li>
+<li><p>Ontology &amp; Vocabulary - die Ontologie bietet eine Möglichkeit, strukturierte Vokabulare zu definieren, die Beziehungen und Kategorien in einem bestimmten Bereich beschreiben (z. B. „eine Katze ist ein Tier“). Diese Schicht ist entscheidend, um Maschinen zu ermöglichen, Beziehungen zwischen verschiedenen Datenpunkten zu verstehen und so Schlussfolgerungen und logische Ableitungen zu unterstützen. Das Vokabular bezieht sich auf die spezifischen Begriffe und Konzepte, die verwendet werden, um Entitäten und Beziehungen in einem Wissensbereich zu beschreiben.</p></li>
+<li><p>Logik - die Logik ermöglicht automatisierte Prozesse von Entscheidungstreffen aufgrund strukturierter Daten.</p></li>
+<li><p>Proof - die Prüfschicht sorgt für valide Ergebnisse durch die Validierung von den Schritten, die zu einer Schlussfolgerung führen.</p></li>
+<li><p>Trust - die oberste Schicht der Architektur setzt sich mit der Etablierung der Vertrauenwürdigkeit der Daten durch Authentifizierungsmechanismen und die Prüfung der Zuverlässigkeit der Datenquellen.
+Ein wichtiger Bauteil, der auf mehreren Schichten mitwirkt, ist die digitale Signatur als Technologie, die die Datenintegrität sicherstellt und die Nachprüfung davon, wer die Daten erstellt hat.</p></li>
+</ol>
+<p>Das Konzept von verlinkten Daten, oder <em>Linked Data</em> ist wichtig für die vollkommene Durchsetzung einer erfolgreichen Semantic-Web-Struktur. In unseren vorherigen Fallstudie über die Reproduzierbarkeit von Datenanalysen haben wir uns eben mit diesem Konzept auseinandergesetzt - <a class="reference external" href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/16_Linked-Data.html">hier</a>.</p>
+</section>
 
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
-</div>
-
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "quadriga-dk/Book_Template",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
                 </article>
               
@@ -373,6 +454,24 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="Semantic_Web_Definition.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Definition &amp; theoretische Grundsätze</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="DCAT_AP_Einf%C3%BChrung.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Einführung in DCAT-AP</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
