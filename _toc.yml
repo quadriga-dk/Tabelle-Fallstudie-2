@@ -31,7 +31,11 @@ parts:
 
   - caption: 5. SPARQL
     chapters:
-    - file: SPARQL_Übung
+    - file: SPARQL_Einführung
+    - file: SPARQL_Grundlagen
+    - file: SPARQL_Übung_1
+    - file: SPARQL_Übung_2
+    - file: SPARQL_Reflexion
 
   - caption: 6. Zusammenfassung & Ausblick
     chapters:

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>SPARQL Übung - Benutzung &amp; Beispiel &#8212; Template Book</title>
+    <title>&lt;no title&gt; &#8212; Template Book</title>
   
   
   
@@ -59,9 +59,11 @@
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'SPARQL_Übung';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'SPARQL_Grundlagen';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Übung - Metadaten suchen &amp; filtern" href="SPARQL_%C3%9Cbung_1.html" />
+    <link rel="prev" title="Einführung" href="SPARQL_Einf%C3%BChrung.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -123,8 +125,6 @@
     <div class="bd-container__inner bd-page-width">
       
       
-      
-        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -269,7 +269,7 @@
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/quadriga-dk/Book_Template/main?urlpath=lab/tree/SPARQL_Übung.ipynb" target="_blank"
+      <li><a href="https://mybinder.org/v2/gh/quadriga-dk/Book_Template/main?urlpath=lab/tree/SPARQL_Grundlagen.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -287,7 +287,7 @@
       
       
       
-      <li><a href="https://colab.research.google.com/github/quadriga-dk/Book_Template/blob/main/SPARQL_Übung.ipynb" target="_blank"
+      <li><a href="https://colab.research.google.com/github/quadriga-dk/Book_Template/blob/main/SPARQL_Grundlagen.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Colab"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -353,7 +353,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2FSPARQL_Übung.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2FSPARQL_Grundlagen.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -383,7 +383,7 @@
       
       
       
-      <li><a href="_sources/SPARQL_Übung.ipynb" target="_blank"
+      <li><a href="_sources/SPARQL_Grundlagen.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -454,7 +454,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -465,11 +467,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>SPARQL Übung - Benutzung & Beispiel</h1>
+    <h1><no title></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -479,9 +489,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="sparql-ubung-benutzung-beispiel">
-<h1>SPARQL Übung - Benutzung &amp; Beispiel<a class="headerlink" href="#sparql-ubung-benutzung-beispiel" title="Permalink to this heading">#</a></h1>
-<div class="keypoints admonition">
+  <div class="keypoints admonition">
 <p class="admonition-title">Lernziele</p>
 <ul class="simple">
 <li><p>Lernende befassen sich mit der maschinellen Abfrage von DAten in Open Data Portalen unter Anwendung von SPARQL</p></li>
@@ -598,173 +606,6 @@ Schauen wir uns nun die Struktur unserer ersten Abfrage an.</p>
 <p>Wichtig zu bedenken ist, dass SPARQL leider keine Paginierungsfunktion unterstützt. Man muss es in der Regel auf Anwendungsebene handhaben, da SPARQL von sich aus nicht das Durchblättern von Ergebnissen wie eine Weboberfläche unterstützt. Stattdessen muss die Paginierung manuell durch die Verwendung von LIMIT und OFFSET in den Abfragen implementiert werden. Dies erfordert eine zusätzliche Logik in der Anwendung, um die aktuelle Seite Ausgabe vollständig zu sehen.</p>
 <p>Leider konnten wir unsere Fragestellung wegen mangelhafter Daten nicht ganz beantworten. Deshalb versuchen wir, unsere Fragestellung zu ändern und zusätzliche Beispiele von SPARQL-Abfragen damit aufzuzeigen.</p>
 </div>
-<p>Somit lautet unsere neue Fragestellung also:</p>
-<p><strong>Welche sind die Datensätze, die das Wort “Baumkataster” im Titel beinhalten und im Zeitabschnitt 2022-2024 erschienen sind? Welche sind die Bereitsteller, die jene Datensätze liefern? In welchen Formaten kommen die Datensätze vor?</strong></p>
-<p>Hierbei ist es wichtig zu erwähnen, dass SPARQL über keine native Paginierungsfunktion verfügt. Dies besagt, dass man leider nicht die Ergebnisse durchblättern kann. Gewöhnlicherweise wird das über die UI-Funktionalitäten umgesetzt - ein Merkmal davon, wie rudimentär SPARQL in ihrer Basis ist. Deswegen muss man in der Abfrage zusätzlich spezifizieren, welche Ergebnisse bzw. Seiten aufgelistet werden sollen.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
-<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
-
-<span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
-    <span class="p">{</span>
-        <span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
-            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?title</span> <span class="p">.</span>
-            <span class="nv">?uri</span> <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorid</span> <span class="p">.</span>
-            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span> <span class="p">.</span>
-            <span class="k">FILTER</span><span class="p">(</span><span class="nf">isURI</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">))</span>
-            <span class="k">FILTER</span><span class="p">(</span><span class="nf">strstarts</span><span class="p">(</span><span class="nf">str</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">),</span> <span class="s">&quot;http://dcat-ap.de/def/contributors/&quot;</span><span class="p">))</span>       
-            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?title</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
-            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div></div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
-<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
-
-<span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
-    <span class="p">{</span>
-        <span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
-            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?title</span> <span class="p">.</span>
-            <span class="nv">?uri</span> <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorid</span> <span class="p">.</span>
-            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span> <span class="p">.</span>
-            <span class="k">FILTER</span><span class="p">(</span><span class="nf">isURI</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">))</span>
-            <span class="k">FILTER</span><span class="p">(</span><span class="nf">strstarts</span><span class="p">(</span><span class="nf">str</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">),</span> <span class="s">&quot;http://dcat-ap.de/def/contributors/&quot;</span><span class="p">))</span>       
-            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?title</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
-            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
-        <span class="p">}</span>
-                <span class="k">LIMIT</span> <span class="mi">6</span> <span class="k">OFFSET</span> <span class="mi">20</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div><div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>uri</th>
-<th>title</th>
-<th>contributorid</th>
-<th>modified</th></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/https-open-bydata-de-api-hub-repo-datasets-baumkataster-der-stadt-erlangen" target="_other">http://data.europa.eu/88u/dataset/https-open-bydata-de-api-hub-repo-datasets-baumkataster-der-stadt-erlangen</a></td>
-<td class=val>Baumkataster der Stadt Erlangen</td>
-<td class=val><a href="http://dcat-ap.de/def/contributors/stadtErlangen" target="_other">http://dcat-ap.de/def/contributors/stadtErlangen</a></td>
-<td class=val>2024-04-11T05:39:58.589234</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/7a9f509a-9fb0-4c3c-a2d2-4cdd980e5e33" target="_other">http://data.europa.eu/88u/dataset/7a9f509a-9fb0-4c3c-a2d2-4cdd980e5e33</a></td>
-<td class=val>Baumkataster der Hansestadt Lübeck</td>
-<td class=val><a href="http://dcat-ap.de/def/contributors/schleswigHolstein" target="_other">http://dcat-ap.de/def/contributors/schleswigHolstein</a></td>
-<td class=val>2024-07-12T08:18:04.701795</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/0056a74a-6153-440f-a68f-aaea93a3bf25" target="_other">http://data.europa.eu/88u/dataset/0056a74a-6153-440f-a68f-aaea93a3bf25</a></td>
-<td class=val>Baumkataster Koeln 2017</td>
-<td class=val><a href="http://dcat-ap.de/def/contributors/openNRW" target="_other">http://dcat-ap.de/def/contributors/openNRW</a></td>
-<td class=val>2024-06-25T08:34:10+02:00</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/baumkat_01" target="_other">http://data.europa.eu/88u/dataset/baumkat_01</a></td>
-<td class=val>Baumkataster</td>
-<td class=val><a href="http://dcat-ap.de/def/contributors/openDataBayern" target="_other">http://dcat-ap.de/def/contributors/openDataBayern</a></td>
-<td class=val>2024-08-06T00:00:00</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/707312588959944704" target="_other">http://data.europa.eu/88u/dataset/707312588959944704</a></td>
-<td class=val>Baumkataster Bundeseisenbahnvermögen (BEV)</td>
-<td class=val><a href="http://dcat-ap.de/def/contributors/mobilithek" target="_other">http://dcat-ap.de/def/contributors/mobilithek</a></td>
-<td class=val>2024-03-22T08:06:33.317</td></tr></table><div class="tinfo">Total: 5, Shown: 5</div></div></div></div>
-</div>
-<p>Die Abfrage mit LIMIT 6 OFFSET 20 gibt uns genau die Ergebnisse 21 bis 26 zurück. Wenn man also die Anzahl der zurückgegebenen Ergebnisse begrenzen möchte, ist es sinnvoll, LIMIT zu verwenden.</p>
-<div class="tip dropdown admonition">
-<p class="admonition-title">Erklärung des Codes</p>
-<p>Da wir uns schon mit der Struktur einer SPARQL-Abfrage auseinandergesetzt haben, können wir schon viel von der obigen ablesen. Erstmal haben wir den definierten Endpunkt, den wir nennen müssen, um auf den Standort der Metadaten hinzuweisen. Danach beschreiben wir die Prefixes, die unsere Verlinkungen in dem WHERE-Teil erleichtern. Neu hier ist der PREFIX dcatde - hier sind alle Eigentschaften verortet, die spezifisch für aus Deutschland stammende Datensätze sind. Wir verweisen somit auf contributorid - hier ist die Information über die Datenbereitsteller gespeichert. Die andere neue Eigenschaft ist modified, was besagt, wann zum letzen der jeweilige Datensatz bearbeitet worden ist. Diese Eigenschaft gibt die aktuellste Auskunft darüber, aus welchem Jahr der Datensatz stammt. Eine andere neue Bedingung, die in der Absprache zu finden ist, wäre FILTER. FILTER beschreibt eine spezifische Bedingung, die zwingend zu erfüllen ist, und somit schränkt die Ergebnisse darauf ein. Somit lassen wir uns Ergebnisse angeben, die ihre contributorid ausschließlich als URI haben und zwar die mit “http://dcat-ap.de/def/contributors/” anfangen. Das schließt alle leerstehende Ausprägungen und auch solche, die nicht in der Form von URIs sind. Wichtig sind auch die Befehle strstarts und str. Die Funktion str() konvertiert den Wert der Variable ?contributorid in einen String. In SPARQL-Abfragen werden Variablen oft als IRIs (Internationalized Resource Identifiers) dargestellt, also als URLs. Die Funktion str() nimmt diesen IRI und wandelt ihn in eine einfache Zeichenkette (String) um. Die Funktion strstarts() überprüft, ob ein gegebener String mit einer bestimmten Zeichenkette beginnt. Für die Eigenschaft modified legen wir fest, welche Jahre in der Form einer vierstelligen Zahl in der Zeichenkette sein sollten, also 2022, 2023, 2024.</p>
-</div>
-<p>Als nächstes wollen wir uns eine Liste von den Datenbereitstellern ansehen, sowie die Anzahl an Datensätzen je Bereitsteller. Damit können wir herausfinden, welcher Bereitstellende “am produktivsten” ist.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dcat</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/ns/dcat#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">pg</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/politicalGeocoding/&gt;</span>
-
-<span class="k">SELECT</span> <span class="nv">?contributorID</span> <span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span> <span class="nv">?datasetTitle</span><span class="p">)</span> <span class="k">AS</span> <span class="nv">?uniqueDatasetTitleCount</span><span class="p">)</span>
-<span class="k">WHERE</span> <span class="p">{</span>
-  <span class="nv">?datasetURI</span> <span class="k">a</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">Dataset</span><span class="p">;</span>
-              <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?datasetTitle</span><span class="p">;</span>
-              <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorID</span><span class="p">;</span>
-              <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span><span class="p">.</span>
-  <span class="k">FILTER</span><span class="p">((</span><span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;&quot;</span> <span class="o">||</span> <span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;de&quot;</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
-  <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
-<span class="p">}</span>
-<span class="k">GROUP BY</span> <span class="nv">?contributorID</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>contributorID</th>
-<th>uniqueDatasetTitleCount</th></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/gdiDE" target="_other">http://dcat-ap.de/def/contributors/gdiDE</a></td>
-<td class=val>1</td></tr><tr class=even><td class=val><a href="https://offenedaten-konstanz.de/" target="_other">https://offenedaten-konstanz.de/</a></td>
-<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/schleswigHolstein" target="_other">http://dcat-ap.de/def/contributors/schleswigHolstein</a></td>
-<td class=val>3</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/openNRW" target="_other">http://dcat-ap.de/def/contributors/openNRW</a></td>
-<td class=val>5</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/openDataBayern" target="_other">http://dcat-ap.de/def/contributors/openDataBayern</a></td>
-<td class=val>5</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
-<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/mobilithek" target="_other">http://dcat-ap.de/def/contributors/mobilithek</a></td>
-<td class=val>1</td></tr><tr class=even><td class=val><a href="https://gdi-sh.de" target="_other">https://gdi-sh.de</a></td>
-<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/freistaatSachsen" target="_other">http://dcat-ap.de/def/contributors/freistaatSachsen</a></td>
-<td class=val>1</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtErlangen" target="_other">http://dcat-ap.de/def/contributors/stadtErlangen</a></td>
-<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/datenBW" target="_other">http://dcat-ap.de/def/contributors/datenBW</a></td>
-<td class=val>2</td></tr><tr class=even><td class=val><a href="https://opendata.stadt-muenster.de/" target="_other">https://opendata.stadt-muenster.de/</a></td>
-<td class=val>1</td></tr><tr class=odd><td class=val><a href="https://offenedaten-koeln.de/" target="_other">https://offenedaten-koeln.de/</a></td>
-<td class=val>2</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
-<td class=val>2</td></tr></table><div class="tinfo">Total: 14, Shown: 14</div></div></div></div>
-</div>
-<div class="tip dropdown admonition">
-<p class="admonition-title">Erklärung des Codes</p>
-<p>Der COUNT Befehl in SPARQL wird verwendet, um die Anzahl der Ergebnisse zu zählen, die eine bestimmte Bedingung erfüllen. Der AS Befehl folgt dem COUNT und dient dazu, das Ergebnis der Zählung einer Variablen zuzuweisen, die dann im Ergebnis verwendet werden kann. DISTINCT gibt an, dass nur eindeutige (DISTINCT) Werte der Variable ?datasetTitle gezählt werden sollen. AS ?uniqueDatasetTitleCount  weist das Ergebnis der Zählung der Variable ?uniqueDatasetTitleCount zu. Diese Variable kann dann im Ergebnis verwendet werden, um die Anzahl der eindeutigen datasetTitle für jeden contributorID anzuzeigen. Die Bedingung (LANG(?datasetTitle) = “” || LANG(?datasetTitle) = “de”) wird verwendet, um sicherzustellen, dass nur Titel (?datasetTitle) ausgewählt werden, die entweder keine Sprachinformation haben oder explizit als Deutsch (“de”) gekennzeichnet sind. Die Bedingung für das Aufnehmen von Ergebnisse mit keiner Sprachinformation ist auch wichtig, da nicht alle Datenbereitsteller Information über die Sprache des Datensatzes einschließen. Die Bedingung, dass nur Datensätze als jene auf Deutsch aufgelistet werden sollen, ist vielleicht in diesem Fall überflüssig, denn das Wort “Baumkataster” sollte auch erwähnt werden, also ein deutsches Wort. Trotzdem wollen wir diese Funktion hierbei hervorheben, weil wir später davon Gebrauch machen.</p>
-</div>
-<p>Es erweist sich, dass die Datenbereitsteller Open Data Bayern und Open NRW, also die zwei deutsche Bundesländer, die größte Anzahl an Datensätzen leisten, mit jeweils 5. Das Ergebnis dieser Aufsummierung klingt plausibel, da Bayern und NRW die zwei größten Bundesländer in Deutschland sind.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dcat</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/ns/dcat#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">pg</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/politicalGeocoding/&gt;</span>
-
-<span class="k">SELECT</span> <span class="nv">?contributorID</span> <span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span> <span class="nv">?format</span><span class="p">)</span> <span class="k">AS</span> <span class="nv">?formatCount</span><span class="p">)</span>
-<span class="k">WHERE</span> <span class="p">{</span>
-  <span class="nv">?datasetURI</span> <span class="k">a</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">Dataset</span><span class="p">;</span>
-              <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?datasetTitle</span><span class="p">;</span>
-              <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorID</span><span class="p">;</span>
-              <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span><span class="p">.</span>
-  <span class="k">OPTIONAL</span> <span class="p">{</span> <span class="nv">?datasetURI</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">catalog</span> <span class="nv">?catalog</span><span class="p">.</span> <span class="p">}</span>
-  <span class="k">FILTER</span><span class="p">((</span><span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;&quot;</span> <span class="o">||</span> <span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;de&quot;</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
-  <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
-
-  <span class="nv">?datasetURI</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">distribution</span> <span class="nv">?distribution</span><span class="p">.</span>
-  <span class="nv">?distribution</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">format</span> <span class="nv">?format</span><span class="p">.</span>
-<span class="p">}</span>
-<span class="k">GROUP BY</span> <span class="nv">?contributorID</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>contributorID</th>
-<th>formatCount</th></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/gdiDE" target="_other">http://dcat-ap.de/def/contributors/gdiDE</a></td>
-<td class=val>2</td></tr><tr class=even><td class=val><a href="https://offenedaten-konstanz.de/" target="_other">https://offenedaten-konstanz.de/</a></td>
-<td class=val>2</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/schleswigHolstein" target="_other">http://dcat-ap.de/def/contributors/schleswigHolstein</a></td>
-<td class=val>4</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/openNRW" target="_other">http://dcat-ap.de/def/contributors/openNRW</a></td>
-<td class=val>26</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/openDataBayern" target="_other">http://dcat-ap.de/def/contributors/openDataBayern</a></td>
-<td class=val>21</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
-<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/mobilithek" target="_other">http://dcat-ap.de/def/contributors/mobilithek</a></td>
-<td class=val>1</td></tr><tr class=even><td class=val><a href="https://gdi-sh.de" target="_other">https://gdi-sh.de</a></td>
-<td class=val>3</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/freistaatSachsen" target="_other">http://dcat-ap.de/def/contributors/freistaatSachsen</a></td>
-<td class=val>2</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtErlangen" target="_other">http://dcat-ap.de/def/contributors/stadtErlangen</a></td>
-<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/datenBW" target="_other">http://dcat-ap.de/def/contributors/datenBW</a></td>
-<td class=val>3</td></tr><tr class=even><td class=val><a href="https://opendata.stadt-muenster.de/" target="_other">https://opendata.stadt-muenster.de/</a></td>
-<td class=val>7</td></tr><tr class=odd><td class=val><a href="https://offenedaten-koeln.de/" target="_other">https://offenedaten-koeln.de/</a></td>
-<td class=val>4</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
-<td class=val>8</td></tr></table><div class="tinfo">Total: 14, Shown: 14</div></div></div></div>
-</div>
-<p>Anbei auch die Ergebnisse der aufsummierten Datenformate je Datenbereitsteller. Nicht überraschend festzustellen ist, dass NRW und Bayern die breitesten Auswahl an Datenformaten leisten. Damit wird nicht impliziert, dass alle Datensätze in jeweils jedem Format vorhanden sind. Jedoch dient das als eine Maß für Flexibilität.</p>
-</section>
 
     <script type="text/x-thebe-config">
     {
@@ -796,12 +637,45 @@ Schauen wir uns nun die Struktur unserer ersten Abfrage an.</p>
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="SPARQL_Einf%C3%BChrung.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Einführung</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="SPARQL_%C3%9Cbung_1.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Übung - Metadaten suchen &amp; filtern</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>

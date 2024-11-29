@@ -35,3 +35,5 @@ Traceback (most recent call last):
   File "C:\Users\sam37279\AppData\Local\anaconda3\Lib\urllib\request.py", line 643, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 502: Bad Gateway
+2024-11-29 10:56:48,364 WARNING utils.__init__: KrnlException: no endpoint defined
+NoneType: None
