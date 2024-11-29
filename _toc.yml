@@ -20,6 +20,7 @@ parts:
     - file: DCAT_AP_Einführung
     - file: DCAT_AP_Struktur
     - file: DCAT_AP_Beispiel
+    - file: DCAT_AP_Reflexion
 
   - caption: 4. Metadatenqualität
     chapters:
