@@ -24,8 +24,10 @@ parts:
 
   - caption: 4. Metadatenqualität
     chapters:
+    - file: Metadaten_Einführung
     - file: Metadaten_Kontrolle
     - file: Metadaten_Übung
+    - file: Metadaten_Reflexion
 
   - caption: 5. SPARQL
     chapters:
