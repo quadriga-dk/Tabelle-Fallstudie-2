@@ -62,7 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'DCAT_AP_Beispiel';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Kontrolle und Werkzeuge" href="Metadaten_Kontrolle.html" />
+    <link rel="next" title="Reflexion" href="DCAT_AP_Reflexion.html" />
     <link rel="prev" title="Struktur und Elemente von DCAT-AP" href="DCAT_AP_Struktur.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -185,22 +185,31 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Semantic Web &amp; Linked Data</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Definition.html">Definition &amp; theoretische Grundsätze</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Layer_Cake.html">“Layer cake” Architektur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">3. DCAT-AP Metadatenstandard</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Einf%C3%BChrung.html">Einführung in DCAT-AP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Struktur.html">Struktur und Elemente von DCAT-AP</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Beispiel und Implementierungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">4. Metadatenqualität</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Metadaten_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Metadaten_Kontrolle.html">Kontrolle und Werkzeuge</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Metadaten_%C3%9Cbung.html">Übung zur Bewertung der Metadatenqualität von GovData</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Metadaten_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">5. SPARQL</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung.html">SPARQL Übung - Benutzung &amp; Beispiel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_Einf%C3%BChrung.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung_1.html">Übung - Metadaten suchen &amp; filtern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung_2.html">Übung - Metadaten gruppieren &amp; auswerten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">6. Zusammenfassung &amp; Ausblick</span></p>
 <ul class="nav bd-sidenav">
@@ -405,9 +414,10 @@ document.write(`
                   
   <section id="beispiel-und-implementierungen">
 <h1>Beispiel und Implementierungen<a class="headerlink" href="#beispiel-und-implementierungen" title="Permalink to this heading">#</a></h1>
-<p>Die Umsetzung von Metadatenrepositorien samt DCAT-AP-Vokabularien erfolgt meistens durch die Verwendung von <strong>Comprehensive Knowledge Archive Network (CKAN)</strong>. CKAN ist die weltweit führende Open-Source-Plattform für Datenportale. CKAN erleichtert das Veröffentlichen, Teilen und Arbeiten mit Daten. Es handelt sich um ein Datenmanagementsystem, das eine leistungsstarke Plattform zum Katalogisieren, Speichern und Zugreifen auf Datensätze bietet, einschließlich einer benutzerfreundlichen Oberfläche, einer vollständigen Application Programming Interface, oder API (für Daten und Katalog), Visualisierungstools und mehr <span id="id1">[<a class="reference internal" href="Literaturverzeichnis.html#id10" title="CKAN Project. CKAN User Guide: What is CKAN? 2023. Accessed: 2024-10-31. URL: https://docs.ckan.org/en/2.11/user-guide.html#what-is-ckan.">Project, 2023</a>]</span>.</p>
-<p>In CKAN wird Daten als „Datensätze“ organisiert, die jeweils eine Sammlung von Informationen wie Kriminalstatistiken oder Wetterdaten enthalten. Jeder Datensatz umfasst Metadaten (z. B. Titel, Herausgeber, Format) und mehrere „Ressourcen“, die die eigentlichen Daten in verschiedenen Formaten (z. B. CSV, PDF) bereitstellen. Ressourcen können direkt in CKAN gespeichert oder als Links auf externe Quellen bereitgestellt werden. CKAN ermöglicht so eine flexible Datenverwaltung und Zugänglichkeit in diversen Formaten und somit die Zusammenarbeit auf interinstitutioneller Ebene sowie bürgerliches Vertrauen dank Transparenz.</p>
-<p>Das deutsche Metadatenportal <a class="reference external" href="https://www.govdata.de/">govdata.de</a> ist genau nach den schon beschribenen Standards und Systemen entstanden. Im Portal kann man unterscheidlichste Datensätze durchstöbern und Auskunft darüber, woher sie stammen, durch welche Institution sie entstanden sind und viel mehr. Im nächsten Kapitel setzten wir uns mit gewissen Datensätzen auseinandersetzen, die im Portal zu finden sind (dank interoperabler Technologien) und die Vorteile sowie die Schwachstellen, die bei der jetzigen Umsetzung der Philosophie der offenen Daten bestehen.</p>
+<p>Die Umsetzung von Metadatenrepositorien mit DCAT-AP-Vokabular erfolgt meistens durch die Verwendung des <strong>Comprehensive Knowledge Archive Network (CKAN)</strong>. CKAN ist die weltweit führende Open-Source-Plattform für Datenportale und erleichtert das Veröffentlichen, Teilen und Arbeiten mit Daten. Dabei handelt es sich um ein Datenmanagementsystem, das eine leistungsstarke Plattform zum Katalogisieren, Speichern und Zugriff auf Datensätze bietet. Zu den Funktionen von CKAN gehören neben einer benutzerfreundlichen Oberfläche, unter anderem ein vollständiges Application Programming Interface, API (für Daten und Katalog), diverse Visualisierungstools und vieles mehr <span id="id1">[<a class="reference internal" href="Literaturverzeichnis.html#id10" title="CKAN Project. CKAN User Guide: What is CKAN? 2023. Accessed: 2024-10-31. URL: https://docs.ckan.org/en/2.11/user-guide.html#what-is-ckan.">Project, 2023</a>]</span>.</p>
+<p>In CKAN werden Daten als „Datensätze“ organisiert, die jeweils eine Sammlung von Informationen wie beispielsweise Kriminalstatistiken oder Wetterdaten enthalten. Jeder Datensatz umfasst Metadaten (z. B. Titel, Herausgeber, Format) und mehrere „Ressourcen“, die die eigentlichen Daten in verschiedenen Formaten (z. B. CSV, PDF) bereitstellen. Ressourcen können direkt in CKAN gespeichert oder als Links auf externe Quellen bereitgestellt werden. CKAN ermöglicht eine flexible Datenverwaltung und Zugänglichkeit in verschiedenen Formaten und fördert dadurch sowohl die Zusammenarbeit auf interinstitutioneller Ebene als auch das zivile Vertrauen durch erhöhte Transparenz.</p>
+<p>Das deutsche Metadatenportal <a class="reference external" href="https://www.govdata.de/">govdata.de</a> wurde genau nach den zuvor beschriebenen Standards und Systemen entwickelt. Im Portal können unterschiedlichste Datensätze durchsucht werden, mit detaillierten Informationen darüber, woher sie stammen, welche Institution sie bereitgestellt hat und vieles mehr.
+Im nächsten Kapitel befassen wir uns mit ausgewählten Datensätzen, die im Portal verfügbar sind (dank interoperabler Technologien), sowie mit den Vorteilen und Schwächen der aktuellen Umsetzung im Rahmen der Philosophie offener Daten.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -450,11 +460,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="Metadaten_Kontrolle.html"
+       href="DCAT_AP_Reflexion.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Kontrolle und Werkzeuge</p>
+        <p class="prev-next-title">Reflexion</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

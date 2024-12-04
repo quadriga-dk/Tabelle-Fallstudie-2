@@ -62,7 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'Semantic_Web_Layer_Cake';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Einführung in DCAT-AP" href="DCAT_AP_Einf%C3%BChrung.html" />
+    <link rel="next" title="Reflexion" href="Semantic_Web_Reflexion.html" />
     <link rel="prev" title="Definition &amp; theoretische Grundsätze" href="Semantic_Web_Definition.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -185,23 +185,31 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Semantic Web &amp; Linked Data</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Definition.html">Definition &amp; theoretische Grundsätze</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">“Layer cake” Architektur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">3. DCAT-AP Metadatenstandard</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Einf%C3%BChrung.html">Einführung in DCAT-AP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Struktur.html">Struktur und Elemente von DCAT-AP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Beispiel.html">Beispiel und Implementierungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">4. Metadatenqualität</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Metadaten_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Metadaten_Kontrolle.html">Kontrolle und Werkzeuge</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Metadaten_%C3%9Cbung.html">Übung zur Bewertung der Metadatenqualität von GovData</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Metadaten_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">5. SPARQL</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung.html">SPARQL Übung - Benutzung &amp; Beispiel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_Einf%C3%BChrung.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung_1.html">Übung - Metadaten suchen &amp; filtern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung_2.html">Übung - Metadaten gruppieren &amp; auswerten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">6. Zusammenfassung &amp; Ausblick</span></p>
 <ul class="nav bd-sidenav">
@@ -408,20 +416,21 @@ document.write(`
 <h1>“Layer cake” Architektur<a class="headerlink" href="#layer-cake-architektur" title="Permalink to this heading">#</a></h1>
 <p><img alt="The Semantic Web Layer Cake" src="_images/The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png" />
 <em>Abbildung 1: Der Semantic Web Layer Cake</em> Bildquelle: <span id="id1">[<a class="reference internal" href="Literaturverzeichnis.html#id2" title="James Hendler. Agents and the semantic web. Intelligent Systems, IEEE, 16:30 - 37, 04 2001. doi:10.1109/5254.920597.">Hendler, 2001</a>]</span></p>
-<p>The Semantic Web “layer cake” presented by Tim Berners-Lee at the XML 2000 conference.</p>
-<p>Auf der obenstehenden Grafik wird die Struktur vom Semantic Web dargestellt als eine geschichtete Architektur, indem verschiedene Technologien und Konzepte zusammenkommen und interagieren, um das Framework von sinnvollen und strukturierten Daten und den Bezügen darunter zu unterstützen.
-Wir gehen stufenmäßig bei der Erklärung jeder Schicht vor:</p>
+<p>The Semantic Web “layer cake” presented by Tim Berners-Lee at the XML 2000 conference.
+Hier ist die überarbeitete Version mit korrekten Rechtschreibungen:</p>
+<p>Die obenstehende Grafik stellt die geschichtete Architektur (Layer Cake) des Semantic Web dar. Sie besteht aus verschiedenen Technologien und Konzepten, die miteinander interagieren und aufeinander aufbauen, um das Framework von strukturierten Daten und deren zugrunde liegenden Bezügen zu unterstützen.
+Wir erklären nun stufenweise jede Schicht und beginnen bei der untersten:</p>
 <ol class="arabic simple">
-<li><p>Unicode &amp; URI (Universal Resource Indicator) - Unicode in der Grundschicht stellt sicher, dass der ganze Text konsistent repräsentiert durch eine globale Codierung von allen Zeichen wird. URI dient als Standartidentifikator für alle Ressourcen im Web.</p></li>
-<li><p>XML, Namespace, &amp; XML Schema - eXtensible Markup Language (XML) ist ein flexibles Textformat für Datenstrukturierung. Es ist eine Datenvermittlungswerkzeug. Namespace verhilft dazu, Namenkonflikte durch die Identifizierung von Vokabularien zu vermeiden. XML-Schemata definieren die Struktur und Datentypen von XML-Dokumenten durch die Feststellung von Regeln diesbezüglich.</p></li>
-<li><p>RDF (Resource Description Framework) &amp; RDF Schema - die schon obenerklärten Konzepte werden mit eingewoben, damit Informationen über Datenressourcen strukturierend dargestellt werden können.</p></li>
-<li><p>Ontology &amp; Vocabulary - die Ontologie bietet eine Möglichkeit, strukturierte Vokabulare zu definieren, die Beziehungen und Kategorien in einem bestimmten Bereich beschreiben (z. B. „eine Katze ist ein Tier“). Diese Schicht ist entscheidend, um Maschinen zu ermöglichen, Beziehungen zwischen verschiedenen Datenpunkten zu verstehen und so Schlussfolgerungen und logische Ableitungen zu unterstützen. Das Vokabular bezieht sich auf die spezifischen Begriffe und Konzepte, die verwendet werden, um Entitäten und Beziehungen in einem Wissensbereich zu beschreiben.</p></li>
-<li><p>Logik - die Logik ermöglicht automatisierte Prozesse von Entscheidungstreffen aufgrund strukturierter Daten.</p></li>
-<li><p>Proof - die Prüfschicht sorgt für valide Ergebnisse durch die Validierung von den Schritten, die zu einer Schlussfolgerung führen.</p></li>
-<li><p>Trust - die oberste Schicht der Architektur setzt sich mit der Etablierung der Vertrauenwürdigkeit der Daten durch Authentifizierungsmechanismen und die Prüfung der Zuverlässigkeit der Datenquellen.
-Ein wichtiger Bauteil, der auf mehreren Schichten mitwirkt, ist die digitale Signatur als Technologie, die die Datenintegrität sicherstellt und die Nachprüfung davon, wer die Daten erstellt hat.</p></li>
+<li><p>Unicode &amp; URI (Universal Resource Indicator) - Unicode als Basis stellt sicher, dass der gesamte Text konsistent durch eine globale Codierung aller Zeichen repräsentiert wird. URI dient als Standardidentifikator für alle Ressourcen im Web.</p></li>
+<li><p>XML, Namespace, &amp; XML Schema - eXtensible Markup Language (XML) ist ein flexibles Textformat für Datenstrukturierung. Es ist ein Datenvermittlungswerkzeug. Namespaces helfen dabei, Namenskonflikte durch die Identifizierung von Vokabularen zu vermeiden. XML-Schemata definieren die Struktur und Datentypen von XML-Dokumenten, indem sie entsprechende Regeln festlegen.</p></li>
+<li><p>RDF (Resource Description Framework) &amp; RDF Schema - die bereits oben erklärten Konzepte werden integriert, um Informationen über Datenressourcen strukturiert darzustellen.</p></li>
+<li><p>Ontology &amp; Vocabulary - die Ontologie bietet eine Möglichkeit, strukturierte Vokabulare zu definieren, die Beziehungen und Kategorien in einem bestimmten Bereich beschreiben (z. B. „Eine Katze ist ein Tier“). Diese Schicht ist entscheidend, um es Maschinen zu ermöglichen, die Beziehungen zwischen verschiedenen Datenpunkten zu verstehen und dadurch Schlussfolgerungen sowie logische Ableitungen zu unterstützen. Das Vokabular bezieht sich auf spezifische Begriffe und Konzepte, die verwendet werden, um Entitäten und ihre Beziehungen innerhalb eines Wissensbereichs zu beschreiben.</p></li>
+<li><p>Logik - die Logik ermöglicht automatisierte Entscheidungsprozesse auf Grundlage strukturierter Daten.</p></li>
+<li><p>Proof - die Prüfschicht stellt die Validität der Ergebnisse sicher, indem sie die Schritte überprüft, die zu einer Schlussfolgerung führen.</p></li>
+<li><p>Trust - die oberste Schicht der Architektur bezieht sich auf die Etablierung der Vertrauenwürdigkeit der Daten durch Authentifizierungsmechanismen und die Überprüfung der Zuverlässigkeit der Datenquellen.
+Ein wichtiger Bestandteil, der über mehrere Schichten hinweg wirkt, ist die digitale Signatur. Diese Technologie stellt die Datenintegrität sicher und ermöglicht die Überprüfung, wer die Daten erstellt hat.</p></li>
 </ol>
-<p>Das Konzept von verlinkten Daten, oder <em>Linked Data</em> ist wichtig für die vollkommene Durchsetzung einer erfolgreichen Semantic-Web-Struktur. In unseren vorherigen Fallstudie über die Reproduzierbarkeit von Datenanalysen haben wir uns eben mit diesem Konzept auseinandergesetzt - <a class="reference external" href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/16_Linked-Data.html">hier</a>.</p>
+<p>Das Konzept von verlinkten Daten, oder <em>Linked Data</em>, ist essenziell für die vollständige Umsetzung einer erfolgreichen Semantic-Web-Struktur. In unserer vorherigen Fallstudie zur Reproduzierbarkeit von Datenanalysen haben wir uns genau mit diesem Konzept auseinandergesetzt - <a class="reference external" href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/16_Linked-Data.html">hier</a>.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -464,11 +473,11 @@ Ein wichtiger Bauteil, der auf mehreren Schichten mitwirkt, ist die digitale Sig
       </div>
     </a>
     <a class="right-next"
-       href="DCAT_AP_Einf%C3%BChrung.html"
+       href="Semantic_Web_Reflexion.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Einführung in DCAT-AP</p>
+        <p class="prev-next-title">Reflexion</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
