@@ -34,6 +34,12 @@ jobs:
         pip install sparqlkernel
         python -m sparqlkernel.install
 
+    # Debugging
+    - name: Debug Kernel
+      run: |
+        jupyter kernelspec list
+        python -c "import sparqlkernel; print('SPARQL Kernel loaded')"
+
     # Build the book
     - name: Build the book
       run: |
@@ -49,3 +55,4 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
+

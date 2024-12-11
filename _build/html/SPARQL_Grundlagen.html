@@ -185,7 +185,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Semantic Web &amp; Linked Data</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Einf%C3%BChrung.html">Semantic Web</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Definition.html">Definition &amp; theoretische Grundsätze</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Layer_Cake.html">“Layer cake” Architektur</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Reflexion.html">Reflexion</a></li>
@@ -269,7 +269,7 @@
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/quadriga-dk/Book_Template/main?urlpath=lab/tree/SPARQL_Grundlagen.ipynb" target="_blank"
+      <li><a href="https://mybinder.org/v2/gh/quadriga-dk/Tabelle-Fallstudie-2/main?urlpath=lab/tree/SPARQL_Grundlagen.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -287,7 +287,7 @@
       
       
       
-      <li><a href="https://colab.research.google.com/github/quadriga-dk/Book_Template/blob/main/SPARQL_Grundlagen.ipynb" target="_blank"
+      <li><a href="https://colab.research.google.com/github/quadriga-dk/Tabelle-Fallstudie-2/blob/main/SPARQL_Grundlagen.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Colab"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -300,24 +300,6 @@
   </span>
 <span class="btn__text-container">Colab</span>
 </a>
-</li>
-      
-      
-      
-      
-      <li>
-<button onclick="initThebeSBT()"
-  class="btn btn-sm btn-launch-thebe dropdown-item"
-  title="Launch Thebe"
-  data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-play"></i>
-  </span>
-<span class="btn__text-container">Live Code</span>
-</button>
 </li>
       
   </ul>
@@ -336,7 +318,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template" target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -353,7 +335,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2FSPARQL_Grundlagen.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?title=Issue%20on%20page%20%2FSPARQL_Grundlagen.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -496,13 +478,11 @@ document.write(`
 <li><p>Lernende praktizieren verschiedene SPARQL Techniken über die API von data.europa</p></li>
 </ul>
 </div>
-<p><strong>Vorwort</strong></p>
-<p>Das Ziel ist, eine realistische Verwendung der Abfragesprache SPARQL zu demonstieren. Anhand unterschiedlicher Fragestellungen und Beispiele zeigen wir auf, wie unterschiedliche Abfragen gestaltet werden können. Dabei nutzen wir die europäischen Datenplattform (https://data.europa.eu/de). Wie sooft führen viele Wege nach Rom und die Abfragen können je nach persönlichen Vorlieben des/der Benutzers/in variieren. Deswegen schlagen wir einige Alternativen vor.</p>
-<p>In diesem Teil widmen wir uns einer praktischen SPARQL-Übung, indem wir uns mit der folgenden Forschungsfrage auseinandersetzen:</p>
+<p>In diesem Abschnitt widmen wir uns einer praktischen SPARQL-Übung, indem wir uns mit der folgenden Forschungsfrage auseinandersetzen:</p>
 <p><strong>Wie viele Datensätze in der Form von offenen Daten bietet jedes Bundesland an?</strong></p>
-<p>Zunächst widmen wir uns technischen Basis, mit der wir die SPARQL-Abfragen umsetzen werden. Wir arbeiten mit Jupyter Notebook - ein Dateiformat, das es ermöglicht, Erklärtext und Code in verschiedenen Programmiersprachen darzustellen. Somit wird die visuelle Darstellung von echtem Code für die Abfragen, deren Ergebnisse und die Erläuterungen der aufgerufenen Befehle samt anderer Kommentare ermöglicht.</p>
-<p>Somit können wir uns der Analyse der SPARQL-Syntax widmen, indem wir uns die Abfragen für die Forschungsfragen ansehen. Als allererstes muss ein sogenannter “endpoint” definiert werden. Der endpoint ist die maschinelesbare Schnittstelle auf das Repositorium, in dem die Metadaten gespeichert sind, die wir abfragen wollen. Bei der Arbeit mit einem Online-SPARQL-Werkzeug ist die Definition eines endpoints oft nicht nötig, da der schon automatisch definiert ist. Im Portal GOVDATA ist der endpoint die Schnittstelle zum deutschen Open Data Portal <a class="reference external" href="https://www.govdata.de/">govdata.de</a>.</p>
-<p>Für unsere Beispiele wollen wir das europäischen Datenportal durchsuchen. Den finden wir auf der folgenden Webseite - . Danach verwenden den wir folgende “Magic”, d.h. einen Befehl, der Teil vom SPARQL-Python-Paket ist, der es uns erlaubt, alle künftigen Abfragen mit unserem endpoint zu verknüpfen.</p>
+<p>Zunächst betrachten wir die technische Basis, mit der wir die SPARQL-Abfragen umsetzen werden. Wir arbeiten mit Jupyter Notebook - einem Dateiformat, welches ermöglicht, Erklärtext und Code in verschiedenen Programmiersprachen darzustellen. Dadurch wird die visuelle Darstellung von echtem Code für Abfragen und deren Ergebnisse ermöglicht. Zusätzlich können Erläuterungen zu den aufgerufenen Befehlen sowie weitere Kommentare dargestellt werden.</p>
+<p>Nun können wir uns der Analyse der SPARQL-Syntax widmen, indem wir uns die Abfragen der Forschungsfragen ansehen. Als allererstes muss ein sogenannter “endpoint” definiert werden. Der endpoint ist die maschinelesbare Schnittstelle zum Repositorium, in dem jene Metadaten gespeichert sind, die wir abfragen wollen. Bei der Arbeit mit einem Online-SPARQL-Werkzeug ist die Definition eines endpoints häufig nicht nötig, da dieser schon automatisch definiert ist. Im Portal GOVDATA ist der endpoint die Schnittstelle zum deutschen Open Data Portal <a class="reference external" href="https://www.govdata.de/">govdata.de</a>.</p>
+<p>Beispielhaft wollen wir nun das europäische Datenportal durchsuchen, welches wir auf der folgenden Webseite - finden. Anschließend verwenden wir folgende “Magic”, d.h. einen Befehl, der Teil vom SPARQL-Python-Paket ist, der es uns erlaubt, alle künftigen Abfragen mit unserem endpoint zu verknüpfen.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
@@ -512,7 +492,7 @@ document.write(`
 <div class="cell_output docutils container">
 <div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div></div>
 </div>
-<p>Mit dem festgelegten endpoint können wir SPARQL-Abfragen erstellen. Allerdings fragen wir nur die Metadaten ab, die zu den Datensätzen im Portal gespeichert sind. Siehe hierzu Kapitel … . Bevor wir damit anfangen, möchten wir uns mit der Onthologie der gespeicherten Daten vertraut machen. Der zuvor erklärte Metatenstandard DCAT-AP ist zentral für die Erkundung von den Metadateneigentschaften und definiert die Struktur und den Inhalt der Metadatenfelder - https://www.dcat-ap.de/def/.
+<p>Mit dem festgelegten endpoint können wir SPARQL-Abfragen erstellen. Allerdings fragen wir nur jene Metadaten ab, welche zu den Datensätzen im Portal gespeichert sind. Siehe hierzu Kapitel … . Bevor wir damit anfangen, möchten wir uns mit der Onthologie der gespeicherten Daten vertraut machen. Der im Kapitel DCAT_AP erklärte Metatenstandard DCAT-AP ist zentral für die Untersuchung der Metadateneigentschaften und definiert die Struktur und den Inhalt der Metadatenfelder - https://www.dcat-ap.de/def/.
 Schauen wir uns nun die Struktur unserer ersten Abfrage an.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -597,8 +577,8 @@ Schauen wir uns nun die Struktur unserer ersten Abfrage an.</p>
 </div>
 <div class="tip dropdown admonition">
 <p class="admonition-title">Erklärung des Codes</p>
-<p>Als erstes sehen wir die sogenannten PREFIXES. Die Prefixes sind ein nützliches Tool, das dabei helfen, auf die diversen Eigenschaften zu verweisen und auf eine abgekürzte Art und Weise die Bezüge zwischen diesen Eigenschaften zu schaffen. Sie sind wichtig für eine einfachere Gestaltung der Abfragen, aber nicht essenziell. Sie helfen lediglich, indem die ganzen Links nicht immer wieder ausgeschrieben werden müssen, und ermöglichen nur die Angabe von den Endungen nach den Prefixes. Alles wird klarer, wenn wir uns den WHERE-Abschnitt ansehen.</p>
-<p>Weiterhin gibt es den SELECT-Befehl. SELECT wählt die Properties bzw. die Eigenschaften, die aufgelistet werden sollen. Jede Eigenschaft entspricht einer Spalte, die in der Tabelle mit Ergebnissen zu sehen ist. Da im SELECT-Befehl die folgenden 3 Properties ausgeschrieben werden - ?uri ?title ?contributorid ?stateKey - bekommen wir die URIs, die Titel, die Namen der Datenbereitsteller und das Kürzel des jeweiligen Landes, aus dem der Datensatz stammt.</p>
+<p>Als erstes sehen wir die sogenannten PREFIXES. Die Prefixes sind ein nützliches Tool, das dabei hilft, auf diverse Eigenschaften zu verweisen und verkürzt Bezüge zwischen diesen Eigenschaften herzustellen. Sie sind zwar wichtig für eine einfachere Gestaltung der Abfragen, aber nicht essenziell. Sie helfen lediglich dabei, das Links nicht immer wieder ausgeschrieben werden müssen, und ermöglichen es nur die Endungen nach den Prefixes angeben zu müssen. Dies wird deutlicher, wenn wir uns den WHERE-Abschnitt ansehen.</p>
+<p>Vorerst betrachten wir aber den SELECT-Befehl. Mit SELECT wählen wir die Properties bzw. die Eigenschaften, die aufgelistet werden sollen. Jede Eigenschaft entspricht einer Spalte, die in der Tabelle mit Ergebnissen zu sehen ist. Da im SELECT-Befehl die folgenden 3 Properties ausgeschrieben werden - ?uri ?title ?contributorid ?stateKey - erhalten wir die URIs, die Titel, die Namen der Datenbereitsteller und das Kürzel des jeweiligen Landes, aus dem der Datensatz stammt.</p>
 <p>Die genauen Benennungen der Properties (Labels) werden im DCAT-AP-Handbuch definiert, auf das wir zurückgreifen müssen, um die genauen Labels für jede Property zu finden.</p>
 <p>Was Ihnen noch auffallen könnte ist, dass die Spalte für das Bundesland (stateKey) leer ist. Leider liegt das daran, dass das Land nicht codiert worden ist. Somit bleiben diese Felder leer. Dies ist ein klares Beispiel für lückenhaftes Metadatenmanagement, das die Beantowrtung unserer Forschungsfrage erschwert. In der Praxis kommt es oft zu Fällen, in denen Abfragen nicht sehr erfolgreich sind, wegen unvollständigen Metadatenbeschreibungen.</p>
 <p>Als nächstes haben wir den Kern jeder SPARQL-Abfrage - den WHERE-Befehl. Der WHERE-Befehl definiert die Beobachtungen, die aufgelistet werden sollen, indem die Bedingungen definiert werden. Somit werden nur die Beobachtungen aufgelistet, die alle Bedungungen erfüllen. In der Abfrage ist auch OPTIONAL zu sehen - dies besagt, dass die folgende Bedingung nicht zwingend zu erfüllen ist. Das bedeutet, dass selbst die Beobachtungen, in unserem Fall die Datensätze, in der Liste stehen, die keine Ausprägung für die Eigentschaft stateKey (Verweis auf Land) haben. Da leider stateKey nicht mit codiert ist, können wir uns alle Datensätze ansehen, die auf die anderen Bedingungen treffen (URI, Titel und ID der Bereitsteller), ohne dass wir eine leere Liste bekommen. OPTIONAL ist ein gutes Werkzeug, das benutzt werden kann, wenn man sich nicht sicher ist, ob jeweiligen Properties ordentlich codiert sind.</p>
@@ -611,8 +591,8 @@ Schauen wir uns nun die Struktur unserer ersten Abfrage an.</p>
     {
         requestKernel: true,
         binderOptions: {
-            repo: "quadriga-dk/Book_Template",
-            ref: "main",
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
         },
         codeMirrorConfig: {
             theme: "abcdef",

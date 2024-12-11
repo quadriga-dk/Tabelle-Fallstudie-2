@@ -63,7 +63,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Übung zur Bewertung der Metadatenqualität von GovData" href="Metadaten_%C3%9Cbung.html" />
-    <link rel="prev" title="Beispiel und Implementierungen" href="DCAT_AP_Beispiel.html" />
+    <link rel="prev" title="Einführung" href="Metadaten_Einf%C3%BChrung.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -185,22 +185,31 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Semantic Web &amp; Linked Data</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Definition.html">Definition &amp; theoretische Grundsätze</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Layer_Cake.html">“Layer cake” Architektur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">3. DCAT-AP Metadatenstandard</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Einf%C3%BChrung.html">Einführung in DCAT-AP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Struktur.html">Struktur und Elemente von DCAT-AP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Beispiel.html">Beispiel und Implementierungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">4. Metadatenqualität</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Metadaten_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Kontrolle und Werkzeuge</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Metadaten_%C3%9Cbung.html">Übung zur Bewertung der Metadatenqualität von GovData</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Metadaten_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">5. SPARQL</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung.html">SPARQL Übung - Benutzung &amp; Beispiel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_Einf%C3%BChrung.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung_1.html">Übung - Metadaten suchen &amp; filtern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung_2.html">Übung - Metadaten gruppieren &amp; auswerten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">6. Zusammenfassung &amp; Ausblick</span></p>
 <ul class="nav bd-sidenav">
@@ -260,7 +269,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template" target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -277,7 +286,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2FMetadaten_Kontrolle.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?title=Issue%20on%20page%20%2FMetadaten_Kontrolle.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -403,7 +412,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="kontrolle-und-werkzeuge">
+  <section class="tex2jax_ignore mathjax_ignore" id="kontrolle-und-werkzeuge">
 <h1>Kontrolle und Werkzeuge<a class="headerlink" href="#kontrolle-und-werkzeuge" title="Permalink to this heading">#</a></h1>
 <div class="keypoints admonition">
 <p class="admonition-title">Lernziele</p>
@@ -413,20 +422,21 @@ document.write(`
 <li><p>Lernende setzen sich mit typischen Problemen in der Metadatenqualität auseinander und indem sie Prüfberichten bewerten.</p></li>
 </ul>
 </div>
-<p>Das Erfragen von Metadaten ist das zentrale Ziel für die Gestaltung von Abfragen. Deshalb ist es vernünftig, sich mit dem Konzept der Metadaten auseinanderzusetzen. Die einfachste Beschreibung ist “Daten über Daten”, also Daten, die zwecks der Einordnung und Kategorisierung von anderen Datensätzen dienen, damit jene intuitiv auffindbar übersichtlich sind. Verschiedene Arten von Metadaten erfüllen unterschiedliche Funktionen. So enthält zum Beispiel beschreibende Metadaten für ein Dokument Informationen wie den Autor, das Erstellungsdatum, die Dateigröße und Schlagwörter. Technische Metadaten für eine relationale Datenbank könnten dagegen die Struktur der Tabellen, Datentypen und Beziehungen zwischen den Tabellen beschreiben.</p>
+<p>Das Erfragen von Metadaten ist das zentrale Ziel für die Gestaltung von Abfragen <em>(Abfragen von was? Evtl. Beispiele daneben setzen Datensuchportalen o.Ä.)</em>. Deshalb ist es vernünftig, sich mit dem Konzept der Metadaten auseinanderzusetzen. Die einfachste Beschreibung ist “Daten über Daten”, also Daten, die der Einordnung und Kategorisierung anderer Datensätze dienen, damit jene intuitiv auffindbar und übersichtlich sind. Verschiedene Arten von Metadaten erfüllen unterschiedliche Funktionen. So enthalten zum Beispiel beschreibende Metadaten für ein Dokument Informationen wie den Autor, das Erstellungsdatum, die Dateigröße und Schlagwörter. Technische Metadaten für eine relationale Datenbank könnten dagegen die Struktur der Tabellen, Datentypen und Beziehungen zwischen den Tabellen beschreiben.</p>
 <p>Angesichts der enormen Datenmenge, die Unternehmen heute verarbeiten, sind Metadaten unverzichtbar. Sie verbessern den Datenzugriff und erleichtern das Navigieren durch große Datensätze, um rohe Informationen in umsetzbare Erkenntnisse zu verwandeln. Ein Einzelhandelsunternehmen könnte beispielsweise Metadaten nutzen, um Verkaufsdaten für einen bestimmten Monat, gefiltert nach Produktkategorie und Region, schnell zu finden, ohne das gesamte Datenvolumen durchsuchen zu müssen. Metadaten sind auch somit entscheidend für die Datenverwaltung und das Datenmanagement.</p>
-<p>Metadaten, wie alle anderen Datentype, sollen auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Ein nützliches Prinzipien-Schema, an das Metadaten sich halten sollen, ist beispielsweise FAIR. In unserer 1. Fallstudie gehen wir auf die Philosophie und Regeln ein, die die FAIR-Prinzipien vorschreiben - <a class="reference external" href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/06_FairPrinzipien.html">hier</a>.</p>
-<p>Die FAIR-Prinzipien dienen dazu als der Grundstein eines vom Konsortium des data.europa.eu Portals entwickelten Werkzeugs zur Untersuchung der Qualität der von data.europa.eu gesammelten Metadaten - das <strong>Metadata Quality Assessment (MQA)</strong>.</p>
-<p>Das <a class="reference external" href="https://data.europa.eu/mqa/methodology?locale=de">MQA</a> zielt darauf ab, die Qualität der Metadaten für öffentliche Sektor-Daten in Europa zu bewerten und die größten Hindernisse für eine bessere Qualität zu identifizieren. Die Untersuchung konzentriert sich auf spezifische Fragestellungen, wie die Einhaltung von DCAT-AP-Standards, die Offenlegung zusätzlicher Informationen, die Zugänglichkeit und Maschinenlesbarkeit der referenzierten Daten sowie die Lizenzverwendung.</p>
-<p>Auf der <a class="reference external" href="https://data.europa.eu/mqa/?locale=de">Metadata Quality</a> Seite des europäischen Metadatenportals wird eine gesamte Bewertung aller aufgesammelten europäischen Portale zusammengefügt und dargestellt. Mithilfe dieser Werkzeuge können wir einschätzen, welche Portale nach den FAIR-Prinzipien die vollsten und “saubersten” Datensätze anbieten. Die Prozentzahlen besagen den Anteil an Datensätzen, die dem entsprechenden Kriterium zustimmen. Durch den Verlauf kann man sich ansehen, wie die jeweilige Prozentzahl durch die Jahre schwankt, in Hinsicht darauf, dass ständig neue Datensätze hinzugefügt werden, die entweder die Kriterien erfüllen oder nicht. Im Übersichtfeld kann man beispielsweise sichten, dass <a class="reference external" href="https://data.europa.eu/mqa/catalogues/yoda/?locale=de">das nationale spanische Datenportal</a> eine ausgezeichnete Bewertung verdient hat. Lassen Sie uns aber zum <a class="reference external" href="https://data.europa.eu/mqa/catalogues/govdata/?locale=de">Open Data Portal Germany</a> gehen und einschätzen, wie fortgeschritten die Open-Data-Initiative in Deutschland ist und welche Schwachstellen noch bestehen. In dieser Übung können Sie alleine die Seite durchstöbern und herausfinden, welche Fehlerhaftigkeiten ausfindig gemacht werden können.</p>
+<p>Metadaten, wie alle anderen Datentypen, sollen auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar sein. Ein nützliches Prinzipien-Schema, für Metadaten bieten beispielsweise die FAIR-Prinzipien. In einer weieteren QUADRIGA OER gehen wir auf die Philosophie und Regeln ein, die die FAIR-Prinzipien vorschreiben - <a class="reference external" href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/06_FairPrinzipien.html">hier</a>.</p>
+<p>Die FAIR-Prinzipien bilden die Grundlage des <strong>Metadata Quality Assessment (MQA)</strong> - eines vom Konsortium des data.europa.eu Portals entwickelten Werkzeugs zur Untersuchung der Qualität der von data.europa.eu gesammelten Metadaten.</p>
+<p>Das <a class="reference external" href="https://data.europa.eu/mqa/methodology?locale=de">MQA</a> zielt darauf ab, die Qualität der Metadaten für öffentliche Sektor-Daten in Europa zu bewerten und die größten Hindernisse einer besseren Datenqualität zu identifizieren. Die Untersuchung konzentriert sich auf spezifische Fragestellungen, wie die Einhaltung von DCAT-AP-Standards, die Offenlegung zusätzlicher Informationen, die Zugänglichkeit und Maschinenlesbarkeit der referenzierten Daten sowie die Lizenzverwendung.</p>
+<p>Auf der <a class="reference external" href="https://data.europa.eu/mqa/?locale=de">Metadata Quality</a> Seite des europäischen Metadatenportals wird eine Bewertung aller gesammelten europäischen Portale zusammengefügt und dargestellt. Mithilfe dieser Werkzeuge lässt sich beurteilen, welche Portale gemäß den FAIR-Prinzipien die vollständigsten und “saubersten” Datensätze anbieten. Die Prozentzahlen geben den Anteil der Datensätze an, die den jeweiligen Kriterien entsprechen. Durch den Verlauf kann man nachvollziehen, wie diese Anteile im Laufe der Jahre schwanen, insbesondere da kontinuierlich neue Datensätze hinzugefügt werden, die die Kriterien erfüllen oder nicht. Im Übersichtsbereich ist beispielsweise ersichtlich, dass <a class="reference external" href="https://data.europa.eu/mqa/catalogues/yoda/?locale=de">das nationale spanische Datenportal</a> eine ausgezeichnete Bewertung erhalten hat.
+Lassen Sie uns nun das <a class="reference external" href="https://data.europa.eu/mqa/catalogues/govdata/?locale=de">Open Data Portal Deutschland</a> betrachten und einschätzen, wie fortgeschritten die Open-Data-Initiative in Deutschland ist und welche Schwachstellen noch bestehen. In der folgenden Übung können Sie eigenständig die Seite durchstöbern und potenzielle Unzulänglichkeiten ausfindig machen.</p>
 </section>
 
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
-            repo: "quadriga-dk/Book_Template",
-            ref: "main",
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
         },
         codeMirrorConfig: {
             theme: "abcdef",
@@ -452,12 +462,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="DCAT_AP_Beispiel.html"
+       href="Metadaten_Einf%C3%BChrung.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Beispiel und Implementierungen</p>
+        <p class="prev-next-title">Einführung</p>
       </div>
     </a>
     <a class="right-next"

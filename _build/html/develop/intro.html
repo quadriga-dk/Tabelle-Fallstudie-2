@@ -183,21 +183,33 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../Zielgruppe.html">Zielgruppe</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Semantic Web und Linked Data</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Semantic Web &amp; Linked Data</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Semantic_Web.html">Semantic Web - Konzept &amp; Erläuterung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Semantic_Web_Einf%C3%BChrung.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Semantic_Web_Definition.html">Definition &amp; theoretische Grundsätze</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Semantic_Web_Layer_Cake.html">“Layer cake” Architektur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Semantic_Web_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">3. DCAT-AP Metadatenstandard</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../DCAT_AP.html">DCAT-AP - Metadatenstandard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DCAT_AP_Einf%C3%BChrung.html">Einführung in DCAT-AP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DCAT_AP_Struktur.html">Struktur und Elemente von DCAT-AP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DCAT_AP_Beispiel.html">Beispiel und Implementierungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DCAT_AP_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">4. Metadatenqualität</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Metadaten.html">Metadatenqualität</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Metadaten_Einf%C3%BChrung.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Metadaten_Kontrolle.html">Kontrolle und Werkzeuge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Metadaten_%C3%9Cbung.html">Übung zur Bewertung der Metadatenqualität von GovData</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Metadaten_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">5. SPARQL</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../SPARQL_%C3%9Cbung.html">SPARQL Übung - Benutzung &amp; Beispiel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SPARQL_Einf%C3%BChrung.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SPARQL_%C3%9Cbung_1.html">Übung - Metadaten suchen &amp; filtern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SPARQL_%C3%9Cbung_2.html">Übung - Metadaten gruppieren &amp; auswerten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SPARQL_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">6. Zusammenfassung &amp; Ausblick</span></p>
 <ul class="nav bd-sidenav">
@@ -257,7 +269,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template" target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -274,7 +286,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2Fdevelop/intro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?title=Issue%20on%20page%20%2Fdevelop/intro.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -411,7 +423,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="einfuhrung-in-die-entwicklungsumgebung">
+  <section class="tex2jax_ignore mathjax_ignore" id="einfuhrung-in-die-entwicklungsumgebung">
 <h1>Einführung in die Entwicklungsumgebung<a class="headerlink" href="#einfuhrung-in-die-entwicklungsumgebung" title="Permalink to this heading">#</a></h1>
 <p>Für jede QUADRIGA OER, die als Jupyter Book entwickelt wird, sollte die automatische Erstellung der Website per Github Actions aktiviert sein. Dadurch werden Änderungen im Haupt-Entwicklungsstrang (<code class="docutils literal notranslate"><span class="pre">main</span></code>-branch in Git) automatisch gebaut, wenn sie in Github veröffentlicht werden. Kleinere Änderungen wie bspw. die Behebung von Tippfehlern können daher sogar über die Web-Oberfläche von Github getätigt werden. Größere Änderungen und die experiementelle (und ggf. private) Weiterentwicklung benötigen jedoch eine lokale Entwicklungsumgebung. Empfehlungen dazu, wie Sie diese bei sich einrichten können, werden in den nachfolgenden Abschnitten beschrieben.</p>
 <section id="bestandteile-der-entwicklungsumgebung">
@@ -436,8 +448,8 @@ document.write(`
     {
         requestKernel: true,
         binderOptions: {
-            repo: "quadriga-dk/Book_Template",
-            ref: "main",
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
         },
         codeMirrorConfig: {
             theme: "abcdef",

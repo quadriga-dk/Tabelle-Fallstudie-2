@@ -62,7 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'Metadaten_Übung';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="SPARQL Übung - Benutzung &amp; Beispiel" href="SPARQL_%C3%9Cbung.html" />
+    <link rel="next" title="Reflexion" href="Metadaten_Reflexion.html" />
     <link rel="prev" title="Kontrolle und Werkzeuge" href="Metadaten_Kontrolle.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -185,22 +185,31 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Semantic Web &amp; Linked Data</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Definition.html">Definition &amp; theoretische Grundsätze</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Layer_Cake.html">“Layer cake” Architektur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Semantic_Web_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">3. DCAT-AP Metadatenstandard</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Einf%C3%BChrung.html">Einführung in DCAT-AP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Struktur.html">Struktur und Elemente von DCAT-AP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Beispiel.html">Beispiel und Implementierungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DCAT_AP_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">4. Metadatenqualität</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Metadaten_Einf%C3%BChrung.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Metadaten_Kontrolle.html">Kontrolle und Werkzeuge</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Übung zur Bewertung der Metadatenqualität von GovData</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Metadaten_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">5. SPARQL</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung.html">SPARQL Übung - Benutzung &amp; Beispiel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_Einf%C3%BChrung.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung_1.html">Übung - Metadaten suchen &amp; filtern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_%C3%9Cbung_2.html">Übung - Metadaten gruppieren &amp; auswerten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SPARQL_Reflexion.html">Reflexion</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">6. Zusammenfassung &amp; Ausblick</span></p>
 <ul class="nav bd-sidenav">
@@ -260,7 +269,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template" target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -277,7 +286,7 @@
       
       
       
-      <li><a href="https://github.com/quadriga-dk/Book_Template/issues/new?title=Issue%20on%20page%20%2FMetadaten_Übung.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?title=Issue%20on%20page%20%2FMetadaten_Übung.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -403,14 +412,14 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="ubung-zur-bewertung-der-metadatenqualitat-von-govdata">
+  <section class="tex2jax_ignore mathjax_ignore" id="ubung-zur-bewertung-der-metadatenqualitat-von-govdata">
 <h1>Übung zur Bewertung der Metadatenqualität von GovData<a class="headerlink" href="#ubung-zur-bewertung-der-metadatenqualitat-von-govdata" title="Permalink to this heading">#</a></h1>
-<p>Die Bewertungsevolution von GovData beträgt 240 Punkte aus maximal 405, was eine “gute” Note bedeutet. Trotzdem gibt es große Lücken, die sich nicht vernachlässigen lassen. Auf diese werden wir genauer eingehen.</p>
+<p>Die Bewertungsevolution von GovData beträgt 240 von maximal möglichen 405 Punkten, was einer “guten” Note entspricht. Trotzdem gibt es erhebliche Lücken, die nicht ignoriert werden können. Auf diese werden wir im Folgenden genauer eingehen.</p>
 <div class="solution admonition">
 <p class="admonition-title">Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal?</p>
 <div class="dropdown admonition">
 <p class="admonition-title">Lösung</p>
-<p>Wählen wir “Zugangsprobleme” in der oberen Leiste. Diese Seite gibt einen Überblick über alle Datensätze mit nicht erreichbaren Distributions. Nehmen wir uns z.B. das erste Ergebnis - Statistisches Jahrbuch - Hamburg 2018/2019. Man kann prüfen, ob der Datensatz über eine eindeutige und beständige PID (Persistent Identifier) verfügt, z. B. eine DOI, die den langfristigen Zugriff und die Auffindbarkeit gewährleistet. PIDs sind ein wesentliches Element für die Auffindbarkeit von Daten, da sie dafür sorgen, dass ein Datensatz langfristig und zuverlässig zugänglich bleibt, auch wenn sich der Speicherort oder der URL ändert. Ohne eine PID kann es zu Zugangsproblemen kommen, die durch “tote Links” oder veraltete URLs verursacht werden. Solche Probleme sind im deutschen Datenportal häufig und betreffen die FAIR-Dimension Findable besonders stark, da Nutzer Schwierigkeiten haben, die gewünschten Daten zu finden oder darauf zuzugreifen. Die gesamte Bewertungsnote des Portal leidet somit darunter.</p>
+<p>Wählen wir “Zugangsprobleme” in der oberen Leiste. Diese Seite gibt einen Überblick über alle Datensätze mit nicht erreichbaren Distributions. Nehmen wir uns z.B. das erste Ergebnis - Statistisches Jahrbuch - Hamburg 2018/2019. Man kann prüfen, ob der Datensatz über eine eindeutige und beständige PID (Persistent Identifier) verfügt, z. B. eine DOI, die den langfristigen Zugriff und die Auffindbarkeit gewährleistet. PIDs sind ein wesentliches Element für die Auffindbarkeit von Daten, da sie dafür sorgen, dass ein Datensatz langfristig und zuverlässig zugänglich bleibt, auch wenn sich der Speicherort oder die URL ändert. Ohne eine PID kann es zu Zugangsproblemen kommen, die durch “tote Links” oder veraltete URLs verursacht werden. Solche Probleme sind im deutschen Datenportal kein Einzelfall und betreffen die FAIR-Dimension Findable besonders stark, da Nutzer Schwierigkeiten haben, die gewünschten Daten zu finden oder darauf zuzugreifen. Dadurch leidet die Gesamtbewertungsnote des Portals.</p>
 </div>
 </div>
 <div class="solution admonition">
@@ -418,8 +427,8 @@ document.write(`
 <div class="dropdown admonition">
 <p class="admonition-title">Lösung</p>
 <p>Wählen wir “DCAT-AP Schema Verletzungen” in der oberen Leiste. Diese Seite gibt einen Überblick über Datensätze, die das DCAT-AP Schema nicht vollständig einhalten und somit potenzielle Nutzungsprobleme aufweisen. Schauen wir uns als Beispiel den Datensatz “Entwicklung von Umsatz und Beschäftigung im Großhandel in Schleswig-Holstein Februar 2022” an. Der Fehler bezieht sich hier auf das Element http://www.w3.org/ns/dcat#mediaType. Laut Fehlerbeschreibung wird für dieses Element ein BlankNode oder eine IRI erwartet, jedoch ist der tatsächliche Wert auf “application/pdf” gesetzt, was nicht den Schema-Anforderungen entspricht.</p>
-<p>Dieser Fehler stellt eine Verletzung des DCAT-AP Standards dar, der Metadaten für offene Daten in der EU harmonisieren soll. Das DCAT-AP Schema erwartet für das mediaType-Feld eine Verknüpfung mit einem spezifischen IRI oder BlankNode, um eine einheitliche und maschinenlesbare Metadatenstruktur zu gewährleisten. Durch die falsche Angabe (“application/pdf” anstatt einer IRI) wird die maschinelle Lesbarkeit beeinträchtigt, was zu Zugangsproblemen führen kann. In der Praxis bedeutet dies, dass andere Systeme oder Anwendungen Schwierigkeiten haben könnten, den Dateityp automatisch zu erkennen und korrekt darzustellen. Der Wert ist zwar für Menschen verständlich, jedoch fehlt die Standardisierung für die maschinelle Verarbeitung, die das DCAT-AP Schema verlangt.</p>
-<p>Das Problem besteht daher darin, dass die Interoperabilität und Konsistenz der Metadaten leiden. Wenn Metadaten uneinheitlich oder fehlerhaft sind, können Portale und Anwendungen Daten nicht effizient verarbeiten oder austauschen, was den Zugang und die Nutzbarkeit der Daten für Nutzer stark einschränkt. Dies wirkt sich negativ auf die Gesamtbewertung der Metadatenqualität im Portal aus und untergräbt die Ziele des DCAT-AP Standards, nämlich die Harmonisierung und Vernetzung von Datenkatalogen in Europa.</p>
+<p>Dieser Fehler stellt eine Verletzung des DCAT-AP Standards dar, der Metadaten für offene Daten in der EU harmonisieren soll. Das DCAT-AP Schema erwartet für das mediaType-Feld eine Verknüpfung mit einem spezifischen IRI oder BlankNode, um eine einheitliche und maschinenlesbare Metadatenstruktur zu gewährleisten. Durch die falsche Angabe (“application/pdf” anstatt einer IRI) wird die maschinelle Lesbarkeit beeinträchtigt, was wiederum zu Zugangsproblemen führen kann. In der Praxis bedeutet dies, dass andere Systeme oder Anwendungen Schwierigkeiten haben könnten, den Dateityp automatisch zu erkennen und korrekt darzustellen. Der Wert ist zwar für Menschen verständlich, jedoch fehlt die Standardisierung für die maschinelle Verarbeitung, die das DCAT-AP Schema verlangt.</p>
+<p>Das Problem liegt darin, dass die Interoperabilität und Konsistenz der Metadaten beeinträchtigt werden. Wenn Metadaten uneinheitlich oder fehlerhaft sind, können Portale und Anwendungen Daten nicht effizient verarbeiten oder austauschen, was den Zugang und die Nutzbarkeit der Daten für Nutzer stark einschränkt. Dies wirkt sich negativ auf die Gesamtbewertung der Metadatenqualität im Portal aus und untergräbt die Ziele des DCAT-AP Standards, nämlich die Harmonisierung und Vernetzung von Datenkatalogen in Europa.</p>
 </div>
 </div>
 </section>
@@ -428,8 +437,8 @@ document.write(`
     {
         requestKernel: true,
         binderOptions: {
-            repo: "quadriga-dk/Book_Template",
-            ref: "main",
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
         },
         codeMirrorConfig: {
             theme: "abcdef",
@@ -464,11 +473,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="SPARQL_%C3%9Cbung.html"
+       href="Metadaten_Reflexion.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">SPARQL Übung - Benutzung &amp; Beispiel</p>
+        <p class="prev-next-title">Reflexion</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
