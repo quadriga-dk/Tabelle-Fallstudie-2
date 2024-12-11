@@ -31,6 +31,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
+        pip install sparqlkernel
+        python -m sparqlkernel.install
 
     # Build the book
     - name: Build the book
