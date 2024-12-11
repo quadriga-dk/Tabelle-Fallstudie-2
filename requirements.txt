@@ -2,4 +2,4 @@ jupyter-book==1.0.*
 matplotlib
 numpy
 jupyterquiz
-sparql
+sparqlkernel
