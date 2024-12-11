@@ -468,58 +468,75 @@ document.write(`
 <p>Hierbei ist es wichtig zu erwähnen, dass SPARQL über keine native Paginierungsfunktion verfügt. Dies besagt, dass man leider nicht die Ergebnisse durchblättern kann. Gewöhnlicherweise wird das über die UI-Funktionalitäten umgesetzt - ein Merkmal davon, wie rudimentär SPARQL in ihrer Basis ist. Deswegen muss man in der Abfrage zusätzlich spezifizieren, welche Ergebnisse bzw. Seiten aufgelistet werden sollen.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>%endpoint https://data.europa.eu/sparql
-PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
-PREFIX dcatde: &lt;http://dcat-ap.de/def/dcatde/&gt;
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
 
-SELECT ?uri ?title ?contributorid ?modified WHERE {
-    {
-        SELECT ?uri ?title ?contributorid ?modified WHERE {
-            ?uri dct:title ?title .
-            ?uri dcatde:contributorID ?contributorid .
-            ?uri dct:modified ?modified .
-            FILTER(isURI(?contributorid))
-            FILTER(strstarts(str(?contributorid), &quot;http://dcat-ap.de/def/contributors/&quot;))       
-            FILTER(CONTAINS(LCASE(?title), &quot;baumkataster&quot;))
-            FILTER(CONTAINS(STR(?modified), &quot;2022&quot;) || CONTAINS(STR(?modified), &quot;2023&quot;) || CONTAINS(STR(?modified), &quot;2024&quot;))
-        }
-    }
-}
+<span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
+    <span class="p">{</span>
+        <span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
+            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?title</span> <span class="p">.</span>
+            <span class="nv">?uri</span> <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorid</span> <span class="p">.</span>
+            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span> <span class="p">.</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">isURI</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">))</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">strstarts</span><span class="p">(</span><span class="nf">str</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">),</span> <span class="s">&quot;http://dcat-ap.de/def/contributors/&quot;</span><span class="p">))</span>       
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?title</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
-    <span class="n">PREFIX</span> <span class="n">dct</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">purl</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">dc</span><span class="o">/</span><span class="n">terms</span><span class="o">/&gt;</span>
-           <span class="o">^</span>
-<span class="ne">SyntaxError</span>: invalid syntax
-</pre></div>
-</div>
-</div>
+<div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>%endpoint https://data.europa.eu/sparql
-PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
-PREFIX dcatde: &lt;http://dcat-ap.de/def/dcatde/&gt;
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
 
-SELECT ?uri ?title ?contributorid ?modified WHERE {
-    {
-        SELECT ?uri ?title ?contributorid ?modified WHERE {
-            ?uri dct:title ?title .
-            ?uri dcatde:contributorID ?contributorid .
-            ?uri dct:modified ?modified .
-            FILTER(isURI(?contributorid))
-            FILTER(strstarts(str(?contributorid), &quot;http://dcat-ap.de/def/contributors/&quot;))       
-            FILTER(CONTAINS(LCASE(?title), &quot;baumkataster&quot;))
-            FILTER(CONTAINS(STR(?modified), &quot;2022&quot;) || CONTAINS(STR(?modified), &quot;2023&quot;) || CONTAINS(STR(?modified), &quot;2024&quot;))
-        }
-                LIMIT 6 OFFSET 20
-    }
-}
+<span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
+    <span class="p">{</span>
+        <span class="k">SELECT</span> <span class="nv">?uri</span> <span class="nv">?title</span> <span class="nv">?contributorid</span> <span class="nv">?modified</span> <span class="k">WHERE</span> <span class="p">{</span>
+            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?title</span> <span class="p">.</span>
+            <span class="nv">?uri</span> <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorid</span> <span class="p">.</span>
+            <span class="nv">?uri</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span> <span class="p">.</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">isURI</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">))</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">strstarts</span><span class="p">(</span><span class="nf">str</span><span class="p">(</span><span class="nv">?contributorid</span><span class="p">),</span> <span class="s">&quot;http://dcat-ap.de/def/contributors/&quot;</span><span class="p">))</span>       
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?title</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
+            <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
+        <span class="p">}</span>
+                <span class="k">LIMIT</span> <span class="mi">6</span> <span class="k">OFFSET</span> <span class="mi">20</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div><div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>uri</th>
+<th>title</th>
+<th>contributorid</th>
+<th>modified</th></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Fráncfort del Meno</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2024-11-07T06:54:14.744750</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Φραγκφούρτη</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2024-11-07T06:54:14.744750</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233" target="_other">http://data.europa.eu/88u/dataset/73c5a6b3-c033-4dad-bb7d-8783427dd233</a></td>
+<td class=val>Baumkataster Франкфурт на Майн</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>2024-11-07T06:54:14.744750</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/fcdceb2e-d16d-410c-ba0f-521ba8c6effa" target="_other">http://data.europa.eu/88u/dataset/fcdceb2e-d16d-410c-ba0f-521ba8c6effa</a></td>
+<td class=val>Fachpläne - Baumkataster</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/datenBW" target="_other">http://dcat-ap.de/def/contributors/datenBW</a></td>
+<td class=val>2024-10-10T13:45:21.322762</td></tr><tr class=odd><td class=val><a href="http://data.europa.eu/88u/dataset/c1c61928-c602-4e37-af31-2d23901e2540" target="_other">http://data.europa.eu/88u/dataset/c1c61928-c602-4e37-af31-2d23901e2540</a></td>
+<td class=val>Straßenbaumkataster Hamburg</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
+<td class=val>2024-08-09T00:10:58.572825</td></tr><tr class=even><td class=val><a href="http://data.europa.eu/88u/dataset/19676799-fedb-4d1a-a89a-26fba887b3f0~~2" target="_other">http://data.europa.eu/88u/dataset/19676799-fedb-4d1a-a89a-26fba887b3f0~~2</a></td>
+<td class=val>Straßenbaumkataster Hamburger Hafen</td>
+<td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
+<td class=val>2024-08-08T03:15:01.540503</td></tr></table><div class="tinfo">Total: 6, Shown: 6</div></div></div></div>
 </div>
 <p>Die Abfrage mit LIMIT 6 OFFSET 20 gibt uns genau die Ergebnisse 21 bis 26 zurück. Wenn man also die Anzahl der zurückgegebenen Ergebnisse begrenzen möchte, ist es sinnvoll, LIMIT zu verwenden.</p>
 <div class="tip dropdown admonition">
@@ -537,16 +554,16 @@ SELECT ?uri ?title ?contributorid ?modified WHERE {
         },
         codeMirrorConfig: {
             theme: "abcdef",
-            mode: "python"
+            mode: "sparql"
         },
         kernelOptions: {
-            name: "python3",
+            name: "sparql",
             path: "./."
         },
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'python3'</script>
+    <script>kernelName = 'sparql'</script>
 
                 </article>
               

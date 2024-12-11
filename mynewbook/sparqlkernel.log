@@ -37,3 +37,5 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 502: Bad Gateway
 2024-11-29 10:56:48,364 WARNING utils.__init__: KrnlException: no endpoint defined
 NoneType: None
+2024-12-11 10:46:45,476 WARNING utils.__init__: KrnlException: no endpoint defined
+NoneType: None

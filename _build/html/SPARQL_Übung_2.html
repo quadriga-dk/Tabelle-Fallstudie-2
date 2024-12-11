@@ -466,33 +466,28 @@ document.write(`
 <p>Als nächstes wollen wir uns eine Liste von den Datenbereitstellern ansehen, sowie die Anzahl an Datensätzen je Bereitsteller. Damit können wir herausfinden, welcher Bereitstellende “am produktivsten” ist.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
-PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
-PREFIX dcatde: &lt;http://dcat-ap.de/def/dcatde/&gt;
-PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX pg: &lt;http://dcat-ap.de/def/politicalGeocoding/&gt;
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="x">%endpoint https://data.europa.eu/sparql</span>
+<span class="k">PREFIX</span> <span class="nn">dcat</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/ns/dcat#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">pg</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/politicalGeocoding/&gt;</span>
 
-SELECT ?contributorID (COUNT(DISTINCT ?datasetTitle) AS ?uniqueDatasetTitleCount)
-WHERE {
-  ?datasetURI a dcat:Dataset;
-              dct:title ?datasetTitle;
-              dcatde:contributorID ?contributorID;
-              dct:modified ?modified.
-  FILTER((LANG(?datasetTitle) = &quot;&quot; || LANG(?datasetTitle) = &quot;de&quot;) &amp;&amp; CONTAINS(LCASE(?datasetTitle), &quot;baumkataster&quot;))
-  FILTER(CONTAINS(STR(?modified), &quot;2022&quot;) || CONTAINS(STR(?modified), &quot;2023&quot;) || CONTAINS(STR(?modified), &quot;2024&quot;))
-}
-GROUP BY ?contributorID
+<span class="k">SELECT</span> <span class="nv">?contributorID</span> <span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span> <span class="nv">?datasetTitle</span><span class="p">)</span> <span class="k">AS</span> <span class="nv">?uniqueDatasetTitleCount</span><span class="p">)</span>
+<span class="k">WHERE</span> <span class="p">{</span>
+  <span class="nv">?datasetURI</span> <span class="k">a</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">Dataset</span><span class="p">;</span>
+              <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?datasetTitle</span><span class="p">;</span>
+              <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorID</span><span class="p">;</span>
+              <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span><span class="p">.</span>
+  <span class="k">FILTER</span><span class="p">((</span><span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;&quot;</span> <span class="o">||</span> <span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;de&quot;</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
+  <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
+<span class="p">}</span>
+<span class="k">GROUP BY</span> <span class="nv">?contributorID</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
-    <span class="n">PREFIX</span> <span class="n">rdfs</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">w3</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mi">2000</span><span class="o">/</span><span class="mi">01</span><span class="o">/</span><span class="n">rdf</span><span class="o">-</span><span class="n">schema</span><span class="c1">#&gt;</span>
-                                         <span class="o">^</span>
-<span class="ne">SyntaxError</span>: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
-</pre></div>
-</div>
-</div>
+<div class="output text_html"><div class="krn-spql"><div class="magic">Endpoint set to: https://data.europa.eu/sparql</div></div></div></div>
 </div>
 <div class="tip dropdown admonition">
 <p class="admonition-title">Erklärung des Codes</p>
@@ -501,29 +496,46 @@ GROUP BY ?contributorID
 <p>Es erweist sich, dass die Datenbereitsteller Open Data Bayern und Open NRW, also die zwei deutsche Bundesländer, die größte Anzahl an Datensätzen leisten, mit jeweils 5. Das Ergebnis dieser Aufsummierung klingt plausibel, da Bayern und NRW die zwei größten Bundesländer in Deutschland sind.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
-PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
-PREFIX dcatde: &lt;http://dcat-ap.de/def/dcatde/&gt;
-PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX pg: &lt;http://dcat-ap.de/def/politicalGeocoding/&gt;
+<div class="highlight-sparql-nb notranslate"><div class="highlight"><pre><span></span><span class="k">PREFIX</span> <span class="nn">dcat</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/ns/dcat#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dct</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcatde</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/dcatde/&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">pg</span><span class="p">:</span> <span class="nl">&lt;http://dcat-ap.de/def/politicalGeocoding/&gt;</span>
 
-SELECT ?contributorID (COUNT(DISTINCT ?format) AS ?formatCount)
-WHERE {
-  ?datasetURI a dcat:Dataset;
-              dct:title ?datasetTitle;
-              dcatde:contributorID ?contributorID;
-              dct:modified ?modified.
-  OPTIONAL { ?datasetURI dcat:catalog ?catalog. }
-  FILTER((LANG(?datasetTitle) = &quot;&quot; || LANG(?datasetTitle) = &quot;de&quot;) &amp;&amp; CONTAINS(LCASE(?datasetTitle), &quot;baumkataster&quot;))
-  FILTER(CONTAINS(STR(?modified), &quot;2022&quot;) || CONTAINS(STR(?modified), &quot;2023&quot;) || CONTAINS(STR(?modified), &quot;2024&quot;))
+<span class="k">SELECT</span> <span class="nv">?contributorID</span> <span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span> <span class="nv">?format</span><span class="p">)</span> <span class="k">AS</span> <span class="nv">?formatCount</span><span class="p">)</span>
+<span class="k">WHERE</span> <span class="p">{</span>
+  <span class="nv">?datasetURI</span> <span class="k">a</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">Dataset</span><span class="p">;</span>
+              <span class="nn">dct</span><span class="p">:</span><span class="nt">title</span> <span class="nv">?datasetTitle</span><span class="p">;</span>
+              <span class="nn">dcatde</span><span class="p">:</span><span class="nt">contributorID</span> <span class="nv">?contributorID</span><span class="p">;</span>
+              <span class="nn">dct</span><span class="p">:</span><span class="nt">modified</span> <span class="nv">?modified</span><span class="p">.</span>
+  <span class="k">OPTIONAL</span> <span class="p">{</span> <span class="nv">?datasetURI</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">catalog</span> <span class="nv">?catalog</span><span class="p">.</span> <span class="p">}</span>
+  <span class="k">FILTER</span><span class="p">((</span><span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;&quot;</span> <span class="o">||</span> <span class="nf">LANG</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">)</span> <span class="o">=</span> <span class="s">&quot;de&quot;</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">LCASE</span><span class="p">(</span><span class="nv">?datasetTitle</span><span class="p">),</span> <span class="s">&quot;baumkataster&quot;</span><span class="p">))</span>
+  <span class="k">FILTER</span><span class="p">(</span><span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2022&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2023&quot;</span><span class="p">)</span> <span class="o">||</span> <span class="nf">CONTAINS</span><span class="p">(</span><span class="nf">STR</span><span class="p">(</span><span class="nv">?modified</span><span class="p">),</span> <span class="s">&quot;2024&quot;</span><span class="p">))</span>
 
-  ?datasetURI dcat:distribution ?distribution.
-  ?distribution dct:format ?format.
-}
-GROUP BY ?contributorID
+  <span class="nv">?datasetURI</span> <span class="nn">dcat</span><span class="p">:</span><span class="nt">distribution</span> <span class="nv">?distribution</span><span class="p">.</span>
+  <span class="nv">?distribution</span> <span class="nn">dct</span><span class="p">:</span><span class="nt">format</span> <span class="nv">?format</span><span class="p">.</span>
+<span class="p">}</span>
+<span class="k">GROUP BY</span> <span class="nv">?contributorID</span>
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="krn-spql"><table><tr class=hdr><th>contributorID</th>
+<th>formatCount</th></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/gdiDE" target="_other">http://dcat-ap.de/def/contributors/gdiDE</a></td>
+<td class=val>2</td></tr><tr class=even><td class=val><a href="https://offenedaten-konstanz.de/" target="_other">https://offenedaten-konstanz.de/</a></td>
+<td class=val>2</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/schleswigHolstein" target="_other">http://dcat-ap.de/def/contributors/schleswigHolstein</a></td>
+<td class=val>4</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/openNRW" target="_other">http://dcat-ap.de/def/contributors/openNRW</a></td>
+<td class=val>26</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/openDataBayern" target="_other">http://dcat-ap.de/def/contributors/openDataBayern</a></td>
+<td class=val>21</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain" target="_other">http://dcat-ap.de/def/contributors/stadtFrankfurtAmMain</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/mobilithek" target="_other">http://dcat-ap.de/def/contributors/mobilithek</a></td>
+<td class=val>1</td></tr><tr class=even><td class=val><a href="https://gdi-sh.de" target="_other">https://gdi-sh.de</a></td>
+<td class=val>3</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/freistaatSachsen" target="_other">http://dcat-ap.de/def/contributors/freistaatSachsen</a></td>
+<td class=val>1</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/stadtErlangen" target="_other">http://dcat-ap.de/def/contributors/stadtErlangen</a></td>
+<td class=val>1</td></tr><tr class=odd><td class=val><a href="http://dcat-ap.de/def/contributors/datenBW" target="_other">http://dcat-ap.de/def/contributors/datenBW</a></td>
+<td class=val>4</td></tr><tr class=even><td class=val><a href="https://opendata.stadt-muenster.de/" target="_other">https://opendata.stadt-muenster.de/</a></td>
+<td class=val>7</td></tr><tr class=odd><td class=val><a href="https://offenedaten-koeln.de/" target="_other">https://offenedaten-koeln.de/</a></td>
+<td class=val>4</td></tr><tr class=even><td class=val><a href="http://dcat-ap.de/def/contributors/transparenzportalHamburg" target="_other">http://dcat-ap.de/def/contributors/transparenzportalHamburg</a></td>
+<td class=val>8</td></tr></table><div class="tinfo">Total: 14, Shown: 14</div></div></div></div>
 </div>
 <p>Anbei auch die Ergebnisse der aufsummierten Datenformate je Datenbereitsteller. Nicht überraschend festzustellen ist, dass NRW und Bayern die breitesten Auswahl an Datenformaten leisten. Damit wird nicht impliziert, dass alle Datensätze in jeweils jedem Format vorhanden sind. Jedoch dient das als eine Maß für Flexibilität.</p>
 </section>
@@ -537,16 +549,16 @@ GROUP BY ?contributorID
         },
         codeMirrorConfig: {
             theme: "abcdef",
-            mode: "python"
+            mode: "sparql"
         },
         kernelOptions: {
-            name: "python3",
+            name: "sparql",
             path: "./."
         },
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'python3'</script>
+    <script>kernelName = 'sparql'</script>
 
                 </article>
               
