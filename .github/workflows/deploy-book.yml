@@ -38,7 +38,7 @@ jobs:
     - name: Debug Kernel
       run: |
         jupyter kernelspec list
-        python -c "import sparqlkernel; print('SPARQL Kernel loaded')"
+        python -c "import sparql; print('SPARQL Kernel loaded')"
 
     # Build the book
     - name: Build the book
