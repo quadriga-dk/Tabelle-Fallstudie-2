@@ -30,15 +30,18 @@ jobs:
 
     - name: Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install sparqlwrapper
         pip install sparqlkernel
-        python -m sparqlkernel.install
+        python -m sparqlkernel.install --user
+        python -m jupyter kernelspec list
 
     # Debugging
-   # - name: Debug Kernel
-    #  run: |
-    #    jupyter kernelspec list
-    #    python -c "import sparql; print('SPARQL Kernel loaded')"
+    - name: Verify Kernel Installation
+      run: |
+        jupyter kernelspec list
+        jupyter kernelspec install sparqlkernel --user
 
     # Build the book
     - name: Build the book
@@ -55,4 +58,3 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
-
