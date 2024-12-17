@@ -1,2 +1,4 @@
 conda
 __pycache__
+venv/
+_build/

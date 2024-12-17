@@ -1,8 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Template Book
+title: Tabelle-Fallstudie-2
 author: Hannes Schnaitter
+root_file: intro
 logo: assets/logo.jpg
 copyright: "2024, QUADRIGA"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md]
@@ -12,6 +13,7 @@ exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, 
 execute:
   execute_notebooks: force
   kernel: sparql
+  timeout: 300  # 5 minutes
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -26,6 +28,9 @@ bibtex_bibfiles:
 sphinx:
   config:
     bibtex_reference_style: author_year
+  extra_extensions:
+    - sphinx.ext.autosummary
+    - sphinx.ext.autodoc
 
 # Information about where the book exists on the web
 repository:

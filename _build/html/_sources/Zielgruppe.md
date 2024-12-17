@@ -1,2 +1,0 @@
-# Zielgruppe
-Text
