@@ -6,9 +6,9 @@ root: Titelseite
 parts:
   - caption: 1. Einführung
     chapters: 
-    - file: Zielgruppe
-    - file: Datenbasis
-    - file: Struktur
+    - file: Einführung_Zielgruppe
+    - file: Einführung_Datenbasis
+    - file: Einführung_Struktur
 
   - caption: 2. Semantic Web & Linked Data
     chapters:
