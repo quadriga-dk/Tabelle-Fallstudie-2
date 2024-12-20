@@ -2,11 +2,13 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: Titelseite
 parts:
   - caption: 1. Einführung
     chapters: 
     - file: Zielgruppe
+    - file: Datenbasis
+    - file: Struktur
 
   - caption: 2. Semantic Web & Linked Data
     chapters:
