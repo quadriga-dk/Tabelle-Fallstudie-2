@@ -35,6 +35,6 @@ Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es au
 
 ```{admonition} Abfragesprachen
 :class: keypoints
-- Die Lernende können maschinelle Abfragen von Daten in Open Data Portalen unter Anwendung von SPARQL verfassen.
-- Die Lernende sind in der Lage, verschiedene SPARQL-Techniken über die API von data.europa anzuwenden.
+- Die Lernenden können maschinelle Abfragen von Daten in Open Data Portalen unter Anwendung von SPARQL verfassen.
+- Die Lernenden sind in der Lage, verschiedene SPARQL-Techniken über die API von data.europa anzuwenden.
 ```
