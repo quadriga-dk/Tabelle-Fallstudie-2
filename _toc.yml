@@ -42,4 +42,7 @@ parts:
   - caption: 6. Zusammenfassung & Ausblick
     chapters:
     - file: Zusammenfassung
+
+  - caption: 7. Abschluss
+    - file: Danksagung
     - file: Literaturverzeichnis

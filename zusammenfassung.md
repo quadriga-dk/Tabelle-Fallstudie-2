@@ -1,2 +1,2 @@
 # Zusammenfassung
-Text
+In dieser Selbstlerneinheit lag der Fokus auf wichtigen Metadatenkonzepten
