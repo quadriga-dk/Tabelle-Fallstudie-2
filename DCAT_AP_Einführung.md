@@ -12,3 +12,6 @@ Seit Anfang 2019 akzeptiert GovData ausschließlich Metadaten, die im Standard D
 Mit der Einführung seines Standards hat sich DCAT-AP.de zu einem unverzichtbaren Werkzeug für die Standardisierung und Interoperabilität von Metadaten im öffentlichen Sektor entwickelt. Es schafft die Grundlage für eine effiziente Datenbereitstellung und erleichtert den Datenaustausch zwischen verschiedenen Verwaltungsebenen und Institutionen. Die Einführung dieses Standards ermöglicht es, die Vielfalt der bereitgestellten Datensätze konsistent zu strukturieren und deren Auffindbarkeit sowie Nachnutzbarkeit deutlich zu verbessern.
 
 In diesem Kapitel wird daher nicht nur die Entstehungsgeschichte und der Zweck von DCAT-AP.de beleuchtet, sondern auch die praktische Relevanz für die digitale Verwaltung in Deutschland aufgezeigt. Besonderes Augenmerk liegt dabei auf der Rolle von Metadatenstandards für eine transparente, zugängliche und kooperative Dateninfrastruktur, die sowohl den öffentlichen als auch den wissenschaftlichen und zivilgesellschaftlichen Sektor nachhaltig unterstützt.
+
+
+lllll
