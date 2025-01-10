@@ -44,5 +44,6 @@ parts:
     - file: Zusammenfassung
 
   - caption: 7. Abschluss
+    chapters:
     - file: Danksagung
     - file: Literaturverzeichnis
