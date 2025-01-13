@@ -1,5 +1,6 @@
 # Zielgruppe
 **Für wen ist dieses JupyterBook gedacht?**
+
 Dieses Selbstlernangebot richtet sich vorwiegend an Verwaltungswissenschaftler:innen und alle Personen, die an digitaler Verwaltung interessiert sind, da die hier vermittelten Inhalte anhand des Datentyps Tabelle aufbereitet sind. Zudem sind die hier entwickelten Lerneinheiten an einem Fallbeispiel konstruiert, das für diese Disziplin typisch ist.
 
 Die Zielgruppe sind promovierende und promovierte Wissenschaftler:innen, aber auch Lehrende, die das Angebot für die eigene Lehre nachnutzen wollen.
@@ -7,6 +8,7 @@ Die Zielgruppe sind promovierende und promovierte Wissenschaftler:innen, aber au
 Grundsätzlich steht das JupyterBook aber selbstverständlich allen Interessierten offen.
 
 **Welche Voraussetzungen sind zur Absolvierung der Lerneinheiten erforderlich?**
+
 Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.
 
 Für die Kapitel 2. Datennachnutzung und FAIR-Prinzipien, 3. Qualitätsbewertung und 5-Sterne-Modell sowie 4. Identifikatoren und Linked Data werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
