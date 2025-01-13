@@ -4,12 +4,14 @@ Um mit Daten zu arbeiten, müssen diese zunächst gefunden werden. Dieses Jupyte
 
 ## Fokus
 Im Fokus dieser Fallstudie steht das europäische Metadatenportal <a href="https://data.europa.eu/en" target="_blank">data.europa</a>, über das Metadaten von Datensätzen u. a. aus Deutschland erfragt werden können. Die folgende Forschungsfrage wurde formuliert, basierend auf einem Szenario, in dem Daten über Bäume gesammelt werden sollen, um zu entscheiden, an welchen Stellen zusätzliche Bewässerung erforderlich ist.
-**Forschungsfrage: Welche offenen Daten gibt es, die dazu beitragen, den Bewässerungsbedarf von Bäumen in einer bestimmten Region zu ermitteln?**  
+
+**Welche offenen Daten gibt es, die dazu beitragen, den Bewässerungsbedarf von Bäumen in einer bestimmten Region zu ermitteln?**  
+
 Um diese zu beantworten, vermittelt dieses JupyterBook Kenntnisse in Bezug auf wichtige Konzepte, wie Semantic Web, sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache *SPARQL*.  
 
 ## Bedeutung des JupyterBooks für die Verwaltungswissenschaft
 
-Die Auffindbarkeit von Daten wird durch diese beschreibende Metadaten wesentlich vereinfacht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz. Dies gilt insbesondere für <a href="https://www.dcat-ap.de/" target="_blank">DCAT-AP</a> als gemeinsamer Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen fundamental erleichtern kann.
+Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz. Dies gilt insbesondere für <a href="https://www.dcat-ap.de/" target="_blank">DCAT-AP</a> als gemeinsamer Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen fundamental erleichtern kann.
 
 
 ## Lernziele bzw. zu erwerbende Kompetenzen
