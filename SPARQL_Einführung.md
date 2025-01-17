@@ -1,5 +1,11 @@
 # Einführung
-In diesem Kapitel wird die Abfragesprache SPARQL vorgestellt, die speziell zur Abfrage von Daten in RDF-Formaten entwickelt wurde. SPARQL ermöglicht es, gezielt Metadaten aus Open Data Portalen wie data.europa.eu abzurufen und komplexe Fragestellungen maschinell zu beantworten. Ziel dieses Kapitels ist es, eine praxisnahe Anwendung von SPARQL zu veranschaulichen und unterschiedliche Abfragetechniken zu erlernen.
+```{admonition} Lernziele
+:class: keypoints
+- Lernende befassen sich mit der maschinellen Abfrage von DAten in Open Data Portalen unter Anwendung von SPARQL
+- Lernende praktizieren verschiedene SPARQL Techniken über die API von data.europa
+```
+
+In diesem Kapitel wird die Abfragesprache SPARQL vorgestellt, die speziell zur Abfrage von Daten in RDF-Formaten entwickelt wurde {cite}`ducharme_learning_2013`. SPARQL ermöglicht es, gezielt Metadaten aus Open Data Portalen wie data.europa.eu abzurufen und komplexe Fragestellungen maschinell zu beantworten. Ziel dieses Kapitels ist es, eine praxisnahe Anwendung von SPARQL zu veranschaulichen und unterschiedliche Abfragetechniken zu erlernen.
 
 Das Erfragen von Metadaten kann durch die Erstellung von queries erreicht werden. Queries ist der englische Begriff für Abfragen von Daten oder Informationen, beispielsweise aus Datenbanken, Suchmaschinen oder Datensuchportalen wie Google oder wissenschaftlichen Archiven. Solche Abfragen können genau mithilfe SPARQL gestaltet werden. *(was genau ist mit dem letzten Satz gemeint?)*
 

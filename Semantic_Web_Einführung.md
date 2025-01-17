@@ -1,4 +1,10 @@
 # Einführung
+```{admonition} Lernziele
+:class: keypoints
+- Die Lernenden sind vertraut mit semantischen Technologien und Linked Data
+- Die Lernenden verstehen, dass Open Data Portale auf semantischen Technologien basieren und kennen die Linked Data Grundprinzipien, die hier angewendet werden.
+```
+
 In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welches eine zentrale Rolle in der modernen Datenverarbeitung und Datennutzung einnimmt. Dabei wird aufgezeigt, wie semantische Technologien dazu beitragen, Informationen besser zu strukturieren, zu verknüpfen und maschinell interpretierbar zu machen.
 
 Der Begriff 'Semantische Technologien' entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologie sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Die sollen Informationen maschinell verständlich machen, indem sie Bedeutung (Semantik) und Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später auch erklären.
@@ -7,7 +13,7 @@ Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschlic
 
 Die Integration semantischer Technologien in IT-Lösungen erlaubt die Automatisierung von Prozessen und die Einführung von "Intelligenz" in Softwaresysteme. Dadurch können Operationen ausgeführt werden, die mit herkömmlichen, datenbasierten Ansätzen nicht möglich sind. Semantische Technologien machen implizite Informationen explizit und fördern dadurch Interoperabilität und logisches Schließen. Software-Agenten können somit Dienste für Benutzer suchen und bereitstellen.
 
-Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist.  Die bevorzugte Sprache OWL findet in der verwaltungswissenschaftlichen Gemeinschaft breite Akzeptanz. 
+Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Ontologien sind zu einem wichtigen Instrument geworden, ohne welches die produktive Datenadministrierung und -implementierung heutzutage unvorstellbar wären {cite}`gardner_ontologies_2005`. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist.  Die bevorzugte Sprache OWL findet in der verwaltungswissenschaftlichen Gemeinschaft breite Akzeptanz. 
 
 Die Betrachtung des Semantic Web ist in vielerlei Hinsicht relevant: Es eröffnet neue Möglichkeiten für die Datenverarbeitung, verbessert die Interoperabilität zwischen verschiedenen Systemen und erleichtert die Nachnutzung von Daten. Dies ist besonders für Forschungsfelder von Bedeutung, in denen große Datenmengen analysiert und reproduzierbare Ergebnisse angestrebt werden.
 
