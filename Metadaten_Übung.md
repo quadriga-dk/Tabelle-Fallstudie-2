@@ -5,12 +5,12 @@ Die Metadatenqualität wird anhand von definierten Kriterien bewertet, die in Ka
 
 Durch diese praktische Übung können Sie die Relevanz von qualitativ hochwertigen Metadaten für offene Datenportale wie GovData nachvollziehen und Handlungsempfehlungen für deren Verbesserung entwickeln.
 
-Die Bewertungsevolution von GovData beträgt 236 von maximal möglichen 405 Punkten, was einer "guten" Note entspricht. Trotzdem gibt es erhebliche Lücken, die nicht ignoriert werden können. Auf diese werden wir im Folgenden genauer eingehen.  Diese Übung soll Ihnen helfen, ein vertieftes Verständnis für die Bedeutung von Metadatenqualität zu entwickeln und gleichzeitig konkrete Strategien zur Verbesserung zu erarbeiten. 
+Die Bewertungsevaluation von GovData beträgt 236 von maximal möglichen 405 Punkten, was einer "guten" Note entspricht. Trotzdem gibt es erhebliche Lücken, die nicht ignoriert werden können. Auf diese werden wir im Folgenden genauer eingehen.  Diese Übung soll Ihnen helfen, ein vertieftes Verständnis für die Bedeutung von Metadatenqualität zu entwickeln und gleichzeitig konkrete Strategien zur Verbesserung zu erarbeiten. 
 
 Um die Übung erfolgreich zu bearbeiten, folgen Sie bitte den untenstehenden Schritten und Hinweisen:
 
-**1. Besuchen Sie die Metadatenevaluationsseite des deutschen Metadatenportals** 
-Gehen Sie auf die Seite über diesen Link: [Open Data Portal Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung und können diese als Ausgangspunkt für Ihre Analyse nutzen.
+**1. Besuchen Sie die Website des deutschen Metadatenportals zur Metadatenevaluation** 
+Rufen Sie dafür diesen Link auf: [Open Data Portal Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung und können diese als Ausgangspunkt für Ihre Analyse nutzen.
 
 **2. Lesen Sie die Fragen aufmerksam durch**
 Bevor Sie die Antworten ansehen, versuchen Sie die Fragen eigenständig zu beantworten. Dies fördert das Verständnis für die zugrunde liegenden Probleme und deren Auswirkungen.
