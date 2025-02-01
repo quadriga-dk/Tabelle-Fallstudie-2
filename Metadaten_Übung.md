@@ -10,9 +10,11 @@ Die Bewertungsevaluation von GovData beträgt 236 von maximal möglichen 405 Pun
 Um die Übung erfolgreich zu bearbeiten, folgen Sie bitte den untenstehenden Schritten und Hinweisen:
 
 **1. Besuchen Sie die Website des deutschen Metadatenportals zur Metadatenevaluation** 
+
 Rufen Sie dafür diesen Link auf: [Open Data Portal Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung und können diese als Ausgangspunkt für Ihre Analyse nutzen.
 
 **2. Lesen Sie die Fragen aufmerksam durch**
+
 Bevor Sie die Antworten ansehen, versuchen Sie die Fragen eigenständig zu beantworten. Dies fördert das Verständnis für die zugrunde liegenden Probleme und deren Auswirkungen.
 
 Die relevanten Fragen sind:
@@ -21,9 +23,11 @@ Die relevanten Fragen sind:
 **Warum sind Elemente des DCAT-AP-Schemas verletzt? Warum wird das zum Problem?**
 
 **3. Vergleichen Sie Ihre Antworten mit den bereitgestellten Lösungen**
+
 Klappen Sie anschließend die Antworten auf der Webseite aus und vergleichen Sie diese mit Ihren eigenen Überlegungen. So können Sie Lücken in Ihrem Verständnis identifizieren und Ihr Wissen vertiefen.
 
 **4. Analysieren Sie die Ergebnisse des MQA-Tools**
+
 Verwenden Sie das Metadata Quality Assessment (MQA)-Tool, um die Bewertung von GovData nachzuvollziehen. Die dort festgestellten Stärken und Schwächen bieten eine praktische Grundlage für Ihre weitere Analyse. Unter *Katalog Dashboard* finden Sie die eine Zusammenfassung aller Kriterien. 
 
 `````{admonition} Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal?
