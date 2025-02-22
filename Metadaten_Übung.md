@@ -1,7 +1,7 @@
 # Übung zur Bewertung der Metadatenqualität von GovData 
 Im Rahmen dieser Übung beschäftigen wir uns mit der Bewertung der Metadatenqualität auf der Plattform GovData, dem zentralen Datenportal für offene Daten in Deutschland. GovData bietet Zugang zu einer Vielzahl von Datensätzen aus verschiedenen öffentlichen Institutionen und Behörden, wobei die Qualität der Metadaten eine entscheidende Rolle für die Auffindbarkeit, Nachnutzung und Integration der Daten spielt.
 
-Die Metadatenqualität wird anhand von definierten Kriterien bewertet, die in Kapitel 4 ausführlich behandelt wurden. Hierzu zählen beispielsweise Vollständigkeit, Verständlichkeit und Konsistenz der bereitgestellten Informationen. Diese Übung knüpft direkt an die theoretischen Grundlagen an und ermöglicht eine praxisnahe Anwendung, bei der die Stärken und Schwächen der vorhandenen Metadaten analysiert werden.
+Die Metadatenqualität wird anhand von definierten Kriterien bewertet, die in Kapitel 4 (*Wirklich Kap. 4 - ansonsten noch eindeutlicher verweisen*) ausführlich behandelt wurden. Hierzu zählen beispielsweise Vollständigkeit, Verständlichkeit und Konsistenz der bereitgestellten Informationen. Diese Übung knüpft direkt an die theoretischen Grundlagen an und ermöglicht eine praxisnahe Anwendung, bei der die Stärken und Schwächen der vorhandenen Metadaten analysiert werden.
 
 Durch diese praktische Übung können Sie die Relevanz von qualitativ hochwertigen Metadaten für offene Datenportale wie GovData nachvollziehen und Handlungsempfehlungen für deren Verbesserung entwickeln.
 
