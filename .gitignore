@@ -1,4 +1,5 @@
 conda
 __pycache__
 venv/
-_build/
+**/_build/**
+.ipynb_checkpoints
