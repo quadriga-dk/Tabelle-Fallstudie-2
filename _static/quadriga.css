@@ -1,3 +1,6 @@
+/* font-awesome icons library */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
 /* Custom variables */
 :root {
     --quadriga-main: #00305e;
