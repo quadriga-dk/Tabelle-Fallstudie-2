@@ -1,6 +1,6 @@
 # Einführung
 ```{admonition} Lernziele
-:class: keypoints
+:class: lernziele
 - Lernende befassen sich mit der maschinellen Abfrage von Daten in Open Data Portalen unter Anwendung von SPARQL
 - Lernende praktizieren verschiedene SPARQL Techniken über die API von data.europa
 ```

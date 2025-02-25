@@ -29,17 +29,17 @@ Die relevanten Fragen sind:
 Verwenden Sie das Metadata Quality Assessment (MQA)-Tool, um die Bewertung von GovData nachzuvollziehen. Die dort festgestellten Stärken und Schwächen bieten eine praktische Grundlage für Ihre weitere Analyse. Unter *Katalog Dashboard* finden Sie die eine Zusammenfassung aller Kriterien. 
 
 `````{admonition} Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal?
-:class: solution
+:class: exercise
 ````{admonition} Lösung
-:class: dropdown
+:class: solution, dropdown
 Wählen Sie den Reiter "Zugangsprobleme" in der oberen Leiste aus. Diese Seite gibt einen Überblick über alle Datensätze mit nicht erreichbaren *Distributions*, d.h. die hinterlegten Links sind z. B. defekt oder die entsprechenden Server nicht verfügbar.   Suchen Sie beispielhaft nach dem Datensatz *Statistisches Jahrbuch - Hamburg 2018/2019*. Öffnen Sie die Einträge zu diesem Datensatz. Man kann prüfen, ob der Datensatz über eine eindeutige und beständige PID (Persistent Identifier) verfügt, z. B. eine DOI, die den langfristigen Zugriff und die Auffindbarkeit gewährleistet. PIDs sind ein wesentliches Element für die Auffindbarkeit von Daten, da sie dafür sorgen, dass ein Datensatz langfristig und zuverlässig zugänglich bleibt, auch wenn sich der Speicherort oder die URL ändert. Ohne eine PID kann es zu Zugangsproblemen kommen, die durch "tote Links" oder veraltete URLs verursacht werden. Solche Probleme sind im deutschen Datenportal kein Einzelfall und betreffen die FAIR-Dimension *Auffindbarkeit* besonders stark, da Nutzer Schwierigkeiten haben, die gewünschten Daten zu finden oder darauf zuzugreifen. Dadurch leidet die Gesamtbewertungsnote des Portals.
 ````
 `````
 
 `````{admonition} Warum sind Elemente der DCAT-AP-Schema verletzt? Warum wird das zum Problem?
-:class: solution
+:class: exercise
 ````{admonition} Lösung
-:class: dropdown
+:class: solution, dropdown
 Wählen wir “DCAT-AP Schemaverletzungen” im rechten oberen Reiter. Diese Unterseite gibt einen Überblick über Datensätze, die das DCAT-AP Schema nicht vollständig einhalten und somit potenzielle Nutzungsprobleme aufweisen. Schauen wir uns als Beispiel den Datensatz "Entwicklung von Umsatz und Beschäftigung im Großhandel in Schleswig-Holstein Februar 2022" an. Der Fehler bezieht sich hier auf das Element http://www.w3.org/ns/dcat#mediaType. Laut Fehlerbeschreibung wird für dieses Element ein BlankNode oder eine IRI erwartet, jedoch ist der tatsächliche Wert auf "application/pdf" gesetzt, was nicht den Schema-Anforderungen entspricht.
 
 Dieser Fehler stellt eine Verletzung des DCAT-AP Standards dar, der Metadaten für offene Daten in der EU harmonisieren soll. Das DCAT-AP Schema erwartet für das mediaType-Feld eine Verknüpfung mit einem spezifischen IRI oder BlankNode, um eine einheitliche und maschinenlesbare Metadatenstruktur zu gewährleisten. Durch die falsche Angabe ("application/pdf" anstatt einer IRI) wird die maschinelle Lesbarkeit beeinträchtigt, was wiederum zu Zugangsproblemen führen kann. In der Praxis bedeutet dies, dass andere Systeme oder Anwendungen Schwierigkeiten haben könnten, den Dateityp automatisch zu erkennen und korrekt darzustellen. Der Wert ist zwar für Menschen verständlich, jedoch fehlt die Standardisierung für die maschinelle Verarbeitung, die das DCAT-AP Schema verlangt.
