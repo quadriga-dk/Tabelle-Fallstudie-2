@@ -18,6 +18,7 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: 3.11
+        cache: pip
 
     - name: Install dependencies
       run: |
@@ -28,9 +29,18 @@ jobs:
         python -m sparqlkernel install --user
         jupyter kernelspec list
 
+    # (optional) Cache your executed notebooks between runs 
+    # if you have config:
+    # execute:
+    #   execute_notebooks: cache
+    - name: cache executed notebooks
+      uses: actions/cache@v3
+      with:
+        path: _build/.jupyter_cache
+        key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
+
     - name: Build the book
       run: |
-        jupyter-book config sphinx .
         jupyter-book build .
 
     - name: Upload artifact
