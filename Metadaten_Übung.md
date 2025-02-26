@@ -11,32 +11,15 @@ Um die Übung erfolgreich zu bearbeiten, folgen Sie bitte den untenstehenden Sch
 
 **1. Besuchen Sie die Website des Metadata Quality Dashboards des europäischen Metadatenportals bezogen auf das deutsche Datenportal** 
 
-Besuchen Sie das Metadata Quality Dashboard des europäischen Metadatenportals und schauen sich hier die Bewertung des Datenportals für Deutschland an: [Govdata - Das Datenportal für Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung und können diese als Ausgangspunkt für Ihre Analyse nutzen.
-
-**2. Lesen Sie die Fragen aufmerksam durch**
-
-Bevor Sie die Antworten ansehen, versuchen Sie die Fragen eigenständig zu beantworten. Dies fördert das Verständnis für die zugrunde liegenden Probleme und deren Auswirkungen. Erst danach klappen Sie die untenstehenden Antworten dieser Übung auf und vergleichen Sie diese mit Ihren eigenen Überlegungen. So können Sie Lücken in Ihrem Verständnis identifizieren und Ihr Wissen vertiefen.
-
-
-Die relevanten Fragen sind:
+Besuchen Sie das Metadata Quality Dashboard des europäischen Metadatenportals und schauen sich hier die Bewertung des Datenportals für Deutschland an: [Govdata - Das Datenportal für Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung. 
 
 **1. Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal (GovData?)**
-**2. Warum sind Elemente des DCAT-AP-Schemas verletzt? Warum wird das zum Problem?**
 
-
-**3. Analysieren Sie die Ergebnisse des MQA-Tools**
-
-1. Auf der Unterseite von GovData ist der Reiter Katalog Dashboard zugänglich. In diesem Bereich wird die Bewertung von GovData anhand von fünf Dimensionen dargestellt: Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Analysieren Sie, welche der fünf Dimensionen aktuell am schlechtesten abschneidet und welche spezifischen Indikatoren hierfür verantwortlich sind. Klicken Sie auf die Dimension. In einem sich öffnenen Fenster können Sie sich genauer anschauen, welcher Indikator am schlechtesten abschneidet. Durch Anklicken der jeweiligen Dimension öffnet sich ein Fenster, das detaillierte Informationen enthält. Zudem sind die Indikatoren dort verlinkt, sodass eine genauere Erläuterung der einzelnen Indikatoren eingesehen werden kann.
+Auf der Unterseite von GovData ist der Reiter Katalog Dashboard zugänglich. In diesem Bereich wird die Bewertung von GovData anhand von fünf Dimensionen dargestellt: Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Analysieren Sie, welche der fünf Dimensionen aktuell am schlechtesten abschneidet und welche spezifischen Indikatoren hierfür verantwortlich sind. Klicken Sie auf die Dimension. In einem sich öffnenen Fenster können Sie sich genauer anschauen, welcher Indikator am schlechtesten abschneidet. Durch Anklicken der jeweiligen Dimension öffnet sich ein Fenster, das detaillierte Informationen enthält. Zudem sind die Indikatoren dort verlinkt, sodass eine genauere Erläuterung der einzelnen Indikatoren eingesehen werden kann.
    
-3. *Sami hier bitte noch die Aufgabenstellung einfügen zur 2. Unterfrage*
+**2. Warum sind Elemente des DCAT-AP-Schemas verletzt? Warum wird das zum Problem?**
+*Sami hier bitte noch die Aufgabenstellung einfügen zur 2. Unterfrage*
 
-`````{admonition} Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal?
-:class: solution
-````{admonition} Lösung
-:class: dropdown
-Wählen Sie den Reiter "Zugangsprobleme" in der oberen Leiste aus. Diese Seite gibt einen Überblick über alle Datensätze mit nicht erreichbaren *Distributions*, d.h. die hinterlegten Links sind z. B. defekt oder die entsprechenden Server nicht verfügbar. Suchen Sie beispielhaft nach dem Datensatz *Statistisches Jahrbuch - Hamburg 2018/2019*. Öffnen Sie die Einträge zu diesem Datensatz. Man kann prüfen, ob der Datensatz über eine eindeutige und beständige PID (Persistent Identifier) verfügt, z. B. eine DOI, die den langfristigen Zugriff und die Auffindbarkeit gewährleistet. PIDs sind ein wesentliches Element für die Auffindbarkeit von Daten, da sie dafür sorgen, dass ein Datensatz langfristig und zuverlässig zugänglich bleibt, auch wenn sich der Speicherort oder die URL ändert. Ohne eine PID kann es zu Zugangsproblemen kommen, die durch "tote Links" oder veraltete URLs verursacht werden. Solche Probleme sind im deutschen Datenportal kein Einzelfall und betreffen die FAIR-Dimension *Auffindbarkeit* besonders stark, da Nutzer Schwierigkeiten haben, die gewünschten Daten zu finden oder darauf zuzugreifen. Dadurch leidet die Gesamtbewertungsnote des Portals.
-````
-`````
 
 `````{admonition} Warum sind Elemente der DCAT-AP-Schema verletzt? Warum wird das zum Problem?
 :class: solution
