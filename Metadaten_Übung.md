@@ -12,10 +12,12 @@ Die Bewertungsevaluation von GovData beträgt 236 von maximal möglichen 405 Pun
 Besuchen Sie das Metadata Quality Dashboard des europäischen Metadatenportals und schauen sich hier die Bewertung des Datenportals für Deutschland an: [Govdata - Das Datenportal für Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung. 
 
 **1. Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal (GovData?)**
+
 An dieser Stelle kann die Metadatenqualität von GovData eingesehen werden. Dabei ist zu beachten, dass sich diese Bewertung kontinuierlich verändert. Unter dem Reiter *Katalog Dashboard* wird die Bewertung von GovData anhand von der fünf Dimensionen dargestellt: Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Analysieren Sie, welche der fünf Dimensionen aktuell am schlechtesten abschneidet und welche spezifischen Indikatoren hierfür verantwortlich sind. Klicken Sie auf die Dimension. In einem sich öffnenen Fenster können Sie sich genauer anschauen, welcher Indikator am schlechtesten abschneidet. Durch Anklicken der jeweiligen Dimension öffnet sich ein Fenster, das detaillierte Informationen enthält. Zudem sind die Indikatoren dort verlinkt, sodass eine genauere Erläuterung der einzelnen Indikatoren eingesehen werden kann.
    
 **2. Warum sind Elemente des DCAT-AP-Schemas verletzt? Warum wird das zum Problem?**
-*Sami hier bitte noch die Aufgabenstellung einfügen zur 2. Unterfrage*
+
+*Sami hier bitte noch die Aufgabenstellung etwas anpassen*
 
 
 `````{admonition} Warum sind Elemente der DCAT-AP-Schema verletzt? Warum wird das zum Problem?
