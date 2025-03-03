@@ -1,6 +1,6 @@
 # Einführung in DCAT-AP
 ```{admonition} Lernziele
-:class: keypoints
+:class: lernziele
 - Lernende haben sich mit dem Zweck von Metadatastandards befasst und kennen die Struktur von DCAT-AP.
 ```
 

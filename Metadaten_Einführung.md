@@ -1,6 +1,6 @@
 # Einführung
 ```{admonition} Lernziele
-:class: keypoints
+:class: lernziele
 - Lernende erkennen, dass die FAIR-Prinzipien ein Grundgerüst zur Messung von Metadatenqualität ist
 - Lernenden lernen ein Messverfahren zur Metadatenqualität im europäischen Datenportal kennen
 - Lernende setzen sich mit typischen Problemen in der Metadatenqualität auseinander und indem sie Prüfberichten bewerten.
