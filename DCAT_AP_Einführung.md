@@ -1,3 +1,5 @@
+(dcat-1)=
+
 # Einführung in DCAT-AP
 ```{admonition} Lernziele
 :class: lernziele
