@@ -15,6 +15,7 @@ parts:
     - file: Semantic_Web_Einführung
     - file: Semantic_Web_Definition
     - file: Semantic_Web_Layer_Cake
+    - file: Semantic_Web_Übung
     - file: Semantic_Web_Reflexion
 
   - caption: 3. DCAT-AP Metadatenstandard
