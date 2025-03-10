@@ -8,14 +8,13 @@ Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der
 Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.
 
 
-
 **1. Technologien verstehen** 
 
-Um die Forschungsfrage zu beantworten, benötigen wir Daten. Diese können und wollen wir nicht selbst erheben, weshalb wir Daten nachnutzen müssen. Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenportal zurück. Daher werden zuerst die grundlegenden Technologien erläutert, die gängige Metadatenschemata ausmachen, nämlich Semantic Web & Linked Data.
+Um die Forschungsfrage zu beantworten, benötigen wir Daten. Diese können und wollen wir nicht selbst erheben, weshalb wir Daten nachnutzen müssen. Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenportal <a href="https://data.europa.eu/en" target="_blank">data.europa</a> zurück. Daher werden zuerst die grundlegenden Technologien erläutert, die gängige Metadatenschemata ausmachen, nämlich Semantic Web & Linked Data.
 
 **2. Werkzeuge kennenlernen**
 
-Wir machen Sie mit einem der zentralen Werkzeuge für die Operationalisierung von Metadatenrepositorien vertraut: dem DCAT-AP-Standardisierungsschema, das auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. In dieser Fallstudie werden außerdem die Nutzung von SPARQL und erste praktische Schritte anschaulich erklärt.
+Wir machen Sie mit einem der zentralen Werkzeuge für die Operationalisierung von Metadatenrepositorien vertraut: dem DCAT-AP-Standardisierungsschema, das auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. In dieser Fallstudie werden außerdem die Nutzung der Abfragesprache SPARQL und erste praktische Schritte anschaulich erklärt.
 
 **3. Datenqualität messen:** 
 
