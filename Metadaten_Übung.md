@@ -9,9 +9,9 @@ Die Bewertungsevaluation von GovData beträgt 236 von maximal möglichen 405 Pun
 
 **Besuchen Sie die Website des Metadata Quality Dashboards des europäischen Metadatenportals** 
 
-Besuchen Sie das Metadata Quality Dashboard des europäischen Metadatenportals und schauen sich hier die Bewertung des Datenportals für Deutschland an: [Govdata - Das Datenportal für Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung. 
+Schauen Sie sich auf dem Metadata Quality Dashboard des europäischen Metadatenportals die Bewertung für Deutschland an: [Govdata - Das Datenportal für Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung. 
 
-`````{admonition} 1. Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal (GovData?)
+`````{admonition} 1. Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal (GovData) zum Zeitpunkt Ihrer aktuellen Recherche?
 :class: solution
 ````{admonition} Lösung
 :class: dropdown
@@ -19,17 +19,6 @@ An dieser Stelle kann die Metadatenqualität von GovData eingesehen werden. Dabe
 ````
 `````
 
-`````{admonition} Warum sind Elemente der DCAT-AP-Schema verletzt? Warum wird das zum Problem?
-:class: solution
-````{admonition} Lösung
-:class: dropdown
-Wählen wir “DCAT-AP Schemaverletzungen” im rechten oberen Reiter. Diese Unterseite gibt einen Überblick über Datensätze, die das DCAT-AP Schema nicht vollständig einhalten und somit potenzielle Nutzungsprobleme aufweisen. Schauen wir uns als Beispiel den Datensatz "Entwicklung von Umsatz und Beschäftigung im Großhandel in Schleswig-Holstein Februar 2022" an. Der Fehler bezieht sich hier auf das Element http://www.w3.org/ns/dcat#mediaType. Laut Fehlerbeschreibung wird für dieses Element ein BlankNode oder eine IRI erwartet, jedoch ist der tatsächliche Wert auf "application/pdf" gesetzt, was nicht den Schema-Anforderungen entspricht.
-
-Dieser Fehler stellt eine Verletzung des DCAT-AP Standards dar, der Metadaten für offene Daten in der EU harmonisieren soll. Das DCAT-AP Schema erwartet für das mediaType-Feld eine Verknüpfung mit einem spezifischen IRI oder BlankNode, um eine einheitliche und maschinenlesbare Metadatenstruktur zu gewährleisten. Durch die falsche Angabe ("application/pdf" anstatt einer IRI) wird die maschinelle Lesbarkeit beeinträchtigt, was wiederum zu Zugangsproblemen führen kann. In der Praxis bedeutet dies, dass andere Systeme oder Anwendungen Schwierigkeiten haben könnten, den Dateityp automatisch zu erkennen und korrekt darzustellen. Der Wert ist zwar für Menschen verständlich, jedoch fehlt die Standardisierung für die maschinelle Verarbeitung, die das DCAT-AP Schema verlangt.
-
-Das Problem liegt darin, dass die Interoperabilität und Konsistenz der Metadaten beeinträchtigt werden. Wenn Metadaten uneinheitlich oder fehlerhaft sind, können Portale und Anwendungen Daten nicht effizient verarbeiten oder austauschen, was den Zugang und die Nutzbarkeit der Daten für Nutzer stark einschränkt. Dies wirkt sich negativ auf die Gesamtbewertung der Metadatenqualität im Portal aus und untergräbt die Ziele des DCAT-AP Standards, nämlich die Harmonisierung und Vernetzung von Datenkatalogen in Europa.
-````
-`````
 `````{admonition} Bewertung der Auffindbarkeit: Welche Indikatoren schneiden am schlechtesten ab?
 :class: solution
 ````{admonition} Lösung
@@ -44,7 +33,7 @@ Wählen Sie im Metadata Quality Dashboard den Bereich „Auffindbarkeit“ aus. 
 
 - Zeitbasierte Suche
 
-Analysieren Sie, welches dieser Kriterien die schlechtesten Ergebnisse aufweist. Aktuell schneidet die zeitbasierte Suche am schlechtesten ab.
+Analysieren Sie, welches dieser Kriterien die schlechtesten Ergebnisse aufweist. Stand März 2025 schneidet die zeitbasierte Suche am schlechtesten ab.
 
 - Warum ist die zeitbasierte Suche problematisch?
 
@@ -67,4 +56,14 @@ Lösungsansatz:
 - Implementierung automatisierter Validierungstools, um fehlende oder inkonsistente Zeitangaben frühzeitig zu erkennen.
 
 ````
-`````
+
+`````{admonition} Warum sind Elemente der DCAT-AP-Schema verletzt? Welche Probleme entstehen dadurch?
+:class: solution
+````{admonition} Lösung
+:class: dropdown
+Wählen wir “DCAT-AP Schemaverletzungen” im rechten oberen Reiter. Diese Unterseite gibt einen Überblick über Datensätze, die das DCAT-AP Schema nicht vollständig einhalten und somit potenzielle Nutzungsprobleme aufweisen. Schauen wir uns als Beispiel den Datensatz "Entwicklung von Umsatz und Beschäftigung im Großhandel in Schleswig-Holstein Februar 2022" an. Der Fehler bezieht sich hier auf das Element http://www.w3.org/ns/dcat#mediaType. Laut Fehlerbeschreibung wird für dieses Element ein BlankNode oder eine IRI erwartet, jedoch ist der tatsächliche Wert auf "application/pdf" gesetzt, was nicht den Schema-Anforderungen entspricht.
+
+Dieser Fehler stellt eine Verletzung des DCAT-AP Standards dar, der Metadaten für offene Daten in der EU harmonisieren soll. Das DCAT-AP Schema erwartet für das mediaType-Feld eine Verknüpfung mit einem spezifischen IRI oder BlankNode, um eine einheitliche und maschinenlesbare Metadatenstruktur zu gewährleisten. Durch die falsche Angabe ("application/pdf" anstatt einer IRI) wird die maschinelle Lesbarkeit beeinträchtigt, was wiederum zu Zugangsproblemen führen kann. In der Praxis bedeutet dies, dass andere Systeme oder Anwendungen Schwierigkeiten haben könnten, den Dateityp automatisch zu erkennen und korrekt darzustellen. Der Wert ist zwar für Menschen verständlich, jedoch fehlt die Standardisierung für die maschinelle Verarbeitung, die das DCAT-AP Schema verlangt.
+
+Das Problem liegt darin, dass die Interoperabilität und Konsistenz der Metadaten beeinträchtigt werden. Wenn Metadaten uneinheitlich oder fehlerhaft sind, können Portale und Anwendungen Daten nicht effizient verarbeiten oder austauschen, was den Zugang und die Nutzbarkeit der Daten für Nutzer stark einschränkt. Dies wirkt sich negativ auf die Gesamtbewertung der Metadatenqualität im Portal aus und untergräbt die Ziele des DCAT-AP-Standards, nämlich die Harmonisierung und Vernetzung von Datenkatalogen in Europa.
+````
