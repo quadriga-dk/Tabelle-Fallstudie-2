@@ -11,8 +11,8 @@ Grundsätzlich steht das JupyterBook aber selbstverständlich allen Interessiert
 
 Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.
 
-Für die Kapitel 2. *Datennachnutzung und FAIR-Prinzipien*, 3. *Qualitätsbewertung und 5-Sterne-Modell* sowie 4. *Identifikatoren und Linked Data* werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
+Für die Kapitel 2. *Semantic Web & Linked Data*, 3. *DCAT-AP Metadatenstandard* sowie 4. *Metadatenqualität* werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in die theoretischen Konzepte.
 
-Für das Kapitel 5. *Datenmanipulation* ist ein Grundinteresse bzw. -verständnis für Statistik und statistische Software hilfreich, da Sie dort mit der Software R arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung.
+Für das Kapitel 5. *SPARQL* ist ein Grundinteresse bzw. -verständnis für Abfragengestaltung und Erfragen von Metadaten hilfreich, da Sie dort mit der Abfragesprache SPARQL arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung, da alle Aspekte ausführlich erläutert werden.
 
 Die einzelnen Kapitel sind so gestaltet, dass Sie sie sowohl chronologisch als auch separat voneinander durchgehen können.
