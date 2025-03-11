@@ -1,7 +1,7 @@
 # Zielgruppe
 **Für wen ist dieses JupyterBook gedacht?**
 
-Dieses Selbstlernangebot richtet sich vorwiegend an Verwaltungswissenschaftler:innen und alle Personen, die an digitaler Verwaltung interessiert sind, da die hier vermittelten Inhalte anhand des Datentyps Tabelle aufbereitet sind. Zudem sind die hier entwickelten Lerneinheiten an einem Fallbeispiel konstruiert, das für diese Disziplin typisch ist.
+Dieses Selbstlernangebot richtet sich vorwiegend an Verwaltungswissenschaftler:innen und alle Personen, die an digitaler Verwaltung interessiert sind, da die hier vermittelten Inhalte anhand des häufig eingesetzten Datentyps *Tabelle* aufbereitet sind. Zudem orientieren sich die hier entwickelten Lerneinheiten an einem Fallbeispiel, das für diese Disziplin typisch ist.
 
 Die Zielgruppe sind promovierende und promovierte Wissenschaftler:innen, aber auch Lehrende, die das Angebot für die eigene Lehre nachnutzen wollen.
 
@@ -11,8 +11,8 @@ Grundsätzlich steht das JupyterBook aber selbstverständlich allen Interessiert
 
 Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.
 
-Für die Kapitel 2. Datennachnutzung und FAIR-Prinzipien, 3. Qualitätsbewertung und 5-Sterne-Modell sowie 4. Identifikatoren und Linked Data werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
+Für die Kapitel 2. *Datennachnutzung und FAIR-Prinzipien*, 3. *Qualitätsbewertung und 5-Sterne-Modell* sowie 4. *Identifikatoren und Linked Data* werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
 
-Für das Kapitel 5. Datenmanipulation ist ein Grundinteresse bzw. -verständnis für Statistik und statistische Software hilfreich, da Sie dort mit der Software R arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung.
+Für das Kapitel 5. *Datenmanipulation* ist ein Grundinteresse bzw. -verständnis für Statistik und statistische Software hilfreich, da Sie dort mit der Software R arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung.
 
-Die einzelnen Kapitel sind so gestaltet, dass Sie sie sowohl nacheinander als auch einzeln durchgehen können.
+Die einzelnen Kapitel sind so gestaltet, dass Sie sie sowohl chronologisch als auch separat voneinander durchgehen können.
