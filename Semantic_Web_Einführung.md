@@ -1,8 +1,9 @@
 # Einführung
 ```{admonition} Lernziele
 :class: lernziele
-- Die Lernenden sind vertraut mit semantischen Technologien und Linked Data
-- Die Lernenden verstehen, dass Open Data Portale auf semantischen Technologien basieren und kennen die Linked Data Grundprinzipien, die hier angewendet werden.
+- Die Lernenden sind mit semantischen Technologien vertraut und verstehen deren zentrale Rolle in der modernen Datenverarbeitung.
+- Die Lernenden kennen die Grundprinzipien des Semantic Web und verstehen, wie semantische Technologien zur Strukturierung, Verknüpfung und maschinellen Verarbeitung von Daten beitragen.
+- Die Lernenden erkennen die Bedeutung von Ontologien, Taxonomien und logischen Schlussfolgerungsmechanismen für die Umsetzung semantischer Technologien.
 ```
 
 In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welches eine zentrale Rolle in der modernen Datenverarbeitung und Datennutzung einnimmt. Dabei wird aufgezeigt, wie semantische Technologien dazu beitragen, Informationen besser zu strukturieren, zu verknüpfen und maschinell interpretierbar zu machen.
