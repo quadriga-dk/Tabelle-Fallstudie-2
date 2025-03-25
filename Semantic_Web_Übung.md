@@ -22,8 +22,10 @@ from quadriga_config import colors
 
 # Übung Semantic Web
 
+Bevor es zur Reflexion über das in diesem Kapitel vermittelte Wissen geht, können Sie Ihr Können in diesem kleinen Quiz auf die Probe stellen. Viel Erfolg!  
+
 ````{code-cell} ipython3
-tags: [remove_input]
+:tags: [remove_input]
 questions = \
 [
   { 'question': "1. Das Semantic Web ermöglicht es Maschinen, die Bedeutung von Daten zu verstehen.",
