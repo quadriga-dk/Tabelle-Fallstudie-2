@@ -12,7 +12,7 @@ Wir erklären nun stufenweise jede Schicht und beginnen bei der untersten:
 3. RDF (Resource Description Framework) & RDF Schema - RDF erlaubt es, Informationen so zu verknüpfen, dass Maschinen sie verstehen können. Zum Beispiel: „Max arbeitet bei Firma XY“. Das RDF Schema erweitert RDF, indem es definiert, welche Art von Informationen angegeben werden können (Bei diesem Beispiel Personen, Firmen oder Beziehungen zwischen ihnen).
 
 4. Ontology & Vocabulary - die Ontologie bietet eine Möglichkeit, strukturierte Vokabulare zu definieren, die Beziehungen und Kategorien in einem bestimmten Bereich beschreiben (z. B. „Eine Katze ist ein Tier“). Diese Schicht ist entscheidend, um es Maschinen zu ermöglichen, die Beziehungen zwischen verschiedenen Datenpunkten zu verstehen und dadurch Schlussfolgerungen sowie logische Ableitungen zu unterstützen. Das Vokabular bezieht sich auf spezifische Begriffe und Konzepte, die verwendet werden, um Entitäten und ihre Beziehungen innerhalb eines Wissensbereichs zu beschreiben, wie ein Wörterbuch für Daten. 
-5. Logik - Diese Schicht ermöglicht es, automatisierte Entscheidungen basierend auf den Daten zu treffen. Beispiel: „Wenn A wahr ist und B wahr ist, dann folgt C.“
+5. Logic - Diese Schicht ermöglicht es, automatisierte Entscheidungen basierend auf den Daten zu treffen. Beispiel: „Wenn A wahr ist und B wahr ist, dann folgt C.“
 6. Proof - die Prüfschicht stellt die Validität der Ergebnisse sicher, indem sie die Schritte überprüft, die zu einer Schlussfolgerung führen. Ähnlich wie bei einer mathematischen Beweisführung.
 7. Trust - Die oberste Schicht schafft Vertrauen in die Daten, z. B. durch digitale Signaturen. Diese zeigen an, wer die Daten erstellt hat und ob sie unverändert sind. 
 
