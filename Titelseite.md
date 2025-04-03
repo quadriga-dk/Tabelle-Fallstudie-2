@@ -14,7 +14,7 @@ Die Hauptfrage lässt sich also in mehrere Teilfragen untergliedern, die eine de
 - Wie viele Datensätze gibt es pro Bundesland im Zeitraum 2022–2024, die das Wort „Baumkataster“ im Titel beinhalten?
 - Wie unterscheiden sich die Bundesländer in ihrer Anzahl an Datenbereitstellern? Wie variiert die Zahl der bereitgestellten Datensätze und Formate je Bundesland?
 
-Diese Fragen sind der Ausgangspunkt für eine tiefere Untersuchung der verfügbaren offenen Daten. Dr. Weber plant, die Datensätze nach Bundesländern und Bereitstellern zu filtern, um ein besseres Verständnis darüber zu gewinnen, welche Regionen besonders viele und vielfältige Baumkataster-Daten zur Verfügung stellen. 
+Diese Fragen sind der Ausgangspunkt für eine tiefere Untersuchung der verfügbaren offenen Daten. Dr. Weber plant, die Datensätze nach Bundesländern und Bereitstellern zu filtern, um ein besseres Verständnis darüber zu gewinnen, welche Regionen besonders viele und vielfältige Baumkataster-Daten zur Verfügung stellen. Recherchiere mit ihm zusammen, wie die Datengrundlage ist. 
 Um die Fragen zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web, sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache *SPARQL*.  
 
 ## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
