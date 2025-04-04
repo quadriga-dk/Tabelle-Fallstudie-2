@@ -1,2 +1,0 @@
-# Danksagung und Kontakt
-text

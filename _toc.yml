@@ -3,48 +3,51 @@
 
 format: jb-book
 root: Titelseite
-parts:
-  - caption: 1. Einführung
-    chapters: 
-    - file: Einführung_Zielgruppe
-    - file: Einführung_Datenbasis
-    - file: Einführung_Struktur
-
-  - caption: 2. Semantic Web & Linked Data
-    chapters:
+options: 
+  numbered: 3
+chapters:
+  - file: Präambel
+    sections:
+      - file: lernziele
+      - file: Einführung_Datenbasis
+  - file: Semantic Web & Linked Data
+    sections:
     - file: Semantic_Web_Einführung
     - file: Semantic_Web_Definition
     - file: Semantic_Web_Layer_Cake
     - file: Semantic_Web_Übung
     - file: Semantic_Web_Reflexion
 
-  - caption: 3. DCAT-AP Metadatenstandard
-    chapters:
+  - file: DCAT-AP Metadatenstandard
+    sections:
     - file: DCAT_AP_Einführung
     - file: DCAT_AP_Struktur
     - file: DCAT_AP_Beispiel
     - file: DCAT_AP_Reflexion
 
-  - caption: 4. Metadatenqualität
-    chapters:
+  - file: Metadatenqualität
+    sections:
     - file: Metadaten_Einführung
     - file: Metadaten_Kontrolle
     - file: Metadaten_Übung
     - file: Metadaten_Reflexion
 
-  - caption: 5. SPARQL
-    chapters:
+  - file: SPARQL
+    sections:
     - file: SPARQL_Einführung
     - file: SPARQL_Grundlagen
     - file: SPARQL_Übung_1
     - file: SPARQL_Übung_2
     - file: SPARQL_Reflexion
 
-  - caption: 6. Zusammenfassung & Ausblick
-    chapters:
+  - file: Zusammenfassung_cover
+    sections:
     - file: Zusammenfassung
-
-  - caption: 7. Abschluss
-    chapters:
-    - file: Danksagung
-    - file: Literaturverzeichnis
+  
+  - file: Epilog
+    sections:
+    - file: fragen_und_feedback
+    - file: literaturverzeichnis
+    - file: authors
+    - file: quadriga
+    - file: impressum

@@ -2,7 +2,7 @@
 ![The Semantic Web Layer Cake](The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png)
 
 
-*Abbildung 1: Der Semantic Web Layer Cake* Bildquelle: {cite}`Hendler2001`
+*Abbildung 3: Der Semantic Web Layer Cake* Bildquelle: {cite}`Hendler2001`
 
 Die obenstehende Grafik stellt die geschichtete Architektur (Layer Cake) des Semantic Web dar. Sie besteht aus verschiedenen Technologien und Konzepten, die miteinander interagieren und aufeinander aufbauen, um das Framework von strukturierten Daten und deren zugrunde liegenden Bezügen zu unterstützen.
 Wir erklären nun stufenweise jede Schicht und beginnen bei der untersten:
