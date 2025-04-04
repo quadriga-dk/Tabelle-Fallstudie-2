@@ -7,3 +7,7 @@ Um dies zu erreichen, verwendet das Semantic Web neue Websprachen, die auf RDF (
 
 Insgesamt zielt das Semantic Web darauf ab, die Art und Weise, wie Informationen im Internet strukturiert und interpretiert werden weiter zu entwickeln, sodass eine intelligentere und effizientere Interaktion zwischen Benutzern und Maschinen ermöglicht wird. Das Semantic Web ist die natürliche Entwicklung des World Wide Web, wie von dem Informationswissenschaftler Tim Berners-Lee erdacht {cite}`Cardoso2006`. Wenn Web 1.0 auf verlinkten Webseiten beruhte, und Web 2.0 auf verlinkten Applikationen (bspw. Soziale Netzwerke), steht das Web 3.0 in Beziehung mit verlinkten Daten ([Semantic Web](https://www.techtarget.com/searchcio/definition/Semantic-Web)
 ).
+
+
+:class: Was  Sie mitnehmen sollten
+Das Semantic Web erweitert das heutige Web um maschinenlesbare Datenstrukturen, die eine intelligentere Interaktion zwischen Mensch und Maschine ermöglichen. Es schafft damit die Grundlage für eine vernetzte, automatisierte und semantisch interpretierbare Datenwelt, in der Informationen effizienter gefunden, verarbeitet und genutzt werden können.

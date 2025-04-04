@@ -10,3 +10,7 @@ Nachdem im zweiten Kapitel die Grundprinzipien des Semantic Web und der Linked D
 Das Konzept der verknüpften Daten schafft die Grundlage für interoperable Dateninfrastrukturen, doch um diese Potenziale tatsächlich auszuschöpfen, sind einheitliche Standards erforderlich. Hier kommt DCAT-AP ins Spiel: ein Werkzeug, das die effiziente Beschreibung, Strukturierung und Bereitstellung von Metadaten ermöglicht.
 
 Im nächsten Kapitel betrachten wir die Entstehung, Struktur und Bedeutung von DCAT-AP und beleuchten, wie seine nationale Anpassung, DCAT-AP.de, den Datenaustausch zwischen verschiedenen Verwaltungsebenen und Institutionen in Deutschland standardisiert. Damit schaffen wir die Basis, um zu verstehen, wie solche Standards die Nachnutzbarkeit und Interoperabilität von Daten nachhaltig fördern.
+
+
+:class: Was  Sie mitnehmen sollten
+Das Semantic Web bildet die Grundlage für die zukünftige effektive Nutzung verknüpfter Daten durch maschinenlesbare Formate und Standards wie RDF. Die "Layer Cake"-Architektur zeigt, wie verschiedene Technologien zusammenarbeiten, um intelligente Datenverarbeitung zu ermöglichen. Das Semantic Web fördert eine neue Dimension der Informationsverknüpfung und -interpretation, die insbesondere in Wissenschaft, Wirtschaft und Verwaltung zunehmend an Bedeutung gewinnt.

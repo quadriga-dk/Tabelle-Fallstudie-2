@@ -15,3 +15,6 @@ Mit dem Wissen über den Dublin Core™ betrachten wir nun das Data Catalog Voca
 In Deutschland nutzen verschiedene staatliche Datenportale wie GovData und die Datenportale der Bundesländer (z. B. das Transparenzportal Hamburg) DCAT-AP.de zur Standardisierung von Metadaten. Dies ermöglicht eine konsistente Katalogisierung von Daten und vereinfacht die Datenveröffentlichung und -nutzung, sowohl innerhalb der öffentlichen Verwaltung als auch für Bürger*innen.
 
 Durch die Anlehnung an den europäischen DCAT-AP-Standard ermöglicht DCAT-AP.de eine reibungslose Zusammenarbeit und Datenintegration mit dem Europäischen Datenportal. Deutsche Datensätze, die mit DCAT-AP.de beschrieben sind, lassen sich so problemlos auf das Europäische Datenportal übertragen, was eine einheitliche und grenzübergreifende Datennutzung innerhalb der EU fördert{cite}`CKAN_DCAT_AP`.
+
+:class: Was  Sie mitnehmen sollten
+Das DCAT-AP-Schema basiert auf dem Dublin-Core-Metadatenstandard und ermöglicht die Interoperabilität von Datenkatalogen im Web. Durch die Anwendung von DCAT-AP, insbesondere in nationalen Initiativen wie DCAT-AP.de in Deutschland, wird eine effiziente und einheitliche Katalogisierung und Nutzung von offenen Daten gefördert, die grenzübergreifend in der EU genutzt werden können.
