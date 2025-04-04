@@ -16,5 +16,6 @@ In Deutschland nutzen verschiedene staatliche Datenportale wie GovData und die D
 
 Durch die Anlehnung an den europäischen DCAT-AP-Standard ermöglicht DCAT-AP.de eine reibungslose Zusammenarbeit und Datenintegration mit dem Europäischen Datenportal. Deutsche Datensätze, die mit DCAT-AP.de beschrieben sind, lassen sich so problemlos auf das Europäische Datenportal übertragen, was eine einheitliche und grenzübergreifende Datennutzung innerhalb der EU fördert{cite}`CKAN_DCAT_AP`.
 
-:class: Was  Sie mitnehmen sollten
+```{admonition} Was  Sie mitnehmen sollten
+:class: tip 
 Das DCAT-AP-Schema basiert auf dem Dublin-Core-Metadatenstandard und ermöglicht die Interoperabilität von Datenkatalogen im Web. Durch die Anwendung von DCAT-AP, insbesondere in nationalen Initiativen wie DCAT-AP.de in Deutschland, wird eine effiziente und einheitliche Katalogisierung und Nutzung von offenen Daten gefördert, die grenzübergreifend in der EU genutzt werden können.
