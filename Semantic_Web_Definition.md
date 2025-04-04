@@ -10,5 +10,5 @@ Insgesamt zielt das Semantic Web darauf ab, die Art und Weise, wie Informationen
 
 
 ```{admonition} Was  Sie mitnehmen sollten
-:class: tip 
+:class: keypoint 
 Das Semantic Web erweitert das heutige Web um maschinenlesbare Datenstrukturen, die eine intelligentere Interaktion zwischen Mensch und Maschine ermöglichen. Es schafft damit die Grundlage für eine vernetzte, automatisierte und semantisch interpretierbare Datenwelt, in der Informationen effizienter gefunden, verarbeitet und genutzt werden können.

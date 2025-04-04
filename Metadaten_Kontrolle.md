@@ -14,5 +14,5 @@ Auf dem [Metadata Quality Dashboard](https://data.europa.eu/mqa/?locale=de) des 
 Lassen Sie uns nun das [Open Data Portal Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de) betrachten und einschätzen, wie fortgeschritten die Open-Data-Initiative in Deutschland ist und welche Schwachstellen noch bestehen. In der folgenden Übung können Sie eigenständig die Seite durchstöbern und potenzielle Unzulänglichkeiten ausfindig machen.
 
 ```{admonition} Was  Sie mitnehmen sollten
-:class: tip 
+:class: keypoint
 Metadaten sind entscheidend, um Daten schnell und effizient zu organisieren, zu kategorisieren und auffindbar zu machen. Sie ermöglichen eine bessere Navigation durch große Datenmengen und tragen zur Umwandlung von Rohdaten in wertvolle Informationen bei. Die Anwendung der FAIR-Prinzipien für Metadaten stellt sicher, dass diese Daten zugänglich, interoperabel und wiederverwendbar sind, und wird durch Werkzeuge wie das Metadata Quality Assessment (MQA) zur Bewertung und Verbesserung der Metadatenqualität unterstützt.

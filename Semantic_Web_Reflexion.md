@@ -13,5 +13,5 @@ Im nächsten Kapitel betrachten wir die Entstehung, Struktur und Bedeutung von D
 
 
 ```{admonition} Was  Sie mitnehmen sollten
-:class: tip 
+:class: keypoint 
 Das Semantic Web bildet die Grundlage für die zukünftige effektive Nutzung verknüpfter Daten durch maschinenlesbare Formate und Standards wie RDF. Die "Layer Cake"-Architektur zeigt, wie verschiedene Technologien zusammenarbeiten, um intelligente Datenverarbeitung zu ermöglichen. Das Semantic Web fördert eine neue Dimension der Informationsverknüpfung und -interpretation, die insbesondere in Wissenschaft, Wirtschaft und Verwaltung zunehmend an Bedeutung gewinnt.
