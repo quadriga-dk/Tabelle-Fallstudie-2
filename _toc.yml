@@ -42,12 +42,12 @@ chapters:
 
   - file: Zusammenfassung_cover
     sections:
-    - file: Zusammenfassung
+    - file: zusammenfassung
   
   - file: Epilog
     sections:
     - file: fragen_und_feedback
-    - file: literaturverzeichnis
+    - file: Literaturverzeichnis
     - file: authors
     - file: quadriga
     - file: impressum
