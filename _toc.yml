@@ -20,21 +20,18 @@ chapters:
 
   - file: DCAT-AP Metadatenstandard
     sections:
-    - file: DCAT_AP_Einführung
     - file: DCAT_AP_Struktur
     - file: DCAT_AP_Beispiel
     - file: DCAT_AP_Reflexion
 
   - file: Metadatenqualität
     sections:
-    - file: Metadaten_Einführung
     - file: Metadaten_Kontrolle
     - file: Metadaten_Übung
     - file: Metadaten_Reflexion
 
   - file: SPARQL
     sections:
-    - file: SPARQL_Einführung
     - file: SPARQL_Grundlagen
     - file: SPARQL_Übung_1
     - file: SPARQL_Übung_2
