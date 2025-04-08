@@ -10,7 +10,7 @@ chapters:
     sections:
       - file: lernziele
       - file: Einführung_Datenbasis
-  - file: Semantic Web & Linked Data
+  - file: Semantic_Web_&_Linked_Data
     sections:
     - file: Semantic_Web_Einführung
     - file: Semantic_Web_Definition
@@ -18,7 +18,7 @@ chapters:
     - file: Semantic_Web_Übung
     - file: Semantic_Web_Reflexion
 
-  - file: DCAT-AP Metadatenstandard
+  - file: DCAT_AP_Metadatenstandard
     sections:
     - file: DCAT_AP_Struktur
     - file: DCAT_AP_Beispiel

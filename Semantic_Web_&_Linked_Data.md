@@ -24,6 +24,6 @@ Im Folgenden werden die Grundlagen des Semantic Web sowie die ihm zugrunde liege
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
 - [Semantic Web Definition](/Semantic_Web_Definition.md)
-- [Semantic_Web_Layer_Cake](/Semantic_Web_Layer_Cake.md)
-- [Semantic_Web_Übung](/Semantic_Web_Übung.md)
-- [SemanticWeb Reflexion](/Semantic_Web_Reflexion.md)
+- [Semantic Web Layer_Cake](/Semantic_Web_Layer_Cake.md)
+- [Semantic Web Übung](/Semantic_Web_Übung.md)
+- [Semantic Web Reflexion](/Semantic_Web_Reflexion.md)
