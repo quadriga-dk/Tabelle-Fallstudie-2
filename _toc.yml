@@ -10,7 +10,7 @@ chapters:
     sections:
       - file: lernziele
       - file: Einführung_Datenbasis
-  - file: Semantic_Web_&_Linked_Data
+  - file: Semantic_Web_Linked_Data
     sections:
     - file: Semantic_Web_Einführung
     - file: Semantic_Web_Definition

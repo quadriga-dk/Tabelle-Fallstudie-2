@@ -7,9 +7,8 @@ Um mit Daten arbeiten zu können, müssen diese auffindbar sein. Dieses <a href=
 name: Datenwissenschaftler analysiert Baumverteilungen
 alt: Eine grafische Darstellung eines Datenwissenschaftlers der die Baumverteilung analysiert.
 ---
-Datenwissenschaftler analysiert Baumverteilungen.
+Datenwissenschaftler analysiert Baumverteilungen (KI generiert).
 ```
-Bildquelle: KI generiert
 
 ## Forschungsfrage - Baumbestand-Analyse: Erfassung und Visualisierung der Baumartenverteilung
 Der Baumbestand in deutschen Städten und ländlichen Regionen ist für Klimaanpassung, Umweltforschung und Stadtplanung von zentraler Bedeutung. Eine wichtige Grundlage für diese Arbeiten sind detaillierte Baumkataster, die Informationen zu Baumarten, Standorten und Zustand liefern. Doch wie gut sind diese Daten öffentlich zugänglich?
