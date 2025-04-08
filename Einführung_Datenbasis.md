@@ -5,7 +5,12 @@ Datensätze werden zunächst von Datenbereitstellern auf lokaler Ebene erfasst, 
 
 Im Rahmen der europäischen Datenintegration werden diese nationalen Daten schließlich auf der Plattform data.europa.eu bereitgestellt. Dadurch entsteht eine mehrstufige Dateninfrastruktur, die es ermöglicht, Metadaten auf verschiedenen Ebenen gezielt zu suchen, zu filtern und für Forschungszwecke zu nutzen.
 
-![Datenstruktur](Ebenen.png)
 
-
-*Abbildung 1: Quelle - Open.NRW
+```{figure} Ebenen.png
+---
+name: Datenstruktur
+alt: Eine grafische Darstellung der Datenstruktur.
+---
+Datenstruktur
+```
+Bildquelle: Open.NRW
