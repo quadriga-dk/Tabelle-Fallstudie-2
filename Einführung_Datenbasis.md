@@ -14,3 +14,14 @@ alt: Eine grafische Darstellung der Datenstruktur.
 Datenstruktur
 ```
 Bildquelle: Open.NRW
+
+In dieser Fallstudie befassen wir uns mit Metadaten zu Datensätzen, die im bundesweiten Metadatenportal einsehbar sind. Wichtig zu betonen ist, dass über das Portal kein direkter Zugriff auf die eigentlichen Datensätze möglich ist. Vielmehr bietet es einen allgemeinen Überblick darüber, welche Datensätze verfügbar sind und wo der Zugang zu diesen ggf. beantragt werden kann. Das Metadatenportal fungiert somit als zentrale Schnittstelle zur Information und Orientierung über vorhandene Datenbestände.
+
+```{figure} StandOffener.png
+---
+name: Datenstand Deutschland
+alt: Eine grafische Darstellung des Standes offener Verwaltungsdaten in Deutschland.
+---
+Datenstruktur
+```
+Bildquelle: Open.NRW
