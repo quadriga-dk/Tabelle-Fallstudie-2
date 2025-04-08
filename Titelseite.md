@@ -79,13 +79,6 @@ Im letzten Schritt der Fallstudie widmen wir uns der praktischen Anwendung und e
 Die Gliederung der Fallstudie in Kapitel und Abschnitte können Sie immer in der Menüleiste auf der linken Seite nachvollziehen. Die rechte Menüleiste zeigt Ihnen an, in welchem Abschnitt eines Kapitels Sie sich gerade befinden.
 Das JupyterBook lässt sich in zwei Hauptblöcke gliedern:
 
-```{figure} FS-Schritte.png
----
-name: steps of casestudy
-alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
----
-Visualisierung der 4 Schritte dieser Fallstudie.
-```
 
 
 
