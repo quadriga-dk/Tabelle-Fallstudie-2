@@ -10,33 +10,32 @@ alt: Eine grafische Darstellung eines Datenwissenschaftlers der die Baumverteilu
 Datenwissenschaftler analysiert Baumverteilungen (KI generiert).
 ```
 
-## Forschungsfrage - Baumbestand-Analyse: Erfassung und Visualisierung der Baumartenverteilung
+## Baumbestand-Analyse: Erfassung und Visualisierung der Verteilung der Baumarten
 Der Baumbestand in deutschen Städten und ländlichen Regionen ist für Klimaanpassung, Umweltforschung und Stadtplanung von zentraler Bedeutung. Eine wichtige Grundlage für diese Arbeiten sind detaillierte Baumkataster, die Informationen zu Baumarten, Standorten und Zustand liefern. Doch wie gut sind diese Daten öffentlich zugänglich?
 
-Dr. Armir Weber, ein Wissenschaftler mit Interesse an städtischen und ländlichen Baumbeständen, möchte ein Dashboard zur Visualisierung der Baumartenvielfalt für die Jahre 2022–2024 entwickeln, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber die folgende Frage:
+Dr. Amir Weber, ein Experte mit Interesse an städtischen und ländlichen Baumbeständen, möchte ein Dashboard zur Visualisierung der Baumartenvielfalt erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber die folgende Frage:
 
-**- Wie unterscheidet sich das Angebot an offenen Baumkataster-Daten in den deutschen Bundesländern im Zeitraum 2022 – 2024 hinsichtlich Anzahl, Bereitsteller und Veröffentlichungsaktivität?** 
+**Welche offen verfügbaren Daten existieren, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?** 
 
 Die Hauptfrage lässt sich also in mehrere Teilfragen untergliedern, die eine detaillierte Analyse der offenen Baumkataster-Daten ermöglichen. Diese Unterfragen fokussieren sich auf verschiedene Aspekte der Datensätze: die Gesamtzahl der Datensätze bundesweit, die Verteilung der Daten auf die einzelnen Bundesländer sowie die Unterschiede in der Zahl der Datenbereitsteller und der Vielfalt der bereitgestellten Formate in den jeweiligen Regionen.
 
-- Wie viele Datensätze gibt es bundesweit im Zeitraum 2022–2024, die das Wort „Baumkataster“ im Titel beinhalten?
-- Wie viele Datensätze gibt es pro Bundesland im Zeitraum 2022–2024, die das Wort „Baumkataster“ im Titel beinhalten?
-- Wie unterscheiden sich die Bundesländer in ihrer Anzahl an Datenbereitstellern? Wie variiert die Zahl der bereitgestellten Datensätze und Formate je Bundesland?
+- Wie viele Datensätze beinhalten das Wort „Baumkataster“ im Titel?
+- Wer stellt die meisten Daten bereit?
+- Wie unterscheiden sich die Bereitsteller in ihrer Anzahl an Formaten?
 
-Diese Fragen sind der Ausgangspunkt für eine tiefere Untersuchung der verfügbaren offenen Daten. Dr. Weber plant, die Datensätze nach Bundesländern und Bereitstellern zu filtern, um ein besseres Verständnis darüber zu gewinnen, welche Regionen besonders viele und vielfältige Baumkataster-Daten zur Verfügung stellen. Recherchiere mit ihm zusammen, wie die Datengrundlage ist. 
-Um die Fragen zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web, sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache *SPARQL*.  
+Diese Fragen sind der Ausgangspunkt für eine tiefere Untersuchung der verfügbaren offenen Daten. Dr. Weber plant, die Datensätze nach Bundesländern und Bereitstellern zu filtern, um ein besseres Verständnis darüber zu gewinnen, welche Regionen besonders viele und vielfältige Baumkataster-Daten zur Verfügung stellen. Recherchieren Sie mit ihm zusammen, wie die entsprechende Datengrundlage ist.  
+
+Um die Fragen zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web und Linked Data sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache SPARQL.  
 
 ## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
-Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz. Dies gilt insbesondere für <a href="https://www.dcat-ap.de/" target="_blank">DCAT-AP</a> als gemeinsamer Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen fundamental erleichtern kann.
+Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz. Dies gilt insbesondere für <a href="https://www.dcat-ap.de/" target="_blank">DCAT-AP</a> als gemeinsamer Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen erleichtern kann.
 
 ## Zielgruppe
 **Für wen ist dieses JupyterBook gedacht?**
 
-Dieses Selbstlernangebot richtet sich vorwiegend an Verwaltungswissenschaftler:innen und alle Personen, die an digitaler Verwaltung interessiert sind, da die hier vermittelten Inhalte anhand des häufig eingesetzten Datentyps *Tabelle* aufbereitet sind. Zudem orientieren sich die hier entwickelten Lerneinheiten an einem Fallbeispiel, das für diese Disziplin typisch ist.
+Grundsätzlich steht das JupyterBook allen Interessierten offen.
 
-Die Zielgruppe sind promovierende und promovierte Wissenschaftler:innen, aber auch Lehrende, die das Angebot für die eigene Lehre nachnutzen wollen.
-
-Grundsätzlich steht das JupyterBook aber selbstverständlich allen Interessierten offen.
+Die explizite Zielgruppe sind jedoch promovierende und promovierte Wissenschaftler:innen sowie Lehrende aus der Verwaltungswissenschaft, da die hier vermittelten Inhalte anhand des häufig untersuchten Datentyps *Tabelle* aufbereitet sind. Zudem orientieren sich die hier entwickelten Lerneinheiten an einem für diese Disziplin typischen Fallbeispiel.
 
 **Welche Voraussetzungen sind zur Absolvierung der Lerneinheiten erforderlich?**
 
@@ -53,7 +52,7 @@ Die zentrale Forschungsfrage, die in dieser Fallstudie untersucht wird, lautet:
 
 **Welche offenen Daten gibt es, die dazu beitragen, den Bewässerungsbedarf von Bäumen in einer bestimmten Region zu ermitteln?**
 
-Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der Abfragesprache SPARQL entwickelt, um relevante Informationen zu extrahieren. Dabei wird die Nachnutzbarkeit der Daten untersucht, ihre Qualität bewertet sowie der Entstehungskontext nachvollzogen. Die Abfragen ermöglichen eine strukturierte Analyse der Daten, um spezifische Antworten zur Bewässerung zu erhalten.
+Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der Abfragesprache SPARQL entwickelt, um relevante Informationen zu extrahieren. Dabei wird die Nachnutzbarkeit der Daten untersucht, ihre Qualität bewertet sowie der Entstehungskontext nachvollzogen. Die Abfragen ermöglichen eine strukturierte Analyse der Daten, um spezifische Antworten zum Baumbestand zu erhalten.
 
 Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.
 
