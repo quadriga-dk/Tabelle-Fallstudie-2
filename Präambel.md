@@ -6,7 +6,7 @@
 name: Eine Dashboard für Baumkataster
 alt: Eine grafische Darstellung eines Dashboard für Baumkataster.
 ---
-Eine Dashboard für Baumkataster (KI generiert).
+Ein Dashboard für Baumkataster (KI generiert).
 ```
 
-Machen Sie sich zunächst mit den [Lernzielen](/lernziele.md) und den  [Datenbasis: Metadatenportal](/Einführung_Datenbasis.md) vertraut.
+In diesem einführenden Abschnitt können Sie sich mit den [Lernzielen](/lernziele.md) und der [Datenbasis](/Einführung_Datenbasis.md) vertraut machen.
