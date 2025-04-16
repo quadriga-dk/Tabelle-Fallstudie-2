@@ -37,9 +37,7 @@ chapters:
     - file: SPARQL_Übung_2
     - file: SPARQL_Reflexion
 
-  - file: Zusammenfassung_cover
-    sections:
-    - file: zusammenfassung
+  - file: zusammenfassung
   
   - file: Epilog
     sections:
