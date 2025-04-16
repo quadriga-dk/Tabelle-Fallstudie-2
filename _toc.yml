@@ -9,6 +9,7 @@ chapters:
   - file: Präambel
     sections:
       - file: lernziele
+      - file: technische_voraussetzungen
       - file: Einführung_Datenbasis
   - file: Semantic_Web_Linked_Data
     sections:
