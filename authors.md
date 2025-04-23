@@ -156,3 +156,5 @@ lang: de-DE
 ## Danksagung
 
 Wir danken folgenden Gruppen, Institutionen und Einrichtungen für die Nachnutzung ihrer Werke:
+ - <a href="https://www.govdata.de/" target="_blank">GovData – Das Datenportal für Deutschland</a>
+ - <a href="https://data.europa.eu/" target="_blank">European data – Das offizielle Portal für Daten zu Europa</a>
