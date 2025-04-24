@@ -1,6 +1,6 @@
 # Semantic Web & Linked Data
 
-```{admonition} Semantic Web und Linked Data verstehen
+```{admonition} Grundlegende Konzepte
 :class: lernziele
 - Die Lernenden können definieren, was das Semantic Web und semantische Technologien sind.
 - Die Lernenden können die Rolle von RDF im Semantic Web erklären.
