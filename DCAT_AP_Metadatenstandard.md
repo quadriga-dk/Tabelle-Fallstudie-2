@@ -1,8 +1,12 @@
 # DCAT-AP Metadatenstandard
 
-```{admonition} Lernziele
+```{admonition} Metadatenstandards
 :class: lernziele
-- Lernende haben sich mit dem Zweck von Metadatastandards befasst und kennen die Struktur von DCAT-AP.
+- Die Lernenden können den DCAT-Standard definieren und seine Rolle im Datenaustausch beschreiben.
+- Die Lernenden können die Hauptmerkmale des Dublin Core-Metadatenstandards nennen.
+- Die Lernenden können erläutern, wie DCAT-AP.de von DCAT-AP abgeleitet und in Deutschland angewandt wird.
+- Die Lernenden können ein Beispiel für die Anwendung des DCAT-AP Standards zur Standardisierung und Katalogisierung von Metadaten im öffentlichen Bereich geben.
+- Die Lernenden können einfache Metadatenbeschreibungen gemäß DCAT-AP erstellen.
 ```
 
 In Deutschland findet ein kontinuierlicher Austausch von Daten zwischen GovData, dem zentralen Datenportal, und den Datenbereitstellern, wie beispielsweise den Datenportalen der Bundesländer oder Kommunen, statt.
