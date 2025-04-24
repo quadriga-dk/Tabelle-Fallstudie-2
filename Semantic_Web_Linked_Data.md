@@ -1,10 +1,9 @@
 # Semantic Web & Linked Data
 
-```{admonition} Lernziele
+```{admonition} Semantic Web und Linked Data verstehen
 :class: lernziele
-- Die Lernenden sind mit semantischen Technologien vertraut und verstehen deren zentrale Rolle in der modernen Datenverarbeitung.
-- Die Lernenden kennen die Grundprinzipien des Semantic Web und verstehen, wie semantische Technologien zur Strukturierung, Verknüpfung und maschinellen Verarbeitung von Daten beitragen.
-- Die Lernenden erkennen die Bedeutung von Ontologien, Taxonomien und logischen Schlussfolgerungsmechanismen für die Umsetzung semantischer Technologien.
+- Die Lernenden können definieren, was das Semantic Web und semantische Technologien sind.
+- Die Lernenden können die Rolle von RDF im Semantic Web erklären.
 ```
 
 In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welches eine zentrale Rolle in der modernen Datenverarbeitung und Datennutzung einnimmt. Dabei wird aufgezeigt, wie semantische Technologien dazu beitragen, Informationen besser zu strukturieren, zu verknüpfen und maschinell interpretierbar zu machen.
