@@ -27,8 +27,8 @@ Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es au
 - Die Lernenden können die Funktionen des Metadata Quality Assessment (MQA) beschreiben und zur Bewertung der Metadatenqualität anhand von praktischen Beispielen anwenden.
 ```
 
-```{admonition} Abfragesprachen
+```{admonition} Abfragesprache SPARQL
 :class: lernziele
-- Die Lernenden können maschinelle Abfragen von Daten in Open Data Portalen unter Anwendung von SPARQL verfassen.
-- Die Lernenden sind in der Lage, verschiedene SPARQL-Techniken über die API von data.europa anzuwenden.
+- Die Lernenden können die grundlegenden Komponenten der SPARQL-Syntax aufzählen und ihre Rollen erläutern.
+- Die Lernenden können einfache SPARQL-Abfragen erstellen und durchführen, um spezifische Informationen aus einem Datenkatalog abzurufen.
 ```
