@@ -14,6 +14,13 @@ Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschlic
 
 Die Integration semantischer Technologien in IT-Lösungen erlaubt die Automatisierung von Prozessen und die Einführung von "Intelligenz" in Softwaresysteme. Dadurch können Operationen ausgeführt werden, die mit herkömmlichen, datenbasierten Ansätzen nicht möglich sind. Semantische Technologien machen implizite Informationen explizit und fördern dadurch Interoperabilität und logische Schlussfolgerungen. Software-Agenten können somit Dienste für Benutzer suchen und bereitstellen.
 
+````{margin}
+```{admonition} Was sind Software-Agenten? 
+:class: hinweis
+Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss.
+```
+````
+
 Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Ontologien sind zu einem wichtigen Instrument geworden, ohne welches die produktive Datenadministrierung und -implementierung heutzutage unvorstellbar wären {cite}`gardner_ontologies_2005`. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist. Die bevorzugte Sprache OWL findet in der verwaltungswissenschaftlichen Gemeinschaft breite Akzeptanz. 
 
 Die Betrachtung des Semantic Web ist in vielerlei Hinsicht relevant: Es eröffnet neue Möglichkeiten für die Datenverarbeitung, verbessert die Interoperabilität zwischen verschiedenen Systemen und erleichtert die Nachnutzung von Daten. Dies ist besonders für Forschungsfelder von Bedeutung, in denen große Datenmengen analysiert und reproduzierbare Ergebnisse angestrebt werden.
