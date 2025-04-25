@@ -10,6 +10,11 @@ In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welche
 
 Der Begriff *Semantische Technologien* entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologien sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Sie sollen Informationen maschinell verständlich machen, indem sie die Bedeutung (Semantik) und die Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später genauer erklären werden.
 
+```{admonition} Was sind Software-Agenten?
+:class: randnotiz
+Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss.
+```e
+
 Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt. Ein wichtiger Standard ist die Ontology Web Language ([OWL](https://www.w3.org//)), die vom World Wide Web Consortium ([W3C](https://www.w3.org/)) entwickelt wurde. OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition von Gruber [1993] verstanden werden.
 
 Die Integration semantischer Technologien in IT-Lösungen erlaubt die Automatisierung von Prozessen und die Einführung von "Intelligenz" in Softwaresysteme. Dadurch können Operationen ausgeführt werden, die mit herkömmlichen, datenbasierten Ansätzen nicht möglich sind. Semantische Technologien machen implizite Informationen explizit und fördern dadurch Interoperabilität und logische Schlussfolgerungen. Software-Agenten können somit Dienste für Benutzer suchen und bereitstellen.
