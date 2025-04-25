@@ -7,26 +7,28 @@ lang: de-DE
 
 Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es auch Kapitel für Kapitel absolvieren. Dabei werden Sie folgende Lernziele erreichen:
 
-```{admonition} Grundlegende Konzepte und Datenidentifikation
+```{admonition} Grundlegende Konzepte
 :class: lernziele
-- Die Lernenden sind vertraut mit semantischen Technologien und Linked Data.
-- Die Lernenden verstehen, dass Open Data Portale auf semantischen Technologien basieren und kennen die Linked Data Grundprinzipien, die hier angewendet werden.
+- Die Lernenden können definieren, was das Semantic Web und semantische Technologien sind.
+- Die Lernenden können die Rolle von RDF im Semantic Web erklären.
 ```
 
-```{admonition} Datenerschließung und Metadaten
+```{admonition} Metadatenstandards
 :class: lernziele
-- Die Lernenden haben sich mit dem Zweck von Metadatastandards befasst und kennen die Struktur von DCAT-AP.
+- Die Lernenden können den DCAT-Standard definieren und seine Rolle im Datenaustausch beschreiben.
+- Die Lernenden können die Hauptmerkmale des Dublin Core-Metadatenstandards nennen.
+- Die Lernenden können erläutern, wie DCAT-AP.de von DCAT-AP abgeleitet und in Deutschland angewandt wird.
+- Die Lernenden können ein Beispiel für die Anwendung des DCAT-AP Standards zur Standardisierung und Katalogisierung von Metadaten im öffentlichen Bereich geben.
+- Die Lernenden können einfache Metadatenbeschreibungen gemäß DCAT-AP erstellen.
 ```
 
 ```{admonition} Metadatenqualität
 :class: lernziele
-- Die Lernenden erkennen, dass die FAIR-Prinzipien ein Grundgerüst zur Messung von Metadatenqualität sind.
-- Die Lernenden sind mit einem Messverfahren zur Metadatenqualität im europäischen Datenportal vertraut.
-- Die Lernenden sind in der Lage, Prüfberichte zu bewerten und sich mit typischen Problemen der Metadatenqualität auseinanderzusetzen.
+- Die Lernenden können die Funktionen des Metadata Quality Assessment (MQA) beschreiben und zur Bewertung der Metadatenqualität anhand von praktischen Beispielen anwenden.
 ```
 
-```{admonition} Abfragesprachen
+```{admonition} Abfragesprache SPARQL
 :class: lernziele
-- Die Lernenden können maschinelle Abfragen von Daten in Open Data Portalen unter Anwendung von SPARQL verfassen.
-- Die Lernenden sind in der Lage, verschiedene SPARQL-Techniken über die API von data.europa anzuwenden.
+- Die Lernenden können die grundlegenden Komponenten der SPARQL-Syntax aufzählen und ihre Rollen erläutern.
+- Die Lernenden können einfache SPARQL-Abfragen erstellen und durchführen, um spezifische Informationen aus einem Datenkatalog abzurufen.
 ```

@@ -1,10 +1,8 @@
 # Metadatenqualität
 
-```{admonition} Lernziele
+```{admonition} Metadatenqualität
 :class: lernziele
-- Lernende erkennen, dass die FAIR-Prinzipien ein Grundgerüst zur Messung von Metadatenqualität ist
-- Lernenden lernen ein Messverfahren zur Metadatenqualität im europäischen Datenportal kennen
-- Lernende setzen sich mit typischen Problemen in der Metadatenqualität auseinander und indem sie Prüfberichten bewerten.
+- Die Lernenden können die Funktionen des Metadata Quality Assessment (MQA) beschreiben und zur Bewertung der Metadatenqualität anhand von praktischen Beispielen anwenden.
 ```
 
 In diesem Kapitel widmen wir uns der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten. Metadaten sind der Schlüssel, um große Datenmengen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen – Eigenschaften, die durch die FAIR-Prinzipien definiert werden. Die Einhaltung dieser Prinzipien ist essenziell für die erfolgreiche Implementierung offener Datenportale, da nur Metadaten mit einer hohen Datenqualität eine reibungslose Datennutzung gewährleisten.

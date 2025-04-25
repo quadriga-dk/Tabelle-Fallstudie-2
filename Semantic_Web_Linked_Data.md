@@ -1,17 +1,21 @@
 # Semantic Web & Linked Data
 
-```{admonition} Lernziele
+```{admonition} Grundlegende Konzepte
 :class: lernziele
-- Die Lernenden sind mit semantischen Technologien vertraut und verstehen deren zentrale Rolle in der modernen Datenverarbeitung.
-- Die Lernenden kennen die Grundprinzipien des Semantic Web und verstehen, wie semantische Technologien zur Strukturierung, Verknüpfung und maschinellen Verarbeitung von Daten beitragen.
-- Die Lernenden erkennen die Bedeutung von Ontologien, Taxonomien und logischen Schlussfolgerungsmechanismen für die Umsetzung semantischer Technologien.
+- Die Lernenden können definieren, was das Semantic Web und semantische Technologien sind.
+- Die Lernenden können die Rolle von RDF im Semantic Web erklären.
 ```
 
 In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welches eine zentrale Rolle in der modernen Datenverarbeitung und Datennutzung einnimmt. Dabei wird aufgezeigt, wie semantische Technologien dazu beitragen, Informationen besser zu strukturieren, zu verknüpfen und maschinell interpretierbar zu machen.
 
 Der Begriff *Semantische Technologien* entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologien sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Sie sollen Informationen maschinell verständlich machen, indem sie die Bedeutung (Semantik) und die Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später genauer erklären werden.
 
-Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt. Ein wichtiger Standard ist die Ontology Web Language (OWL), die vom World Wide Web Consortium (W3C) entwickelt wurde. OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition von Gruber [1993] verstanden werden.
+```{admonition} Was sind Software-Agenten?
+:class: randnotiz
+Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss.
+```e
+
+Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt. Ein wichtiger Standard ist die Ontology Web Language ([OWL](https://www.w3.org//)), die vom World Wide Web Consortium ([W3C](https://www.w3.org/)) entwickelt wurde. OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition von Gruber [1993] verstanden werden.
 
 Die Integration semantischer Technologien in IT-Lösungen erlaubt die Automatisierung von Prozessen und die Einführung von "Intelligenz" in Softwaresysteme. Dadurch können Operationen ausgeführt werden, die mit herkömmlichen, datenbasierten Ansätzen nicht möglich sind. Semantische Technologien machen implizite Informationen explizit und fördern dadurch Interoperabilität und logische Schlussfolgerungen. Software-Agenten können somit Dienste für Benutzer suchen und bereitstellen.
 

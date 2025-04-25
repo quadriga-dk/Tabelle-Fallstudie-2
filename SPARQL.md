@@ -1,9 +1,9 @@
 # SPARQL
 
-```{admonition} Lernziele
+```{admonition} Abfragesprache SPARQL
 :class: lernziele
-- Lernende befassen sich mit der maschinellen Abfrage von Daten in Open Data Portalen unter Anwendung von SPARQL
-- Lernende praktizieren verschiedene SPARQL Techniken über die API von data.europa
+- Die Lernenden können die grundlegenden Komponenten der SPARQL-Syntax aufzählen und ihre Rollen erläutern.
+- Die Lernenden können einfache SPARQL-Abfragen erstellen und durchführen, um spezifische Informationen aus einem Datenkatalog abzurufen.
 ```
 
 In diesem Kapitel wird die Abfragesprache <a href="https://de.wikipedia.org/wiki/SPARQL" class="external-link" target="_blank">SPARQL</a> vorgestellt, die speziell zur Abfrage von Daten in RDF-Formaten entwickelt wurde {cite}`ducharme_learning_2013`. SPARQL ermöglicht es, gezielt Metadaten aus Open Data Portalen wie data.europa.eu abzurufen und komplexe Fragestellungen maschinell zu beantworten. Ziel dieses Kapitels ist es, eine praxisnahe Anwendung von SPARQL zu veranschaulichen und unterschiedliche Abfragetechniken zu erlernen.
