@@ -25,6 +25,8 @@ Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und geme
 
 Die Betrachtung des Semantic Web ist in vielerlei Hinsicht relevant: Es eröffnet neue Möglichkeiten für die Datenverarbeitung, verbessert die Interoperabilität zwischen verschiedenen Systemen und erleichtert die Nachnutzung von Daten. Dies ist besonders für Forschungsfelder von Bedeutung, in denen große Datenmengen analysiert und reproduzierbare Ergebnisse angestrebt werden.
 
+Auch für die Verwaltungswissenschaft sind Semantic Web und Linked Data von großer Bedeutung - sie ermöglichen eine effizientere Vernetzung und Integration von Verwaltungsdaten über Behörden- und Ressortgrenzen hinweg, fördern Transparenz und Nachvollziehbarkeit staatlichen Handelns und unterstützen datenbasierte Entscheidungsprozesse. Darüber hinaus erleichtert die semantische Aufbereitung öffentlicher Daten die Entwicklung innovativer E-Government-Lösungen sowie die Umsetzung und Strukturierung von Open-Data-Initiativen.
+
 Im Folgenden werden die Grundlagen des Semantic Web sowie die ihm zugrunde liegendende Struktur schrittweise erläutert. Ziel ist es, ein Verständnis dafür zu entwickeln, wie verknüpfte Daten die Art und Weise verändern, wie wir mit Informationen umgehen und Wissen generieren können.
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
