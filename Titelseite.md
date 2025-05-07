@@ -28,7 +28,7 @@ Diese Fragen sind der Ausgangspunkt für eine tiefere Untersuchung der verfügba
 Um die Fragen zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web und Linked Data sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache SPARQL.  
 
 ## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
-Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz. Dies gilt insbesondere für <a href="https://www.dcat-ap.de/" target="_blank">DCAT-AP</a> als gemeinsamer Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen erleichtern kann.
+Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz. Dies gilt insbesondere für <a href="https://www.dcat-ap.de/" class="external-link" target="_blank">DCAT-AP</a> als gemeinsamer Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen erleichtern kann.
 
 ## Zielgruppe
 **Für wen ist dieses JupyterBook gedacht?**
@@ -37,15 +37,6 @@ Grundsätzlich steht das JupyterBook allen Interessierten offen.
 
 Die explizite Zielgruppe sind jedoch promovierende und promovierte Wissenschaftler:innen sowie Lehrende aus der Verwaltungswissenschaft, da die hier vermittelten Inhalte anhand des häufig untersuchten Datentyps *Tabelle* aufbereitet sind. Zudem orientieren sich die hier entwickelten Lerneinheiten an einem für diese Disziplin typischen Fallbeispiel.
 
-**Welche Voraussetzungen sind zur Absolvierung der Lerneinheiten erforderlich?**
-
-Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.
-
-Für die Kapitel 2. *Semantic Web & Linked Data*, 3. *DCAT-AP Metadatenstandard* sowie 4. *Metadatenqualität* werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in die theoretischen Konzepte.
-
-Für das Kapitel 5. *SPARQL* ist ein Grundinteresse bzw. -verständnis für Abfragengestaltung und Erfragen von Metadaten hilfreich, da Sie dort mit der Abfragesprache SPARQL arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung, da alle Aspekte ausführlich erläutert werden.
-
-Die einzelnen Kapitel sind so gestaltet, dass Sie sie sowohl chronologisch als auch separat voneinander durchgehen können.
 
 ## Struktur der Fallstudie
 Die zentrale Forschungsfrage, die in dieser Fallstudie untersucht wird, lautet: 
@@ -54,29 +45,8 @@ Die zentrale Forschungsfrage, die in dieser Fallstudie untersucht wird, lautet:
 
 Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der Abfragesprache SPARQL entwickelt, um relevante Informationen zu extrahieren. Dabei wird die Nachnutzbarkeit der Daten untersucht, ihre Qualität bewertet sowie der Entstehungskontext nachvollzogen. Die Abfragen ermöglichen eine strukturierte Analyse der Daten, um spezifische Antworten zum Baumbestand zu erhalten.
 
-Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.
+Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.  
 
-
-**1. Technologien verstehen** 
-
-Um die Forschungsfrage zu beantworten, benötigen wir Daten. Diese können und wollen wir nicht selbst erheben, weshalb wir Daten nachnutzen müssen. Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenportal <a href="https://data.europa.eu/en" target="_blank">data.europa</a> zurück. Daher werden zuerst die grundlegenden Technologien erläutert, die gängige Metadatenschemata ausmachen, nämlich Semantic Web & Linked Data.
-
-**2. Werkzeuge kennenlernen**
-
-Wir machen Sie mit einem der zentralen Werkzeuge für die Operationalisierung von Metadatenrepositorien vertraut: dem DCAT-AP-Standardisierungsschema, das auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. In dieser Fallstudie werden außerdem die Nutzung der Abfragesprache SPARQL und erste praktische Schritte anschaulich erklärt.
-
-**3. Datenqualität messen:** 
-
-Sie lernen, wie Sie Metadaten anhand von Maßnahmen zur Qualitätsmessung überprüfen können, um sicherzustellen, dass diese den Qualitätsanforderungen entsprechen. Dazu stellen wir Ihnen die verschiedenen Qualitätskriterien des Metadata Quality Assessment (MQA) für Metadaten vor.
-
-**4. Praxis anwenden**
-Im letzten Schritt der Fallstudie widmen wir uns der praktischen Anwendung und erläutern, wie Metadaten mithilfe der SPARQL-Abfragesprache abgefragt werden können. Dabei vermitteln wir zunächst die grundlegenden Konzepte von SPARQL, einschließlich der Syntax und zentraler Befehle. Im Anschluss führen wir gezielte Abfragen durch, die auf unsere Fragestellung ausgerichtet sind und evaluieren kritisch, in welchem Maß die aktuellen Implementierungen erfolgreich sind oder Optimierungspotenzial aufweisen.
-
-
-**Struktur der Fallstudie**
-
-Die Gliederung der Fallstudie in Kapitel und Abschnitte können Sie immer in der Menüleiste auf der linken Seite nachvollziehen. Die rechte Menüleiste zeigt Ihnen an, in welchem Abschnitt eines Kapitels Sie sich gerade befinden.
-Das JupyterBook lässt sich in zwei Hauptblöcke gliedern:
 
 ```{figure} FS-Schritte.png
 ---
@@ -85,6 +55,31 @@ alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
 ---
 Visualisierung der 4 Schritte dieser Fallstudie.
 ```
+
+
+**1. Technologien verstehen** 
+
+Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenportal <a href="https://data.europa.eu/en" class="external-link" target="_blank">data.europa</a> zurück. Daher werden zuerst die grundlegenden Technologien erläutert, die gängige Metadatenschemata ausmachen, nämlich Semantic Web & Linked Data.
+
+**2. Werkzeuge kennenlernen**
+
+Wir machen Sie mit einem der zentralen Werkzeuge für die Operationalisierung von Metadatenrepositorien vertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. In dieser Fallstudie werden außerdem die Nutzung der Abfragesprache SPARQL und erste praktische Schritte anschaulich erklärt.
+
+**3. Datenqualität messen:** 
+
+Sie lernen, wie Sie Metadaten anhand von Maßnahmen zur Qualitätsmessung überprüfen können, um sicherzustellen, dass diese den Qualitätsanforderungen entsprechen. Dazu stellen wir Ihnen die verschiedenen Qualitätskriterien des Metadata Quality Assessment (MQA) für Metadaten vor.
+
+**4. Praxis anwenden**
+Im letzten Schritt der Fallstudie widmen wir uns der praktischen Anwendung und erläutern, wie Metadaten mithilfe der SPARQL-Abfragesprache abgefragt werden können. Dabei vermitteln wir zunächst die grundlegenden Konzepte von SPARQL, einschließlich der Syntax und zentraler Befehle. Im Anschluss führen wir gezielte Abfragen durch, die auf unsere Fragestellung ausgerichtet sind und evaluieren kritisch, in welchem Maß die aktuellen Implementierungen erfolgreich sind oder Optimierungspotenzial aufweisen.  
+
+---
+  
+
+Die Gliederung der Fallstudie in Kapitel und Abschnitte können Sie immer in der Menüleiste auf der linken Seite nachvollziehen. Die rechte Menüleiste zeigt Ihnen an, in welchem Abschnitt eines Kapitels Sie sich gerade befinden.
+Die einzelnen Kapitel sind so gestaltet, dass Sie sie sowohl chronologisch als auch separat voneinander durchgehen können.
+
+Das JupyterBook lässt sich in zwei Hauptblöcke gliedern:
+
 
 |       Block              |     Inhalte                                               |    Bearbeitungszeit              |  
 |---------------------|----------------------------------------------------|----------------------------------------------------|
