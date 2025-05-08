@@ -21,9 +21,7 @@ In den folgenden Übungen dieses Kapitels befassen Sie sich mit der eingangs vor
 
 ```{admonition} Weiterführende Informationen
 :class: seealso
-Weitere Informationen zum Thema SPARQL und RDF, die allerdings ein gewisses Maß an Vorkenntnissen zum Verständnis benötigen, finden Sie auf den Seiten des <a href="https://www.w3.org/TR/sparql11-query/" class="external-link" target="_blank">W3C</a> (auf Englisch).
-
-Darüber hinaus hat der Open Data Support der Europäischen Kommission die <a href="https://data.europa.eu/sites/default/files/d2.1.2_training_module_1.3_introduction_to_rdf_sparql_de_edp.pdf" class="external-link" target="_blank">Präsentation eines Trainingsmoduls</a> veröffentlicht, in dem RDF und SPARQL ausführlich beschrieben werden. Auch in dieses Dokument lohnt sich ein Blick - obwohl es bereits von 2013 ist. 
+Weitere Informationen zum Thema SPARQL und RDF, die allerdings ein gewisses Maß an Vorkenntnissen zum Verständnis benötigen, finden Sie auf den Seiten des <a href="https://www.w3.org/TR/sparql11-query/" class="external-link" target="_blank">W3C</a>.  
 ```
 
 
