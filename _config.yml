@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Tabelle-Fallstudie-2
-author: Quadriga Team Tabelle
+author: Hannes Schnaitter
 root_file: intro
 logo: assets/logo.jpg
 copyright: "2024, QUADRIGA"
