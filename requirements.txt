@@ -1,5 +1,5 @@
 jupyter-book==1.0.4
-snowballstemmer>=2.2.0
+snowballstemmer>=2.0.0
 matplotlib
 numpy
 jupyterquiz
