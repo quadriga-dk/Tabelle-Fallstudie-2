@@ -13,7 +13,6 @@ chapters:
       - file: Einführung_Datenbasis
   - file: Semantic_Web_Linked_Data
     sections:
-    - file: Semantic_Web_Einführung
     - file: Semantic_Web_Definition
     - file: Semantic_Web_Layer_Cake
     - file: Semantic_Web_Übung

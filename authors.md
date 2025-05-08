@@ -7,7 +7,7 @@ lang: de-DE
 ## Autor:innen der Inhalte
 
 
-### Cemre Bingöl <a href="https://orcid.org/0009-0009-2345-4973" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Cemre Bingöl <a href="https://orcid.org/0009-0009-2345-4973" target="_blank">![](/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -19,7 +19,7 @@ lang: de-DE
 </tr>
 </table>
 
-### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -35,7 +35,7 @@ lang: de-DE
 </tr>
 </table>
 
-### Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -51,19 +51,7 @@ lang: de-DE
 </tr>
 </table>
 
-### Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Technische Unterstützung Fallstudie 1 Datentyp Tabelle</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
-</tr>
-</table>
-
-### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -83,21 +71,10 @@ lang: de-DE
 </tr>
 </table>
 
-### Philip Wiemer
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Testen und Iteration, Qualitätssicherung</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
-</tr>
-</table>  
 
 ## Weitere Beteiligte  
 
-### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -117,7 +94,7 @@ lang: de-DE
 </tr>
 </table>
 
-### Evgenia Samoilova <a href="https://orcid.org/0000-0003-3858-901X" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Evgenia Samoilova <a href="https://orcid.org/0000-0003-3858-901X" target="_blank">![](/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
