@@ -28,6 +28,13 @@ bibtex_bibfiles:
 sphinx:
   config:
     bibtex_reference_style: author_year
+    html_show_copyright: false
+    html_static_path: ['_static']
+    html_css_files:
+      - quadriga.css
+      - carousel.css
+    html_js_files:
+      - carousel.js
   extra_extensions:
     - sphinx.ext.autosummary
     - sphinx.ext.autodoc
