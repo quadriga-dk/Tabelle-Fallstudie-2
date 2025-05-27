@@ -28,18 +28,14 @@ div.cell_output table tbody tr td {
 div.cell_output table td:first-child:nth-last-child(2),
 div.cell_output table td:first-child:nth-last-child(2) ~ td {
     width: 50%;
-}
-
-div.cell_output table td:first-child:nth-last-child(3),
-div.cell_output table td:first-child:nth-last-child(3) ~ td {
-    width: 33%;
+    max-width: 300px;
 }
 
 
 /* Adjust max-width if there are more than 4 columns */
 div.cell_output table td:first-child:nth-last-child(n+3),
 div.cell_output table td:first-child:nth-last-child(n+3) ~ td {
-    max-width: 180px !important;
+    max-width: 120px !important;
 }
 
 /* Row expansion on hover */
