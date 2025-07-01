@@ -1,4 +1,6 @@
+(semanticweb)=
 # Semantic Web & Linked Data
+
 
 ```{admonition} Semantic Web
 :class: lernziele
