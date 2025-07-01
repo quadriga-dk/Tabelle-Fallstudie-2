@@ -1,9 +1,9 @@
 # Semantic Web & Linked Data
 
-```{admonition} Grundlegende Konzepte
+```{admonition} Semantic Web
 :class: lernziele
-- Die Lernenden können definieren, was das Semantic Web und semantische Technologien sind.
-- Die Lernenden können die Rolle von RDF im Semantic Web erklären.
+1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
+2. Die Rolle von RDF im Semantic Web kann erklärt werden.
 ```
 
 In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welches eine zentrale Rolle in der modernen Datenverarbeitung und Datennutzung einnimmt. Dabei wird aufgezeigt, wie semantische Technologien dazu beitragen, Informationen besser zu strukturieren, zu verknüpfen und maschinell interpretierbar zu machen.
