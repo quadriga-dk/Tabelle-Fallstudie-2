@@ -2,7 +2,7 @@
 
 ```{admonition} Metadatenqualität
 :class: lernziele
-- Die Lernenden können die Funktionen des Metadata Quality Assessment (MQA) beschreiben und zur Bewertung der Metadatenqualität anhand von praktischen Beispielen anwenden.
+1. Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben und zur Bewertung der Metadatenqualität anhand von praktischen Beispielen angewendet werden.
 ```
 
 In diesem Kapitel widmen wir uns der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten. Metadaten sind der Schlüssel, um große Datenmengen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen – Eigenschaften, die durch die <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">FAIR-Prinzipien</a> definiert werden. Die Einhaltung dieser Prinzipien ist essenziell für die erfolgreiche Implementierung offener Datenportale, da nur Metadaten mit einer hohen Qualität eine reibungslose Datennachnutzung gewährleisten.
