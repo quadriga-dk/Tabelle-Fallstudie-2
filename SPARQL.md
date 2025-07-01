@@ -1,4 +1,6 @@
+(sparql)=
 # SPARQL
+
 
 ```{admonition} Abfragesprache SPARQL
 :class: lernziele
