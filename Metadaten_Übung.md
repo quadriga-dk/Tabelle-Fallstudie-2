@@ -1,22 +1,23 @@
 # Übung zur Bewertung der Metadatenqualität von GovData 
 Im Rahmen dieser Übung beschäftigen wir uns mit der Bewertung der Metadatenqualität auf der Plattform GovData, dem zentralen Datenportal für offene Daten in Deutschland. GovData bietet Zugang zu einer Vielzahl von Datensätzen aus verschiedenen öffentlichen Institutionen und Behörden, wobei die Qualität der Metadaten eine entscheidende Rolle für die Auffindbarkeit, Nachnutzung und Integration der Daten spielt.
 
-Die Metadatenqualität wird anhand von definierten Kriterien bewertet, die in Kapitel 4 (*Wirklich Kap. 4 - ansonsten noch eindeutlicher verweisen*) ausführlich behandelt wurden. Hierzu zählen Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Diese Übung knüpft direkt an die theoretischen Grundlagen an und ermöglicht eine praxisnahe Anwendung, bei der die Stärken und Schwächen der vorhandenen Metadaten analysiert werden.
+In dieser Übung gilt es, die Qualität der bei GovData angegebenen Metadaten zu prüfen. Dabei orientieren wir uns an den Kategorien des Metadata Quality Assessment, auf die in diesem Kapitel eingegangen wurde. Dies sind: Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. 
+
+Dadurch knüpft diese Übung direkt an die theoretischen Grundlagen an und ermöglicht deren praktische Anwendung, indem die Stärken und Schwächen der im Portal angegebenen Metadaten analysiert werden.
 
 Durch diese praktische Übung können Sie die Relevanz von qualitativ hochwertigen Metadaten für offene Datenportale wie GovData nachvollziehen und Handlungsempfehlungen für deren Verbesserung entwickeln.
 
 Die Bewertungsevaluation von GovData beträgt 236 von maximal möglichen 405 Punkten, was einer "guten" Note entspricht (Stand Januar 2025, siehe Übersicht aller Kataloge auf dem [Metadata Quality Dashboard](https://data.europa.eu/mqa/?locale=de) des europäischen Metadatenportals). Trotzdem gibt es erhebliche Lücken in der Qualität, die nicht ignoriert werden können. Auf diese werden wir im Folgenden genauer eingehen.  Diese Übung soll Ihnen helfen, ein vertieftes Verständnis für die Bedeutung von Metadatenqualität zu entwickeln und gleichzeitig konkrete Strategien zur Verbesserung zu erarbeiten. 
 
-**Besuchen Sie die Website des Metadata Quality Dashboards des europäischen Metadatenportals** 
-
-Schauen Sie sich auf dem Metadata Quality Dashboard des europäischen Metadatenportals die Bewertung für Deutschland an: [Govdata - Das Datenportal für Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de). Dort finden Sie die Ergebnisse der Metadatenbewertung. 
+Schauen Sie sich auf dem Metadata Quality Dashboard des europäischen Metadatenportals die Bewertung für das deutsche Portal <a href="https://data.europa.eu/mqa/catalogues/govdata/?locale=de" class="external-link" target="_blank">GovData</a> an: Dort finden Sie die Ergebnisse der Metadatenbewertung. 
 
 `````{admonition} 1. Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal (GovData) zum Zeitpunkt Ihrer aktuellen Recherche?
 :class: exercise
 ````{admonition} Lösung
 :class: solution, dropdown
 
-An dieser Stelle kann die Metadatenqualität von GovData eingesehen werden. Dabei ist zu beachten, dass sich diese Bewertung kontinuierlich verändert. Unter dem Reiter *Katalog Dashboard* wird die Bewertung von GovData anhand von fünf Dimensionen dargestellt: Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Analysieren Sie, welche der fünf Dimensionen aktuell am schlechtesten abschneidet und welche spezifischen Indikatoren hierfür verantwortlich sind. Klicken Sie auf die Dimension. In einem sich öffnenden Fenster können Sie sich genauer anschauen, welcher Indikator am schlechtesten abschneidet. Durch Anklicken der jeweiligen Dimension öffnet sich ein Fenster, das detaillierte Informationen enthält. Zudem sind die Indikatoren dort verlinkt, sodass eine genauere Erläuterung der einzelnen Indikatoren eingesehen werden kann.
+An dieser Stelle kann die Metadatenqualität von GovData eingesehen werden. Dabei ist zu beachten, dass sich diese Bewertung kontinuierlich verändert. Unter dem Reiter *Katalog Dashboard* wird die Bewertung von GovData anhand der im vorherigen Abschnitt genannten 5 Kategorien dargestellt: Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Analysieren Sie, welche der fünf Dimensionen aktuell am schlechtesten abschneidet und welche spezifischen Indikatoren hierfür verantwortlich sind. Klicken Sie auf die Dimension. In einem sich öffnenden Fenster können Sie sich genauer anschauen, welcher Indikator am schlechtesten abschneidet. Durch Anklicken der jeweiligen Dimension öffnet sich ein Fenster, das detaillierte Informationen enthält. Zudem sind die Indikatoren dort verlinkt, sodass eine genauere Erläuterung der einzelnen Indikatoren eingesehen werden kann.
+*Antwort passt nicht zur Frage. Man würde etwas erwarten wie: Zum Zeitpunkt der letzmailgen Prüfung dieser Übung im Sommer 2025 werden folgende Zugangsprobleme genannt: ... (vielleicht Screenshot einfügen)* 
 ````
 `````
 
