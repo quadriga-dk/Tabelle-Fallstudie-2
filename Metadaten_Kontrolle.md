@@ -10,7 +10,19 @@ Die FAIR-Prinzipien dienen als Grundlage für das <a href="https://data.europa.e
 
 Das MQA zielt darauf ab, die Qualität der Metadaten für Daten des öffentlichen Sektors in Europa zu bewerten und die größten Hindernisse, die einer besseren Datenqualität entgegenstehen, zu identifizieren. Die Untersuchung konzentriert sich auf spezifische Fragestellungen, wie die Einhaltung von DCAT-AP-Standards, die Offenlegung zusätzlicher Informationen, die Zugänglichkeit und Maschinenlesbarkeit der referenzierten Daten sowie die Lizenzverwendung.
 
-Auf dem <a href="https://data.europa.eu/mqa/?locale=de" class="external-link" target="_blank">Metadata Quality Dashboard</a> des europäischen Metadatenportals wird eine Bewertung aller europäischen Portale geboten und die besten 12 Portale hervorgehoben. Die Bewertung ist an die FAIR-Prinzipien angelehnt und erfolgt in den 5 Kategorien Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Die Prozentzahlen geben den Anteil der Datensätze an, die den jeweiligen Kriterien entsprechen. Durch den Verlauf kann man nachvollziehen, wie diese Anteile im Laufe der Jahre schwanken, insbesondere da kontinuierlich neue Datensätze hinzugefügt werden, die die Kriterien erfüllen oder nicht. Im Übersichtsbereich ist beispielsweise ersichtlich, dass das [nationale spanische Datenportal](https://data.europa.eu/mqa/catalogues/yoda/?locale=de) eine ausgezeichnete Bewertung erhalten hat (Stand März 2025). 
+Auf dem <a href="https://data.europa.eu/mqa/?locale=de" class="external-link" target="_blank">Metadata Quality Dashboard</a> des europäischen Metadatenportals wird eine Bewertung aller europäischen Portale geboten und die besten 12 Portale hervorgehoben. Die Bewertung ist an die FAIR-Prinzipien angelehnt und erfolgt in den 5 Kategorien Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. 
+
+```{figure} ../_images/mqa_screenshot_20250703.png
+---
+align: left
+width: 100%
+name: screenshot-mqa-data.europa.eu
+alt: Darstellung der Indikatoren der Bewertungskategorien des Metadata Quality Assessment.
+---
+Darstellung einzelner Indikatoren innerhalb der Bewertungskategorien.
+```
+
+Die Prozentzahlen geben den Anteil der Datensätze an, die den jeweiligen Kriterien entsprechen. Durch den Verlauf kann man nachvollziehen, wie diese Anteile im Laufe der Jahre schwanken, insbesondere da kontinuierlich neue Datensätze hinzugefügt werden, die die Kriterien erfüllen oder nicht. Im Übersichtsbereich ist beispielsweise ersichtlich, dass das [nationale spanische Datenportal](https://data.europa.eu/mqa/catalogues/yoda/?locale=de) eine ausgezeichnete Bewertung erhalten hat (Stand März 2025). 
 Lassen Sie uns nun das [Open Data Portal Deutschland](https://data.europa.eu/mqa/catalogues/govdata/?locale=de) betrachten und einschätzen, wie fortgeschritten die Open-Data-Initiative in Deutschland ist und welche Schwachstellen noch bestehen. In der folgenden Übung können Sie eigenständig die Seite durchstöbern und potenzielle Unzulänglichkeiten ausfindig machen.
 
 ```{admonition} Was  Sie mitnehmen sollten
