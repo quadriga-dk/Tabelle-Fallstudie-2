@@ -40,10 +40,10 @@ chapters:
 
   - file: zusammenfassung
   
-  - file: Epilog
+  - file: epilog/Epilog
     sections:
-    - file: fragen_und_feedback
-    - file: Literaturverzeichnis
-    - file: authors
-    - file: quadriga
-    - file: impressum
+    - file: epilog/fragen_und_feedback
+    - file: epilog/Literaturverzeichnis
+    - file: epilog/authors
+    - file: epilog/quadriga
+    - file: epilog/impressum
