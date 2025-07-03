@@ -2,7 +2,7 @@
 # DCAT-AP Metadatenstandard
 
 
-```{admonition} Metadatenstandards
+```{admonition} Lernziel: Metadatenstandards
 :class: lernziele
 1. Der DCAT-Standard kann definiert und seine Rolle im Datenaustausch beschreiben werden.
 2. Die Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.

@@ -2,7 +2,7 @@
 # SPARQL
 
 
-```{admonition} Abfragesprache SPARQL
+```{admonition} Lernziel: Abfragesprache SPARQL
 :class: lernziele
 1. Die grundlegenden Komponenten der SPARQL-Syntax können aufgezählt und ihre Rollen erläutert werden.
 2. Einfache SPARQL-Abfragen können erstellt und durchgeführt werden, um spezifische Informationen aus einem Datenkatalog abzurufen.

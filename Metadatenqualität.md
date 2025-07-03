@@ -2,7 +2,7 @@
 # Metadatenqualität
 
 
-```{admonition} Metadatenqualität
+```{admonition} Lernziel: Metadatenqualität
 :class: lernziele
 1. Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben und zur Bewertung der Metadatenqualität anhand von praktischen Beispielen angewendet werden.
 ```

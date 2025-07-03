@@ -2,7 +2,7 @@
 # Semantic Web & Linked Data
 
 
-```{admonition} Semantic Web
+```{admonition} Lernziel: Semantic Web
 :class: lernziele
 1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
 2. Die Rolle von RDF im Semantic Web kann erklärt werden.
