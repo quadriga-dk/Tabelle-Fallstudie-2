@@ -19,17 +19,17 @@ chapters:
     - file: Semantic_Web_Übung
     - file: Semantic_Web_Reflexion
 
-  - file: DCAT_AP_Metadatenstandard
-    sections:
-    - file: DCAT_AP_Struktur
-    - file: DCAT_AP_Beispiel
-    - file: DCAT_AP_Reflexion
-
   - file: Metadatenqualität
     sections:
     - file: Metadaten_Kontrolle
     - file: Metadaten_Übung
     - file: Metadaten_Reflexion
+
+  - file: DCAT_AP_Metadatenstandard
+    sections:
+    - file: DCAT_AP_Struktur
+    - file: DCAT_AP_Beispiel
+    - file: DCAT_AP_Reflexion
 
   - file: SPARQL
     sections:
