@@ -33,3 +33,11 @@ Durch die Anlehnung an den <a href="https://op.europa.eu/de/web/eu-vocabularies/
 ```{admonition} Was  Sie mitnehmen sollten
 :class: keypoint 
 Das DCAT-AP-Schema basiert auf dem Dublin-Core-Metadatenstandard und ermöglicht die Interoperabilität von Datenkatalogen im Web. Durch die Anwendung von DCAT-AP, insbesondere in nationalen Initiativen wie DCAT-AP.de in Deutschland, wird eine effiziente und einheitliche Katalogisierung und Nutzung von offenen Daten gefördert, die grenzübergreifend in der EU genutzt werden können.
+```
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```
+

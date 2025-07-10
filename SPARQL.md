@@ -1,6 +1,21 @@
 (sparql)=
 # SPARQL
 
+`````{margin}
+```{admonition} Fragen oder Feedback 
+:class: frage-feedback
+
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+    Stellen Sie eine Frage
+</a> <br>
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+    Geben Sie uns Feedback
+</a>
+
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+
+```
+`````
 
 ```{admonition} Lernziel: Abfragesprache SPARQL
 :class: lernziele
@@ -33,3 +48,9 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [SPARQL Übung 1](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_%C3%9Cbung_1.html)
 - [SPARQL Übung 2]([/SPARQL_Übung_2.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_%C3%9Cbung_2.html))
 - [SPARQL Reflexion]([/SPARQL_Reflexion.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_Reflexion.html))
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```
