@@ -8,7 +8,7 @@ Zusammenfassend können wir festhalten, dass DCAT-AP eine entscheidende Rolle be
 Im nächsten Kapitel widmen wir uns daher einem essenziellen Aspekt: der Qualität von Metadaten. Wir untersuchen, wie die Einhaltung der FAIR-Prinzipien (auffindbar, zugänglich, interoperabel, wiederverwendbar) die Nutzbarkeit von offenen Daten verbessert und analysieren typische Herausforderungen bei der Sicherstellung von Metadatenqualität. Mit dem Metadata Quality Assessment (MQA)-Tool des europäischen Datenportals lernen wir ein praktisches Werkzeug kennen, um die Qualität von Metadaten zu bewerten und Optimierungspotenziale zu identifizieren.
 
 ```{admonition} Weitere Informationen
-:class: keypoint 
+:class: seealso 
 Weitere Informationen zu DCAT-AP und eine Übersicht über etliche weitere Metadatenstandards erhalten Sie im <a href="https://rdamsc.bath.ac.uk/msc/m124" class="external-link" target="_blank">Metadata Standards Catalog</a> der englischen <a href="https://de.wikipedia.org/wiki/University_of_Bath" class="external-link" target="_blank">Universität Bath</a>
 ```
 
