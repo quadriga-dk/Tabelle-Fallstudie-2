@@ -6,6 +6,7 @@ Um mit Daten arbeiten zu können, müssen diese auffindbar sein. Dieses <a href=
 ---
 name: Datenwissenschaftler analysiert Baumverteilungen
 alt: Eine grafische Darstellung eines Datenwissenschaftlers der die Baumverteilung analysiert.
+width: 420px
 ---
 Datenwissenschaftler analysiert Baumverteilungen (KI generiert).
 ```

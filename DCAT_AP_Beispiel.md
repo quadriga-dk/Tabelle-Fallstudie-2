@@ -21,3 +21,9 @@ In CKAN werden Daten als Datensätze organisiert, die jeweils eine Sammlung von 
 Das deutsche Metadatenportal <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a> wurde unter Verwendung der zuvor beschriebenen Standards und Systeme entwickelt. Auf diesem Portal können unterschiedlichste Datensätze von deutschen Verwaltungsinstitutionen aller Ebenen (Kommunen, Länder, Bund) durchsucht und auf verschiedenste Art gefiltert werden. 
 
 Im nächsten Kapitel befassen wir uns mit ausgewählten Datensätzen, die im Portal verfügbar sind (dank interoperabler Technologien), sowie mit den Vorteilen und Schwächen der aktuellen Umsetzung im Rahmen der Philosophie offener Daten.
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```

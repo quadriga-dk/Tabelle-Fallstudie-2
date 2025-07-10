@@ -5,6 +5,7 @@
 ---
 name: Eine Dashboard für Baumkataster
 alt: Eine grafische Darstellung eines Dashboard für Baumkataster.
+width: 520px
 ---
 Ein Dashboard für Baumkataster (KI generiert).
 ```

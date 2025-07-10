@@ -33,3 +33,9 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [SPARQL Übung 1](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_%C3%9Cbung_1.html)
 - [SPARQL Übung 2]([/SPARQL_Übung_2.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_%C3%9Cbung_2.html))
 - [SPARQL Reflexion]([/SPARQL_Reflexion.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_Reflexion.html))
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```

@@ -37,3 +37,10 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Semantic Web Layer Cake](/Semantic_Web_Layer_Cake.md)
 - [Semantic Web Übung](/Semantic_Web_Übung.md)
 - [Semantic Web Reflexion](/Semantic_Web_Reflexion.md)
+
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```

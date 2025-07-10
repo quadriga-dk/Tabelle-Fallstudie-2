@@ -24,3 +24,9 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [DCAT AP Struktur](/DCAT_AP_Struktur.md)
 - [DCAT AP Beispiel](/DCAT_AP_Beispiel.md)
 - [DCAT AP Reflexion](/DCAT_AP_Reflexion.md)
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```
