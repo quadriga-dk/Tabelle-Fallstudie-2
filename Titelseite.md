@@ -19,24 +19,15 @@ Der Baumbestand in Städten und ländlichen Regionen ist für Stadtplanung und U
 
 Dr. Amir Weber, ein Experte mit Interesse an städtischen und ländlichen Baumbeständen, möchte ein Dashboard zur Visualisierung der Baumartenvielfalt erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber zunächst die folgende Frage:
 
-**Welche offen verfügbaren Daten existieren, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?** 
+**Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?**   
 
-Die Frage lässt sich in mehrere Teile untergliedern, die sich auf verschiedene Aspekte der Datensätze fokussieren: die Gesamtzahl der Datensätze bundesweit, die Verteilung der Daten auf die einzelnen Bundesländer sowie die Unterschiede in der Zahl der Datenbereitsteller und der Vielfalt der bereitgestellten Formate in den jeweiligen Regionen.
-
-- Wie viele Datensätze beinhalten das Wort „Baumkataster“ im Titel?
-- Wer stellt die meisten Daten bereit?
-- Wie unterscheiden sich die Bereitsteller in ihrer Anzahl an Formaten?
-
-Diese Fragen sind der Ausgangspunkt für eine tiefere Untersuchung der verfügbaren offenen Daten. Dr. Weber plant, die Datensätze nach Bundesländern und Bereitstellern zu filtern, um ein besseres Verständnis darüber zu gewinnen, welche Regionen besonders viele und vielfältige Baumkataster-Daten zur Verfügung stellen. Recherchieren Sie mit ihm zusammen, wie die entsprechende Datengrundlage ist.  
-
-Um die Fragen zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web und Linked Data sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache SPARQL.  
+Um diese Frage zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web und Linked Data sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache SPARQL.  
 
 ## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
 
 Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht, wenn nicht erst ermöglicht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz für die Arbeit mit Daten. In Bezug zur Verwaltung(swissenschaft) gilt dies insbesondere für <a href="https://www.dcat-ap.de/" class="external-link" target="_blank">DCAT-AP</a> - den gemeinsamen Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen erleichtern kann.
 
 ## Zielgruppe
-**Für wen ist dieses JupyterBook gedacht?**
 
 Grundsätzlich steht das JupyterBook allen Interessierten offen.
 

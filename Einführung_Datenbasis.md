@@ -1,4 +1,19 @@
-# Datenbasis: Metadatenportal
+(datenbasis)=
+# Datenbasis: Metadatenportale
+
+Die eingangs erwähnte Forschungsfrage lautet:
+
+**Welche offenen Daten gibt es, die dazu beitragen, den Bewässerungsbedarf von Bäumen in einer bestimmten Region zu ermitteln?**
+
+Um diese Frage zu beantworten, werden verschiedene Aspekte aus Datenportalen erfragt werden müssen.
+
+- Wie viele Datensätze beinhalten das Wort „Baumkataster“ im Titel?
+- Wer stellt die meisten Daten bereit?
+- Wie unterscheiden sich die Bereitsteller in ihrer Anzahl an Formaten?
+
+Diese Fragen sind der Ausgangspunkt für eine tiefere Untersuchung der verfügbaren offenen Daten. An der Seite von Dr. Weber werden wir die Datensätze nach Bundesländern und Bereitstellern zu filtern, um ein besseres Verständnis darüber zu gewinnen, welche Regionen besonders viele und vielfältige Baumkataster-Daten zur Verfügung stellen. Recherchieren Sie mit ihm zusammen, wie die entsprechende Datengrundlage ist.
+
+---
 
 Im Rahmen dieser Fallstudie befassen wir uns mit der systematischen Abfrage und Nutzung von Metadaten, wie sie über das deutsche Metadatenportal <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a> bereitgestellt werden. Dieses Portal bildet die Grundlage, sich mit der Datenstruktur von Datenportalen auf verschiedenen Ebenen vertraut zu machen – lokal, national und europäisch – und zu verstehen, wie Metadaten über diese Ebenen hinweg abgerufen und verarbeitet werden können.
 
