@@ -1,6 +1,22 @@
 (semanticweb)=
 # Semantic Web & Linked Data
 
+`````{margin}
+```{admonition} Fragen oder Feedback 
+:class: frage-feedback
+
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+    Stellen Sie eine Frage
+</a> <br>
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+    Geben Sie uns Feedback
+</a>
+
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+
+```
+`````
+
 
 ```{admonition} Lernziel: Semantic Web
 :class: lernziele
@@ -37,3 +53,10 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Semantic Web Layer Cake](/Semantic_Web_Layer_Cake.md)
 - [Semantic Web Übung](/Semantic_Web_Übung.md)
 - [Semantic Web Reflexion](/Semantic_Web_Reflexion.md)
+
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```
