@@ -1,14 +1,31 @@
 (intro)=
 # Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal
 
+`````{margin}
+```{admonition} Fragen oder Feedback 
+:class: frage-feedback
+
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+    Stellen Sie eine Frage
+</a> <br>
+<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+    Geben Sie uns Feedback
+</a>
+
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+
+```
+`````
+
 Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> vermittelt grundlegende Kenntnisse zur Datenabfrage, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.  
-Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten, da Daten zu Baumverteilungen vor allem im Zuge des Klimawandels zunehmend an Bedeutung gewinnen. Dies zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lat=52.461091286002215&lng=13.436155588938107&zoom=17.756600613085226&treeId=00008100%3A000bc7ab" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
+Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten, da Daten zu Baumverteilungen vor allem im Zuge des Klimawandels zunehmend an Bedeutung gewinnen. Dies zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
 
 
 ```{figure} Datenwissenschaftler_analysiert_Baumverteilungen.png
 ---
 name: Datenwissenschaftler analysiert Baumverteilungen
 alt: Eine grafische Darstellung eines Datenwissenschaftlers der die Baumverteilung analysiert.
+width: 420px
 ---
 Datenwissenschaftler analysiert Baumverteilungen (KI generiert).
 ```

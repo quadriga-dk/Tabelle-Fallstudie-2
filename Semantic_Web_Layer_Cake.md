@@ -21,3 +21,10 @@ Wir erklären nun stufenweise jede Schicht und beginnen bei der untersten:
 7. <span style="color:#facc15"><strong>Trust</strong></span> - Die oberste Schicht schafft Vertrauen in die Daten, z. B. durch digitale Signaturen. Diese zeigen an, wer die Daten erstellt hat und ob sie unverändert sind. 
 
 Jede dieser Schichten baut auf den vorherigen auf. Das Konzept von verlinkten Daten, oder *Linked Data*, ist essenziell für die vollständige Umsetzung einer erfolgreichen Semantic-Web-Struktur. In unserer vorherigen Fallstudie zur Reproduzierbarkeit von Datenanalysen haben wir uns genau mit diesem Konzept auseinandergesetzt - [Weitere Informationen finden Sie hier](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/5_3_Linked-Data.html).
+
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```

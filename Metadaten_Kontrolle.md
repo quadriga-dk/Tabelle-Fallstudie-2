@@ -32,3 +32,10 @@ Lassen Sie uns nun das [Open Data Portal Deutschland](https://data.europa.eu/mqa
 ```{admonition} Was  Sie mitnehmen sollten
 :class: keypoint
 Metadaten sind entscheidend, um Daten schnell und effizient zu organisieren, zu kategorisieren und auffindbar zu machen. Sie ermöglichen eine bessere Navigation durch große Datenmengen und tragen zur Umwandlung von Rohdaten in wertvolle Informationen bei. Die Anwendung der FAIR-Prinzipien für Metadaten stellt sicher, dass diese Daten zugänglich, interoperabel und wiederverwendbar sind, und wird durch Werkzeuge wie das Metadata Quality Assessment (MQA) zur Bewertung und Verbesserung der Metadatenqualität unterstützt.
+```
+
+**Literatur**
+
+```{bibliography}
+:filter: docname in docnames
+```
