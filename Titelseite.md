@@ -1,4 +1,5 @@
-# Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal 
+(intro)=
+# Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
@@ -16,7 +17,8 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 `````
 
-Um mit Daten arbeiten zu können, müssen diese auffindbar sein. Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> vermittelt grundlegende Kenntnisse zur Datenabfrage, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, Standards und Abfragesprachen vertraut macht. 
+Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> vermittelt grundlegende Kenntnisse zur Datenabfrage, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.  
+Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten, da Daten zu Baumverteilungen vor allem im Zuge des Klimawandels zunehmend an Bedeutung gewinnen. Dies zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
 
 
 ```{figure} Datenwissenschaftler_analysiert_Baumverteilungen.png
@@ -29,27 +31,20 @@ Datenwissenschaftler analysiert Baumverteilungen (KI generiert).
 ```
 
 ## Baumbestand-Analyse: Erfassung und Visualisierung der Verteilung der Baumarten
-Der Baumbestand in deutschen Städten und ländlichen Regionen ist für Klimaanpassung, Umweltforschung und Stadtplanung von zentraler Bedeutung. Eine wichtige Grundlage für diese Arbeiten sind detaillierte Baumkataster, die Informationen zu Baumarten, Standorten und Zustand liefern. Doch wie gut sind diese Daten öffentlich zugänglich?
 
-Dr. Amir Weber, ein Experte mit Interesse an städtischen und ländlichen Baumbeständen, möchte ein Dashboard zur Visualisierung der Baumartenvielfalt erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber die folgende Frage:
+Der Baumbestand in Städten und ländlichen Regionen ist für Stadtplanung und Umweltforschung aufgrund deren Auswirkung auf das Mikroklima von zentraler Bedeutung. In diesem Zusammenhang stellen Baumkataster eine wichtige Arbeitsgrundlage dar, da sie Informationen zu Baumarten, deren Standort und Zustand liefern. Doch wie gut sind diese Daten öffentlich zugänglich?
 
-**Welche offen verfügbaren Daten existieren, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?** 
+Dr. Amir Weber, ein Experte mit Interesse an städtischen und ländlichen Baumbeständen, möchte ein Dashboard zur Visualisierung der Baumartenvielfalt erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber zunächst die folgende Frage:
 
-Die Hauptfrage lässt sich also in mehrere Teilfragen untergliedern, die eine detaillierte Analyse der offenen Baumkataster-Daten ermöglichen. Diese Unterfragen fokussieren sich auf verschiedene Aspekte der Datensätze: die Gesamtzahl der Datensätze bundesweit, die Verteilung der Daten auf die einzelnen Bundesländer sowie die Unterschiede in der Zahl der Datenbereitsteller und der Vielfalt der bereitgestellten Formate in den jeweiligen Regionen.
+**Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?**   
 
-- Wie viele Datensätze beinhalten das Wort „Baumkataster“ im Titel?
-- Wer stellt die meisten Daten bereit?
-- Wie unterscheiden sich die Bereitsteller in ihrer Anzahl an Formaten?
-
-Diese Fragen sind der Ausgangspunkt für eine tiefere Untersuchung der verfügbaren offenen Daten. Dr. Weber plant, die Datensätze nach Bundesländern und Bereitstellern zu filtern, um ein besseres Verständnis darüber zu gewinnen, welche Regionen besonders viele und vielfältige Baumkataster-Daten zur Verfügung stellen. Recherchieren Sie mit ihm zusammen, wie die entsprechende Datengrundlage ist.  
-
-Um die Fragen zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web und Linked Data sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache SPARQL.  
+Um diese Frage zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web und Linked Data sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache SPARQL.  
 
 ## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
-Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz. Dies gilt insbesondere für <a href="https://www.dcat-ap.de/" class="external-link" target="_blank">DCAT-AP</a> als gemeinsamer Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen erleichtern kann.
+
+Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht, wenn nicht erst ermöglicht. Ein grundlegendes Verständnis von Metadaten ist daher von entscheidender Relevanz für die Arbeit mit Daten. In Bezug zur Verwaltung(swissenschaft) gilt dies insbesondere für <a href="https://www.dcat-ap.de/" class="external-link" target="_blank">DCAT-AP</a> - den gemeinsamen Metadatenstandard für offene Verwaltungsdaten. Des Weiteren lassen sich durch Abfragesprachen wie SPARQL passgenaue Informationen herausfiltern, was die Suche nach Datensätzen erleichtern kann.
 
 ## Zielgruppe
-**Für wen ist dieses JupyterBook gedacht?**
 
 Grundsätzlich steht das JupyterBook allen Interessierten offen.
 
@@ -57,6 +52,7 @@ Die explizite Zielgruppe sind jedoch promovierende und promovierte Wissenschaftl
 
 
 ## Struktur der Fallstudie
+
 Die zentrale Forschungsfrage, die in dieser Fallstudie untersucht wird, lautet: 
 
 **Welche offenen Daten gibt es, die dazu beitragen, den Bewässerungsbedarf von Bäumen in einer bestimmten Region zu ermitteln?**
