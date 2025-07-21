@@ -22,12 +22,11 @@ chapters:
     - file: metadatenqualität/Metadaten_Kontrolle
     - file: metadatenqualität/Metadaten_Übung
     - file: metadatenqualität/Metadaten_Reflexion
-  - file: DCAT_AP_Metadatenstandard
+  - file: dcat_ap/DCAT_AP_Metadatenstandard
     sections:
-    - file: DCAT_AP_Struktur
-    - file: DCAT_AP_Beispiel
-    - file: DCAT_AP_Reflexion
-
+    - file: dcat_ap/DCAT_AP_Struktur
+    - file: dcat_ap/DCAT_AP_Beispiel
+    - file: dcat_ap/DCAT_AP_Reflexion
   - file: SPARQL
     sections:
     - file: SPARQL_Grundlagen
