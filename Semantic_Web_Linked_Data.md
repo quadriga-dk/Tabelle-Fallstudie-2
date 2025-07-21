@@ -1,5 +1,5 @@
 (semanticweb)=
-# Semantic Web & Linked Data
+# Semantic Web & Linked Data (optional)
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
