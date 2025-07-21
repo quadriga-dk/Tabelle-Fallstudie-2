@@ -22,7 +22,6 @@ chapters:
     - file: metadatenqualität/Metadaten_Kontrolle
     - file: metadatenqualität/Metadaten_Übung
     - file: metadatenqualität/Metadaten_Reflexion
-
   - file: DCAT_AP_Metadatenstandard
     sections:
     - file: DCAT_AP_Struktur
