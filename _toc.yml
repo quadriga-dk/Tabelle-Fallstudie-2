@@ -11,13 +11,12 @@ chapters:
       - file: präambel/lernziele
       - file: präambel/technische_voraussetzungen
       - file: präambel/Einführung_Datenbasis
-  - file: Semantic_Web_Linked_Data
+  - file: semantic_web/Semantic_Web_Linked_Data
     sections:
-    - file: Semantic_Web_Einführung
-    - file: Semantic_Web_Definition
-    - file: Semantic_Web_Layer_Cake
-    - file: Semantic_Web_Übung
-    - file: Semantic_Web_Reflexion
+    - file: semantic_web/Semantic_Web_Definition
+    - file: semantic_web/Semantic_Web_Layer_Cake
+    - file: semantic_web/Semantic_Web_Übung
+    - file: semantic_web/Semantic_Web_Reflexion
 
   - file: Metadatenqualität
     sections:
