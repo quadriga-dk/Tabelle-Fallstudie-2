@@ -6,11 +6,11 @@ root: Titelseite
 options: 
   numbered: 3
 chapters:
-  - file: Präambel
+  - file: präambel/Präambel
     sections:
-      - file: lernziele
-      - file: technische_voraussetzungen
-      - file: Einführung_Datenbasis
+      - file: präambel/lernziele
+      - file: präambel/technische_voraussetzungen
+      - file: präambel/Einführung_Datenbasis
   - file: Semantic_Web_Linked_Data
     sections:
     - file: Semantic_Web_Einführung
