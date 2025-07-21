@@ -1,4 +1,6 @@
-# Reflexion
+(metadatenquali_resumee)=
+# Resümee
+
 In diesem Kapitel wurde die zentrale Bedeutung der Metadatenqualität für den Erfolg offener Datenportale herausgestellt. Durch die Analyse der Metadatenqualität mit dem Metadata Quality Assessment (MQA) wurde deutlich, dass sowohl technische als auch strukturelle Herausforderungen die Einhaltung der FAIR-Prinzipien beeinflussen. Probleme wie unzugängliche Distributions oder Verstöße gegen das DCAT-AP-Schema verdeutlichen, dass die Standardisierung und Harmonisierung von Metadaten noch nicht flächendeckend umgesetzt sind.
 
 Besonders im Fokus standen die Herausforderungen des deutschen Datenportals GovData, das trotz guter Bewertungen noch Lücken aufweist, insbesondere in Bezug auf Persistente Identifier (PIDs) und die maschinelle Lesbarkeit. Diese Defizite beeinträchtigen die Auffindbarkeit und Interoperabilität der Datensätze, was die Nachnutzung erschwert und die Gesamtqualität der Plattform mindert.

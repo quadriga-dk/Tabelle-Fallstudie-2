@@ -1,4 +1,5 @@
-# Reflexion
+(sparql_resumee)=
+# Resümee
 
 In den vorangegangenen Übungen haben wir uns die SPARQL-Syntax angesehen, SPAQRL-Befehle wie *PREFIX*, *SELECT* und *WHERE* kennengelernt
 ...

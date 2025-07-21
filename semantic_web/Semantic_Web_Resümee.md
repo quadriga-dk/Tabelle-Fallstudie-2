@@ -1,4 +1,6 @@
-# Reflexion 
+(semantic_web_resumee)=
+# Resümee
+ 
 In diesem Abschnitt wurde ein umfassender Überblick über das Konzept des Semantic Web gegeben, das eine zentrale Rolle für die zukünftige Entwicklung des Internets und die effektive Nutzung verknüpfter Daten spielt. Der Fokus lag zunächst auf der Definition sowie den theoretischen Grundlagen des Semantic Web. Dabei wurde aufgezeigt, wie semantische Technologien und Standards wie RDF die Interoperabilität und die maschinelle Verarbeitung von Informationen ermöglichen. Ein zentrales Ziel des Semantic Web besteht darin, Daten in einer Form bereitzustellen, die sowohl von Menschen als auch von Maschinen verstanden und genutzt werden können.
 
 Anschließend wurde die "Layer Cake"-Architektur vorgestellt, die die technologischen Schichten des Semantic Web anschaulich erklärt. Jede Ebene – von der Identifikation über Datenstrukturen und Ontologien bis hin zur Vertrauenswürdigkeit – trägt dazu bei, ein robustes und semantisches Datenökosystem aufzubauen. Diese geschichtete Herangehensweise zeigt auf, wie verschiedene Technologien nahtlos zusammenarbeiten, um eine intelligente Datenverarbeitung zu ermöglichen und die Basis für verknüpfte, maschinenlesbare Daten zu legen.

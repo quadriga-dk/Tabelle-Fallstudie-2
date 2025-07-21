@@ -1,4 +1,6 @@
-# Zusammenfassung
+(zusammenfassung)=
+# Zusammenfassung und Reflexion
+
 In dieser Selbstlerneinheit lag der Fokus auf wichtigen Metadatenkonzepten, illustriert an einer beispielhaften Fragestellung, die sich u.a. mit den offenen Daten zum Thema Bewässerungsbedarf von Bäumen in einer bestimmten Region auseinandergesetzt hat. Obwohl die ganz zufriedenstellende Beantwortung aufgrund der mangelhaften Implementierung der Metadatenstandards teils missgelungen ist, haben wir versucht, ein fundiertes Verständnis für die Bedeutung von Metadatenqualität und derer Erfragen zu vermitteln. 
 
 Die Einheit begann mit einer Einführung in das Konzept des Semantic Web, das Informationen durch semantische Technologien strukturierter, verknüpfter und maschinenlesbar macht. Die Teilnehmer lernten die Grundlagen von Ontologien und Taxonomien kennen, die eine zentrale Rolle bei der Strukturierung und Nachnutzung von Daten spielen. Ergänzend wurde auf die Bedeutung der Linked Data eingegangen, die eine präzise Verknüpfung und Nachverfolgbarkeit von Informationen ermöglicht und die Grundlage für eine verbesserte Reproduzierbarkeit in der Datenverarbeitung darstellt.

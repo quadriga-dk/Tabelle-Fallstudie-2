@@ -16,23 +16,23 @@ chapters:
     - file: semantic_web/Semantic_Web_Definition
     - file: semantic_web/Semantic_Web_Layer_Cake
     - file: semantic_web/Semantic_Web_Übung
-    - file: semantic_web/Semantic_Web_Reflexion
+    - file: semantic_web/Semantic_Web_Resümee
   - file: metadatenqualität/Metadatenqualität
     sections:
     - file: metadatenqualität/Metadaten_Kontrolle
     - file: metadatenqualität/Metadaten_Übung
-    - file: metadatenqualität/Metadaten_Reflexion
+    - file: metadatenqualität/Metadaten_Resümee
   - file: dcat_ap/DCAT_AP_Metadatenstandard
     sections:
     - file: dcat_ap/DCAT_AP_Struktur
     - file: dcat_ap/DCAT_AP_Beispiel
-    - file: dcat_ap/DCAT_AP_Reflexion
+    - file: dcat_ap/DCAT_AP_Resümee
   - file: sparql/SPARQL
     sections:
     - file: sparql/SPARQL_Grundlagen
     - file: sparql/SPARQL_Übung_1
     - file: sparql/SPARQL_Übung_2
-    - file: sparql/SPARQL_Reflexion
+    - file: sparql/SPARQL_Resümee
 
   - file: zusammenfassung
   
