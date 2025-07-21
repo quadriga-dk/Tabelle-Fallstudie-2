@@ -27,12 +27,12 @@ chapters:
     - file: dcat_ap/DCAT_AP_Struktur
     - file: dcat_ap/DCAT_AP_Beispiel
     - file: dcat_ap/DCAT_AP_Reflexion
-  - file: SPARQL
+  - file: sparql/SPARQL
     sections:
-    - file: SPARQL_Grundlagen
-    - file: SPARQL_Übung_1
-    - file: SPARQL_Übung_2
-    - file: SPARQL_Reflexion
+    - file: sparql/SPARQL_Grundlagen
+    - file: sparql/SPARQL_Übung_1
+    - file: sparql/SPARQL_Übung_2
+    - file: sparql/SPARQL_Reflexion
 
   - file: zusammenfassung
   
