@@ -7,18 +7,6 @@ lang: de-DE
 ## Autor:innen der Inhalte
 
 
-### Cemre Bingöl <a href="https://orcid.org/0009-0009-2345-4973" target="_blank">![](../_images/ORCID-iD_icon-16x16.png)</a>
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Strukturanpassung der Book-Dateien, Korrekturlesen sowie Identifikation von Textverbesserungen</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
-</tr>
-</table>
-
 ### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](../_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
@@ -32,34 +20,6 @@ lang: de-DE
 <tr>
 <td><b>Website:</b></td>
 <td><a href="https://www.fokus.fraunhofer.de/8fb7bdcc1d2bd6e8" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
-</tr>
-</table>
-
-### Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](../_images/ORCID-iD_icon-16x16.png)</a>
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Konzeptionierung und Umsetzung Fallstudien Datentyp Tabelle, Testing und Iteration</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
-</tr>
-<tr>
-<td><b>Website:</b></td>
-</td><td><a href="https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
-</tr>
-</table>
-
-### Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](../_images/ORCID-iD_icon-16x16.png)</a>
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Technische Unterstützung Fallstudie 1 Datentyp Tabelle</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
 </tr>
 </table>
 
@@ -83,17 +43,45 @@ lang: de-DE
 </tr>
 </table>
 
-### Philip Wiemer
+### Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](../_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
-<td>Testen und Iteration, Qualitätssicherung</td>
+<td>Konzeptionierung und Umsetzung Fallstudien Datentyp Tabelle, Testing und Iteration</td>
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
-<td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
 </tr>
-</table>  
+<tr>
+<td><b>Website:</b></td>
+</td><td><a href="https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
+</tr>
+</table>
+
+### Sami Dakruni 
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Ausarbeitung und Technische Umsetzung Fallstudie 2 Datentyp Tabelle</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+</table>
+
+### Cemre Bingöl <a href="https://orcid.org/0009-0009-2345-4973" target="_blank">![](../_images/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Strukturanpassung der Book-Dateien, Korrekturlesen sowie Identifikation von Textverbesserungen</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+</table>
 
 ## Weitere Beteiligte  
 
@@ -106,10 +94,6 @@ lang: de-DE
 <tr>
 <td><b>Einrichtung:</b></td>
 <td>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</td>
-</tr>
-<tr>
-<td><b>Website:</b></td>
-<td><a href="https://www.ibi.hu-berlin.de/de/institut/personen/schnaitter" class="external-link" target="_blank">Mitarbeiter-Seite IBI, HU</a></td>
 </tr>
 <tr>
 <td><b>GitHub:</b></td>
@@ -128,30 +112,10 @@ lang: de-DE
 <td>Universität Potsdam</td>
 </tr>
 <tr>
-<td><b>Website:</b></td>
-<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">Mitarbeiterinnen-Seite Universität Potsdam</td>
-</tr>
-<tr>
 <td><b>GitHub:</b></td>
 <td><a href="https://github.com/esamoilo" class="external-link" target="_blank">esamoilo</a></td>
 </tr>
 </table>
-
-### Yue Zhang
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Technische Unterstützung (insb. R, Docker, Binder, GitHub Actions)</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
-</tr>
-<tr>
-<td><b>GitHub:</b></td>
-<td><a href="https://github.com/SchenbergZY" class="external-link" target="_blank">SchenbergZY</a></td>
-</tr>
-</table> 
 
 ### Lamia Islam <a href="https://orcid.org/0009-0001-1879-9880" target="_blank">![](../_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
@@ -169,8 +133,3 @@ lang: de-DE
 </tr>
 </table>  
 
-## Danksagung
-
-Wir danken folgenden Gruppen, Institutionen und Einrichtungen für die Nachnutzung ihrer Werke:
- - <a href="https://www.govdata.de/" target="_blank">GovData – Das Datenportal für Deutschland</a>
- - <a href="https://data.europa.eu/" target="_blank">European data – Das offizielle Portal für Daten zu Europa</a>
