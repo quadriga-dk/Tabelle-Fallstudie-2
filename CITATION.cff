@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
+cff-version: 1.2.0
+version: 1.0.0
+title: 'Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal'
+abstract: Dieses JupyterBook vermittelt grundlegende Kenntnisse zur Datenabfrage, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.
+type: software
+message: Please cite this software using the metadata from `preferred-citation` in
+  `CITATION.cff`.
+authors: &id001
+- given-names: Jana
+  family-names: Plomin
+  orcid: https://orcid.org/0000-0003-0127-7493
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+- given-names: Paul
+  family-names: Walter
+  orcid: https://orcid.org/0000-0002-9236-3268
+  affiliation: Fachhochschule Potsdam
+- given-names: Juliane
+  family-names: Schmeling
+  orcid: https://orcid.org/0009-0005-9814-1139
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+- given-names: Sami
+  family-names: Dakruni
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+identifiers:
+- type: doi
+  value: 
+  description: Zenodo
+repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
+url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
+keywords:
+- open educational resource
+license: CC-BY-SA-4.0
+references:
+- title: Jupyter Book
+  type: software
+  authors:
+  - name: The Jupyter Book Community
+    website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
+preferred-citation:
+  year: '2025'
+  version: 1.0.0
+  authors: *id001
+  title: 'Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal'
+  type: software
+  doi: 
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
+  repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
+  license: CC-BY-SA-4.0
+  languages:
+  - deu
+  copyright: CC-BY-SA-4.0
+  keywords:
+  - Open Educational Resource
