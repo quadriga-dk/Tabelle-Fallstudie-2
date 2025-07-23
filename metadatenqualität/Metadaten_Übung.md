@@ -1,3 +1,16 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
+(metadaten-übung)=
 # Übung zur Bewertung der Metadatenqualität von GovData 
 Im Rahmen dieser Übung beschäftigen wir uns mit der Bewertung der Metadatenqualität auf der Plattform GovData, dem zentralen Datenportal für offene Daten in Deutschland. GovData bietet Zugang zu einer Vielzahl von Datensätzen aus verschiedenen öffentlichen Institutionen und Behörden, wobei die Qualität der Metadaten eine entscheidende Rolle für die Auffindbarkeit, Nachnutzung und Integration der Daten spielt.
 
@@ -10,6 +23,46 @@ Durch diese praktische Übung können Sie die Relevanz von qualitativ hochwertig
 Die Bewertungsevaluation von GovData beträgt 236 von maximal möglichen 405 Punkten, was einer "guten" Note entspricht (Stand Januar 2025, siehe Übersicht aller Kataloge auf dem [Metadata Quality Dashboard](https://data.europa.eu/mqa/?locale=de) des europäischen Metadatenportals). Trotzdem gibt es erhebliche Lücken in der Qualität, die nicht ignoriert werden können. Auf diese werden wir im Folgenden genauer eingehen.  Diese Übung soll Ihnen helfen, ein vertieftes Verständnis für die Bedeutung von Metadatenqualität zu entwickeln und gleichzeitig konkrete Strategien zur Verbesserung zu erarbeiten. 
 
 Schauen Sie sich auf dem Metadata Quality Dashboard des europäischen Metadatenportals die Bewertung für das deutsche Portal <a href="https://data.europa.eu/mqa/catalogues/govdata/?locale=de" class="external-link" target="_blank">GovData</a> an: Dort finden Sie die Ergebnisse der Metadatenbewertung. 
+
+## Frage 1
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question1 = [{
+    "question": """Was untersucht der MQA?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Ob die Qualitätskriterien der Europäischen Union auf dem Portal eingehalten werden.",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. Das Portal data.europa.eu wird von der Europäischen Union betrieben. Die untersuchten Dimensionen sind aus den FAIR-Prinzipien abgeleitet."""
+        },
+        {
+            "answer": "Die Qualität der von data.europa.eu gesammelten Metadaten.",
+            "correct": True,
+            "feedback": """✓ Richtig! Der MQA wurde eigens von einem Konsortium entwickelt, um die Qualität der auf dem Portal gesammelten Metadaten zu untersuchen. So soll Anbietern und Portalen geholfen werden, die Metadatenqualität zu überprüfen und sie ggf. zu verbessern."""
+        },
+        {
+            "answer": "falsche Antwort",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ."""
+        },
+        {
+            "answer": "Die Qualität der auf data.europa.eu zur Verfügung gestellten Daten.",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. Das Portal data.europa.eu stellt keine Daten zur Verfügung. Es sammelt Metadaten von anderen Portalen und Anbietern ein."""
+        }
+    ]
+}]
+
+display_quiz(question1, colors=colors.jupyterquiz)
+```
 
 `````{admonition} 1. Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal (GovData) zum Zeitpunkt Ihrer aktuellen Recherche?
 :class: exercise
