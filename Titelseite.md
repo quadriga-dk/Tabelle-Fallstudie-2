@@ -1,3 +1,7 @@
+---
+lang: de-DE
+---
+
 (intro)=
 # Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal
 
@@ -15,6 +19,17 @@
 Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
 
 ```
+`````
+
+`````{margin}
+````{admonition} Zitierhinweis
+:class: citation-information
+```{literalinclude} /CITATION.bib
+:language: bibtex
+```
+Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal._ 
+
+````
 `````
 
 Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> vermittelt grundlegende Kenntnisse zur Datenabfrage, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.  
