@@ -36,7 +36,7 @@ Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-li
 Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten, da Daten zu Baumverteilungen vor allem im Zuge des Klimawandels zunehmend an Bedeutung gewinnen. Dies zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
 
 
-```{figure} /assests/Datenwissenschaftler_analysiert_Baumverteilungen.png
+```{figure} /assets/Datenwissenschaftler_analysiert_Baumverteilungen.png
 ---
 name: Datenwissenschaftler analysiert Baumverteilungen
 alt: Eine grafische Darstellung eines Datenwissenschaftlers der die Baumverteilung analysiert.
