@@ -4,7 +4,7 @@
 title: "Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal"
 author: Jana Plomin, Paul Walter, Juliane Schmeling, Sami Al Dakruni
 root_file: intro
-logo: assets/logo.jpg
+logo: assets/Tabelle2Logo.png
 copyright: "2024, QUADRIGA"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md, venv]
 
