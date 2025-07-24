@@ -20,10 +20,14 @@ sys.path.append("..")
 from quadriga_config import colors
 ```
 
-# Übung Semantic Web
+# Übungen
 
 Bevor es zur Reflexion über das in diesem Kapitel Gelernte geht, können Sie Ihr Wissen in diesem kurzen Quiz auf die Probe stellen. Viel Erfolg!  
 
+
+## Semantic Web
+
+*Frage 2 kann raus, da sie nicht zielführend ist: Semantic Web soll laut Lernzielen definiert werden können.*
 
 ````{code-cell} ipython3
 :tags: [remove_input]
@@ -92,3 +96,7 @@ questions = \
 
 display_quiz(questions, colors = colors.jupyterquiz)
 ````
+
+## RDF
+
+*noch ergänzen*

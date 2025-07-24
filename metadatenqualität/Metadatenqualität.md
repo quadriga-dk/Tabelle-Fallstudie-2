@@ -1,5 +1,5 @@
 (metadatenqualität)=
-# Metadatenqualität
+# Datenqualität messen: Metadatenqualität
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
@@ -28,6 +28,6 @@ Ein besonderer Fokus liegt auf der Anwendung des <a href="https://data.europa.eu
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [Metadaten Kontrolle](/Metadaten_Kontrolle.md)
-- [Metadaten Übung](/Metadaten_Übung.md)
-- [Metadaten Reflexion](/Metadaten_Reflexion.md)
+- [Metadaten Kontrolle](/metadatenqualität/Metadaten_Kontrolle.md)
+- [Metadaten Übung](/metadatenqualität/Metadaten_Übung.md)
+- [Metadaten Reflexion](/metadatenqualität/Metadaten_Reflexion.md)

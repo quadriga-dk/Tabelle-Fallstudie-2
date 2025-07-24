@@ -32,11 +32,11 @@ Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Erfragen von Metada
 ````
 `````
 
-Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> vermittelt grundlegende Kenntnisse zur Datenabfrage, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.  
+Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> möchte Kenntnisse zur Datenabfrage vermitteln, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.  
 Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten, da Daten zu Baumverteilungen vor allem im Zuge des Klimawandels zunehmend an Bedeutung gewinnen. Dies zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
 
 
-```{figure} Datenwissenschaftler_analysiert_Baumverteilungen.png
+```{figure} /assests/Datenwissenschaftler_analysiert_Baumverteilungen.png
 ---
 name: Datenwissenschaftler analysiert Baumverteilungen
 alt: Eine grafische Darstellung eines Datenwissenschaftlers der die Baumverteilung analysiert.
@@ -77,7 +77,7 @@ Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der
 Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.  
 
 
-```{figure} FS-Schritte.png
+```{figure} /assets/FS-Schritte.png
 ---
 name: steps of casestudy
 alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
@@ -86,19 +86,19 @@ Visualisierung der 4 Schritte dieser Fallstudie.
 ```
 
 
-**1. Technologien verstehen** 
+**1. Technologien verstehen: Semantic Web & Linked Data** 
 
 Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenportal <a href="https://data.europa.eu/en" class="external-link" target="_blank">data.europa</a> zurück. Daher werden zuerst die grundlegenden Technologien erläutert, die gängige Metadatenschemata ausmachen, nämlich Semantic Web & Linked Data.
 
-**2. Werkzeuge kennenlernen**
+**2. Werkzeuge kennenlernen: DCAT-AP Metadatenstandard**
 
 Wir machen Sie mit einem der zentralen Werkzeuge für die Operationalisierung von Metadatenrepositorien vertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. In dieser Fallstudie werden außerdem die Nutzung der Abfragesprache SPARQL und erste praktische Schritte anschaulich erklärt.
 
-**3. Datenqualität messen:** 
+**3. Datenqualität messen: Metadata Quality Assessment** 
 
 Sie lernen, wie Sie Metadaten anhand von Maßnahmen zur Qualitätsmessung überprüfen können, um sicherzustellen, dass diese den Qualitätsanforderungen entsprechen. Dazu stellen wir Ihnen die verschiedenen Qualitätskriterien des Metadata Quality Assessment (MQA) für Metadaten vor.
 
-**4. Praxis anwenden**
+**4. Praxis anwenden: SPARQL-Abfragen**
 Im letzten Schritt der Fallstudie widmen wir uns der praktischen Anwendung und erläutern, wie Metadaten mithilfe der SPARQL-Abfragesprache abgefragt werden können. Dabei vermitteln wir zunächst die grundlegenden Konzepte von SPARQL, einschließlich der Syntax und zentraler Befehle. Im Anschluss führen wir gezielte Abfragen durch, die auf unsere Fragestellung ausgerichtet sind und evaluieren kritisch, in welchem Maß die aktuellen Implementierungen erfolgreich sind oder Optimierungspotenzial aufweisen.  
 
 ---

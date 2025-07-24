@@ -1,5 +1,6 @@
 # "Layer cake" Architektur
-```{figure} The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png
+
+```{figure} /assets/The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png
 ---
 name: The Semantic Web Layer Cake
 alt: Eine grafische Darstellung des Semantic Web Layer Cake.

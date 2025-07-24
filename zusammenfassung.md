@@ -12,3 +12,9 @@ Die Qualität von Metadaten wurde ebenfalls ausführlich behandelt, wobei die FA
 Im praktischen Teil wurde die Abfragesprache SPARQL eingeführt, die speziell zur Abfrage von Daten im RDF-Format entwickelt wurde. Die Teilnehmende erlernten die Syntax und Anwendung von SPARQL, um gezielt Metadaten aus Open-Data-Portalen wie data.europa.eu abzurufen. Mithilfe von Jupyter Notebooks konnten sie Abfragen interaktiv erstellen und typische Herausforderungen wie unvollständige Metadaten oder fehlende Paginierungsfunktionen analysieren und lösen.
 
 Die Einheit ermöglichte es den Teilnehmer:innen, durch die Kombination von theoretischem Wissen und praktischen Übungen ein tiefgehendes Verständnis für die Bedeutung von Metadatenqualität, Standardisierung und semantischen Technologien zu entwickeln. Sie konnten diese Kompetenzen auf eine Fallstudie anwenden, um reale Herausforderungen im Umgang mit offenen Daten zu bewältigen.
+
+```{admonition} Was  Sie mitnehmen sollten
+:class: keypoint
+
+*Zusammenfassung des gesamten Books einfügen*
+```

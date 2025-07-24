@@ -14,7 +14,7 @@ Das MQA zielt darauf ab, die Qualität der Metadaten für Daten des öffentliche
 
 Auf dem <a href="https://data.europa.eu/mqa/?locale=de" class="external-link" target="_blank">Metadata Quality Dashboard</a> des europäischen Metadatenportals wird eine Bewertung aller europäischen Portale geboten und die besten 12 Portale hervorgehoben. Die Bewertung ist an die FAIR-Prinzipien angelehnt und erfolgt in den 5 Dimensionen Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. 
 
-```{figure} /_images/mqa_screenshot_20250703.png
+```{figure} /assets/mqa_screenshot_20250703.png
 ---
 align: left
 width: 100%

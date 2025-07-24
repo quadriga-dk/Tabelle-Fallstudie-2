@@ -11,4 +11,10 @@ Im vierten Kapitel haben wir die zentrale Bedeutung der Metadatenqualität für 
 
 Um diese Herausforderungen zu bewältigen und das Potenzial qualitativ hochwertiger Metadaten voll auszuschöpfen, bedarf es geeigneter Werkzeuge zur maschinellen Abfrage und Analyse. Hier kommt die Abfragesprache SPARQL ins Spiel, die speziell für RDF-Daten entwickelt wurde.
 
+```{admonition} Was  Sie mitnehmen sollten
+:class: keypoint
+
+*Zusammenfassung des Kapitels einfügen*
+```
+
 Im nächsten Kapitel lernen Sie, wie Sie mit SPARQL gezielt Metadaten aus Open Data Portalen wie *data.europa.eu* abrufen und komplexe Fragestellungen beantworten können. Durch praxisorientierte Übungen und den Einsatz von Jupyter Notebooks erhalten Sie einen Einblick in die Syntax, Techniken und Herausforderungen von SPARQL. Auf diese Weise schaffen wir eine Brücke zwischen der Qualität von Metadaten und ihrer effizienten Nutzung durch strukturierte Abfragen.

@@ -17,16 +17,16 @@ chapters:
     - file: semantic_web/Semantic_Web_Layer_Cake
     - file: semantic_web/Semantic_Web_Übung
     - file: semantic_web/Semantic_Web_Resümee
-  - file: metadatenqualität/Metadatenqualität
-    sections:
-    - file: metadatenqualität/Metadaten_Kontrolle
-    - file: metadatenqualität/Metadaten_Übung
-    - file: metadatenqualität/Metadaten_Resümee
   - file: dcat_ap/DCAT_AP_Metadatenstandard
     sections:
     - file: dcat_ap/DCAT_AP_Struktur
     - file: dcat_ap/DCAT_AP_Beispiel
     - file: dcat_ap/DCAT_AP_Resümee
+  - file: metadatenqualität/Metadatenqualität
+    sections:
+    - file: metadatenqualität/Metadaten_Kontrolle
+    - file: metadatenqualität/Metadaten_Übung
+    - file: metadatenqualität/Metadaten_Resümee
   - file: sparql/SPARQL
     sections:
     - file: sparql/SPARQL_Grundlagen

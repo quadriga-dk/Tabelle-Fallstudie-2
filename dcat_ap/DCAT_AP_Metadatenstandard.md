@@ -1,5 +1,5 @@
 (dcat-ap)=
-# DCAT-AP Metadatenstandard
+# Werkzeuge kennenlernen: DCAT-AP Metadatenstandard
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
@@ -36,9 +36,9 @@ In diesem Kapitel wird daher nicht nur die Entstehungsgeschichte und der Zweck v
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [DCAT AP Struktur](/DCAT_AP_Struktur.md)
-- [DCAT AP Beispiel](/DCAT_AP_Beispiel.md)
-- [DCAT AP Reflexion](/DCAT_AP_Reflexion.md)
+- [DCAT AP Struktur](/dcat_ap/DCAT_AP_Struktur.md)
+- [DCAT AP Beispiel](/dcat_ap/DCAT_AP_Beispiel.md)
+- [DCAT AP Reflexion](/dcat_ap/DCAT_AP_Reflexion.md)
 
 **Literatur**
 

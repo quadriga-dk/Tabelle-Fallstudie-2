@@ -44,10 +44,10 @@ Weitere Informationen zum Thema SPARQL und RDF, die allerdings ein gewisses Maß
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [SPARQL Grundlagen](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_Grundlagen.html)
-- [SPARQL Übung 1](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_%C3%9Cbung_1.html)
-- [SPARQL Übung 2]([/SPARQL_Übung_2.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_%C3%9Cbung_2.html))
-- [SPARQL Reflexion]([/SPARQL_Reflexion.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/SPARQL_Reflexion.html))
+- [SPARQL Grundlagen](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Grundlagen.html)
+- [SPARQL Übung 1](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_1.html)
+- [SPARQL Übung 2]([/SPARQL_Übung_2.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_2.html))
+- [SPARQL Reflexion]([/SPARQL_Reflexion.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Reflexion.html))
 
 **Literatur**
 

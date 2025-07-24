@@ -1,5 +1,5 @@
 (semanticweb)=
-# Semantic Web & Linked Data (optional)
+# Technologien verstehen: Semantic Web & Linked Data
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
@@ -18,7 +18,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 `````
 
 
-```{admonition} Lernziel: Semantic Web
+```{admonition} Lernziel: Technologien verstehen
 :class: lernziele
 1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
 2. Die Rolle von RDF im Semantic Web kann erklärt werden.
@@ -49,10 +49,10 @@ Im Folgenden werden die Grundlagen des Semantic Web sowie die ihm zugrunde liege
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [Semantic Web Definition](/Semantic_Web_Definition.md)
-- [Semantic Web Layer Cake](/Semantic_Web_Layer_Cake.md)
-- [Semantic Web Übung](/Semantic_Web_Übung.md)
-- [Semantic Web Reflexion](/Semantic_Web_Reflexion.md)
+- [Semantic Web Definition](/semantic_web/Semantic_Web_Definition.md)
+- [Semantic Web Layer Cake](/semantic_web/Semantic_Web_Layer_Cake.md)
+- [Semantic Web Übung](/semantic_web/Semantic_Web_Übung.md)
+- [Semantic Web Reflexion](/semantic_web/Semantic_Web_Reflexion.md)
 
 
 **Literatur**

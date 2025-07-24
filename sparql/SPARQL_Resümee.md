@@ -10,6 +10,12 @@ Trotz dieser Hindernisse konnten wertvolle Einblicke in die Verfügbarkeit und V
 
 Abschließend lässt sich festhalten, dass die Arbeit mit SPARQL nicht nur technisches Wissen, sondern auch ein tiefes Verständnis für die zugrundeliegenden Daten erfordert. Die Übungen in diesem Kapitel boten eine solide Grundlage, um komplexe Datenabfragen zu meistern und gleichzeitig die Bedeutung hochwertiger Metadaten für die erfolgreiche Nutzung offener Daten zu erkennen.
 
+```{admonition} Was  Sie mitnehmen sollten
+:class: keypoint
+
+*Zusammenfassung des Kapitels einfügen*
+```
+
 ---
 
 ```{admonition} Zusätzliche Materialien
