@@ -1,14 +1,24 @@
 # Kontrolle und Werkzeuge
-Es ist zunächst sinnvoll, sich mit dem Konzept der Metadaten vertraut zu machen, bevor wir uns mit deren Abfrage beschäftigen. Die einfachste Definition von Metadaten lautet: „Daten über Daten“ – also Informationen, die dazu dienen, Datensätze einzuordnen und zu kategorisieren, damit diese leichter auffindbar und übersichtlich bleiben. Verschiedene Arten von Metadaten erfüllen unterschiedliche Funktionen {cite}`riley2017understanding`. So enthalten zum Beispiel beschreibende Metadaten für ein Dokument Informationen wie den Autor, das Erstellungsdatum, die Dateigröße und Schlagwörter. Technische Metadaten für eine relationale Datenbank könnten dagegen die Struktur der Tabellen, Datentypen und Beziehungen zwischen den Tabellen beschreiben.
+<span style="color:red">*Der Titel erscheint mir nicht passend. Zudem ist es unsinnig, Grundlagenwissen zu Metadaten zu vermitteln oder nur zu wiederholen, wenn im vorherigen Kapitel bereits DCAT-AP thematisiert wurde.*</span>
 
-Das Bundesministerium des Innern und für Heimat hat 2018 über sein Online-Angebot "Verwaltung innovativ" einen <a href="https://www.verwaltung-innovativ.de/SharedDocs/Publikationen/eGovernment/open_data_leitfaden.html" class="external-link" target="_blank">"Leitfaden Metadaten"</a> veröffentlicht, der eine gute Einführung in die Thematik bietet. 
+## Metadaten
 
-Aufgrund der enormen Datenmengen, die heutzutage verarbeitet werden, sind Metadaten unverzichtbar. Sie ermöglichen einen verbesserten Datenzugriff und vereinfachen die Navigation durch umfangreiche Datensätze, wodurch Rohdaten in wertvolle Erkenntnisse umgewandelt werden können.
+Bevor wir uns mit der Abfrage von Metadaten beschäftigen, ist es sinnvoll, vorhandenes Wissen zu Metadaten zu rekapitulieren. 
+Metadaten sind Informationen über Daten, die dazu dienen, diese einzuordnen und zu kategorisieren, damit sie u. a. leichter auffindbar sind.  
+Es gibt verschiedene Arten von Metadaten, die unterschiedliche Funktionen erfüllen {cite}`riley2017understanding`. So enthalten zum Beispiel *beschreibende Metadaten* Informationen wie die Autor:innen, das Erstellungsdatum, die Dateigröße und Schlagwörter. *Technische Metadaten* (beispielsweise einer relationalen Datenbank) könnten dagegen die Struktur von Tabellen, Datentypen und Beziehungen zwischen den Tabellen beschreiben.
+
+Das <a href="https://www.bva.bund.de/DE/Services/Behoerden/Beratung/OpenData/opendata_node.html" class="external-link" target="_blank">"Kompetenzzentrum Open Data"</a> (CCOD) des <a href="https://www.bva.bund.de/DE/Home/home_node.html" class="external-link" target="_blank">"Bundesverwaltungsamtes"</a> (BVA) hat 2023 eine 2. Version des <a href="https://www.bva.bund.de/SharedDocs/Downloads/DE/Behoerden/Beratung/Methoden/open_data_leitfaden_metadaten.pdf?__blob=publicationFile&v=2" class="external-link" target="_blank">"Leitfadens Metadaten"</a> veröffentlicht, der eine kurze Einführung in die Thematik mit Fokus auf den Auszeichnungsprozess beim deutschen Datenportal <a href="https://www.govdata.de/" class="external-link" target="_blank">"GovData"</a> bietet.
+
+Metadaten unverzichtbar, um Daten zu finden. Das bedeutet im Umkehrschluss auch, das Metadaten der Schlüssel sind, wenn es darum geht, eigene (Forschungs)Daten auffindbar zu veröffentlichen.
+Sie ermöglichen einen verbesserten Datenzugriff und vereinfachen die Navigation durch umfangreiche Datensätze, wodurch Rohdaten in wertvolle Erkenntnisse umgewandelt werden können.
 Ein Einzelhandelsunternehmen könnte beispielsweise Metadaten nutzen, um Verkaufsdaten für einen bestimmten Monat, gefiltert nach Produktkategorie und Region, schnell zu finden, ohne das gesamte Datenvolumen durchsuchen zu müssen {cite}`duval2002metadata`. Metadaten sind auch somit entscheidend für die Datenverwaltung und das Datenmanagement.
 
 Metadaten sollten, wie die Daten, die sie beschreiben, auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar sein. Sie sollten also entsprechend den <a href="https://www.go-fair.org/fair-principles/" class="external-link" target="_blank">FAIR-Prinzipien</a> ausgezeichnet sein. In einer weiteren unserer Lerneinheiten finden Sie eine <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">Einführung in die FAIR-Prinzipien</a>.
 
-Die FAIR-Prinzipien dienen als Grundlage für das <a href="https://data.europa.eu/mqa/methodology?locale=de" class="external-link" target="_blank">Metadata Quality Assessment (MQA)</a>, ein vom Konsortium des europäischen Datenportals <a href="https://data.europa.eu/de" class="external-link" target="_blank">data.europa.eu</a> entwickeltes Tool zur Bewertung der Qualität der von data.europa.eu erhobenen Metadaten.
+
+## Überprüfen der Metadatenqualität
+
+Die FAIR-Prinzipien dienen auch als Grundlage für das <a href="https://data.europa.eu/mqa/methodology?locale=de" class="external-link" target="_blank">Metadata Quality Assessment (MQA)</a>, ein vom Konsortium des europäischen Datenportals <a href="https://data.europa.eu/de" class="external-link" target="_blank">data.europa.eu</a> entwickeltes Tool zur Bewertung der Qualität der von data.europa.eu erhobenen Metadaten.
 
 Das MQA zielt darauf ab, die Qualität der Metadaten für Daten des öffentlichen Sektors in Europa zu bewerten und die größten Hindernisse, die einer besseren Datenqualität entgegenstehen, zu identifizieren. Die Untersuchung konzentriert sich auf spezifische Fragestellungen, wie die Einhaltung von DCAT-AP-Standards, die Offenlegung zusätzlicher Informationen, die Zugänglichkeit und Maschinenlesbarkeit der referenzierten Daten sowie die Lizenzverwendung.
 

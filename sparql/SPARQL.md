@@ -1,5 +1,5 @@
 (sparql)=
-# SPARQL
+# Praxis anwenden: SPARQL
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
