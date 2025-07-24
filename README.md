@@ -1,30 +1,26 @@
-# QUADRIGA OER Template
+# Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal
+## QUADRIGA OER
 
-[Markdown-Cheatsheet für Jupyter Book](https://jupyterbook.org/en/stable/reference/cheatsheet.html)
+*DOI zufügen*
 
-Dieses Repositorium dient als Vorlage für [QUADRIGA](https://quadriga-dk.github.io) OERs, die mit [Jupyter Book](https://jupyterbook.org) geschrieben werden.
+Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 2. Fallstudie des Datentyps Tabelle entstanden.
 
-## Nutzung der Vorlage
+## Datenkompetenzzentrum QUADRIGA
 
-Erstellen Sie ein neues Repositorium mit dem Namen des neuen Buchs in der GitHub-Organisation quadriga-dk. Nutzen Sie dazu entweder die GitHub-Funktion "Use this template" oder erstellen Sie ein leeres und kopieren Sie die Inhalte des Templates (bspw. Download als `.zip`-Datei) in das neue Repositorium. Passen Sie dann die Dateien `_config.yml` und `_toc.yml` sowie ggf. die Datei `.github/workflows/deploy-book.yml` auf Ihr neues Buch an. Achten Sie darauf, dass Ihr neues Buch keine direkte Verbindung zum Template mehr hat und Änderungen im Template ggf. "von Hand" in Ihre OER überführt werden müssen.
+QUADRIGA ist das Berlin-Brandenburgische Datenkompetenzzentrum für Digital Humanities, Verwaltungswissenschaften, Informatik und Informationswissenschaft. 
+Es wird gefördert im Rahmen der <a href="https://www.bmftr.bund.de/DE/Forschung/Wissenschaftssystem/Forschungsdaten/DatenkompetenzenInDerWissenschaft/datenkompetenzeninderwissenschaft_node.html" class="external-link" target="_blank">Richtlinie</a> zur Förderung von Projekten zum Aufbau von Datenkompetenzzentren in der Wissenschaft des Bundesministeriums für Forschung, Technologie und Raumfahrt (BMFTR, vormals BMBF).
+Anhand modellhafter Forschungsfragen werden für die drei Datentypen Bewegtes Bild, Tabelle und Text Fallstudien entworfen, die Forschenden der angesprochenen Fachrichtungen Kompetenzen im Bereich der Datenanwendung disziplinspezifisch näher bringen.
 
-Übernehmen Sie Änderungen im Styling/Layout in der Vorlage auch in Ihrem Buch. Bei wichtigen Änderungen wird ggf. auch ein Pull-Request an Ihre Bücher durch die Template-Autor:innen gestellt werden.
+## Nutzung dieser OER
 
-### Erstellung der Inhalte
+Sie können dieses JupyterBook zu Lehr- und Lernzwecken verwenden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung. Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/blob/main/LICENSE.md" target="_blank">Lizenzhinweisen</a>.  
 
-Jupyter Book kann standardmäßig Inhalte verarbeiten, die in Markdown, MyST und Jupyter Notebook geschrieben wurden. Dabei werden diese Inhalte nur in der Website angezeigt, wenn Sie diese in der Datei `_toc.yml` explizit in die Struktur aufgenommen haben.
+## Inhalt der OER
 
-## Lokale Entwicklung
+Dieses interaktive Lehrbuch vermittelt Kenntnisse in den Bereichen Metadaten, Datenportale und Abfragesprachen. Im Fokus steht die Abfrage von Katasterdaten mit SPARQL sowie Einführungen in das dafür notwendige Grundverständnis von semantischen Spachen, RDF und Metadatenstandards. Mit der Einführung in die Technologie startet das Lehrbuch. Daraufhin werden der Metadatenstandard DCAT-AP erklärt und mit dem Metadata Quality Assessment ein Instrument zur Prüfung von Metadatenqualität vorgestellt. Mit der angeleiteten Einführung und Anwendung von SPARQL schließt das Lehrbuch.
 
-Ist die Github Action für Github Pages korrekt konfiguriert, so ist die Arbeit in der GitHub-Oberfläche möglich – wenn sie auch mit großen Wartezeiten verbunden ist. Allerdings empfehlen wir Ihnen immer eine lokale "Entwicklungsumgebung".
+## Ansprechpartner:innen
 
-Wir empfehlen Ihnen dabei dieses Vorgehen:
-- Installieren Sie [Anaconda](https://www.anaconda.com/download) um eine Python-Umgebung auf Ihrem Rechner zu installieren. Falls Sie schon eine Python-Umgebung haben, können Sie diesen Schritt ggf. überspringen.
-- Klonen Sie das Repositorium, an dem Sie arbeiten wollen. Bspw.: `git clone https://github.com/quadriga-dk/Book_Template`
-- In einem Terminal, wechseln Sie in den Order des Repositoriums und erstellen Sie ein lokales *virtual environment*. (Wir nutzen `conda`, aber andere Tools sind möglich, falls Sie schon mit diesen vertraut sind.) Führen Sie dazu diesen Befehl aus: `conda create -p conda python=3`. Dies erstellt eine neue Virtuelle Umgebung im Ordner `./conda/` in welchem alle für Ihr Buch notwendigen Bibliotheken installiert werden können. (Der Ordner `conda` wird durch die Konfiguration in der Datei `.gitignore` nicht mit Git versioniert, sodass die jeweils korrekte Version aller Software für Ihr Betriebssystem installiert werden kann.)
-- Aktivieren Sie nun die Virtuelle Umgebung mit `conda activate ./conda` (und überprüfen Sie, ob alles funktioniert hat mit `which pip`.)
-- Installieren Sie dann die für Ihr Buch benötigte Software mit `pip install -r requirements.txt`.
-  - Es kann nötig sein, dass Sie nach der Installation einmal die Umgebung deaktivieren und wieder aktivieren müssen, damit Du auf alle Software zugreifen können. Das geht mit `conda deactivate` gefolgt von `conda activate ./conda`.
-- Nun haben Sie alle Anforderungen installiert und Sie können das Jupyter Book lokal generieren mit `jb build .`.
-  - Machmal kann es nötig sein "aufzuräumen", bevor Sie eine neue Version generieren. Das geht mit `jb clean .`. Sie können auch beide Befehle nacheinander ausführen mit `jb clean . && jb build .`.
-- Die generierte HTML-Version des Buchs können Sie nun im Unterordner `_build/html/` finden. Um die Entwicklung zu beschleunigen, kann es hilfreich sein, wenn Sie das Buch über einen lokalen HTTP-Server in Ihrem Browser verfügbar machen. Öffnen Sie dazu ein neues Terminal(-Fenster) und führen Sie diesen Befehl aus: `python3 -m http.server -d _build/html/`. Dies startet einen HTTP-Server, der die Inhalte des HTML-Ordners (standardmäßig) unter `http://localhost:8000/` anbietet.
+QUADRIGA ist ein Verbundprojekt mehrerer Institutionen, das von der Universität Potsdam koordiniert wird. Partner sind die Fachhochschule Potsdam, die Filmuniversität Babelsberg, das Fraunhofer FOKUS, die Freie Universität Berlin, die Humboldt-Universität zu Berlin, die Technische Universität Berlin und die Gesellschaft für Informatik.  
+
+<a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/epilog/fragen_und_feedback.html" target="_blank">Fragen und Feedback</a> zu dieser OER können Sie uns sowohl über GitHub Issues als auch über Email zukommen lassen.  
