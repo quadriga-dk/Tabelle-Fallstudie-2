@@ -23,7 +23,7 @@ Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es Ka
 
 ```{admonition} [Metadatenqualität](metadatenqualität)
 :class: lernziele, dropdown
-1. Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben und zur Bewertung der Metadatenqualität anhand von praktischen Beispielen angewendet werden.
+1. Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden.
 ```
 
 ```{admonition} [Abfragesprache SPARQL](sparql)
