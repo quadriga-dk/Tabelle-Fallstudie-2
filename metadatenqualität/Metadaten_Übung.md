@@ -49,9 +49,9 @@ question1 = [{
             "feedback": """✓ Richtig! Der MQA wurde eigens von einem Konsortium entwickelt, um die Qualität der auf dem Portal gesammelten Metadaten zu untersuchen. So soll Anbietern und Portalen geholfen werden, die Metadatenqualität zu überprüfen und sie ggf. zu verbessern."""
         },
         {
-            "answer": "falsche Antwort",
+            "answer": "Die Datenverfügbarkeit auf dem Portal data.europa.eu",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ."""
+            "feedback": """× Diese Antwort ist nicht korrekt. Der MQA untersucht nicht, ob die Daten verfügbar sind, sondern ob die Qualität ihrer Metadaten den Bewertungskriterien entspricht."""
         },
         {
             "answer": "Die Qualität der auf data.europa.eu zur Verfügung gestellten Daten.",
@@ -61,8 +61,94 @@ question1 = [{
     ]
 }]
 
+question2 = [{
+    "question": """Welche Kriterien werden im MQA verwendet?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Relevanz, Genauigkeit, Vollständigkeit und Konsistenz",
+            "correct": True,
+            "feedback": """✓ Richtig! ..."""
+        },
+        {
+            "answer": "Relevanz, Genauigkeit, Vollständigkeit und Verfügbarkeit",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        },
+        {
+            "answer": "Relevanz, Genauigkeit, Konsistenz und Verfügbarkeit",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        },
+        {
+            "answer": "Relevanz, Vollständigkeit, Konsistenz und Verfügbarkeit",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        }
+    ]
+}]
+
+question3 = [{
+    "question": """Wie wird die Bewertung der Metadatenqualität im MQA durchgeführt?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Durch eine manuelle Bewertung durch Experten",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        },
+        {
+            "answer": "Durch eine automatisierte Bewertung durch Algorithmen",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        },
+        {
+            "answer": "Durch eine kombinierte Bewertung durch Experten und Algorithmen",
+            "correct": True,
+            "feedback": """✓ Richtig! ..."""
+        },
+        {
+            "answer": "Durch eine Bewertung durch die Nutzer",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        }
+    ]
+}]
+
+question4 = [{
+    "question": """Was ist das Ergebnis der Bewertung der Metadatenqualität im MQA?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Eine Bewertungsskala von 1-5",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        },
+        {
+            "answer": "Eine Bewertungsskala von 1-10",
+            "correct": True,
+            "feedback": """✓ Richtig! ..."""
+        },
+        {
+            "answer": "Eine Bewertungsskala von A-E",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        },
+        {
+            "answer": "Eine Bewertungsskala von 0-100",
+            "correct": False,
+            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+        }
+    ]
+}]
+
 display_quiz(question1, colors=colors.jupyterquiz)
 ```
+
+*eine Frage zum Erreichen des Lernziels für dieses Kapitel: "Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden." Also ein selbstständiges Formulieren der Funktionen des Tools und ein wiedergeben in eigenen Worten.*
+
+<span style="color:blue">*das unten Stehende am Ende löschen*</span>
+
 
 `````{admonition} 1. Worauf beziehen sich die meisten Zugangsprobleme im deutschen Datenportal (GovData) zum Zeitpunkt Ihrer aktuellen Recherche?
 :class: exercise
