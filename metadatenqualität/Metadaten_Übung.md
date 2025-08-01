@@ -88,28 +88,28 @@ sys.path.append("..")
 from quadriga import colors
 
 question2 = [{
-    "question": """Welche Kriterien werden im MQA verwendet?""",
+    "question": """Welche Dimensionen werden im MQA verwendet?""",
     "type": "multiple_choice",
     "answers": [
         {
-            "answer": "Relevanz, Genauigkeit, Vollständigkeit und Konsistenz",
+            "answer": "Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendwabrkeit und Kontext",
             "correct": True,
-            "feedback": """✓ Richtig! ..."""
+            "feedback": """✓ Richtig! Die ersten vier Dimensionen entsprechen den FAIR-Prinzipien und die Dimension Kontext untersucht zudem Indikatoren wie Dateigröße und Ausstellungsdatum."""
         },
         {
             "answer": "Relevanz, Genauigkeit, Vollständigkeit und Verfügbarkeit",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt. Diese Kategorien sind zwar wichtige Parameter in der Untersuchung der Qualität von Daten und Metadaten, aber nicht die Dimensionen des MQA."""
         },
         {
-            "answer": "Relevanz, Genauigkeit, Konsistenz und Verfügbarkeit",
+            "answer": "Lizenzangaben, Zugangsbeschränkung, Heruasgeber und Kontaktinformationen",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt. Diese Indikatoren werden zwar untersucht, gehören aber zur Dimension Wiederverwendbarkeit und sind damit nur eine von fünf untersuchten Dimensionen."""
         },
         {
-            "answer": "Relevanz, Vollständigkeit, Konsistenz und Verfügbarkeit",
+            "answer": "DCAT-AP Konformität, Maschinenlesbarkeit, Format und Media Type",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt. Bei den genannten Begriffen handelt es sich um Indikatoren der Dimension Interoperabilität, die zwar abgefragt werden, aber nur eine der fünf Dimensionen darstellen."""
         }
     ]
 }]
@@ -128,28 +128,28 @@ sys.path.append("..")
 from quadriga import colors
 
 question3 = [{
-    "question": """Wie wird die Bewertung der Metadatenqualität im MQA durchgeführt?""",
+    "question": """Welche Rolle spielen die Metadaten im Metadata Quality Assessment (MQA)?""",
     "type": "multiple_choice",
     "answers": [
         {
-            "answer": "Durch eine manuelle Bewertung durch Experten",
+            "answer": "Die Metadaten sind irrelevant für die Bewertung ",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt."""
         },
         {
-            "answer": "Durch eine automatisierte Bewertung durch Algorithmen",
+            "answer": "Die Metadaten sind wichtig für die Bewertung, aber nicht entscheidend",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt."""
         },
         {
-            "answer": "Durch eine kombinierte Bewertung durch Experten und Algorithmen",
+            "answer": "Die Metadaten sind entscheidend für die Bewertung",
             "correct": True,
-            "feedback": """✓ Richtig! ..."""
+            "feedback": """✓ Richtig!"""
         },
         {
-            "answer": "Durch eine Bewertung durch die Nutzer",
+            "answer": "Die Metadaten sind nicht vorhanden",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt."""
         }
     ]
 }]
@@ -174,22 +174,22 @@ question4 = [{
         {
             "answer": "Eine Bewertungsskala von 1-5",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt."""
         },
         {
-            "answer": "Eine Bewertungsskala von 1-10",
+            "answer": "Eine Bewertungsskala von 0-405",
             "correct": True,
-            "feedback": """✓ Richtig! ..."""
+            "feedback": """✓ Richtig! Die Punktezahl der einzelnen Dimensionen werden am Ende addiert, sodass sich maximal 405 Punkte (Excellent) erreichen lassen."""
         },
         {
             "answer": "Eine Bewertungsskala von A-E",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt."""
         },
         {
             "answer": "Eine Bewertungsskala von 0-100",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. ..."""
+            "feedback": """× Diese Antwort ist nicht korrekt."""
         }
     ]
 }]
