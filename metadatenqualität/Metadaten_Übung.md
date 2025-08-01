@@ -10,6 +10,7 @@ kernelspec:
   name: python3
 ---
 
+
 (metadaten-übung)=
 # 🏆Selbsttest: Wissen und Praxis
 
@@ -32,6 +33,8 @@ Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses 
 Viel Erfolg!
 
 ````
+
+## Multiple-Choice-Quiz
 
 
 **Frage 1**
@@ -111,7 +114,7 @@ question2 = [{
     ]
 }]
 
-display_quiz(question1, colors=colors.jupyterquiz)
+display_quiz(question2, colors=colors.jupyterquiz)
 ```
 
 **Frage 3**
@@ -151,7 +154,7 @@ question3 = [{
     ]
 }]
 
-display_quiz(question1, colors=colors.jupyterquiz)
+display_quiz(question3, colors=colors.jupyterquiz)
 ```
 
 **Frage 4**
@@ -191,26 +194,35 @@ question4 = [{
     ]
 }]
 
-display_quiz(question1, colors=colors.jupyterquiz)
+display_quiz(question4, colors=colors.jupyterquiz)
 ```
 
 
-*eine Frage zum Erreichen des Lernziels für dieses Kapitel: "Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden." Also ein selbstständiges Formulieren der Funktionen des Tools und ein wiedergeben in eigenen Worten.*
+## Reflexionsaufgabe
+
+*Mindestens eine Frage zum Erreichen des Lernziels für dieses Kapitel: "Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden." Das könnte ein selbstständiges Formulieren der Funktionen des Tools sein. Vielleicht noch eine zum DCAT Schema auf der Plattform?*
 
 
-<span style="color:red">*das unten Stehende am Ende löschen*</span>
+**Aufgabenstellung**
+
+Beschreiben Sie mit eigenen Worten, was die wichtigsten Funktionen des MQA-Tools sind.
+
+Begründung:
+```{code-cell} ipython3
+:tags: [remove-input]
+import sys
+sys.path.append("../quadriga")
+from assessment import create_answer_box
+
+create_answer_box('3-1')
+```
 
 
+**Musterlösung**
 
-`````{admonition} 3. Warum sind Elemente der DCAT-AP-Schema verletzt? Welche Probleme entstehen dadurch?
-:class: exercise
-````{admonition} Lösung
+
+````{admonition} Musterlösung
 :class: solution, dropdown
 
-Wählen wir “DCAT-AP Schemaverletzungen” im rechten oberen Reiter. Diese Unterseite gibt einen Überblick über Datensätze, die das DCAT-AP Schema nicht vollständig einhalten und somit potenzielle Nutzungsprobleme aufweisen. Schauen wir uns als Beispiel den Datensatz "Entwicklung von Umsatz und Beschäftigung im Großhandel in Schleswig-Holstein Februar 2022" an. Der Fehler bezieht sich hier auf das Element http://www.w3.org/ns/dcat#mediaType. Laut Fehlerbeschreibung wird für dieses Element ein BlankNode oder eine IRI erwartet, jedoch ist der tatsächliche Wert auf "application/pdf" gesetzt, was nicht den Schema-Anforderungen entspricht.
-
-Dieser Fehler stellt eine Verletzung des DCAT-AP Standards dar, der Metadaten für offene Daten in der EU harmonisieren soll. Das DCAT-AP Schema erwartet für das mediaType-Feld eine Verknüpfung mit einem spezifischen IRI oder BlankNode, um eine einheitliche und maschinenlesbare Metadatenstruktur zu gewährleisten. Durch die falsche Angabe ("application/pdf" anstatt einer IRI) wird die maschinelle Lesbarkeit beeinträchtigt, was wiederum zu Zugangsproblemen führen kann. In der Praxis bedeutet dies, dass andere Systeme oder Anwendungen Schwierigkeiten haben könnten, den Dateityp automatisch zu erkennen und korrekt darzustellen. Der Wert ist zwar für Menschen verständlich, jedoch fehlt die Standardisierung für die maschinelle Verarbeitung, die das DCAT-AP Schema verlangt.
-
-Das Problem liegt darin, dass die Interoperabilität und Konsistenz der Metadaten beeinträchtigt werden. Wenn Metadaten uneinheitlich oder fehlerhaft sind, können Portale und Anwendungen Daten nicht effizient verarbeiten oder austauschen, was den Zugang und die Nutzbarkeit der Daten für Nutzer stark einschränkt. Dies wirkt sich negativ auf die Gesamtbewertung der Metadatenqualität im Portal aus und untergräbt die Ziele des DCAT-AP-Standards, nämlich die Harmonisierung und Vernetzung von Datenkatalogen in Europa.
+<span style="color:green">*hier Musterlösung einfügen*</span>
 ````
-`````
