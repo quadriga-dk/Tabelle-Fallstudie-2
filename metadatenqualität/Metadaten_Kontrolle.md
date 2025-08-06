@@ -38,7 +38,7 @@ Die FAIR-Prinzipien dienen auch als Grundlage für das <a href="https://data.eur
 
 Das MQA zielt darauf ab, die Qualität der Metadaten für Daten des öffentlichen Sektors in Europa zu bewerten und die größten Hindernisse, die einer besseren Datenqualität entgegenstehen, zu identifizieren. Die Untersuchung konzentriert sich auf spezifische Fragestellungen, wie die Einhaltung von DCAT-AP-Standards, die Offenlegung zusätzlicher Informationen, die Zugänglichkeit und Maschinenlesbarkeit der referenzierten Daten sowie die Lizenzverwendung.
 
-Die Bewertung ist an die FAIR-Prinzipien angelehnt und erfolgt in den fünf Dimensionen Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Dabei werden für einzelne Dimensionen verschiedene Indikatoren bewertet und Punkte vergeben. Die insgesamt erreichte Punktzahl entscheidet am Ende über die Bewertung ind den vier Kategorien Excellent, gut, Ausreichend oder Mangelhaft.  
+Die Bewertung ist an die FAIR-Prinzipien angelehnt und erfolgt in den fünf Dimensionen Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext. Dabei werden für einzelne Dimensionen verschiedene Indikatoren bewertet und Punkte vergeben. Die insgesamt erreichte Punktzahl entscheidet am Ende über die Bewertung in den vier Kategorien "Exzellent", "Gut", "Ausreichend" oder "Mangelhaft".  
 
 ```{figure} /assets/mqa_screenshot_20250703.png
 ---
