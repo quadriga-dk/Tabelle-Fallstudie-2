@@ -22,7 +22,6 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 1. Der DCAT-Standard kann definiert und seine Rolle im Datenaustausch beschreiben werden.
 2. Die Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.
 3. Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.
-4. Einfache Metadaten können gemäß DCAT-AP beschrieben werden.
 ```
 
 In Deutschland findet ein kontinuierlicher Austausch von Daten zwischen GovData, dem zentralen Datenportal, und den Datenbereitstellern, wie beispielsweise den Datenportalen der Bundesländer oder Kommunen, statt.
