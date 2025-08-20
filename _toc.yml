@@ -10,7 +10,6 @@ chapters:
     sections:
       - file: präambel/lernziele
       - file: präambel/technische_voraussetzungen
-      - file: präambel/Einführung_Datenbasis
   - file: semantic_web/Semantic_Web_Linked_Data
     sections:
     - file: semantic_web/Semantic_Web_Definition
@@ -19,6 +18,7 @@ chapters:
     - file: semantic_web/Semantic_Web_Resümee
   - file: dcat_ap/DCAT_AP_Metadatenstandard
     sections:
+    - file: dcat_ap/Metadatenportale
     - file: dcat_ap/DCAT_AP_Struktur
     - file: dcat_ap/DCAT_AP_Beispiel
     - file: dcat_ap/DCAT_AP_Resümee

@@ -81,10 +81,6 @@ Dieses Lehrbuch steht somit allen Interessierten bzw. Forschenden offen, die wis
 
 ## Struktur der Fallstudie
 
-Die zentrale Forschungsfrage, die in dieser Fallstudie untersucht wird, lautet unter Bezug auf das oben skizzierte Szenrio um Dr. Weber: 
-
-**Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?**   
-
 Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der Abfragesprache SPARQL entwickelt, um relevante Informationen zu extrahieren. Dabei wird die Nachnutzbarkeit der Daten untersucht, ihre Qualität bewertet sowie der Entstehungskontext nachvollzogen. Die Abfragen ermöglichen eine strukturierte Analyse der Daten, um spezifische Antworten zum Baumbestand zu erhalten.
 
 Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.  
