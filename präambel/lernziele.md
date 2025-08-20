@@ -5,7 +5,7 @@ lang: de-DE
 (lernziele)=
 # Lernziele
 
-Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können auch jedes Kapitel einzeln absolvieren. Dabei werden Sie folgende Lernziele erreichen:
+Sie können dieses JupyterBook am Stück durchgehen oder jedes Kapitel einzeln absolvieren. Dabei werden Sie folgende Lernziele erreichen:
 
 ```{admonition} [Semantic Web](semanticweb)
 :class: lernziele, dropdown

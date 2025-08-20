@@ -2,6 +2,15 @@
 
 <span style="color:red">*Der Titel "Kontrolle und Werkzeuge" erscheint mir nicht passend. Zudem ist es unsinnig, Grundlagenwissen zu Metadaten zu vermitteln oder nur zu wiederholen, wenn im vorherigen Kapitel bereits DCAT-AP thematisiert wurde. Habe es trotzdem drin gelassen, da sonst das ganze Kapitel keinen Sinn hat.*</span>
 
+```{figure} /assets/512px-Schlagwortkatalog.jpg
+---
+name: Schlagwortkatalog
+alt: Ein Schlagwortkatalog an der Universitätsbibliothek Graz
+width: 512px
+---
+Karteikarten in einem Schlagwortkatalog, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" class="external-link" target="_blank">CC BY-SA</a> <a href="https://commons.wikimedia.org/wiki/File:Schlagwortkatalog.jpg?uselang=de" class="external-link" target="_blank">Marcus Gossler</a>.
+```
+
 ## Metadaten
 
 Bevor wir uns mit der Abfrage von Metadaten beschäftigen, ist es sinnvoll, vorhandenes Wissen zu Metadaten zu rekapitulieren. 

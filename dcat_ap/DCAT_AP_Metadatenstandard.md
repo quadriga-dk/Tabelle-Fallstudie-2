@@ -1,3 +1,7 @@
+---
+lang: de-DE
+---
+
 (dcat-ap)=
 # Werkzeuge kennenlernen: DCAT-AP Metadatenstandard
 
@@ -17,12 +21,25 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 `````
 
+
+Dieses Kapitel widmet sich dem Metadatenstandard DCAT, dem Anwendungsprofil (application profile) DCAT-AP und dem auf Deutschland angepassten Profil DCAT-AP.de. Dabei werden folgende Lernziele erreicht:
+
+
 ```{admonition} Lernziel: Metadatenstandards
 :class: lernziele
 1. Der DCAT-Standard kann definiert und seine Rolle im Datenaustausch beschreiben werden.
 2. Die Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.
 3. Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.
 ```
+
+Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Thema dieses Kapitels sind - wie oben beschrieben - Metadatenstandards.
+
++++
+*Wir befinden uns hier:*
+![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
+
+<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+
 
 In Deutschland findet ein kontinuierlicher Austausch von Daten zwischen GovData, dem zentralen Datenportal, und den Datenbereitstellern, wie beispielsweise den Datenportalen der Bundesländer oder Kommunen, statt.
 
@@ -38,6 +55,17 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [DCAT AP Struktur](/dcat_ap/DCAT_AP_Struktur.md)
 - [DCAT AP Beispiel](/dcat_ap/DCAT_AP_Beispiel.md)
 - [DCAT AP Reflexion](/dcat_ap/DCAT_AP_Reflexion.md)
+
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ...
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+``` 
+
 
 **Literatur**
 

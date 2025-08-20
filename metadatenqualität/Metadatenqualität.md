@@ -1,3 +1,7 @@
+---
+lang: de-DE
+---
+
 (metadatenqualität)=
 # Datenqualität messen: Metadaten
 
@@ -17,21 +21,22 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 `````
 
+In diesem Kapitel widmen wir uns der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten. Metadaten sind der Schlüssel, um große Datenmengen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen – Eigenschaften, die durch die <a href="https://www.go-fair.org/fair-principles/" class="external-link" target="_blank">FAIR-Prinzipien</a> definiert werden. Die Einhaltung dieser Prinzipien ist essenziell für den Erfolg offener Datenportale, da eine reibungslose Datennachnutzung besser gewährleistet werden kann, je höher die Qualität der Metadaten ist.
+
+
 ```{admonition} Lernziel: Metadatenqualität
 :class: lernziele
 1. Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden.
 ```
 
-In diesem Kapitel widmen wir uns der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten. Metadaten sind der Schlüssel, um große Datenmengen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen – Eigenschaften, die durch die <a href="https://www.go-fair.org/fair-principles/" class="external-link" target="_blank">FAIR-Prinzipien</a> definiert werden. Die Einhaltung dieser Prinzipien ist essenziell für den Erfolg offener Datenportale, da eine reibungslose Datennachnutzung besser gewährleistet werden kann, je höher die Qualität der Metadaten ist.
+Im dritten Teil dieser Fallstudie steht die Qualitätsprüfung von Metadaten im Fokus.
 
-```{figure} /assets/512px-Schlagwortkatalog.jpg
----
-name: Schlagwortkatalog
-alt: Ein Schlagwortkatalog an der Universitätsbibliothek Graz
-width: 512px
----
-Karteikarten in einem Schlagwortkatalog, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" class="external-link" target="_blank">CC BY-SA</a> <a href="https://commons.wikimedia.org/wiki/File:Schlagwortkatalog.jpg?uselang=de" class="external-link" target="_blank">Marcus Gossler</a>.
-```
++++
+*Wir befinden uns hier:*
+![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
+
+<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+
 
 Der Fokus dieses Kapitels liegt auf der Beschreibung und Auswertung des <a href="https://data.europa.eu/mqa/methodology?locale=de" class="external-link" target="_blank">Metadata Quality Assessment</a> (MQA), einem Tool des europäischen Datenportals <a href="https://data.europa.eu/de" class="external-link" target="_blank">data.europa.eu</a>, das die Einhaltung von Metadatenstandards wie <a href="https://op.europa.eu/de/web/eu-vocabularies/dcat-ap" class="external-link" target="_blank">DCAT-AP</a> bewertet. Dieses Werkzeug identifiziert typische Probleme in der Metadatenqualität, beispielsweise in Bezug auf Zugangsprobleme oder die maschinelle Lesbarkeit. Im Verlauf des Kapitels untersuchen wir auch die Metadatenqualität des deutschen Datenportals <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a>.
 
@@ -40,3 +45,13 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Metadaten Kontrolle](/metadatenqualität/Metadaten_Kontrolle.md)
 - [Metadaten Übung](/metadatenqualität/Metadaten_Übung.md)
 - [Metadaten Reflexion](/metadatenqualität/Metadaten_Reflexion.md)
+
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ...
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+``` 

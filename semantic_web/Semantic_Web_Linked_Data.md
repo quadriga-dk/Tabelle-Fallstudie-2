@@ -1,3 +1,7 @@
+---
+lang: de-DE
+---
+
 (semanticweb)=
 # Technologien verstehen: Semantic Web & Linked Data
 
@@ -17,6 +21,8 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 `````
 
+In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welches eine zentrale Rolle in der modernen Datenverarbeitung und Datennutzung einnimmt. Dabei wird aufgezeigt, wie semantische Technologien dazu beitragen, Informationen besser zu strukturieren, zu verknüpfen und maschinell interpretierbar zu machen.
+
 
 ```{admonition} Lernziel: Technologien verstehen
 :class: lernziele
@@ -24,7 +30,15 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 2. Die Rolle von RDF im Semantic Web kann erklärt werden.
 ```
 
-In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welches eine zentrale Rolle in der modernen Datenverarbeitung und Datennutzung einnimmt. Dabei wird aufgezeigt, wie semantische Technologien dazu beitragen, Informationen besser zu strukturieren, zu verknüpfen und maschinell interpretierbar zu machen.
+
+Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Hier geht es darum, Technologien zu verstehen, die die Basis für die folgenden Kapitel darstellen.
+
++++
+*Wir befinden uns hier:*
+![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
+
+<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+
 
 Der Begriff *Semantische Technologien* entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte {cite}`berners-lee2001semantic`. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologien sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Sie sollen Informationen maschinell verständlich machen, indem sie die Bedeutung (Semantik) und die Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später genauer erklären werden.
 
@@ -41,9 +55,14 @@ Software-Agenten sind autonome Programme, die selbstständig im Sinne eines defi
 
 Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Ontologien sind zu einem wichtigen Instrument geworden, ohne welches die produktive Datenadministrierung und -implementierung heutzutage unvorstellbar wären {cite}`gardner_ontologies_2005`. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist. Die bevorzugte Sprache OWL findet in der verwaltungswissenschaftlichen Gemeinschaft breite Akzeptanz. 
 
+---
+
 Die Betrachtung des Semantic Web ist in vielerlei Hinsicht relevant: Es eröffnet neue Möglichkeiten für die Datenverarbeitung, verbessert die Interoperabilität zwischen verschiedenen Systemen und erleichtert die Nachnutzung von Daten. Dies ist besonders für Forschungsfelder von Bedeutung, in denen große Datenmengen analysiert und reproduzierbare Ergebnisse angestrebt werden.
 
+```{admonition} Semantic Web und Verwaltung(swissenschaft) 
+:class: keypoint
 Auch für die Verwaltungswissenschaft sind Semantic Web und Linked Data von großer Bedeutung - sie ermöglichen eine effizientere Vernetzung und Integration von Verwaltungsdaten über Behörden- und Ressortgrenzen hinweg, fördern Transparenz und Nachvollziehbarkeit staatlichen Handelns und unterstützen datenbasierte Entscheidungsprozesse. Darüber hinaus erleichtert die semantische Aufbereitung öffentlicher Daten die Entwicklung innovativer E-Government-Lösungen sowie die Umsetzung und Strukturierung von Open-Data-Initiativen.
+```
 
 Im Folgenden werden die Grundlagen des Semantic Web sowie die ihm zugrunde liegendende Struktur schrittweise erläutert. Ziel ist es, ein Verständnis dafür zu entwickeln, wie verknüpfte Daten die Art und Weise verändern, wie wir mit Informationen umgehen und Wissen generieren können.
 
@@ -53,6 +72,16 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Semantic Web Layer Cake](/semantic_web/Semantic_Web_Layer_Cake.md)
 - [Semantic Web Übung](/semantic_web/Semantic_Web_Übung.md)
 - [Semantic Web Reflexion](/semantic_web/Semantic_Web_Reflexion.md)
+
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ...
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+``` 
 
 
 **Literatur**
