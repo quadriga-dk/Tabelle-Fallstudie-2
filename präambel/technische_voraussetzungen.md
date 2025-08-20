@@ -18,4 +18,4 @@ Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensä
 
 Für die Kapitel 2. *Semantic Web & Linked Data*, 3. *DCAT-AP Metadatenstandard* sowie 4. *Metadatenqualität* werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in die theoretischen Konzepte.
 
-Für das Kapitel 5. *SPARQL* ist ein Grundinteresse bzw. -verständnis für Abfragengestaltung und Erfragen von Metadaten hilfreich, da Sie dort mit der Abfragesprache SPARQL arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung, da alle Aspekte ausführlich erläutert werden.
+Für das Kapitel 5. *SPARQL* ist ein Grundinteresse bzw. -verständnis für Abfragengestaltung und Erfragen von Metadaten hilfreich, da Sie dort mit der Abfragesprache SPARQL arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung, da alle Aspekte ausführlich erläutert werden. Wenn Sie SPARQL bereits beherrschen, können Sie sich auch gleich an die Übungen wagen.
