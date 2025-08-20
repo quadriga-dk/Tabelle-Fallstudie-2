@@ -27,13 +27,14 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal._ 
+Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal. QUADRIGA Open
+Educational Ressources: Tabelle 2_ 
 
 ````
 `````
 
 Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> möchte Kenntnisse zur Datenabfrage vermitteln, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.  
-Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten, da Daten zu Baumverteilungen vor allem im Zuge des Klimawandels zunehmend an Bedeutung gewinnen. Dies zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
+Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten, da Daten zu Baumverteilungen vor allem im Zuge des Klimawandels zunehmend an Bedeutung gewinnen, da Bäume das Mikroklima in Städten wesentlich beeinflussen. Das gestiegene Interesse der Bevölkerung an "ihren" Stadtbäumen zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
 
 
 ```{figure} /assets/Datenwissenschaftler_analysiert_Baumverteilungen.png
@@ -68,9 +69,7 @@ Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht, wenn n
 
 ## Zielgruppe
 
-Grundsätzlich steht das JupyterBook allen Interessierten offen.
-
-Die explizite Zielgruppe sind jedoch promovierende und promovierte Wissenschaftler:innen sowie Lehrende aus der Verwaltungswissenschaft, da die hier vermittelten Inhalte anhand des häufig untersuchten Datentyps *Tabelle* aufbereitet sind. Zudem orientieren sich die hier entwickelten Lerneinheiten an einem für diese Disziplin typischen Fallbeispiel.
+Dieses JupyterBook steht allen Interessierten offen, wurde jedoch für Verwaltungswissenschaftler:innen entworfen, da die hier vermittelten Inhalte anhand des häufig untersuchten Datentyps *Tabelle* aufbereitet sind. Zudem orientieren sich die hier entwickelten Lerneinheiten an einem für diese Disziplin typischen Fallbeispiel.
 
 
 ## Struktur der Fallstudie
