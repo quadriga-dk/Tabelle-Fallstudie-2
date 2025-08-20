@@ -31,7 +31,7 @@ In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welche
 ```
 
 
-Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Hier geht es darum, Technologien zu verstehen, die die Basis für die folgenden Kapitel darstellen.
+Wir befinden uns damit im theoretischen Teil dieses interaktiven Lehrbuchs. Hier geht es darum, Technologien zu verstehen, die die Basis für die folgenden Kapitel darstellen.
 
 +++
 *Wir befinden uns hier:*
@@ -39,21 +39,22 @@ Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Hier geht es dar
 
 <span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
 
-
-Der Begriff *Semantische Technologien* entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte {cite}`berners-lee2001semantic`. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologien sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Sie sollen Informationen maschinell verständlich machen, indem sie die Bedeutung (Semantik) und die Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später genauer erklären werden.
-
-Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt. Ein wichtiger Standard ist die Ontology Web Language ([OWL](https://www.w3.org/OWL/)), die vom World Wide Web Consortium ([W3C](https://www.w3.org/)) entwickelt wurde. OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition von Gruber [1993] verstanden werden.
-
-Die Integration semantischer Technologien in IT-Lösungen erlaubt die Automatisierung von Prozessen und die Einführung von "Intelligenz" in Softwaresysteme {cite}`valiente2012integration`. Dadurch können Operationen ausgeführt werden, die mit herkömmlichen, datenbasierten Ansätzen nicht möglich sind. Semantische Technologien machen implizite Informationen explizit und fördern dadurch Interoperabilität und logische Schlussfolgerungen. Software-Agenten können somit Dienste für Benutzer suchen und bereitstellen.
-
 ````{margin}
 ```{admonition} Was sind Software-Agenten? 
 :class: hinweis
 Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss.
 ```
 ````
+```{admonition} Hintergrund
+:class: hinweis
+Der Begriff *Semantische Technologien* entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte {cite}`berners-lee2001semantic`. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologien sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Sie sollen Informationen maschinell verständlich machen, indem sie die Bedeutung (Semantik) und die Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später genauer erklären werden.
 
-Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Ontologien sind zu einem wichtigen Instrument geworden, ohne welches die produktive Datenadministrierung und -implementierung heutzutage unvorstellbar wären {cite}`gardner_ontologies_2005`. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist. Die bevorzugte Sprache OWL findet in der verwaltungswissenschaftlichen Gemeinschaft breite Akzeptanz. 
+Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt. Ein wichtiger Standard ist die Ontology Web Language ([OWL](https://www.w3.org/OWL/)), die vom World Wide Web Consortium ([W3C](https://www.w3.org/)) entwickelt wurde. OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition von Gruber [1993] verstanden werden.
+```
+
+Die Integration semantischer Technologien in IT-Lösungen erlaubt die Automatisierung von Prozessen und die Einführung von "Intelligenz" in Softwaresysteme {cite}`valiente2012integration`. Dadurch können Operationen ausgeführt werden, die mit herkömmlichen, datenbasierten Ansätzen nicht möglich sind. Semantische Technologien machen implizite Informationen explizit und fördern dadurch Interoperabilität und logische Schlussfolgerungen. Software-Agenten können somit Dienste für Benutzer suchen und bereitstellen.
+
+<span style="background-color:aquamarine">Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Ontologien sind zu einem wichtigen Instrument geworden, ohne welches die produktive Datenadministrierung und -implementierung heutzutage unvorstellbar wären {cite}`gardner_ontologies_2005`. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist. Die bevorzugte Sprache OWL findet in der verwaltungswissenschaftlichen Gemeinschaft breite Akzeptanz.</span> 
 
 ---
 
