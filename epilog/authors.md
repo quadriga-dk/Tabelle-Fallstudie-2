@@ -71,6 +71,8 @@ lang: de-DE
 </tr>
 </table>
 
+## Weitere Beteiligte  
+
 ### Cemre Bingöl <a href="https://orcid.org/0009-0009-2345-4973" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
@@ -82,8 +84,6 @@ lang: de-DE
 <td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
 </tr>
 </table>
-
-## Weitere Beteiligte  
 
 ### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
