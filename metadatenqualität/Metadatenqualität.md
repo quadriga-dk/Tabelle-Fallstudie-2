@@ -3,7 +3,7 @@ lang: de-DE
 ---
 
 (metadatenqualität)=
-# Datenqualität messen: Metadaten
+# Datenqualität messen: Metadata Quality Assessment
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 

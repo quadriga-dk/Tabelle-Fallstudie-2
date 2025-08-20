@@ -28,13 +28,15 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 :language: bibtex
 ```
 Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal. QUADRIGA Open
-Educational Ressources: Tabelle 2_ 
+Educational Resources: Tabelle 2_ 
 
 ````
 `````
 
-Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> möchte Kenntnisse zur Datenabfrage vermitteln, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.  
-Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten, da Daten zu Baumverteilungen vor allem im Zuge des Klimawandels zunehmend an Bedeutung gewinnen, da Bäume das Mikroklima in Städten wesentlich beeinflussen. Das gestiegene Interesse der Bevölkerung an "ihren" Stadtbäumen zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
+Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> möchte Kenntnisse zur Datenabfrage vermitteln, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.
+
+Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten.  
+Daten zu Baumverteilungen oder -pflanzungen in Städten gewinnen zunehmend an Bedeutung, da Bäume das Mikroklima wesentlich beeinflussen. Das gestiegene Interesse der Bevölkerung an "ihren" Stadtbäumen zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
 
 
 ```{figure} /assets/Datenwissenschaftler_analysiert_Baumverteilungen.png
@@ -48,16 +50,16 @@ Datenwissenschaftler analysiert Baumverteilungen (KI generiert).
 
 ## Baumbestand-Analyse: Erfassung und Visualisierung der Verteilung der Baumarten
 
-Der Baumbestand in Städten und ländlichen Regionen ist für Stadtplanung und Umweltforschung aufgrund deren Auswirkung auf das Mikroklima von zentraler Bedeutung. In diesem Zusammenhang stellen Baumkataster eine wichtige Arbeitsgrundlage dar, da sie Informationen zu Baumarten, deren Standort und Zustand liefern. Doch wie gut sind diese Daten öffentlich zugänglich?
+Daten zu Baumbeständen sind wegen des Klimawandels vor allem in Städten aufgrund deren Auswirkung auf das Mikroklima von zentraler Bedeutung. In diesem Zusammenhang stellen Baumkataster eine wichtige Arbeitsgrundlage dar, da sie Informationen zu Baumarten, deren Standort, Alter und Zustand liefern. Doch wie gut sind diese Daten öffentlich zugänglich?
 
 `````{margin}
 ```{admonition} Hinweis 
 :class: hinweis
-Die Visualisierung von kommunalen Daten mit Dashboards ist Thema einer weiteren Fallstudie von Quadriga: <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-3/intro.html" class="external-link" target="_blank">Fallstudie 3</a>.
+Die Visualisierung von kommunalen Daten mit Dashboards ist Thema einer weiteren Fallstudie von Quadriga, die thematisch auf diese Fallstudie aufbaut: <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-3/intro.html" class="external-link" target="_blank">Fallstudie 3</a>.
 ```
 `````
 
-Dr. Amir Weber, ein Verwaltungswissenschaftler mit Interesse an kommunalen Daten und Bürgerbeteiligung, möchte ein <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-3/intro.html" class="external-link" target="_blank">Dashboard</a> zur Visualisierung der Baumartenvielfalt erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber zunächst die folgende Frage:
+Dr. Amir Weber, ein Verwaltungswissenschaftler mit Interesse an kommunalen Daten und Bürgerbeteiligung, möchte ein <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-3/intro.html" class="external-link" target="_blank">Dashboard</a> zur Visualisierung von Baumbeständen erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber zunächst die folgende Frage:
 
 **Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?**   
 
@@ -69,14 +71,19 @@ Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht, wenn n
 
 ## Zielgruppe
 
-Dieses JupyterBook steht allen Interessierten offen, wurde jedoch für Verwaltungswissenschaftler:innen entworfen, da die hier vermittelten Inhalte anhand des häufig untersuchten Datentyps *Tabelle* aufbereitet sind. Zudem orientieren sich die hier entwickelten Lerneinheiten an einem für diese Disziplin typischen Fallbeispiel.
+Dieses JupyterBook wurde für Verwaltungswissenschaftler:innen entworfen, da die Daten, die hier via SPARQL abgefragt werden, Daten aus der öffentlichen Verwaltung sind (Baumkatasterdaten).
+
+Diese Daten können selbstverständlich auch in anderen wissenschaftlichen Kontexten oder für Laien von Bedeutung bzw. Interesse sein.
+
+
+Dieses Lehrbuch steht somit allen Interessierten bzw. Forschenden offen, die wissen möchten, wie man Daten via SPARQL Daten sucht oder generell Interesse an der Funktionsweise von Abfragesprachen haben.
 
 
 ## Struktur der Fallstudie
 
-Die zentrale Forschungsfrage, die in dieser Fallstudie untersucht wird, lautet: 
+Die zentrale Forschungsfrage, die in dieser Fallstudie untersucht wird, lautet unter Bezug auf das oben skizzierte Szenrio um Dr. Weber: 
 
-**Welche offenen Daten gibt es, die dazu beitragen, den Bewässerungsbedarf von Bäumen in einer bestimmten Region zu ermitteln?**
+**Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?**   
 
 Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der Abfragesprache SPARQL entwickelt, um relevante Informationen zu extrahieren. Dabei wird die Nachnutzbarkeit der Daten untersucht, ihre Qualität bewertet sowie der Entstehungskontext nachvollzogen. Die Abfragen ermöglichen eine strukturierte Analyse der Daten, um spezifische Antworten zum Baumbestand zu erhalten.
 
@@ -94,29 +101,30 @@ Visualisierung der 4 Schritte dieser Fallstudie.
 
 **1. Technologien verstehen: Semantic Web & Linked Data** 
 
-Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenportal <a href="https://data.europa.eu/en" class="external-link" target="_blank">data.europa</a> zurück. Daher werden zuerst die grundlegenden Technologien erläutert, die gängige Metadatenschemata ausmachen, nämlich Semantic Web & Linked Data.
+Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenportal <a href="https://data.europa.eu/en" class="external-link" target="_blank">data.europa</a> zurück. Daher werden zuerst die grundlegenden Technologien erläutert, die gängige Metadatenschemata ausmachen, nämlich Semantic Web und Linked Data.
 
 **2. Werkzeuge kennenlernen: DCAT-AP Metadatenstandard**
 
-Wir machen Sie mit einem der zentralen Werkzeuge für die Operationalisierung von Metadatenrepositorien vertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. In dieser Fallstudie werden außerdem die Nutzung der Abfragesprache SPARQL und erste praktische Schritte anschaulich erklärt.
+Wir machen Sie mit einem der zentralen Werkzeuge für die Operationalisierung von Metadatenrepositorien vertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. 
 
 **3. Datenqualität messen: Metadata Quality Assessment** 
 
 Sie lernen, wie Sie Metadaten anhand von Maßnahmen zur Qualitätsmessung überprüfen können, um sicherzustellen, dass diese den Qualitätsanforderungen entsprechen. Dazu stellen wir Ihnen die verschiedenen Qualitätskriterien des Metadata Quality Assessment (MQA) für Metadaten vor.
 
 **4. Praxis anwenden: SPARQL-Abfragen**
-Im letzten Schritt der Fallstudie widmen wir uns der praktischen Anwendung und erläutern, wie Metadaten mithilfe der SPARQL-Abfragesprache abgefragt werden können. Dabei vermitteln wir zunächst die grundlegenden Konzepte von SPARQL, einschließlich der Syntax und zentraler Befehle. Im Anschluss führen wir gezielte Abfragen durch, die auf unsere Fragestellung ausgerichtet sind und evaluieren kritisch, in welchem Maß die aktuellen Implementierungen erfolgreich sind oder Optimierungspotenzial aufweisen.  
+
+Im letzten Schritt der Fallstudie widmen wir uns der praktischen Anwendung und erläutern, wie Metadaten mithilfe der SPARQL-Abfragesprache abgefragt werden können. Dabei vermitteln wir zunächst die grundlegende Funktionsweise von SPARQL, einschließlich der Syntax und zentraler Befehle. Im Anschluss führen wir gezielte Abfragen durch, die auf unsere Fragestellung ausgerichtet sind und evaluieren kritisch, in welchem Maß die aktuellen Implementierungen erfolgreich sind oder Optimierungspotenzial aufweisen.  
 
 ---
   
 
-Die Gliederung der Fallstudie in Kapitel und Abschnitte können Sie immer in der Menüleiste auf der linken Seite nachvollziehen. Die rechte Menüleiste zeigt Ihnen an, in welchem Abschnitt eines Kapitels Sie sich gerade befinden.
-Die einzelnen Kapitel sind so gestaltet, dass Sie sie sowohl chronologisch als auch separat voneinander durchgehen können.
+Die Gliederung der Fallstudie in Kapitel und Unterkapitel können Sie immer in der Menüleiste auf der linken Seite nachvollziehen. Die rechte Menüleiste zeigt Ihnen an, in welchem Abschnitt eines Kapitels Sie sich gerade befinden.
+Die einzelnen Kapitel sind so gestaltet, dass Sie sie sowohl nacheinander als auch separat voneinander durchgehen können.
 
 Das JupyterBook lässt sich in zwei Hauptblöcke gliedern:
 
 
 |       Block              |     Inhalte                                               |    Bearbeitungszeit              |  
 |---------------------|----------------------------------------------------|----------------------------------------------------|
-| **Block 1**           | Kapitel 2, 3, 4: Grundlagen des Semantic Web, Metadatenstandards und Metadatenqualität | ca. 3 x 20-30 Min pro Kapitel  |  
-| **Block 2**| Kapitel 5: Praktische Anwendung von SPARQL: Abfrage von Daten zur Beantwortung der Forschungsfrage                                                     | 45 Min|
+| **Block 1**           | Kapitel 2, 3, 4: Grundlagen des Semantic Web, Metadatenstandards und Metadatenqualität |  <span style="color:red">*ca. 3 x 20-30 Min pro Kapitel*</span> |  
+| **Block 2**| Kapitel 5: Praktische Anwendung von SPARQL: Abfrage von Daten zur Beantwortung der Forschungsfrage                                                     | <span style="color:red">*45 Min*</span> |

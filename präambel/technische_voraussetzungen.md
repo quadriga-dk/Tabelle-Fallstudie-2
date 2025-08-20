@@ -1,21 +1,27 @@
-# Technische Voraussetzungen
+---
+lang: de-DE
+---
 
-Diese Fallstudie umfasst erklärende Texte, SPARQL-Code und Übungen zur Selbstüberprüfung. Sie haben folgende Möglichkeiten dieses Lernangebot zu verwenden:
+(voraussetzungen)=
+# Anwendung und technische Voraussetzungen
 
-- Sie lesen das JupyterBook in Ihrem Internet-Browser. Die in diesem Book dargestellten SPARQL-Abfragen können Sie dann in einem SPARQL Query Editor bzw. SPARQL Client auf einer Website Ihrer Wahl ausführen lassen, z. B.: 
-    - auf <a href="https://data.europa.eu/sparql" class="external-link" target="_blank">DataEuropa</a>
-    - auf <a href="https://www.govdata.de/sparql-assistent" class="external-link" target="_blank">GovData</a>
-    - über <a href="https://yasgui.org/" class="external-link" target="_blank">Yasgui</a> des schweizerischen Bundesamts für Statistik  
-    - über <a href="https://akswnc7.informatik.uni-leipzig.de/tmp/yasgui.html" class="external-link" target="_blank">Yasgui</a> der Universität Leipzig
+Diese Fallstudie umfasst einführende und erklärende Texte, SPARQL-Code sowie Übungen und Assessments zur Selbstüberprüfung. 
 
-- Sie können die Inhalte auch auf Ihren lokalen Rechner herunterladen, indem Sie die "".zip""-Datei aus dem GitHub Repositorium herunterladen. Dies gibt Ihnen die Möglichkeit, Inhalte zu bearbeiten und um eigene Ressourcen zu erweitern, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z. B. Anaconda).
+Wir bieten drei verschiedene Zugangswege:
 
-- <span style="color:red">*binder scheint aktuell nicht zu funktionieren*</span>
+📘 Book-Only Mode: Im Browser lesen Sie unser interaktives Lehrbuch mit eingeschränkten Interaktionsmöglichkeiten. Dies erfordert keine Programmierkenntnisse oder Erfahrung mit Jupyter Notebooks.  
+Falls Sie die SPARQL-Abfragen dann doch ausführen und probieren möchten, können Sie dies über einen SPARQL Query Editor bzw. SPARQL Client auf einer Website Ihrer Wahl parallel im Browser tun, z. B.: 
+    - auf der Seite des europäischen Metadatenportals <a href="https://data.europa.eu/sparql" class="external-link" target="_blank">DataEuropa</a>
+    - auf der Seite des deutschen Metadatenportals <a href="https://www.govdata.de/sparql-assistent" class="external-link" target="_blank">GovData</a>
+    - über das <a href="https://yasgui.org/" class="external-link" target="_blank">Yasgui-Tool</a>   
 
-# Vorkenntnisse
+🌨️ Cloud Mode: Ausführen und Anpassen der enthaltenen Jupyter Notebooks über Google Colab oder Binder. Kapitel mit ausführbaren Notebooks sind durch ein Raketen-Symbol (🚀) gekennzeichnet - klicken Sie darauf, um das Notebook in Colab zu öffnen.  
+<span style="color:red">*Haben wir diese Möglichkeiten tatsächlich? Dringend prüfen (s. Issue #136)*</span>
 
-Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.
+💻 Local Mode: Herunterladen der Jupyter Notebooks auf Ihren Computer zur lokalen Ausführung (z.B. im Anaconda Navigator). Ermöglicht die Nutzung lokaler Daten und umfassende Anpassungen.  
+<span style="color:red">*Dürfen wir Anaconda noch zur Nutzung empfehlen?*</span>
 
-Für die Kapitel 2. *Semantic Web & Linked Data*, 3. *DCAT-AP Metadatenstandard* sowie 4. *Metadatenqualität* werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in die theoretischen Konzepte.
+Wählen Sie den Ansatz, der am besten zu Ihren Anforderungen passt. Sie können jederzeit zwischen den Methoden wechseln.
 
-Für das Kapitel 5. *SPARQL* ist ein Grundinteresse bzw. -verständnis für Abfragengestaltung und Erfragen von Metadaten hilfreich, da Sie dort mit der Abfragesprache SPARQL arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung, da alle Aspekte ausführlich erläutert werden. Wenn Sie SPARQL bereits beherrschen, können Sie sich auch gleich an die Übungen wagen.
+
+
