@@ -36,9 +36,13 @@ Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Thema dieses Kap
 
 +++
 *Wir befinden uns hier:*
-![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
-
-<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+```{figure} /assets/case-study-2_steps-2.png
+---
+name: steps of casestudy
+alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
+---
+Visualisierung der 4 Schritte dieser Fallstudie.
+```
 
 
 In Deutschland findet ein kontinuierlicher Austausch von Daten zwischen GovData, dem zentralen Datenportal, und den Datenbereitstellern, wie beispielsweise den Datenportalen der Bundesländer oder Kommunen, statt.

@@ -35,9 +35,13 @@ Wir befinden uns damit im theoretischen Teil dieses interaktiven Lehrbuchs. Hier
 
 +++
 *Wir befinden uns hier:*
-![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
-
-<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+```{figure} /assets/case-study-2_steps-1.png
+---
+name: steps of casestudy
+alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
+---
+Visualisierung der 4 Schritte dieser Fallstudie.
+```
 
 ````{margin}
 ```{admonition} Was sind Software-Agenten? 

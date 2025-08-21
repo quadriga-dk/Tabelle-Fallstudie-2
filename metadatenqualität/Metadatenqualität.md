@@ -33,9 +33,13 @@ Im dritten Teil dieser Fallstudie steht die Qualitätsprüfung von Metadaten im 
 
 +++
 *Wir befinden uns hier:*
-![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
-
-<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+```{figure} /assets/case-study-2_steps-3.png
+---
+name: steps of casestudy
+alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
+---
+Visualisierung der 4 Schritte dieser Fallstudie.
+```
 
 
 Der Fokus dieses Kapitels liegt auf der Beschreibung und Auswertung des <a href="https://data.europa.eu/mqa/methodology?locale=de" class="external-link" target="_blank">Metadata Quality Assessment</a> (MQA), einem Tool des europäischen Datenportals <a href="https://data.europa.eu/de" class="external-link" target="_blank">data.europa.eu</a>, das die Einhaltung von Metadatenstandards wie <a href="https://op.europa.eu/de/web/eu-vocabularies/dcat-ap" class="external-link" target="_blank">DCAT-AP</a> bewertet. Dieses Werkzeug identifiziert typische Probleme in der Metadatenqualität, beispielsweise in Bezug auf Zugangsprobleme oder die maschinelle Lesbarkeit. Im Verlauf des Kapitels untersuchen wir auch die Metadatenqualität des deutschen Datenportals <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a>.

@@ -35,9 +35,13 @@ Mit diesem Kapitel befinden wir uns im praktischen Teil dieser Fallstudie. Anhan
 
 +++
 *Wir befinden uns hier:*
-![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
-
-<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+```{figure} /assets/case-study-2_steps-4.png
+---
+name: steps of casestudy
+alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
+---
+Visualisierung der 4 Schritte dieser Fallstudie.
+```
 
 
 ````{margin}

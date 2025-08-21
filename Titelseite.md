@@ -86,7 +86,7 @@ Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der
 Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.  
 
 
-```{figure} /assets/FS-Schritte.png
+```{figure} /assets/case-study-2_steps.png
 ---
 name: steps of casestudy
 alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
