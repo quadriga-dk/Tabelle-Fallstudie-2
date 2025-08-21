@@ -1,4 +1,33 @@
 # Definition & theoretische Grundsätze
+
+````{margin}
+```{admonition} Was sind Software-Agenten? 
+:class: hinweis
+Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss.
+```
+````
+```{admonition} Hintergrund
+:class: hinweis
+Der Begriff *Semantische Technologien* entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte {cite}`berners-lee2001semantic`. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologien sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Sie sollen Informationen maschinell verständlich machen, indem sie die Bedeutung (Semantik) und die Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später genauer erklären werden.
+
+Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt. Ein wichtiger Standard ist die Ontology Web Language ([OWL](https://www.w3.org/OWL/)), die vom World Wide Web Consortium ([W3C](https://www.w3.org/)) entwickelt wurde. OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition von Gruber [1993] verstanden werden.
+```
+
+Die Integration semantischer Technologien in IT-Lösungen erlaubt die Automatisierung von Prozessen und die Einführung von "Intelligenz" in Softwaresysteme {cite}`valiente2012integration`. Dadurch können Operationen ausgeführt werden, die mit herkömmlichen, datenbasierten Ansätzen nicht möglich sind. Semantische Technologien machen implizite Informationen explizit und fördern dadurch Interoperabilität und logische Schlussfolgerungen. Software-Agenten können somit Dienste für Benutzer suchen und bereitstellen.
+
+Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Ontologien sind zu einem wichtigen Instrument geworden, ohne welches die produktive Datenadministrierung und -implementierung heutzutage unvorstellbar wären {cite}`gardner_ontologies_2005`. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist. Die bevorzugte Sprache OWL findet in der verwaltungswissenschaftlichen Gemeinschaft breite Akzeptanz.
+
+---
+
+Die Betrachtung des Semantic Web ist in vielerlei Hinsicht relevant: Es eröffnet neue Möglichkeiten für die Datenverarbeitung, verbessert die Interoperabilität zwischen verschiedenen Systemen und erleichtert die Nachnutzung von Daten. Dies ist besonders für Forschungsfelder von Bedeutung, in denen große Datenmengen analysiert und reproduzierbare Ergebnisse angestrebt werden.
+
+```{admonition} Semantic Web und Verwaltung(swissenschaft) 
+:class: keypoint
+Auch für die Verwaltungswissenschaft sind Semantic Web und Linked Data von großer Bedeutung - sie ermöglichen eine effizientere Vernetzung und Integration von Verwaltungsdaten über Behörden- und Ressortgrenzen hinweg, fördern Transparenz und Nachvollziehbarkeit staatlichen Handelns und unterstützen datenbasierte Entscheidungsprozesse. Darüber hinaus erleichtert die semantische Aufbereitung öffentlicher Daten die Entwicklung innovativer E-Government-Lösungen sowie die Umsetzung und Strukturierung von Open-Data-Initiativen.
+```
+
+---
+
 Das Semantic Web ist die Bezeichnung für eine neue Generation von Webtechnologien, die darauf abzielen, die Kommunikation zwischen Menschen, die unterschiedliche Terminologien verwenden, zu verbessern {cite}`Hendler2003ScienceAT`. Die Wortwahl von Menschen unterscheidet sich oft, auch wenn sie über dieselben Themen sprechen oder schreiben. Deshalb ist es hilfreich, ein Werkzeug zu haben, das Datenbanken besser miteinander verbindet und die Nutzung von multimedialen Sammlungen erleichtert. Darüber hinaus ermöglicht das Semantic Web neue Mechanismen zur Unterstützung des "agentenbasierten" Rechnens, bei dem Menschen und Maschinen interaktiver zusammenarbeiten und neue Erachtnisse von Ontologien sich ableiten lassen {cite}`gibbins_agent-based_2003`.
 
 Im Gegensatz zum aktuellen Web, das Links zwischen Seiten bereitstellt, die für den menschlichen Konsum gedacht sind, ergänzt das Semantic Web diese Struktur um Informationseinheiten, die maschinenlesbare Beschreibungen von Webseiten und anderen Webressourcen enthalten. Diese Dokumente können so miteinander verknüpft werden, dass der Computer Informationen darüber erhält, wie die Begriffe in einem Dokument mit den Begriffen in einem anderen Dokument in Beziehung stehen. Dies ermöglicht das automatisierte Annotieren, Entdecken, Veröffentlichen, Bewerben und Zusammenstellen von Diensten {cite}`taye_understanding_2010`.
