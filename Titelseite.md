@@ -58,7 +58,10 @@ Die Visualisierung von kommunalen Daten mit Dashboards ist Thema einer weiteren 
 ```
 `````
 
+```{admonition} Story
+:class: story
 Dr. Amir Weber, ein Verwaltungswissenschaftler mit Interesse an kommunalen Daten und Bürgerbeteiligung, möchte ein <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-3/intro.html" class="external-link" target="_blank">Dashboard</a> zur Visualisierung von Baumbeständen erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber zunächst die folgende Frage:
+```
 
 **Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?**   
 

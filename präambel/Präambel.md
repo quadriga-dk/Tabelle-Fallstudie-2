@@ -5,11 +5,8 @@
 ---
 name: Screenshot der Startseite von Berlin Open Data
 alt: Ein Screenshot der Startseite der Webseite Berlin Open Data
-width: 520px
 ---
 Offene Daten im urbanen Raum - ein beispielhafter Screenshot der Startseite von Berlin Open Data vom 21.08.2025, https://daten.berlin.de/.
 ```
-
-<span style="color:red">*Bild ersetzen - wir bauen kein Dashboard; irgendwas mit Baumkataster*</span>
 
 In diesem einführenden Kapitel können Sie sich mit den [Vorkenntnissen und Lernzielen](/präambel/lernziele.md) sowie der [Anwendung und den technischen Voraussetzungen](/präambel/technische_voraussetzungen.md) vertraut machen.
