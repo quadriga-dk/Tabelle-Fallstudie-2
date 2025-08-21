@@ -18,8 +18,7 @@ Falls Sie die SPARQL-Abfragen dann doch ausführen und probieren möchten, könn
 🌨️ Cloud Mode: Ausführen und Anpassen der enthaltenen Jupyter Notebooks über Google Colab oder Binder. Kapitel mit ausführbaren Notebooks sind durch ein Raketen-Symbol (🚀) gekennzeichnet - klicken Sie darauf, um das Notebook in Colab zu öffnen.  
 <span style="color:red">*Haben wir diese Möglichkeiten tatsächlich? Dringend prüfen (s. Issue #136)*</span>
 
-💻 Local Mode: Herunterladen der Jupyter Notebooks auf Ihren Computer zur lokalen Ausführung (z.B. im Anaconda Navigator). Ermöglicht die Nutzung lokaler Daten und umfassende Anpassungen.  
-<span style="color:red">*Dürfen wir Anaconda noch zur Nutzung empfehlen?*</span>
+💻 Local Mode: Herunterladen der Jupyter Notebooks auf Ihren Computer zur lokalen Ausführung. Ermöglicht die Nutzung lokaler Daten und umfassende Anpassungen.  
 
 Wählen Sie den Ansatz, der am besten zu Ihren Anforderungen passt. Sie können jederzeit zwischen den Methoden wechseln.
 
