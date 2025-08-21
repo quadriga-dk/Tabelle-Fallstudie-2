@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 version: 1.0.0
-title: 'Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal'
+title: 'Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2'
 abstract: Dieses JupyterBook vermittelt grundlegende Kenntnisse zur Datenabfrage, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in

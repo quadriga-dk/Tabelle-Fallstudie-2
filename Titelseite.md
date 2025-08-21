@@ -3,7 +3,7 @@ lang: de-DE
 ---
 
 (intro)=
-# Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal
+# Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL und Metadaten
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
@@ -27,8 +27,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal. QUADRIGA Open
-Educational Resources: Tabelle 2_ 
+Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2_ 
 
 ````
 `````
