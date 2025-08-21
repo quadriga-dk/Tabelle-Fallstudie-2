@@ -3,6 +3,8 @@
 
 In diesem Kapitel wurde die zentrale Bedeutung der Metadatenqualität für den Erfolg offener Datenportale herausgestellt. Durch die Analyse der Metadatenqualität mit dem Metadata Quality Assessment (MQA) wurde deutlich, dass sowohl technische als auch strukturelle Herausforderungen die Einhaltung der FAIR-Prinzipien beeinflussen. Probleme wie unzugängliche Distributions oder Verstöße gegen das DCAT-AP-Schema verdeutlichen, dass die Standardisierung und Harmonisierung von Metadaten noch nicht flächendeckend umgesetzt sind.
 
+<span style="color:red">Bezug zur Forschungsfrage: Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?</span>
+
 Besonders im Fokus standen die Herausforderungen des deutschen Datenportals GovData, das trotz guter Bewertungen noch Lücken aufweist, insbesondere in Bezug auf Persistente Identifier (PIDs) und die maschinelle Lesbarkeit. Diese Defizite beeinträchtigen die Auffindbarkeit und Interoperabilität der Datensätze, was die Nachnutzung erschwert und die Gesamtqualität der Plattform mindert.
 
 Abschließend lässt sich sagen, dass eine kontinuierliche Verbesserung der Metadatenqualität notwendig ist, um den Zugang zu offenen Daten zu optimieren und die Ziele der europäischen Datenstrategie zu erreichen. Werkzeuge wie das MQA spielen hierbei eine entscheidende Rolle, indem sie systematisch Schwachstellen identifizieren und so die Grundlage für eine nachhaltige Dateninfrastruktur schaffen.
@@ -17,4 +19,4 @@ Um diese Herausforderungen zu bewältigen und das Potenzial qualitativ hochwerti
 *Zusammenfassung des Kapitels einfügen*
 ```
 
-Im nächsten Kapitel lernen Sie, wie Sie mit SPARQL gezielt Metadaten aus Open Data Portalen wie *data.europa.eu* abrufen und komplexe Fragestellungen beantworten können. Durch praxisorientierte Übungen und den Einsatz von Jupyter Notebooks erhalten Sie einen Einblick in die Syntax, Techniken und Herausforderungen von SPARQL. Auf diese Weise schaffen wir eine Brücke zwischen der Qualität von Metadaten und ihrer effizienten Nutzung durch strukturierte Abfragen.
+Im nächsten Kapitel lernen Sie, wie Sie mit SPARQL gezielt Metadaten aus Open Data Portalen wie *data.europa.eu* abrufen und komplexe Fragestellungen beantworten können. Durch praxisorientierte Übungen erhalten Sie einen Einblick in die Syntax, Techniken und Herausforderungen von SPARQL. Auf diese Weise schaffen wir eine Brücke zwischen der Qualität von Metadaten und ihrer effizienten Nutzung durch strukturierte Abfragen.
