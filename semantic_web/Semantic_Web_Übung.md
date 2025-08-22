@@ -9,67 +9,134 @@ kernelspec:
   language: python
   name: python3
 ---
-```{code-cell} ipython3
-:tags: [remove_cell]
-# Jupyterquiz
-from jupyterquiz import display_quiz
 
-# Coporate Design
-import sys
-sys.path.append("..")
-from quadriga_config import colors
-```
 
-# Übungen
+# Übung
 
-Bevor es zur Reflexion über das in diesem Kapitel Gelernte geht, können Sie Ihr Wissen in diesem kurzen Quiz auf die Probe stellen. Viel Erfolg!  
+Bevor es zur Reflexion über das in diesem Kapitel Gelernte geht, können Sie Ihr Wissen in diesem kurzen Quiz auf die Probe stellen. Viel Erfolg!
+
+*Ziele laut Lernzielen: 
+1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
+2. Die Rolle von RDF im Semantic Web kann erklärt werden*
 
 
 ## Semantic Web
 
-*Frage 2 kann raus, da sie nicht zielführend ist: Semantic Web soll laut Lernzielen definiert werden können.*
 
-````{code-cell} ipython3
-:tags: [remove_input]
-questions = \
-[
-  { 'question': "1. Das Semantic Web ermöglicht es Maschinen, die Bedeutung von Daten zu verstehen.",
-    'type': 'multiple_choice',
-    'answers': [
-    { 'answer': 'Ja',
-      'correct': True,
-      'feedback': 'Richtig! Das Semantic Web macht Daten maschinenlesbar und verständlich.'},
-    { 'answer': 'Nein',
-      'correct': False,
-      'feedback': 'Falsch, das Hauptziel des Semantic Web ist genau das: Maschinen sollen Daten verstehen können.'},
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question1 = [{
+    "question": """Das Semantic Web ermöglicht es Maschinen, die Bedeutung von Daten zu verstehen.""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Ja.",
+            "correct": True,
+            "feedback": """✓ Richtig! Das Semantic Web macht Daten maschinenlesbar und verständlich."""
+        },
+        {
+            "answer": "Nein.",
+            "correct": False,
+            "feedback": """× Falsch, das Hauptziel des Semantic Web ist genau das: Maschinen sollen Daten verstehen können."""
+        },
     ]
-  },
+}]
 
-  { 'question': "2. Tim Berners-Lee hat das Konzept des Semantic Web erstmals 2010 vorgestellt.",
-    'type': 'multiple_choice',
-    'answers': [
-    { 'answer': 'Ja',
-      'correct': False,
-      'feedback': 'Falsch, Tim Berners-Lee stellte das Konzept bereits 2001 vor.'},
-    { 'answer': 'Nein',
-      'correct': True,
-      'feedback': 'Richtig! Die erste Veröffentlichung erfolgte im Jahr 2001.'},
+display_quiz(question1, colors=colors.jupyterquiz)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question2 = [{
+    "question": """RDF ist eine Sprache zur Gestaltung von Webseiten wie HTML.""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Ja.",
+            "correct": False,
+            "feedback": """× Falsch, RDF dient zur Beschreibung und Verknüpfung von Daten, nicht zur Gestaltung von Webseiten."""
+        },
+        {
+            "answer": "Nein.",
+            "correct": True,
+            "feedback": """✓ Richtig! RDF ist ein Framework zur Strukturierung von Daten und nicht für Webseiten-Design gedacht."""
+        },
     ]
-  },
+}]
 
-  { 'question': "3. RDF ist eine Sprache zur Gestaltung von Webseiten wie HTML.",
-    'type': 'multiple_choice',
-    'answers': [
-    { 'answer': 'Ja',
-      'correct': False,
-      'feedback': 'Falsch, RDF dient zur Beschreibung und Verknüpfung von Daten, nicht zur Gestaltung von Webseiten.'},
-    { 'answer': 'Nein',
-      'correct': True,
-      'feedback': 'Richtig! RDF ist ein Framework zur Strukturierung von Daten und nicht für Webseiten-Design gedacht.'},
+display_quiz(question2, colors=colors.jupyterquiz)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question3 = [{
+    "question": """OWL ist eine Sprache zur Erstellung von Ontologien.""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Ja.",
+            "correct": False,
+            "feedback": """× Falsch, RDF dient zur Beschreibung und Verknüpfung von Daten, nicht zur Gestaltung von Webseiten."""
+        },
+        {
+            "answer": "Nein.",
+            "correct": True,
+            "feedback": """✓ Richtig! RDF ist ein Framework zur Strukturierung von Daten und nicht für Webseiten-Design gedacht."""
+        },
     ]
-  },
+}]
 
-  { 'question': "4. OWL ist eine Sprache zur Erstellung von Ontologien.",
+display_quiz(question3, colors=colors.jupyterquiz)
+```
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question4 = [{
+    "question": """RDF ist eine Sprache zur Gestaltung von Webseiten wie HTML.""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Ja.",
+            "correct": False,
+            "feedback": """× Falsch, RDF dient zur Beschreibung und Verknüpfung von Daten, nicht zur Gestaltung von Webseiten."""
+        },
+        {
+            "answer": "Nein.",
+            "correct": True,
+            "feedback": """✓ Richtig! RDF ist ein Framework zur Strukturierung von Daten und nicht für Webseiten-Design gedacht."""
+        },
+    ]
+}]
+
+
+display_quiz(question4, colors=colors.jupyterquiz)
+```
+
+  { 'question': "4. .",
     'type': 'multiple_choice',
     'answers': [
     { 'answer': 'Ja',
