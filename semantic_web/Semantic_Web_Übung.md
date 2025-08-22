@@ -15,12 +15,9 @@ kernelspec:
 
 Bevor es zur Reflexion über das in diesem Kapitel Gelernte geht, können Sie Ihr Wissen in diesem kurzen Quiz auf die Probe stellen. Viel Erfolg!
 
-*Ziele laut Lernzielen: 
+*Reichen die 4 kurzen Fragen? Die Lernziele sind: 
 1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
 2. Die Rolle von RDF im Semantic Web kann erklärt werden*
-
-
-## Semantic Web
 
 
 ```{code-cell} ipython3
@@ -92,14 +89,14 @@ question3 = [{
     "type": "multiple_choice",
     "answers": [
         {
-            "answer": "Ja.",
+            "answer": "Nein.",
             "correct": False,
-            "feedback": """× Falsch, RDF dient zur Beschreibung und Verknüpfung von Daten, nicht zur Gestaltung von Webseiten."""
+            "feedback": """× Falsch, OWL ist speziell für Ontologien entwickelt worden.."""
         },
         {
-            "answer": "Nein.",
+            "answer": "Ja.",
             "correct": True,
-            "feedback": """✓ Richtig! RDF ist ein Framework zur Strukturierung von Daten und nicht für Webseiten-Design gedacht."""
+            "feedback": """✓ Genau! OWL wird zur Modellierung von Ontologien verwendet."""
         },
     ]
 }]
@@ -116,18 +113,18 @@ sys.path.append("..")
 from quadriga import colors
 
 question4 = [{
-    "question": """RDF ist eine Sprache zur Gestaltung von Webseiten wie HTML.""",
+    "question": """Linked Data bedeutet, dass Daten durch standardisierte Formate miteinander verknüpft werden.""",
     "type": "multiple_choice",
     "answers": [
         {
-            "answer": "Ja.",
+            "answer": "Nein.",
             "correct": False,
-            "feedback": """× Falsch, RDF dient zur Beschreibung und Verknüpfung von Daten, nicht zur Gestaltung von Webseiten."""
+            "feedback": """× Falsch, das Hauptziel von Linked Data ist es, Daten in standardisierten Formaten zu verknüpfen."""
         },
         {
-            "answer": "Nein.",
+            "answer": "Ja.",
             "correct": True,
-            "feedback": """✓ Richtig! RDF ist ein Framework zur Strukturierung von Daten und nicht für Webseiten-Design gedacht."""
+            "feedback": """✓ Richtig! Linked Data nutzt Standards zur Verknüpfung von Daten."""
         },
     ]
 }]
@@ -135,35 +132,3 @@ question4 = [{
 
 display_quiz(question4, colors=colors.jupyterquiz)
 ```
-
-  { 'question': "4. .",
-    'type': 'multiple_choice',
-    'answers': [
-    { 'answer': 'Ja',
-      'correct': True,
-      'feedback': 'Genau! OWL wird zur Modellierung von Ontologien verwendet.'},
-    { 'answer': 'Nein',
-      'correct': False,
-      'feedback': 'Falsch, OWL ist speziell für Ontologien entwickelt worden.'},
-    ]
-  },
-
-  { 'question': "5. Linked Data bedeutet, dass Daten durch standardisierte Formate miteinander verknüpft werden.",
-    'type': 'multiple_choice',
-    'answers': [
-    { 'answer': 'Ja',
-      'correct': True,
-      'feedback': 'Richtig! Linked Data nutzt Standards zur Verknüpfung von Daten.'},
-    { 'answer': 'Nein',
-      'correct': False,
-      'feedback': 'Falsch, das Hauptziel von Linked Data ist es, Daten in standardisierten Formaten zu verknüpfen.'},
-    ]
-  }
-]
-
-display_quiz(questions, colors = colors.jupyterquiz)
-````
-
-## RDF
-
-*noch ergänzen*
