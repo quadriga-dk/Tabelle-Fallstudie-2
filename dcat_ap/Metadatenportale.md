@@ -12,15 +12,14 @@ Datensätze werden zunächst von Datenbereitstellern auf lokaler Ebene erfasst, 
 Im Rahmen der europäischen Datenintegration werden diese nationalen Daten schließlich auf der Plattform <a href="https://data.europa.eu/de" class="external-link" target="_blank">data.europa.eu</a> bereitgestellt. Dadurch entsteht eine mehrstufige Dateninfrastruktur, die es ermöglicht, Metadaten auf verschiedenen Ebenen gezielt zu suchen, zu filtern und für Forschungszwecke zu nutzen.
 
 
-```{figure} /assets/Ebenen.png
+```{figure} /assets/Metadatenportale.png
 ---
 name: Datenstruktur
 alt: Eine grafische Darstellung der Datenstruktur.
 ---
 Datenstruktur
 ```
-Bildquelle: Open.NRW
-<span style="color:red">*Bitte Quelle genau recherchieren*</span>
+Bildquelle: Eigene Darstellung
 
 In dieser Fallstudie befassen wir uns mit Metadaten zu Datensätzen, die im bundesweiten Metadatenportal einsehbar sind. Wichtig zu betonen ist, dass über das Portal kein direkter Zugriff auf die eigentlichen Datensätze möglich ist. Vielmehr bietet es einen allgemeinen Überblick darüber, welche Datensätze verfügbar sind und wo der Zugang zu diesen ggf. beantragt werden kann. Das Metadatenportal fungiert somit als zentrale Schnittstelle zur Information und Orientierung über vorhandene Datenbestände.  
 
