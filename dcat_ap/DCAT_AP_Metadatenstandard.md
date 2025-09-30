@@ -32,7 +32,8 @@ Dieses Kapitel widmet sich dem Metadatenstandard DCAT, dem Anwendungsprofil (app
 3. Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.
 ```
 
-Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Thema dieses Kapitels sind - wie oben beschrieben - Metadatenstandards.
+Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Wir betrachten die Entstehung, Struktur und Bedeutung von DCAT-AP und beleuchten, wie dessen nationale Anpassung, DCAT-AP.de, den Datenaustausch zwischen verschiedenen Verwaltungsebenen und Institutionen in Deutschland standardisiert. Damit schaffen wir die Basis, um zu verstehen, wie solche Standards die Nachnutzbarkeit und Interoperabilität von Daten nachhaltig fördern.
+
 
 +++
 *Wir befinden uns hier:*

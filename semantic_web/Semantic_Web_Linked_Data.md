@@ -29,6 +29,8 @@ In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welche
 2. Die Rolle von RDF im Semantic Web kann erklärt werden.
 ```
 
+<span style="color:red">Tatsächlich wird die Rolle von RDF nicht erschöpfend erklärt.</span>
+
 Wir befinden uns damit im theoretischen Teil dieses interaktiven Lehrbuchs. Hier geht es darum, Technologien zu verstehen, die die Basis für die folgenden Kapitel darstellen.
 
 +++
@@ -53,7 +55,7 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 15 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
 
 Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ...
 
