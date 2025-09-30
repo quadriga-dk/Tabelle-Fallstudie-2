@@ -3,15 +3,19 @@
 ````{margin}
 ```{admonition} Was sind Software-Agenten? 
 :class: hinweis
-Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss.
+Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss. <span style="color:red">*Quelle?*</span>
+
 ```
 ````
 
 
 Der Begriff *Semantische Technologien* entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte {cite}`berners-lee2001semantic`. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologien sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Sie sollen Informationen maschinell verständlich machen, indem sie die Bedeutung (Semantik) und die Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später genauer erklären werden.
+<span style="color:red">*hier fehlt m. E. eine Quelle*</span>
 
 Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt. Ein wichtiger Standard ist die Ontology Web Language (<a href="https://www.w3.org/OWL/" class="external-link" target="_blank">OWL</a>), die vom World Wide Web Consortium (<a href="https://www.w3.org/" class="external-link" target="_blank">W3C</a>) entwickelt wurde. OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition von Gruber [1993] verstanden werden.
 <span style="color:red">*Gruber fehlt als Literaturangabe*</span>
+<span style="color:red">*Ist das 2025 noch relevant?*</span>
+
 
 ---
 
@@ -30,11 +34,11 @@ Auch für die Verwaltungswissenschaft sind Semantic Web und Linked Data von gro�
 
 ---
 
-Das Semantic Web ist die Bezeichnung für eine neue Generation von Webtechnologien, die darauf abzielen, die Kommunikation zwischen Menschen, die unterschiedliche Terminologien verwenden, zu verbessern {cite}`Hendler2003ScienceAT`. Die Wortwahl von Menschen unterscheidet sich oft, auch wenn sie über dieselben Themen sprechen oder schreiben. Deshalb ist es hilfreich, ein Werkzeug zu haben, das Datenbanken besser miteinander verbindet und die Nutzung von multimedialen Sammlungen erleichtert. Darüber hinaus ermöglicht das Semantic Web neue Mechanismen zur Unterstützung des "agentenbasierten" Rechnens, bei dem Menschen und Maschinen interaktiver zusammenarbeiten {cite}`gibbins_agent-based_2003`.
+Das Semantic Web ist die Bezeichnung für eine neue Generation von Webtechnologien, die darauf abzielen, die Kommunikation zwischen Menschen, die unterschiedliche Terminologien verwenden, zu verbessern {cite}`Hendler2003ScienceAT`. Die Wortwahl von Menschen unterscheidet sich oft, auch wenn sie über dieselben Themen sprechen oder schreiben. Deshalb ist es hilfreich, über ein Werkzeug zu verfügen, das Datenbanken besser miteinander verbindet und die Nutzung von multimedialen Sammlungen erleichtert. Darüber hinaus ermöglicht das Semantic Web neue Mechanismen zur Unterstützung des "agentenbasierten" Rechnens, bei dem Menschen und Maschinen interaktiver zusammenarbeiten {cite}`gibbins_agent-based_2003`.
 
 Im Gegensatz zum aktuellen Web, das Links zwischen Seiten bereitstellt, die für den menschlichen Konsum gedacht sind, ergänzt das Semantic Web diese Struktur um Informationseinheiten, die maschinenlesbare Beschreibungen von Webseiten und anderen Webressourcen enthalten. Diese Dokumente können so miteinander verknüpft werden, dass der Computer Informationen darüber erhält, wie die Begriffe in einem Dokument mit den Begriffen in einem anderen Dokument in Beziehung stehen. Dies ermöglicht das automatisierte Annotieren, Entdecken, Veröffentlichen, Bewerben und Zusammenstellen von Diensten {cite}`taye_understanding_2010`.
 
-Um dies zu erreichen, verwendet das Semantic Web neue Websprachen, die auf RDF (Resource Description Framework) basieren (s, Abb.unten). RDF ist ein Standardmodell zur Beschreibung von Informationen im Web, welches ermöglicht, Daten in einer maschinenlesbaren Form zu strukturieren und zu verknüpfen {cite}`decker_semantic_2000`. Diese Sprachen gehen über die Präsentationsmöglichkeiten von HTML (Hypertext Markup Language), das für die meisten heutigen Webseiten verwendet wird, und die Dokumenten-Tagging-Funktionen von XML (Extensible Markup Language) hinaus. RDF ermöglicht es, Beziehungen zwischen Ressourcen darzustellen, und unterstützt die Interoperabilität zwischen verschiedenen Datenquellen, was für die Entwicklung intelligenter Anwendungen von entscheidender Bedeutung ist.
+Um dies zu erreichen, verwendet das Semantic Web neue Websprachen, die auf RDF (Resource Description Framework) basieren (s. Abb. 2.2). RDF ist ein Standardmodell zur Beschreibung von Informationen im Web, welches ermöglicht, Daten in einer maschinenlesbaren Form zu strukturieren und zu verknüpfen {cite}`decker_semantic_2000`. Diese Sprachen gehen über die Präsentationsmöglichkeiten von HTML (Hypertext Markup Language), das für die meisten heutigen Webseiten verwendet wird, und die Dokumenten-Tagging-Funktionen von XML (Extensible Markup Language) hinaus. RDF ermöglicht es, Beziehungen zwischen Ressourcen darzustellen und unterstützt die Interoperabilität zwischen verschiedenen Datenquellen, was für die Entwicklung intelligenter Anwendungen von entscheidender Bedeutung ist.
 
 ```{figure} /assets/Explanatory_diagram_for_the_comprehensive_concept_of_Semantic_Web.png
 ---

@@ -78,12 +78,12 @@ Dieses JupyterBook wurde für Verwaltungswissenschaftler:innen entworfen, da die
 Diese Daten können selbstverständlich auch in anderen wissenschaftlichen Kontexten oder für Laien von Bedeutung bzw. Interesse sein.
 
 
-Dieses Lehrbuch steht somit allen Interessierten bzw. Forschenden offen, die wissen möchten, wie man Daten via SPARQL Daten sucht oder generell Interesse an der Funktionsweise von Abfragesprachen haben.
+Dieses Lehrbuch steht somit allen Interessierten bzw. Forschenden offen, die wissen möchten, wie man via SPARQL Daten sucht oder generell Interesse an der Funktionsweise von Abfragesprachen haben.
 
 
 ## Struktur der Fallstudie
 
-Basierend auf den verfügbaren offenen Datenquellen werden Abfragen mithilfe der Abfragesprache SPARQL entwickelt, um relevante Informationen zu extrahieren. Dabei wird die Nachnutzbarkeit der Daten untersucht, ihre Qualität bewertet sowie der Entstehungskontext nachvollzogen. Die Abfragen ermöglichen eine strukturierte Analyse der Daten, um spezifische Antworten zum Baumbestand zu erhalten.
+Die Fallstudie ist in 4 Schritte aufgeteilt, die den Kapiteln entsprechen (s. Abb. 2). Dabei wird ein Bogen geschlagen von der Einführung in grundlegende Konzepte über den in der Verwaltung wichtigen Metadatenstandard DCAT-AP und das Messen der Qualität von Metadaten bis zur Suche nach Daten mithilfe der Abfragesprache SPARQL. Basierend auf den verfügbaren offenen Datenquellen werden dann Abfragen entwickelt, um relevante Informationen zu extrahieren. Dabei wird die Nachnutzbarkeit der Daten untersucht, ihre Qualität bewertet sowie der Entstehungskontext nachvollzogen. Die Abfragen ermöglichen eine strukturierte Analyse der Daten, um spezifische Antworten zum Baumbestand zu erhalten.
 
 Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.  
 
@@ -111,7 +111,7 @@ Sie lernen, wie Sie Metadaten anhand von Maßnahmen zur Qualitätsmessung überp
 
 **4. Praxis anwenden: SPARQL-Abfragen**
 
-Im letzten Schritt der Fallstudie widmen wir uns der praktischen Anwendung und erläutern, wie Metadaten mithilfe der SPARQL-Abfragesprache abgefragt werden können. Dabei vermitteln wir zunächst die grundlegende Funktionsweise von SPARQL, einschließlich der Syntax und zentraler Befehle. Im Anschluss führen wir gezielte Abfragen durch, die auf unsere Fragestellung ausgerichtet sind und evaluieren kritisch, in welchem Maß die aktuellen Implementierungen erfolgreich sind oder Optimierungspotenzial aufweisen.  
+Im letzten Schritt der Fallstudie widmen wir uns der praktischen Anwendung und erläutern, wie Metadaten mithilfe von SPARQL abgefragt werden können. Dabei vermitteln wir zunächst die grundlegende Funktionsweise von SPARQL, einschließlich der Syntax und zentraler Befehle. Im Anschluss führen wir gezielte Abfragen durch, die auf unsere Fragestellung ausgerichtet sind und evaluieren kritisch, in welchem Maß die aktuellen Implementierungen erfolgreich sind oder Optimierungspotenzial aufweisen.  
 
 ---
   
