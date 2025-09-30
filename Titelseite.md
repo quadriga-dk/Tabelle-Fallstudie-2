@@ -38,13 +38,13 @@ Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten.
 Daten zu Baumverteilungen oder -pflanzungen in Städten gewinnen zunehmend an Bedeutung, da Bäume das Mikroklima wesentlich beeinflussen. Das gestiegene Interesse der Bevölkerung an "ihren" Stadtbäumen zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
 
 
-```{figure} /assets/Datenwissenschaftler_analysiert_Baumverteilungen.png
+```{figure} /assets/SucheBaumkatasterDataEuropa_Screenshot_2025-09-30.png
 ---
-name: Datenwissenschaftler analysiert Baumverteilungen
-alt: Eine grafische Darstellung eines Datenwissenschaftlers der die Baumverteilung analysiert.
+name: Stichwortsuche Baumkataster bei data.europa.eu
+alt: Screenshot einer Suche nach dem Stichwort "Baumkataster" auf dem europäischen Datenportal data.europa.eu.
 width: 420px
 ---
-Datenwissenschaftler analysiert Baumverteilungen (KI generiert).
+Screenshot einer Suche nach dem Stichwort "Baumkataster" im europäischen Datenportal https://data.europa.eu vom 30.09.2025.
 ```
 
 ## Baumbestand-Analyse: Erfassung und Visualisierung der Verteilung der Baumarten
