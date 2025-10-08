@@ -3,9 +3,12 @@
  
 In diesem Kapitel wurde Ihnen ein Überblick über das Konzept des Semantic Web gegeben, das eine zentrale Rolle für die zukünftige Entwicklung des Internets und die effektive Nutzung verknüpfter Daten spielt. Der Fokus lag zunächst auf der Definition sowie den theoretischen Grundlagen des Semantic Web. Dabei wurde aufgezeigt, wie semantische Technologien und Standards wie RDF die Interoperabilität und die maschinelle Verarbeitung von Informationen ermöglichen. Ein zentrales Ziel des Semantic Web besteht darin, Daten in einer Form bereitzustellen, die sowohl von Menschen als auch von Maschinen verstanden und genutzt werden können.
 
-<span style="color:red">Fehlt: Bezug zur Forschungsfrage: Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?</span>
-
 Anschließend wurde die "Layer Cake"-Architektur vorgestellt, die die technologischen Schichten des Semantic Web anschaulich erklärt. Jede Ebene – von der Identifikation über Datenstrukturen und Ontologien bis hin zur Vertrauenswürdigkeit – trägt dazu bei, ein robustes und semantisches Datenökosystem aufzubauen. Diese geschichtete Herangehensweise zeigt auf, wie verschiedene Technologien nahtlos zusammenarbeiten, um eine intelligente Datenverarbeitung zu ermöglichen und die Basis für verknüpfte, maschinenlesbare Daten zu legen.
+
+```{admonition} Bezug zur Forschungsfrage
+:class: keypoint 
+Mit Blick auf die Forschungsfrage und die Suche nach offenen Daten wurden in diesem Kapitel Grundlagen gelegt. Da wir die Daten mit SPARQL suchen wollen, ist es wichtig zu verstehen wie das Semantic Web funktioniert, da sich Daten dadurch anders abfragen lassen.
+```
 
 Abschließend lässt sich festhalten, dass das Semantic Web eine Schlüsselrolle in der zukünftigen Nachnutzung und Verarbeitung von Daten einnimmt. Es eröffnet nicht nur eine neue Dimension der Informationsverknüpfung und -interpretation, sondern birgt auch das Potenzial, bestehende Herausforderungen in der Datenverwaltung zu bewältigen. Die in diesem Abschnitt vermittelten Grundlagen bilden das Fundament dafür, wie wir künftig Daten effizienter organisieren, analysieren und austauschen können – eine Kompetenz, die in Wissenschaft, Wirtschaft und staatlichen Institutionen zunehmend an Bedeutung gewinnt.
 

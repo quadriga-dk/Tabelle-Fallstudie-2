@@ -15,9 +15,6 @@ kernelspec:
 
 Bevor es zur Reflexion über das in diesem Kapitel Gelernte geht, können Sie Ihr Wissen in diesem kurzen Quiz auf die Probe stellen. Viel Erfolg!
 
-*Reichen die 4 kurzen Fragen? Die Lernziele sind: 
-1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
-2. Die Rolle von RDF im Semantic Web kann erklärt werden*
 
 
 ```{code-cell} ipython3

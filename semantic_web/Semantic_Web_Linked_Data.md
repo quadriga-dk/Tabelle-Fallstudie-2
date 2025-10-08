@@ -26,10 +26,8 @@ In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welche
 ```{admonition} Lernziel: Technologien verstehen
 :class: lernziele
 1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
-2. Die Rolle von RDF im Semantic Web kann erklärt werden.
 ```
 
-<span style="color:red">Tatsächlich wird die Rolle von RDF nicht erschöpfend erklärt.</span>
 
 Wir befinden uns damit im theoretischen Teil dieses interaktiven Lehrbuchs. Hier geht es darum, Technologien zu verstehen, die die Basis für die folgenden Kapitel darstellen.
 

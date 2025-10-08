@@ -18,7 +18,6 @@ Beim Durchgehen dieses JupyterBooks werden Sie folgende Lernziele erreichen:
 ```{admonition} [Technologien verstehen: Semantic Web & Linked Data](semanticweb)
 :class: lernziele, dropdown
 1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
-2. Die Rolle von RDF im Semantic Web kann erklärt werden.
 ```
 
 ```{admonition} [Werkzeuge kennenlernen: DCAT-AP Metadatenstandard](dcat-ap)
