@@ -13,7 +13,6 @@ alt: Eine grafische Darstellung des Semantic Web Layer Cake.
 ---
 The Semantic Web Layer Cake, {cite}`Hendler2001`
 ```
-Bildquelle: {cite}`Hendler2001`
 
 
 Die Stufen lassen sich wie folgt von unten nach oben beschreiben:
