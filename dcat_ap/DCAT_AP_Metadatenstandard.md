@@ -56,9 +56,11 @@ In diesem Kapitel wird daher nicht nur die Entstehungsgeschichte und der Zweck v
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [DCAT AP Struktur](/dcat_ap/DCAT_AP_Struktur.md)
-- [DCAT AP Beispiel](/dcat_ap/DCAT_AP_Beispiel.md)
-- [DCAT AP Reflexion](/dcat_ap/DCAT_AP_Reflexion.md)
+- [Kurze Einführung/ Rekapitulation Metadaten](recap)
+- [Metadatenportale](portale)
+- [Struktur und Elemente von DCAT-AP](/dcat_ap/DCAT_AP_Struktur.md)
+- [Beispiele für die Implementierung von DCAT-AP](/dcat_ap/DCAT_AP_Beispiel.md)
+- [Resümee des Kapitels](/dcat_ap/DCAT_AP_Reflexion.md)
 
 
 ```{admonition} Bearbeitungszeit
