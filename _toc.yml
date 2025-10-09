@@ -18,6 +18,7 @@ chapters:
     - file: semantic_web/Semantic_Web_Resümee
   - file: dcat_ap/DCAT_AP_Metadatenstandard
     sections:
+    - file: dcat_ap/DCAT_AP_Recap
     - file: dcat_ap/Metadatenportale
     - file: dcat_ap/DCAT_AP_Struktur
     - file: dcat_ap/DCAT_AP_Beispiel

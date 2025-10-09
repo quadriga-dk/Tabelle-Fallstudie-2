@@ -3,7 +3,11 @@
 
 In diesem Kapitel wurde das Konzept und die Bedeutung von DCAT-AP als zentraler Metadatenstandard für die Datenkatalogisierung und den Datenaustausch in Europa und insbesondere in Deutschland thematisiert. Ausgangspunkt der Diskussion war die Rolle des Dublin Core Standards, der die Grundlage für die Entwicklung interoperabler Metadatenformate bildet und somit eine einheitliche Strukturierung und Verknüpfung von Informationen ermöglicht. Es wurde aufgezeigt, wie der Dublin Core mit seinen 15 Kernelementen eine entscheidende Rolle bei der Standardisierung von Metadaten im Web spielt und wie er durch die Verwendung von URIs und RDF die maschinelle Verarbeitung von Daten unterstützt.
 
-<span style="color:red">Bezug zur Forschungsfrage: Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?</span>
+```{admonition} Bezug zur Forschungsfrage <span style="color:red">under construction</span>
+:class: keypoint
+*Damit schaffen wir die Basis, um zu verstehen, wie solche Standards die Nachnutzbarkeit und Interoperabilität von Daten nachhaltig fördern.
+Die Beschreibung von Daten durch Metadaten ist für das weitere Arbeiten mit diesen von entscheidender Bedeutung. (können gefunden werden, auch durch SPARQL Suche); Abzweig DCAT ist wichtig, weil dieser Standard für die Verwaltung von besonderer Bedeutung ist und dadurch ebenfalls zu einer (eurpaweiten) Auffindbarkeit beiträgt
+```
 
 
 Darauf aufbauend wurde DCAT als RDF-basiertes Vokabular vorgestellt, das auf dem Dublin Core basiert und speziell für die Katalogisierung von Datenportalen entwickelt wurde. Die Einführung von DCAT-AP.de, der deutschen Anpassung des europäischen Standards, verdeutlicht, wie dieser Metadatenstandard in der Praxis eingesetzt wird, um einen konsistenten und reibungslosen Datenaustausch zwischen verschiedenen staatlichen und kommunalen Datenportalen zu gewährleisten. Dadurch wird nicht nur die nationale, sondern auch die grenzüberschreitende Zusammenarbeit und Nutzung öffentlicher Daten in Europa gefördert.
