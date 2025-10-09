@@ -7,7 +7,7 @@ lang: de-DE
 
 Im Rahmen dieser Fallstudie befassen wir uns mit der systematischen Abfrage und Nutzung von Metadaten, wie sie über das europäische Metadatenportal <a href="https://www.data.europa.eu/" class="external-link" target="_blank">data.europa</a> bereitgestellt werden. Dieses Portal bildet das Beispiel um sich mit der Datenstruktur von Datenportalen auf verschiedenen Ebenen vertraut zu machen – lokal, national und europäisch – und zu verstehen, wie Metadaten über diese Ebenen hinweg abgerufen und verarbeitet werden können.
 
-## Aufbau von Datenportalen
+## Funktionsweise von Datenportalen
 
 Datensätze werden zunächst von Datenbereitstellern auf lokaler Ebene erfasst, etwa durch Kommunen oder Landesbehörden. Diese lokalen Datensätze werden anschließend auf landesweiten Plattformen aggregiert. In Berlin ist das <a href="https://daten.berlin.de/" class="external-link" target="_blank">Berlin Open Data</a> und in Brandenburg das Portal <a href="https://datenadler.de/home?locale=de" class="external-link" target="_blank">DatenAdler</a>. Um den überregionalen Wissensaustausch zu ermöglichen, fließen die Metadaten aus den einzelnen Landesportalen in das bundesweite Portal <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a> ein.
 
