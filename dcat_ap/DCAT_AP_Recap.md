@@ -37,7 +37,7 @@ Metadaten sollten, wie die Daten, die sie beschreiben, auffindbar, zugänglich, 
 Der Open Data Support der Europäischen Kommission hat ein <a href="https://data.europa.eu/sites/default/files/d2.1.2_training_module_2.2_open_data_quality_de_edp.pdf" class="external-link" target="_blank">Trainingsmodul</a> als Präsentation (pdf) zur Qualität von offenen Daten und Metadaten veröffentlicht. 
 
 Die Qualität von Daten ist zudem Thema einer weiteren 
-<a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/4_Qualit%C3%A4tsbewertung.html" class="external-link" target="_blank">Lerneinheit</a> unseres Projektes QUADRIGA.
+<a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/4_Qualit%C3%A4tsbewertung.html" class="external-link" target="_blank">Lerneinheit</a> unseres Projektes <a href="https://www.quadriga-dk.de/de/" class="external-link" target="_blank">QUADRIGA</a>.
 
 Falls Sie noch nach einem grundsätzlichen Überblick zum Thema Metadaten suchen, sei Ihnen das 
 <a href="https://wiki.dnb.de/download/attachments/43523047/201209_metadaten.pdf" class="external-link" target="_blank">Kleine Handbuch Metadaten</a> von Stefanie Rühle, Kompetenzzentrum Interoperable Metadaten, empfohlen.
