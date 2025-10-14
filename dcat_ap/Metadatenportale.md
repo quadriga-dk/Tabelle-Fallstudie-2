@@ -9,7 +9,7 @@ Im Rahmen dieser Fallstudie befassen wir uns mit der systematischen Abfrage und 
 
 ## Funktionsweise von Datenportalen
 
-Datensätze werden zunächst von Datenbereitstellern auf lokaler Ebene erfasst, etwa durch Kommunen oder Landesbehörden. Diese lokalen Datensätze werden anschließend auf landesweiten Plattformen aggregiert. In Berlin ist das das <a href="https://daten.berlin.de/" class="external-link" target="_blank">Berlin Open Data</a> und in Brandenburg das Portal <a href="https://datenadler.de/home?locale=de" class="external-link" target="_blank">DatenAdler</a>. Um den überregionalen Wissensaustausch zu ermöglichen, fließen die Metadaten aus den einzelnen Landesportalen in das bundesweite Portal <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a> ein.
+Datensätze werden zunächst von Datenbereitstellern auf lokaler Ebene erfasst, etwa durch Kommunen oder Landesbehörden. Diese lokalen Datensätze werden anschließend auf landesweiten Plattformen aggregiert. In Berlin ist das die Plattform <a href="https://daten.berlin.de/" class="external-link" target="_blank">Berlin Open Data</a> und in Brandenburg das Portal <a href="https://datenadler.de/home?locale=de" class="external-link" target="_blank">DatenAdler</a>. Um den überregionalen Wissensaustausch zu ermöglichen, fließen die Metadaten aus den einzelnen Landesportalen in das bundesweite Portal <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a> ein.
 
 Im Rahmen der europäischen Datenintegration werden diese nationalen Daten schließlich auf der Plattform <a href="https://data.europa.eu/de" class="external-link" target="_blank">data.europa.eu</a> bereitgestellt. Dadurch entsteht eine mehrstufige Dateninfrastruktur (s. Abb. 3.3), die es ermöglicht, Metadaten auf verschiedenen Ebenen gezielt zu suchen, zu filtern und für Forschungszwecke zu nutzen.
 
@@ -40,10 +40,10 @@ Darstellung des Datenbezugs von der lokalen bis zur europäischen Ebene, Bildque
 In Deutschland findet ein kontinuierlicher Austausch von Daten zwischen Datenbereitstellern wie Kommunen oder Bundeseinrichtungen und GovData, dem zentralen Datenportal, statt.  
 Um diesen Datenaustausch effizient und einheitlich zu gestalten, hat die Fachgruppe GovData im November 2016 beschlossen, den europäischen Metadatenstandard DCAT-AP als Grundlage zu verwenden. Dabei wurde eine speziell angepasste deutsche Version entwickelt: DCAT-AP.de. Diese nationale Anpassung des europäischen Standards „DCAT-AP v2.0“ wurde als einheitlicher Metadatenstandard eingeführt und ermöglicht den strukturierten Austausch von Metadaten zu öffentlichen Verwaltungsdaten in ganz Deutschland {cite}`DCAT-AP.de2022`.
 
-Mittlerweile gibt es DCAT-AP.de in der <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/" class="external-link" target="_blank">Spezifikation 3.0</a>.
-
 Seit Anfang 2019 akzeptiert GovData ausschließlich Metadaten, die im Standard DCAT-AP.de bereitgestellt werden.
 Mit der Einführung seines Standards hat sich DCAT-AP.de zu einem unverzichtbaren Werkzeug für die Standardisierung und Interoperabilität von Metadaten im öffentlichen Sektor entwickelt {cite}`DCATFraunhofer`. Es schafft die Grundlage für eine effiziente Datenbereitstellung und erleichtert den Datenaustausch zwischen verschiedenen Verwaltungsebenen und Institutionen {cite}`DCATEurope`. Die Einführung dieses Standards ermöglicht es, die Vielfalt der bereitgestellten Datensätze konsistent zu strukturieren und deren Auffindbarkeit sowie Nachnutzbarkeit deutlich zu verbessern.
+
+Mittlerweile gibt es DCAT-AP.de in der <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/" class="external-link" target="_blank">Spezifikation 3.0</a>. 
 
 
 **Literatur**
