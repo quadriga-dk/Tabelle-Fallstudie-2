@@ -17,13 +17,13 @@ Beim Durchgehen dieses JupyterBooks werden Sie folgende Lernziele erreichen:
 
 ```{admonition} [Technologien verstehen: Semantic Web & Linked Data](semanticweb)
 :class: lernziele, dropdown
-1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
+1. Der Begriff Semantic Web kann definiert werden.
 ```
 
 ```{admonition} [Werkzeuge kennenlernen: DCAT-AP Metadatenstandard](dcat-ap)
 :class: lernziele, dropdown
-1. Der DCAT-Standard kann definiert und seine Rolle im Datenaustausch beschreiben werden.
-2. Die Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.
+1. Der DCAT-Standard kann definiert werden.
+2. Vier Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.
 3. Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.
 ```
 

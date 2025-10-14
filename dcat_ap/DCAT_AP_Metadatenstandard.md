@@ -26,8 +26,8 @@ Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandar
 
 ```{admonition} Lernziel: Metadatenstandards
 :class: lernziele
-1. Der DCAT-Standard kann definiert und seine Rolle im Datenaustausch beschreiben werden.
-2. Die Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.
+1. Der DCAT-Standard kann definiert werden.
+2. Vier Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.
 3. Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.
 ```
 

@@ -25,7 +25,7 @@ In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welche
 
 ```{admonition} Lernziel: Technologien verstehen
 :class: lernziele
-1. Begriffe wie Semantic Web und semantische Technologien können definiert werden.
+1. Der Begriff Semantic Web kann definiert werden.
 ```
 
 
