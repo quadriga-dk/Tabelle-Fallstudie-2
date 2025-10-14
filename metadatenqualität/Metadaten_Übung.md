@@ -74,7 +74,7 @@ question2 = [{
     "type": "multiple_choice",
     "answers": [
         {
-            "answer": "Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendwabrkeit und Kontext",
+            "answer": "Auffindbarkeit, Zugänglichkeit, Interoperabilität, Wiederverwendbarkeit und Kontext",
             "correct": True,
             "feedback": """✓ Richtig! Die ersten vier Dimensionen entsprechen den FAIR-Prinzipien und die Dimension Kontext untersucht zudem Indikatoren wie Dateigröße und Ausstellungsdatum."""
         },
@@ -179,32 +179,3 @@ question4 = [{
 display_quiz(question4, colors=colors.jupyterquiz)
 ```
 
-
-## Reflexionsaufgabe
-
-*Mindestens eine Frage zum Erreichen des Lernziels für dieses Kapitel: "Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden." Das könnte ein selbstständiges Formulieren der Funktionen des Tools sein. Vielleicht noch eine zum DCAT Schema auf der Plattform?*
-
-
-**Aufgabenstellung**
-
-Beschreiben Sie mit eigenen Worten, was die wichtigsten Funktionen des MQA-Tools sind.
-
-Begründung:
-```{code-cell} ipython3
-:tags: [remove-input]
-import sys
-sys.path.append("../quadriga")
-from assessment import create_answer_box
-
-create_answer_box('3-1')
-```
-
-
-**Musterlösung**
-
-
-````{admonition} Musterlösung
-:class: solution, dropdown
-
-<span style="color:green">*hier Musterlösung einfügen*</span>
-````
