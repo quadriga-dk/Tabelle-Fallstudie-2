@@ -46,9 +46,9 @@ Der Fokus dieses Kapitels liegt auf der Beschreibung und Auswertung des <a href=
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [Metadaten Kontrolle](/metadatenqualität/Metadaten_Kontrolle.md)
-- [Metadaten Übung](/metadatenqualität/Metadaten_Übung.md)
-- [Metadaten Reflexion](/metadatenqualität/Metadaten_Reflexion.md)
+- [MQA - ein Werkzeug zur Qualitätsbestimmung](/metadatenqualität/Metadaten_Kontrolle.md)
+- [Übung zum MQA](/metadatenqualität/Metadaten_Übung.md)
+- [Resümee des Kapitels](/metadatenqualität/Metadaten_Reflexion.md)
 
 
 ```{admonition} Bearbeitungszeit
