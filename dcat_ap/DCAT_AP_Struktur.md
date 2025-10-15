@@ -35,12 +35,12 @@ Mit dem Wissen über Dublin Core betrachten wir nun das <a href="https://www.w3.
 Dabei steht <a href="https://op.europa.eu/de/web/eu-vocabularies/dcat-ap" class="external-link" target="_blank">*DCAT-AP*</a> für *DCAT-Anwendungsprofil für Datenportale in Europa*. Von der Europäischen Union wird DCAT-AP definiert als "eine Spezifikation, die auf dem Datenkatalog-Vokabular (DCAT) basiert und zur Beschreibung von Datensätzen des öffentlichen Sektors in Europa dient" {cite}`EU_DCAT`. Die Zusammenhänge zwischen Dublin Core, DCAT, DCAT-AP und DCAT-AP.de werden durch die Abb. 3.5 veranschaulicht.
 
 
-```{figure} /assets/konventionenhandbuch-normatives-regelungsdokument.png
+```{figure} /assets/standardisierungsrahmen-dcat-ap-de.png
 ---
-name: Konventionenhandbuch
+name: Standardisierungsrahmen
 alt: Eine grafische Darstellung von DCAT-AP.de und den Zusammenhängen mit Dublin Core und anderen Standards.
 ---
-<span style="color:red">*Was genau soll damit verdeutlicht werden, woher stammt es?*</span>.
+Der unter CC0 veröffentlichte Standardisierungsrahmen DCAT-AP.de, hier von der <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/" class="external-link" target="_blank">DCAT-AP.de Spezifikation 3.0</a>.
 ```
 
 

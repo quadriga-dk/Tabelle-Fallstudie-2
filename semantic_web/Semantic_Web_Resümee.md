@@ -20,4 +20,4 @@ Abschließend lässt sich festhalten, dass das Semantic Web eine Schlüsselrolle
 - Das Semantic Web fördert eine neue Dimension der Informationsverknüpfung und -interpretation, die insbesondere in Wissenschaft, Verwaltung und Wirtschaft zunehmend an Bedeutung gewinnt.
 ```
 
-Nachdem in diesem Kapitel die Grundprinzipien des Semantic Web und von Linked Data erarbeitet wurden, rücken wir nun eine konkrete Anwendung dieser Technologien in den Fokus: DCAT-AP, den Metadatenstandard für offene Daten in Europa.
+Nachdem wir in diesem Kapitel die Grundprinzipien des Semantic Web und von Linked Data erarbeitet haben, rücken wir im folgenden Kapitel eine konkrete Anwendung dieser Technologien in den Fokus: DCAT-AP, den Metadatenstandard für offene Daten in Europa, der ein RDF-Vokabular ist.
