@@ -22,6 +22,7 @@ chapters:
     - file: dcat_ap/Metadatenportale
     - file: dcat_ap/DCAT_AP_Struktur
     - file: dcat_ap/DCAT_AP_Beispiel
+    - file: dcat_ap/DCAT_AP_Übung
     - file: dcat_ap/DCAT_AP_Resümee
   - file: metadatenqualität/Metadatenqualität
     sections:
