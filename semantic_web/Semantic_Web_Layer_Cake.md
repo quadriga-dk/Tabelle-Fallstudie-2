@@ -25,7 +25,7 @@ Die Stufen lassen sich wie folgt von unten nach oben beschreiben:
 6. <span style="color:#ef4444"><strong>Proof</strong></span> - die Prüfschicht stellt die Validität der Ergebnisse sicher, indem sie die Schritte überprüft, die zu einer Schlussfolgerung führen. Ähnlich wie bei einer mathematischen Beweisführung.
 7. <span style="color:#facc15"><strong>Trust</strong></span> - Die oberste Schicht schafft Vertrauen in die Daten, z. B. durch digitale Signaturen. Diese zeigen an, wer die Daten erstellt hat und ob sie unverändert sind. 
 
-<span style="color:red">*Woher sind diese Informationen?*</span>
+Die *Layer-Cake*-Typologie des Semantic Web wurde von Tim Berners-Lee während der XML-2000-Konferenz vorgestellt.
 
 
 Jede dieser Schichten baut auf den vorherigen auf. Das Konzept von verlinkten Daten, oder *Linked Data*, ist essenziell für die vollständige Umsetzung einer erfolgreichen Semantic-Web-Struktur. In der ebenfalls vom Projekt <a href="https://www.quadriga-dk.de/de/" class="external-link" target="_blank">Quadriga</a> entworfenen Fallstudie "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht" finden Sie weitere Informationen zu <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/5_3_Linked-Data.html" class="external-link" target="_blank">Linked Data</a>.

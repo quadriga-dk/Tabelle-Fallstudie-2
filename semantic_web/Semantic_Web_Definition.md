@@ -3,7 +3,7 @@
 ````{margin}
 ```{admonition} Was sind Software-Agenten? 
 :class: hinweis
-Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss. <span style="color:red">*Quelle?*</span>
+Software-Agenten sind autonome Programme, die selbstständig im Sinne eines definierten Ziels handeln. Sie können Informationen sammeln, Entscheidungen treffen und Aufgaben ausführen, ohne dass ein Mensch direkt eingreifen muss. {cite}`Nwana_1996`
 
 ```
 ````
@@ -11,12 +11,11 @@ Software-Agenten sind autonome Programme, die selbstständig im Sinne eines defi
 **Entstehung des Begriffs**
 
 Der Begriff *Semantische Technologien* entstand als Forschungsfeld in der Informatik Anfang der 2000er Jahre. Im Mai 2001 veröffentlichte Sir Tim Berners-Lee einen grundlegenden Artikel, in dem er die Vision des Semantic Web präsentierte {cite}`berners-lee2001semantic`. Das Ziel des Semantic Web besteht darin, Webinhalte strukturiert und maschinenlesbar zu machen, sodass Software-Agenten eigenständig komplexe Aufgaben für Benutzer ausführen können. Die Semantischen Technologien sollen wiederum als Werkzeuge verstanden werden, die dazu verhelfen, das Semantic Web aufzubauen. Sie sollen Informationen maschinell verständlich machen, indem sie die Bedeutung (Semantik) und die Beziehungen zwischen Daten explizit definieren. Zu den zentralen Werkzeugen gehören Ontologien, Taxonomien und logische Schlussfolgerungsmechanismen, die wir später genauer erklären werden.
-<span style="color:red">*hier fehlt m. E. eine Quelle*</span>
+{cite}`taye2010understandingsemanticwebontologies`
 
-Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt, wie die Entwicklung von Standards wie der Ontology Web Language (<a href="https://www.w3.org/OWL/" class="external-link" target="_blank">OWL</a>) durch das World Wide Web Consortium (<a href="https://www.w3.org/" class="external-link" target="_blank">W3C</a>). OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition von Gruber [1993] verstanden werden.
-<span style="color:red">*Gruber fehlt als Literaturangabe*</span>
+Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschliche Unterstützung komplexe Interaktionen durchführen können {cite}`Sabucedo2010eService`. Zur Realisierung dieser Vision wurden in den letzten Jahren bedeutende technologische Fortschritte erzielt, wie die Entwicklung von Standards wie der Ontology Web Language (<a href="https://www.w3.org/OWL/" class="external-link" target="_blank">OWL</a>) durch das World Wide Web Consortium (<a href="https://www.w3.org/" class="external-link" target="_blank">W3C</a>). OWL ermöglicht die formale Definition von Wissen über bestimmte Domänen, also die Erstellung von Ontologien, wie sie nach der Definition verstanden werden. {cite}`Gruber1993Ontology` Es gibt aktuelle Forschungsarbeiten, die sich damit beschäftigen, wie man OWL-Ontologien durch Large Language Models generieren kann. {cite}`LippolisEtAl2025OntologyLLM`
 
-<span style="color:red">*Ist das 2025 noch relevant?*</span>
+
 
 
 **Bedeutung der Idee**
@@ -32,8 +31,7 @@ Die Betrachtung des Semantic Web ist in vielerlei Hinsicht relevant: Es eröffne
 
 ```{admonition} Semantic Web und Verwaltung(swissenschaft) 
 :class: keypoint
-Auch für die Verwaltungswissenschaft sind Semantic Web und Linked Data von großer Bedeutung. Sie ermöglichen eine effizientere Vernetzung und Integration von Verwaltungsdaten über Behörden- und Ressortgrenzen hinweg, fördern Transparenz und Nachvollziehbarkeit staatlichen Handelns und unterstützen datenbasierte Entscheidungsprozesse. Darüber hinaus erleichtert die semantische Aufbereitung öffentlicher Daten die Entwicklung innovativer E-Government-Lösungen sowie die Umsetzung und Strukturierung von Open-Data-Initiativen.
-<span style="color:red">*sollte hier nicht noch eine Quelle eingebunden werden?*</span>
+Auch für die Verwaltungswissenschaft sind Semantic Web und Linked Data von großer Bedeutung. Sie ermöglichen eine effizientere Vernetzung und Integration von Verwaltungsdaten über Behörden- und Ressortgrenzen hinweg, fördern Transparenz und Nachvollziehbarkeit staatlichen Handelns und unterstützen datenbasierte Entscheidungsprozesse. Darüber hinaus erleichtert die semantische Aufbereitung öffentlicher Daten die Entwicklung innovativer E-Government-Lösungen sowie die Umsetzung und Strukturierung von Open-Data-Initiativen. {cite}`milic2017semantic`
 ```
 
 **Fokus Maschinenlesbarkeit**
@@ -56,8 +54,7 @@ Im Gegensatz zum aktuellen Web, das Links zwischen Seiten bereitstellt, die für
 
 Um dies zu erreichen, verwendet das Semantic Web neue Websprachen, die auf <a href="https://www.w3.org/RDF/" class="external-link" target="_blank">RDF</a> (Resource Description Framework) basieren. RDF ist ein Standardmodell zur Beschreibung von Informationen im Web, welches ermöglicht, Daten in einer maschinenlesbaren Form zu strukturieren und zu verknüpfen {cite}`decker_semantic_2000`. Diese Sprachen gehen über die Präsentationsmöglichkeiten von HTML (Hypertext Markup Language), das für die meisten heutigen Webseiten verwendet wird, und die Dokumenten-Tagging-Funktionen von XML (Extensible Markup Language) hinaus. RDF ermöglicht es, Beziehungen zwischen Ressourcen darzustellen und unterstützt die Interoperabilität zwischen verschiedenen Datenquellen, was für die Entwicklung intelligenter Anwendungen von entscheidender Bedeutung ist.
 
-Insgesamt zielt das Semantic Web darauf ab, die Art und Weise, wie Informationen im Internet strukturiert und interpretiert werden, weiterzuentwickeln, sodass eine intelligentere und effizientere Interaktion zwischen Benutzern und Maschinen ermöglicht wird. Das Semantic Web ist die natürliche Entwicklung des World Wide Web, wie von dem Informationswissenschaftler Tim Berners-Lee erdacht {cite}`Cardoso2006`. Wenn Web 1.0 auf verlinkten Webseiten beruhte, und Web 2.0 auf verlinkten Applikationen (bspw. Soziale Netzwerke), steht das Web 3.0 in Beziehung mit verlinkten Daten ([Semantic Web](https://www.techtarget.com/searchcio/definition/Semantic-Web)).
-<span style="color:red">*Ist das ein Literaturverweis?*</span>
+Insgesamt zielt das Semantic Web darauf ab, die Art und Weise, wie Informationen im Internet strukturiert und interpretiert werden, weiterzuentwickeln, sodass eine intelligentere und effizientere Interaktion zwischen Benutzern und Maschinen ermöglicht wird. Das Semantic Web ist die natürliche Entwicklung des World Wide Web, wie von dem Informationswissenschaftler Tim Berners-Lee erdacht {cite}`Cardoso2006`. Wenn Web 1.0 auf verlinkten Webseiten beruhte, und Web 2.0 auf verlinkten Applikationen (bspw. Soziale Netzwerke), steht das Web 3.0 in Beziehung mit verlinkten Daten ([Semantic Web](https://www.techtarget.com/searchcio/definition/Semantic-Web)){cite}`GillisLawton2025SemanticWeb`.
 
 
 ```{admonition} Was  Sie mitnehmen sollten
