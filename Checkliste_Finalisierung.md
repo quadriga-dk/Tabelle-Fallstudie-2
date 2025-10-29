@@ -1,9 +1,22 @@
 ---
 lang: de-de
 ---
+
 # Checkliste für die Finalisierung einer Fallstudie
 
-## Zielgruppe & Lernziele
+## Inhalt
+- [ ] Stand der Forschung berücksichtigt
+- [ ] Forschungsdesign
+- [ ] Fachliche Korrektheit überprüft
+- [ ] Code-Beispiele (wenn skriptbasierte Sprache verwendet wird) kommentiert und verständlich
+- [ ] Alle Fachbegriffe erklärt oder verlinkt
+- [ ] Optionale Kapitel kennzeichnen *(streichen)*
+
+---
+
+## Didaktik
+
+### Zielgruppe & Lernziele
 - [ ] Zielgruppe und erforderliches Vorwissen
 - [ ] Groblernziele (Kapitel)
 - [ ] Feinlernziele (Section) -> Blooms Taxonomie für kognitive Lernzielformulierung verwendet
@@ -11,7 +24,35 @@ lang: de-de
 - [ ] Geschätzter Workload pro Abschnitt (20-60 Minuten) festgelegt
 - [ ] Zugangswege definiert (Book-Only, Cloud, Local)
 
-## Struktur
+### Assessment
+- [ ] Assessment pro Kapitel (pro Zugangsweg?)
+- [ ] Abschlussassessment für die OER als Ganzes *(streichen)*
+
+---
+
+## Review
+- [ ] Links innerhalb der Fallstudien funktionieren
+- [ ] Links auf externe Inhalte überprüft
+- [ ] Reviews erhalten
+- [ ] Reviews eingearbeitet oder beachtet
+
+---
+
+## Technik/Technologie
+- [ ] GitHub Action funktioniert
+- [ ] Lokale Entwicklungsumgebung funktioniert
+- [ ] Colab funktioniert wie angedacht
+- [ ] Binder funktioniert wie angedacht
+- [ ] Live Code funktioniert wie angedacht
+- [ ] Möglichkeit zu Anmerkungen, Kommentierungen (z. B. durch die Zielgruppen)
+- [ ] Code-Abhängigkeiten sind so definiert, dass sie wieder installiert werden können (requirements.txt, …)
+
+
+---
+
+## Formalia/Qualität
+
+### Struktur
 - [ ] Startseite
   - [ ] Kurze Beschreibung + einladendes Bild
   - [ ] Zielgruppe
@@ -29,34 +70,24 @@ lang: de-de
   - [ ] Assessment
 - [ ] Reflexion und Resümee
 - [ ] Epilog
+*oder man sagt einfach nur:*
+- [ ] Struktur nach Template eingehalten
 
-## Inhalt
-- [ ] Möglichkeit zu Anmerkungen, Kommentierungen (z. B. durch die Zielgruppen)
-- [ ] Fachliche Korrektheit überprüft
-- [ ] Code-Beispiele (wenn skriptbasierte Sprache verwendet wird) kommentiert und verständlich
-- [ ] Alle Fachbegriffe erklärt oder verlinkt
-- [ ] Optionale Kapitel kennzeichnen
+- [ ] Alle nötigen Materialien sind verfügbar *und vollständig*. Wenn möglich in einem sicheren Repositorium oder direkt in der OER hinterlegt. Wenn lizenzrechtlich erlaubt Kopie unsicher abgelegter Datensätze anlegen. 
+- [ ] GWP eingehalten (Zitate, Autor:innen-Kennzeichnung, Contributor-Kennzeichnung etc.)
+- [ ] rechtliche Aspekte (z. B. bei Nachnutzung von existierenden Bildungsangeboten)
 
-## Assessment
-- [ ] Assessment pro Kapitel (pro Zugangsweg?)
-- [ ] Abschlussassessment für die OER als Ganzes
-
-## Technologie
-- [ ] GitHub Action funktioniert
-- [ ] Lokale Entwicklungsumgebung funktioniert
-- [ ] Colab funktioniert wie angedacht
-- [ ] Binder funktioniert wie angedacht
-- [ ] Live Code funktioniert wie angedacht
-
-## Formatierung / Typographie / Design
-- [ ] Teile sollten in Kapitel geändert werden: Es erleichtert die Navigation
-- [ ] Admonitions passend genutzt
+### Formatierung / Typographie / Design
+- [ ] Teile sollten in Kapitel geändert werden: Es erleichtert die Navigation *kann m. E. weg*
+- [ ] Admonitions passend genutzt *was heißt das? entsprechend dem Template genutzt oder "richtig verwendet"?*
 - [ ] Externe Links sind gekennzeichnet
 - [ ] Abbildungen gut erkennbar
 - [ ] Alt-Text für Abbildungen, soweit sinnvoll
 - [ ] Rechtschreibkontrolle durchgeführt
-- [ ] Zitationen und Literaturverzeichnis(se) korrekt
-- [ ] Hinweise zu Feedback-/Fragen-/Kontakt-Möglichkeiten
+- [ ] Zitationen und Literaturverzeichnis(se) korrekt *kann weg, weil bei GWP drin*
+- [ ] Hinweise zu Feedback-/Fragen-/Kontakt-Möglichkeiten *kann m. E. weg*
+
+---
 
 ## Publikation
 - [ ] Metadaten sind vollständig
@@ -64,13 +95,6 @@ lang: de-de
 - [ ] Vergabe einer Versionsnummer (bspw. v1.0.0) (siehe [semver.org](https://semver.org))
 - [ ] Erstellung eines GitHub Releases
 - [ ] Veröffentlichung in einem Repositorium (bspw. Zenodo)
+- [ ] OER nach Veröffentlichungs-Template beschrieben
 - [ ] Zitationshinweis
-
-## Links, Verweise und Abhängigkeit
-- [ ] Alle nötigen Materialien sind verfügbar. Wenn möglich in einem sicheren Repositorium oder direkt in der OER hinterlegt. Wenn lizenzrechtlich erlaubt Kopie unsicher abgelegter Datensätze anlegen. 
-- [ ] Links innerhalb der Fallstudien funktionieren
-- [ ] Links auf externe Inhalte überprüft
-- [ ] Code-Abhängigkeiten sind so definiert, dass sie wieder installiert werden können (requirements.txt, …)
-- [ ] rechtliche Aspekte (z. B. bei Nachnutzung von existierenden Bildungsangeboten)
-
- 
+- [ ] FAIR-Assessment durchgeführt
