@@ -22,7 +22,7 @@ Die zentrale Idee ist, dass Maschinen Informationen verstehen und ohne menschlic
 
 Die Integration semantischer Technologien in IT-Lösungen erlaubt die Automatisierung von Prozessen und die Einführung von "Intelligenz" in Softwaresysteme {cite}`valiente2012integration`. Dadurch können Operationen ausgeführt werden, die mit herkömmlichen, datenbasierten Ansätzen nicht möglich sind. Semantische Technologien machen implizite Informationen explizit und fördern dadurch Interoperabilität und logische Schlussfolgerungen. Software-Agenten können somit Dienste für Benutzer suchen und bereitstellen.
 
-Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Ontologien sind zu einem wichtigen Instrument geworden, ohne die die produktive Datenadministrierung und -implementierung heutzutage unvorstellbar wären {cite}`gardner_ontologies_2005`. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist. Die bevorzugte Sprache OWL findet in der verwaltungswissenschaftlichen Gemeinschaft breite Akzeptanz.
+Um dieses Wissen für Maschinen zugänglich zu machen, ist eine formale und gemeinsame Repräsentation erforderlich, die durch Ontologien ausgedrückt wird. Ontologien sind zu einem wichtigen Instrument geworden, ohne die die produktive Datenadministrierung und -implementierung heutzutage unvorstellbar wären {cite}`gardner_ontologies_2005`. Diese Standards sorgen für eine interoperable Plattform, die solide und zukunftssicher ist. 
 
 
 **Relevanz der Idee**
