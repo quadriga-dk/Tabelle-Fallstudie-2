@@ -15,12 +15,11 @@ Falls Sie die SPARQL-Abfragen dann doch ausführen und probieren möchten, könn
 - auf der Seite des deutschen Metadatenportals <a href="https://www.govdata.de/sparql-assistent" class="external-link" target="_blank">GovData</a>
 - über das <a href="https://yasgui.org/" class="external-link" target="_blank">Yasgui-Tool</a>
 
-🌨️ Cloud Mode: Ausführen und Anpassen der enthaltenen Jupyter Notebooks über Google Colab oder Binder. Kapitel mit ausführbaren Notebooks sind durch ein Raketen-Symbol (🚀) gekennzeichnet - klicken Sie darauf, um das Notebook in Colab zu öffnen.
-<span style="color:red">*Haben wir diese Möglichkeiten tatsächlich? Dringend prüfen (s. Issue #136)*</span>
+🌨️ Cloud Mode: Ausführen und Anpassen der enthaltenen Jupyter Notebooks über Binder. Kapitel mit ausführbaren Notebooks sind durch ein Raketen-Symbol (🚀) gekennzeichnet - klicken Sie darauf, um das Notebook in Binder zu öffnen.  
 
-💻 Local Mode: Herunterladen der Jupyter Notebooks auf Ihren Computer zur lokalen Ausführung. Dies ermöglicht die Nutzung lokaler Daten und umfassende Anpassungen, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z.B. Anaconda).
+💻 Local Mode: Herunterladen der Jupyter Notebooks auf Ihren Computer zur lokalen Ausführung. Dies ermöglicht die Nutzung lokaler Daten und umfassende Anpassungen, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z.B. Anaconda).  
 
-Minimal müssen Sie die in `requirements.txt` definierten Pakete installieren und dann den SPARQL-Kernel mit `jupyter sparqlkernel install --user` aktivieren. Wir empfehlen, dies in einem sog. virtual environment vorzunehmen.
+Minimal müssen Sie die in `requirements.txt` definierten Pakete installieren und dann den SPARQL-Kernel mit `jupyter sparqlkernel install --user` aktivieren. Wir empfehlen, dies in einem sog. virtual environment vorzunehmen.  
 
 Wählen Sie den Ansatz, der am besten zu Ihren Anforderungen passt. Sie können jederzeit zwischen den Methoden wechseln.
 
