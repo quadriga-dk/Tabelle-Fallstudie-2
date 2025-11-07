@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
 schema-version: 1.0.0
 book-version: 1.0.0-beta.2
-title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
-  Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
+title: 'Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL
+  und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2'
 identifier: https://doi.org/10.5281/zenodo.14999803
 authors:
 - given-names: Jana
@@ -111,17 +111,13 @@ contributors:
   affiliation: Fachhochschule Potsdam
 table-of-contents: '- Präambel
 
-  - Datenbasis: Nationaler Bildungsbericht
+  - Technologien verstehen: Semantic Web & Linked Data
 
-  - Datennachnutzung
+  - Werkzeuge kennenlernen: DCAT-AP Metadatenstandard
 
-  - Qualitätsbewertung
+  - Datenqualität messen: Metadata Quality Assessment
 
-  - Identifikatoren
-
-  - Datenaufbereitung I - Organisation und Strukturierung
-
-  - Datenaufbereitung II - Analyse und Reproduzierbarkeit
+  - Praxis anwenden: SPARQL
 
   - Zusammenfassung und Reflexion
 
