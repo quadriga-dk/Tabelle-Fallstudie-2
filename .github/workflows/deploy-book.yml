@@ -1,23 +1,27 @@
 name: deploy-book
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Update Metadata"]
+    types:
+      - completed
     branches:
-    - main
+      - main
 
 jobs:
   deploy-book:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     permissions:
       pages: write
       id-token: write
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up Python 3.11
+    - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: 3.11
+        python-version-file: '.python-version'
         cache: pip
 
     - name: Install dependencies
@@ -29,10 +33,6 @@ jobs:
         python -m sparqlkernel install --user
         jupyter kernelspec list
 
-    # (optional) Cache your executed notebooks between runs 
-    # if you have config:
-    # execute:
-    #   execute_notebooks: cache
     - name: cache executed notebooks
       uses: actions/cache@v3
       with:
@@ -51,4 +51,4 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
-  
+
