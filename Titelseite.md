@@ -3,7 +3,7 @@ lang: de-DE
 ---
 
 (intro)=
-# Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL und Metadaten
+# Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL.
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
@@ -27,7 +27,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2_ 
+Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2_ 
 
 ````
 `````

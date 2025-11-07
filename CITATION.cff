@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 version: 1.0.0
-title: 'Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2'
+title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
 abstract: Dieses JupyterBook vermittelt grundlegende Kenntnisse zur Datenabfrage, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
@@ -30,7 +30,7 @@ repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
 keywords:
 - open educational resource
-license: CC-BY-SA-4.0
+license: CC-BY-4.0
 references:
 - title: Jupyter Book
   type: software
@@ -41,7 +41,7 @@ preferred-citation:
   year: '2025'
   version: 1.0.0
   authors: *id001
-  title: 'Erfragen von Metadaten: Ein Fallbeispiel aus dem Europäischen und Deutschen Metadatenportal'
+  title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL'
   type: software
   doi: 
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
@@ -49,6 +49,6 @@ preferred-citation:
   license: CC-BY-SA-4.0
   languages:
   - deu
-  copyright: CC-BY-SA-4.0
+  copyright: CC-BY-4.0
   keywords:
   - Open Educational Resource
