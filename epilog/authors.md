@@ -5,8 +5,9 @@ lang: de-DE
 # Autor:innen
 
 ## Autor:innen
-<div>
+
 <b>Jana Plomin</b> <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -21,8 +22,7 @@ lang: de-DE
 <td><a href="https://www.fokus.fraunhofer.de/8fb7bdcc1d2bd6e8" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
 </tr>
 </table>
-</div>
-<div>
+  
 <b>Paul Walter</b> <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
