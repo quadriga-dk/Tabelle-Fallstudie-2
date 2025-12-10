@@ -6,7 +6,7 @@ lang: de-DE
 
 ## Autor:innen
 
-<b>Jana Plomin</b> <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+**Jana Plomin** <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
 
 <table style="margin-left: 0">
 <tr>
