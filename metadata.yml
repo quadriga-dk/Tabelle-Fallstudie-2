@@ -3,16 +3,16 @@
 title: 'Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL
   und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2'
 authors:
-- family-name: Plomin
-  given-name: Jana
+- family-names: Plomin
+  given-names: Jana
   orcid: https://orcid.org/0000-0003-0127-7493
   credit:
   - Methodology
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- family-name: Walter
-  given-name: Paul
+- family-names: Walter
+  given-names: Paul
   orcid: https://orcid.org/0000-0002-9236-3268
   credit:
   - Data curation
@@ -21,8 +21,8 @@ authors:
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fachhochschule Potsdam
-- family-name: Schmeling
-  given-name: Juliane
+- family-names: Schmeling
+  given-names: Juliane
   orcid: https://orcid.org/0009-0005-9814-1139
   credit:
   - Methodology
@@ -30,8 +30,8 @@ authors:
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- family-name: Dakruni
-  given-name: Sami
+- family-names: Dakruni
+  given-names: Sami
   orcid: https://orcid.org/0009-0009-8541-6358
   credit:
   - Methodology
@@ -82,8 +82,8 @@ time-required: PT3H15M
 language: de
 
 contributors:
-- family-name: Schnaitter
-  given-name: Hannes
+- family-names: Schnaitter
+  given-names: Hannes
   orcid: https://orcid.org/0000-0002-1602-6032
   credit:
   - Data curation
@@ -91,26 +91,26 @@ contributors:
   - Software
   - Validation
   affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- family-name: Samoilova
-  given-name: Evgenia
+- family-names: Samoilova
+  given-names: Evgenia
   orcid: https://orcid.org/0000-0003-3858-901X
   credit:
   - Methodology
   - Validation
   affiliation: Universität Potsdam
-- family-name: Islam
-  given-name: Lamia
+- family-names: Islam
+  given-names: Lamia
   orcid: https://orcid.org/0009-0001-1879-9880
   credit:
   - Software
   affiliation: Universität Potsdam
-- family-name: Zhang
-  given-name: Yue
+- family-names: Zhang
+  given-names: Yue
   credit:
   - Software
   affiliation: Technische Universität Berlin
-- family-name: Seltmann
-  given-name: Melanie
+- family-names: Seltmann
+  given-names: Melanie
   orcid: https://orcid.org/0000-0002-7588-4395
   credit:
   - Validation
@@ -286,9 +286,8 @@ version: 1.0.0-beta.2
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
 quality-assurance:
-- person: Paul Walter
-  description: TODO
-  date: 2025-10-01
+- description: 'DOI needed'
+- date: 2025-10-01
 learning-resource-type: Jupyter Book  
 schema-version: 1.0.0
 license:
