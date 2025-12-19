@@ -3,7 +3,7 @@ lang: de-DE
 ---
 
 (sparql)=
-# Praxis anwenden: SPARQL
+# Praxis anwenden: SPARQL-Abfragen
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 

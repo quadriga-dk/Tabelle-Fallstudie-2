@@ -7,9 +7,9 @@ lang: de-DE
 
 Dieses JupyterBook erfordert ein allgemeines Verständnis darüber wie Datensätze strukturiert sind. Zudem sollten Anwendende mit Konzepten wie Metadaten und Begriffen wie Ontologien vertraut sein.
 
-Für die Kapitel *2. Technologien verstehen: Semantic Web & Linked Data*, *3. Werkzeuge kennenlernen: DCAT-AP Metadatenstandard* sowie *4. Datenqualität messen: Metadata Quality Assessment* werden darüber hinaus keine besonderen Vorkenntnisse benötigt. Sie setzen aber eine Affinität für Datenkonzepte und Theorie voraus.
+Für die ersten drei Kapitel **2. Technologien verstehen: Semantic Web & Linked Data**, **3. Werkzeuge kennenlernen: DCAT-AP Metadatenstandard** sowie **4. Datenqualität messen: Metadata Quality Assessment*** werden darüber hinaus keine besonderen Vorkenntnisse benötigt. Sie setzen aber eine Affinität für Datenkonzepte und Theorie voraus.
 
-Für das Kapitel *5. Praxis anwenden: SPARQL* ist ein Grundinteresse bzw. -verständnis für Abfragengestaltung und Erfragen von Metadaten hilfreich, da Sie dort mit der Abfragesprache SPARQL arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung, da alle Aspekte ausführlich erläutert werden. Wenn Sie SPARQL bereits beherrschen, können Sie sich auch gleich an die Übungen wagen.
+Für das Kapitel **5. Praxis anwenden: SPARQL-Abfragen** ist ein Grundinteresse bzw. -verständnis für Abfragengestaltung und Erfragen von Metadaten hilfreich, da Sie dort mit der Abfragesprache SPARQL arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung, da alle Aspekte ausführlich erläutert werden. Wenn Sie SPARQL bereits beherrschen, können Sie sich auch gleich an die Übungen wagen.
 
 Falls sie über keinerlei Vorkenntnisse zu den hier behandelten Themen verfügen, empfehlen wir Ihnen, die Kapitel in der angegebenen Reihenfolge durchzugehen. Ansonsten sind Sie in der Wahl der zu absolvierenden Kapitel selbstverständlich frei.
 
