@@ -20,6 +20,10 @@ In CKAN werden Daten als Datensätze organisiert, die jeweils eine Sammlung von 
 
 Das deutsche Metadatenportal <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a> wurde unter Verwendung der zuvor beschriebenen Standards und Systeme entwickelt. Auf diesem Portal können unterschiedlichste Datensätze von deutschen Verwaltungsinstitutionen aller Ebenen (Kommunen, Länder, Bund) durchsucht und auf verschiedenste Art gefiltert werden. 
 
+```{admonition} Zusätzliche Materialien
+:class: seealso
+Für weitere Informationen zu CKAN schauen Sie sich die <a href="https://ckan.org/" class="external-link" target="_blank">Website von CKAN</a> an oder werfen Sie einen Blick in die GitHub-Repositorys von <a href="https://github.com/ckan/ckan" class="external-link" target="_blank">CKAN</a> oder <a href="https://github.com/ckan/ckanext-dcat" class="external-link" target="_blank">ckanext-dcat</a>. Letzteres ist eine Erweiterung, die auf die Verwendung von DCAT abzielt.  
+```
 
 **Literatur**
 
