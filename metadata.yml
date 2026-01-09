@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
+
 title: 'Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL
   und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2'
 authors:
@@ -136,12 +137,13 @@ prerequisites:
 - description: Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
 used-tools:
 - SPARQL
+- https://www.w3.org/TR/sparql11-query/ 
 chapters:
 - title: Datenbasis
   description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html
   learning-goal: Forschungssfrage
-  duration: 5 Minuten
+  duration: PT5M
   learning-objectives:
   - learning-objective: Die Forschungsfrage kann erläutert und in einen Kontext mit
       dem Bildungsbericht gesetzt werden.
@@ -154,7 +156,7 @@ chapters:
   description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html
   learning-goal: Grundsätze des Datenmanagements
-  duration: 15 Minuten
+  duration: PT15M
   learning-objectives:
   - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten
       Beispiels erläutert werden.
@@ -174,7 +176,7 @@ chapters:
   description: In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html
   learning-goal: Sicherstellen der Qualität von Datensätzen
-  duration: 30 Minuten
+  duration: PT30M
   learning-objectives:
   - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze
       kann für die Forschung erläutert werden.
@@ -202,7 +204,7 @@ chapters:
     Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Identifikatoren.html
   learning-goal: Datenzitierung und PID
-  duration: 25 Minuten
+  duration: PT25M
   learning-objectives:
   - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können
       beschrieben werden.
@@ -231,7 +233,7 @@ chapters:
     zu verbessern.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html
   learning-goal: Datenaufbereitung und -strukturierung
-  duration: 60 Minuten
+  duration: PT60M
   learning-objectives:
   - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
     data-flow: 2 Erhebung und Aufbereitung
@@ -257,7 +259,7 @@ chapters:
     mit Hilfe der Programmiersprache R.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation2.html
   learning-goal: Datenanalyse und -reproduzierbarkeit
-  duration: 60 Minuten
+  duration: PT60M
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
