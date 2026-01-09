@@ -16,6 +16,7 @@ chapters:
     - file: semantic_web/Semantic_Web_Layer_Cake
     - file: semantic_web/Semantic_Web_Übung
     - file: semantic_web/Semantic_Web_Resümee
+    - file: semantic_web/Semantic_Web_Assessment
   - file: dcat_ap/DCAT_AP_Metadatenstandard
     sections:
     - file: dcat_ap/DCAT_AP_Recap
@@ -24,17 +25,20 @@ chapters:
     - file: dcat_ap/DCAT_AP_Beispiel
     - file: dcat_ap/DCAT_AP_Übung
     - file: dcat_ap/DCAT_AP_Resümee
+    - file: dcat_ap/DCAT_AP_Assessment
   - file: metadatenqualität/Metadatenqualität
     sections:
     - file: metadatenqualität/Metadaten_Kontrolle
     - file: metadatenqualität/Metadaten_Übung
     - file: metadatenqualität/Metadaten_Resümee
+    - file: metadatenqualität/Metadaten_Assessment
   - file: sparql/SPARQL
     sections:
     - file: sparql/SPARQL_Grundlagen
     - file: sparql/SPARQL_Übung_1
     - file: sparql/SPARQL_Übung_2
     - file: sparql/SPARQL_Resümee
+    - file: sparql/SPARQL_Assessment
 
   - file: zusammenfassung
   
