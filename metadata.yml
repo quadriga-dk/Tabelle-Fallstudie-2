@@ -1,5 +1,4 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
-
 title: 'Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL
   und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2'
 authors:
@@ -137,7 +136,7 @@ prerequisites:
 - description: Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
 used-tools:
 - SPARQL
-- https://www.w3.org/TR/sparql11-query/ 
+- https://www.w3.org/TR/sparql11-query/
 chapters:
 - title: Datenbasis
   description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
