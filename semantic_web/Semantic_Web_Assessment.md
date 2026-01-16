@@ -257,56 +257,25 @@ question10 = [
             {
                 "answer": "In der Verwaltungswissenschaft für effizientere Vernetzung von Verwaltungsdaten über Behördengrenzen hinweg",
                 "correct": True,
-                "feedback": """✓ Richtig! Für die Verwaltung ermöglicht das Semantic Web:
-                - Integration heterogener Datenbestände verschiedener Behörden
-                - Verbesserte Interoperabilität zwischen Verwaltungssystemen
-                - Transparenz und Nachvollziehbarkeit staatlichen Handelns
-                - Unterstützung datenbasierter Entscheidungsprozesse
-                - Entwicklung innovativer E-Government-Lösungen
-                Semantische Technologien sind essentiell für moderne Verwaltungsdigitalisierung."""
+                "feedback": """✓ Richtig! Für die Verwaltung ermöglicht das Semantic Web die Integration heterogener Datenbestände verschiedener Behörden und eine verbesserte Interoperabilität zwischen Verwaltungssystemen. Es schafft Transparenz und Nachvollziehbarkeit staatlichen Handelns, unterstützt datenbasierte Entscheidungsprozesse und fördert die Entwicklung innovativer E-Government-Lösungen. Semantische Technologien sind essenziell für die moderne Verwaltungsdigitalisierung."""
             },
             {
                 "answer": "In Forschungsfeldern mit großen Datenmengen und Bedarf an reproduzierbaren Ergebnissen",
                 "correct": True,
-                "feedback": """✓ Richtig! Für die Forschung bietet das Semantic Web:
-                - Bessere Strukturierung großer Datenmengen
-                - Verbesserte Nachnutzbarkeit von Forschungsdaten
-                - Unterstützung reproduzierbarer Analysen
-                - Erleichterte Datenintegration über Projekte hinweg
-                - Standardisierte Datenrepräsentation
-                Dies ist besonders relevant für datenintensive Wissenschaften."""
+                "feedback": """✓ Richtig! Für die Forschung bietet das Semantic Web eine bessere Strukturierung großer Datenmengen und eine verbesserte Nachnutzbarkeit von Forschungsdaten. Es unterstützt reproduzierbare Analysen und erleichtert die Datenintegration über Projekte hinweg durch standardisierte Datenrepräsentation. Dies ist besonders relevant für datenintensive Wissenschaften."""
             },
             {
                 "answer": "Für die Entwicklung intelligenter Anwendungen durch verbesserte Interoperabilität",
                 "correct": True,
-                "feedback": """✓ Richtig! Das Semantic Web ermöglicht:
-                - Nahtlose Integration verschiedener Datenquellen
-                - Automatisierte Datenverarbeitung über Systemgrenzen
-                - Entwicklung von Software-Agenten
-                - Intelligente Dienste und Anwendungen
-                - Maschinelles Schlussfolgern
-                Die Interoperabilität ist Grundlage für fortgeschrittene KI-Anwendungen."""
+                "feedback": """✓ Richtig! Das Semantic Web ermöglicht die nahtlose Integration verschiedener Datenquellen und automatisierte Datenverarbeitung über Systemgrenzen hinweg. Es unterstützt die Entwicklung von Software-Agenten, intelligenten Diensten und Anwendungen sowie maschinelles Schlussfolgern. Die Interoperabilität ist Grundlage für fortgeschrittene KI-Anwendungen."""
             },
             {
-                "answer": "Ausschließlich für soziale Netzwerke und Messaging-Dienste",
-                "correct": False,
-                "feedback": """× Nicht korrekt. Das Semantic Web:
-                - Hat viel breitere Anwendungsbereiche
-                - Ist nicht auf soziale Medien beschränkt
-                - Wird in Wissenschaft, Verwaltung, Wirtschaft und mehr eingesetzt
-                - Unterstützt verschiedenste Datenintegrations-Szenarien
-                Soziale Netzwerke können semantische Technologien nutzen, sind aber nur ein kleiner Anwendungsbereich."""
+                "answer": "Das Semantic Web hat viel breitere Anwendungsbereiche und ist nicht auf soziale Medien beschränkt. Es wird in Wissenschaft, Verwaltung, Wirtschaft und vielen weiteren Bereichen eingesetzt und unterstützt verschiedenste Datenintegrations-Szenarien. Soziale Netzwerke können semantische Technologien nutzen, sind aber nur ein kleiner Anwendungsbereich."""
             },
             {
                 "answer": "Für die Umsetzung von Open-Data-Initiativen und semantische Aufbereitung öffentlicher Daten",
                 "correct": True,
-                "feedback": """✓ Richtig! Für Open Data bietet das Semantic Web:
-                - Standardisierte Datenformate (z.B. RDF)
-                - Verbesserte Auffindbarkeit offener Daten
-                - Erleichterte Datenverknüpfung über Quellen hinweg
-                - Semantische Beschreibung von Datensätzen
-                - Unterstützung von Linked Open Data
-                Semantische Technologien sind zentral für moderne Open-Data-Strategien."""
+                "feedback": """✓ Richtig! Für Open Data bietet das Semantic Web standardisierte Datenformate wie RDF, eine verbesserte Auffindbarkeit offener Daten und eine erleichterte Datenverknüpfung über Quellen hinweg. Es ermöglicht die semantische Beschreibung von Datensätzen und unterstützt Linked Open Data. Semantische Technologien sind zentral für moderne Open-Data-Strategien."""
             }
         ]
     }
@@ -408,50 +377,22 @@ question15 = [
             {
                 "answer": "Die Fähigkeit verschiedener Systeme, Daten auszutauschen und gemeinsam zu nutzen",
                 "correct": True,
-                "feedback": """✓ Richtig! Interoperabilität im Semantic Web bedeutet:
-                
-                **Datenaustausch:**
-                - Verschiedene Systeme können Daten miteinander teilen
-                - Standardisierte Formate ermöglichen nahtlose Kommunikation
-                
-                **Gemeinsame Nutzung:**
-                - Daten können über Systemgrenzen hinweg verwendet werden
-                - Einheitliche Interpretation durch semantische Standards
-                
-                **Praktische Vorteile:**
-                - Integration heterogener Datenquellen
-                - Vermeidung von Datensilos
-                - Effizientere Datennutzung
-                - Grundlage für vernetzte Anwendungen
-                
-                Interoperabilität ist ein Kernziel des Semantic Web."""
+                "feedback": """✓ Richtig! Interoperabilität im Semantic Web bedeutet, dass verschiedene Systeme Daten miteinander teilen können und standardisierte Formate eine nahtlose Kommunikation ermöglichen. Daten können über Systemgrenzen hinweg genutzt und durch semantische Standards einheitlich interpretiert werden. Dies bringt praktische Vorteile wie die Integration heterogener Datenquellen, die Vermeidung von Datensilos, eine effizientere Datennutzung und bildet die Grundlage für vernetzte Anwendungen. Interoperabilität ist ein Kernziel des Semantic Web."""
             },
             {
                 "answer": "Die Geschwindigkeit, mit der Webseiten geladen werden",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Interoperabilität bezieht sich nicht auf Geschwindigkeit:
-                - Fokussiert auf Datenaustausch und -integration
-                - Betrifft semantische Kompatibilität
-                - Hat nichts mit Ladezeiten zu tun
-                Performance ist ein separates Thema."""
+                "feedback": """× Nicht korrekt.Interoperabilität bezieht sich nicht auf Geschwindigkeit, sondern fokussiert auf Datenaustausch und -integration. Sie betrifft die semantische Kompatibilität und hat nichts mit Ladezeiten zu tun. Performance ist ein separates Thema."""
             },
             {
                 "answer": "Die visuelle Darstellung von Daten auf verschiedenen Geräten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Interoperabilität im Semantic Web:
-                - Betrifft Datenaustausch, nicht Darstellung
-                - Fokussiert auf semantische Ebene
-                - Ist unabhängig von visueller Repräsentation
-                Responsive Design für visuelle Darstellung ist ein anderes Konzept."""
+                "feedback": """× Nicht korrekt. Interoperabilität im Semantic Web betrifft den Datenaustausch und nicht die Darstellung. Sie fokussiert sich auf die semantische Ebene und ist unabhängig von der visuellen Repräsentation. Responsive Design für die visuelle Darstellung ist ein anderes Konzept."""
             },
             {
                 "answer": "Die Anzahl der Benutzer, die gleichzeitig auf eine Webseite zugreifen können",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Interoperabilität betrifft:
-                - Datenaustausch zwischen Systemen
-                - Semantische Kompatibilität
-                - Nicht die Skalierbarkeit von Webservern
-                Gleichzeitige Nutzerzahlen sind ein Performance-Thema."""
+                "feedback": """× Nicht korrekt. Interoperabilität betrifft den Datenaustausch zwischen Systemen und die semantische Kompatibilität, jedoch nicht die Skalierbarkeit von Webservern. Gleichzeitige Nutzerzahlen sind ein Performance-Thema."""
             }
         ]
     }
