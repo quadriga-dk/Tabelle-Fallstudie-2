@@ -25,7 +25,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: XX
+**Geschätzte Zeit**: 20-25 Minuten
 
 Viel Erfolg!
 ````
@@ -48,52 +48,27 @@ question3 = [
             {
                 "answer": "RDF ist ein Standardmodell zur Beschreibung von Informationen im Web",
                 "correct": True,
-                "feedback": """✓ Richtig! RDF:
-                - Ist ein vom W3C entwickelter Standard
-                - Bietet ein einheitliches Modell für Datenstrukturen
-                - Ermöglicht konsistente Informationsbeschreibung
-                - Bildet die Grundlage für viele semantische Technologien
-                - Als Standard gewährleistet RDF Interoperabilität zwischen verschiedenen Systemen."""
+                "feedback": """✓ Richtig! RDF ist ein vom W3C entwickelter Standard, der ein einheitliches Modell für Datenstrukturen bietet und eine konsistente Informationsbeschreibung ermöglicht. Es bildet die Grundlage für viele semantische Technologien. Als Standard gewährleistet RDF Interoperabilität zwischen verschiedenen Systemen."""
             },
             {
                 "answer": "RDF ermöglicht es, Daten in maschinenlesbarer Form zu strukturieren und zu verknüpfen",
                 "correct": True,
-                "feedback": """✓ Richtig! RDF:
-                - Strukturiert Informationen in Form von Tripeln (Subjekt-Prädikat-Objekt)
-                - Macht Beziehungen zwischen Ressourcen explizit
-                - Ermöglicht maschinelle Verarbeitung der Datenstrukturen
-                - Unterstützt die Verknüpfung unterschiedlicher Datenquellen
-                - Diese Eigenschaften machen RDF zum Rückgrat des Semantic Web."""
+                "feedback": """✓ Richtig! RDF strukturiert Informationen in Form von Tripeln nach dem Subjekt-Prädikat-Objekt-Schema und macht Beziehungen zwischen Ressourcen explizit. Es ermöglicht die maschinelle Verarbeitung der Datenstrukturen und unterstützt die Verknüpfung unterschiedlicher Datenquellen. Diese Eigenschaften machen RDF zum Rückgrat des Semantic Web."""
             },
             {
                 "answer": "RDF geht über die Präsentationsmöglichkeiten von HTML und die Dokumenten-Tagging-Funktionen von XML hinaus",
                 "correct": True,
-                "feedback": """✓ Richtig! Im Vergleich zu HTML und XML:
-                - HTML fokussiert auf Darstellung für Menschen
-                - XML ermöglicht strukturierte Dokumentbeschreibung
-                - RDF fügt semantische Beziehungen hinzu
-                - RDF ermöglicht logische Schlussfolgerungen über Daten
-                - RDF erweitert diese Technologien um eine semantische Dimension."""
+                "feedback": """✓ Richtig! Im Vergleich zu HTML und XML zeigen sich deutliche Unterschiede: HTML fokussiert auf die Darstellung für Menschen, während XML eine strukturierte Dokumentbeschreibung ermöglicht. RDF fügt darüber hinaus semantische Beziehungen hinzu und ermöglicht logische Schlussfolgerungen über Daten. Damit erweitert RDF diese Technologien um eine wichtige semantische Dimension."""
             },
             {
                 "answer": "RDF dient ausschließlich der visuellen Gestaltung von Webseiten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. RDF:
-                - Ist nicht für visuelle Darstellung konzipiert
-                - Fokussiert auf Datenstrukturen und -beziehungen
-                - Ermöglicht semantische Beschreibungen
-                - Unterstützt maschinelle Interpretation
-                - Für visuelle Gestaltung werden andere Technologien wie CSS verwendet."""
+                "feedback": """× Nicht korrekt. RDF ist nicht für die visuelle     Darstellung konzipiert, sondern fokussiert sich auf Datenstrukturen und deren Beziehungen. Es ermöglicht semantische Beschreibungen und unterstützt die maschinelle Interpretation von Daten. Für die visuelle Gestaltung werden andere Technologien wie CSS verwendet."""
             },
             {
                 "answer": "RDF unterstützt die Interoperabilität zwischen verschiedenen Datenquellen",
                 "correct": True,
-                "feedback": """✓ Richtig! RDF fördert Interoperabilität durch:
-                - Einheitliches Datenmodell über Systemgrenzen hinweg
-                - Standardisierte Darstellung von Beziehungen
-                - Möglichkeit zur Integration heterogener Datenquellen
-                - Unterstützung verteilter Wissensrepräsentation
-                - Dies ist besonders wichtig für die Entwicklung intelligenter Anwendungen."""
+                "feedback": """✓ Richtig! RDF fördert Interoperabilität durch ein einheitliches Datenmodell über Systemgrenzen hinweg und die standardisierte Darstellung von Beziehungen. Es bietet die Möglichkeit zur Integration heterogener Datenquellen und unterstützt verteilte Wissensrepräsentation. Dies ist besonders wichtig für die Entwicklung intelligenter Anwendungen."""
             }
         ]
     }
@@ -154,7 +129,7 @@ question6 = [
             {
                 "answer": "Von unten nach oben: Jede Schicht baut auf den vorherigen auf",
                 "correct": True,
-                "feedback": "✓ Korrekt! Die Layer Cake-Architektur ist hierarchisch aufgebaut. Jede höhere Schicht nutzt die Funktionalität der darunterliegenden Schichten. Die Basis bilden Unicode & URI, darauf bauen XML, dann RDF, dann Ontologien usw. auf."
+                "feedback": "✓ Korrekt! Die Layer Cake-Architektur ist hierarchisch aufgebaut. Jede höhere Schicht nutzt die Funktionalität der darunterliegenden Schichten. Die Grundlage bilden Unicode und URI, auf denen XML aufbaut. Darauf folgt RDF, auf dem wiederum Ontologien und weitere Technologien aufsetzen."
             },
             {
                 "answer": "Von oben nach unten: Die obersten Schichten sind die Grundlage",
@@ -195,7 +170,7 @@ question7 = [
             {
                 "answer": "Das traditionelle Web verknüpft Seiten für Menschen, das Semantic Web ergänzt dies um maschinenlesbare Informationen",
                 "correct": True,
-                "feedback": "✓ Korrekt! Das traditionelle Web bietet Links zwischen Seiten für den menschlichen Konsum. Das Semantic Web ergänzt diese Struktur um Informationseinheiten mit maschinenlesbaren Beschreibungen, die automatische Verarbeitung ermöglichen."
+                "feedback": "✓ Korrekt! Das traditionelle Web bietet Links zwischen Seiten für die menschliche Nutzung. Das Semantic Web ergänzt diese Struktur um Informationseinheiten mit maschinenlesbaren Beschreibungen, die automatische Verarbeitung ermöglichen."
             },
             {
                 "answer": "Das Semantic Web ist schneller als das traditionelle Web",
@@ -236,52 +211,27 @@ question8 = [
             {
                 "answer": "Ontologien bieten eine formale und gemeinsame Repräsentation von Wissen",
                 "correct": True,
-                "feedback": """✓ Richtig! Ontologien:
-                - Definieren Wissen formal und strukturiert
-                - Schaffen gemeinsames Verständnis über Domänen hinweg
-                - Ermöglichen einheitliche Interpretation von Konzepten
-                - Bilden die Grundlage für maschinelle Wissensverarbeitung
-                Diese formale Repräsentation ist essentiell für die Interoperabilität im Semantic Web."""
+                "feedback": """✓ Richtig! Ontologien definieren Wissen formal und strukturiert und schaffen ein gemeinsames Verständnis über Domänen hinweg. Sie ermöglichen eine einheitliche Interpretation von Konzepten und bilden die Grundlage für die maschinelle Wissensverarbeitung. Diese formale Repräsentation ist essenziell für die Interoperabilität im Semantic Web."""
             },
             {
                 "answer": "Ontologien sind ein wichtiges Instrument für produktive Datenadministrierung",
                 "correct": True,
-                "feedback": """✓ Richtig! Ontologien:
-                - Strukturieren komplexe Datenbestände
-                - Erleichtern Datenverwaltung und -integration
-                - Unterstützen Datenqualität und Konsistenz
-                - Sind heute unverzichtbar für professionelle Datensysteme
-                Moderne Datenadministrierung wäre ohne Ontologien kaum vorstellbar."""
+                "feedback": """✓ Richtig! Ontologien strukturieren komplexe Datenbestände und erleichtern die Datenverwaltung und -integration. Sie unterstützen die Datenqualität und Konsistenz und sind heute unverzichtbar für professionelle Datensysteme. Moderne Datenadministrierung wäre ohne Ontologien kaum vorstellbar."""
             },
             {
                 "answer": "OWL (Ontology Web Language) ermöglicht die formale Definition von Wissen über bestimmte Domänen",
                 "correct": True,
-                "feedback": """✓ Richtig! OWL:
-                - Ist ein W3C-Standard für Ontologie-Erstellung
-                - Ermöglicht präzise Definition von Konzepten und Beziehungen
-                - Unterstützt logische Schlussfolgerungen
-                - Ist spezialisiert für domänenspezifisches Wissen
-                OWL ist ein zentrales Werkzeug zur Realisierung der Semantic Web-Vision."""
+                "feedback": """✓ Richtig! OWL ist ein W3C-Standard für die Ontologie-Erstellung und ermöglicht die präzise Definition von Konzepten und Beziehungen. Es unterstützt logische Schlussfolgerungen und ist spezialisiert für domänenspezifisches Wissen. OWL ist ein zentrales Werkzeug zur Realisierung der Semantic Web-Vision."""
             },
             {
                 "answer": "Ontologien dienen ausschließlich der grafischen Darstellung von Webseiten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Ontologien:
-                - Definieren Wissensstrukturen und Beziehungen
-                - Sind nicht für grafische Darstellung konzipiert
-                - Fokussieren auf semantische Repräsentation
-                - Ermöglichen logische Schlussfolgerungen
-                Grafische Darstellung ist bestenfalls eine Nebenfunktion von Ontologie-Tools."""
+                "feedback": """× Nicht korrekt. Ontologien definieren Wissensstrukturen und Beziehungen, sind jedoch nicht für die grafische Darstellung konzipiert. Sie fokussieren sich auf die semantische Repräsentation und ermöglichen logische Schlussfolgerungen. Die grafische Darstellung ist bestenfalls eine Nebenfunktion von Ontologie-Tools."""
             },
             {
                 "answer": "Ontologien machen implizite Informationen explizit",
                 "correct": True,
-                "feedback": """✓ Richtig! Ontologien:
-                - Formalisieren oft implizit vorhandenes Wissen
-                - Machen Beziehungen zwischen Konzepten explizit sichtbar
-                - Definieren Regeln und Einschränkungen formal
-                - Ermöglichen dadurch maschinelle Verarbeitung
-                Diese Explizitmachung ist fundamental für semantische Technologien."""
+                "feedback": """✓ Richtig! Ontologien formalisieren oft implizit vorhandenes Wissen und machen Beziehungen zwischen Konzepten explizit sichtbar. Sie definieren Regeln und Einschränkungen formal und ermöglichen dadurch die maschinelle Verarbeitung. Diese Explizitmachung ist fundamental für semantische Technologien."""
             }
         ]
     }
