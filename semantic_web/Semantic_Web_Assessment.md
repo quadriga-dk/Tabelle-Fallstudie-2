@@ -53,7 +53,7 @@ question3 = [
                 - Bietet ein einheitliches Modell für Datenstrukturen
                 - Ermöglicht konsistente Informationsbeschreibung
                 - Bildet die Grundlage für viele semantische Technologien
-                Als Standard gewährleistet RDF Interoperabilität zwischen verschiedenen Systemen."""
+                - Als Standard gewährleistet RDF Interoperabilität zwischen verschiedenen Systemen."""
             },
             {
                 "answer": "RDF ermöglicht es, Daten in maschinenlesbarer Form zu strukturieren und zu verknüpfen",
@@ -63,7 +63,7 @@ question3 = [
                 - Macht Beziehungen zwischen Ressourcen explizit
                 - Ermöglicht maschinelle Verarbeitung der Datenstrukturen
                 - Unterstützt die Verknüpfung unterschiedlicher Datenquellen
-                Diese Eigenschaften machen RDF zum Rückgrat des Semantic Web."""
+                - Diese Eigenschaften machen RDF zum Rückgrat des Semantic Web."""
             },
             {
                 "answer": "RDF geht über die Präsentationsmöglichkeiten von HTML und die Dokumenten-Tagging-Funktionen von XML hinaus",
@@ -73,7 +73,7 @@ question3 = [
                 - XML ermöglicht strukturierte Dokumentbeschreibung
                 - RDF fügt semantische Beziehungen hinzu
                 - RDF ermöglicht logische Schlussfolgerungen über Daten
-                RDF erweitert diese Technologien um eine semantische Dimension."""
+                - RDF erweitert diese Technologien um eine semantische Dimension."""
             },
             {
                 "answer": "RDF dient ausschließlich der visuellen Gestaltung von Webseiten",
@@ -83,7 +83,7 @@ question3 = [
                 - Fokussiert auf Datenstrukturen und -beziehungen
                 - Ermöglicht semantische Beschreibungen
                 - Unterstützt maschinelle Interpretation
-                Für visuelle Gestaltung werden andere Technologien wie CSS verwendet."""
+                - Für visuelle Gestaltung werden andere Technologien wie CSS verwendet."""
             },
             {
                 "answer": "RDF unterstützt die Interoperabilität zwischen verschiedenen Datenquellen",
@@ -93,7 +93,7 @@ question3 = [
                 - Standardisierte Darstellung von Beziehungen
                 - Möglichkeit zur Integration heterogener Datenquellen
                 - Unterstützung verteilter Wissensrepräsentation
-                Dies ist besonders wichtig für die Entwicklung intelligenter Anwendungen."""
+                - Dies ist besonders wichtig für die Entwicklung intelligenter Anwendungen."""
             }
         ]
     }
