@@ -46,7 +46,7 @@ Der unter CC0 veröffentlichte Standardisierungsrahmen DCAT-AP.de, hier von der 
 
 In Deutschland nutzen verschiedene staatliche Datenportale wie <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a> und die Datenportale der Bundesländer (z. B. das <a href="https://transparenz.hamburg.de/" class="external-link" target="_blank">Transparenzportal Hamburg</a>) DCAT-AP.de zur Standardisierung von Metadaten. Dies ermöglicht eine konsistente Katalogisierung von Daten und vereinfacht die Datenveröffentlichung und -nutzung, sowohl innerhalb der öffentlichen Verwaltung als auch für Bürger:innen.
 
-Durch die Anlehnung an den <a href="https://op.europa.eu/de/web/eu-vocabularies/dcat-ap" class="external-link" target="_blank">europäischen DCAT-AP-Standard</a> ermöglicht DCAT-AP.de eine reibungslose Zusammenarbeit und Datenintegration mit dem Europäischen Datenportal. Deutsche Datensätze, die mit DCAT-AP.de beschrieben sind, lassen sich so problemlos auf das Europäische Datenportal übertragen, was eine einheitliche und grenzübergreifende Datennutzung innerhalb der EU fördert {cite}`CKAN_DCAT_AP`.
+Durch die Anlehnung an den <a href="https://op.europa.eu/de/web/eu-vocabularies/dcat-ap" class="external-link" target="_blank">europäischen DCAT-AP-Standard</a> ermöglicht DCAT-AP.de eine reibungslose Zusammenarbeit und Datenintegration mit dem Europäischen Datenportal. Deutsche Datensätze, die mit DCAT-AP.de beschrieben sind, lassen sich so problemlos auf das Europäische Datenportal übertragen, was eine einheitliche und grenzübergreifende Datennutzung innerhalb der EU fördert {cite}`FITKO_DCAT_AP`.
 
 ```{admonition} Was  Sie mitnehmen sollten
 :class: keypoint 
