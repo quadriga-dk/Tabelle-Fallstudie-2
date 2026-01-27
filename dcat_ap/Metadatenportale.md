@@ -25,13 +25,12 @@ Mehrstufige Dateninfrastruktur durch Plattformen verschiedener Ebenen, eigene Da
 Metadaten zu Datensätzen sind also in mehreren Portalen einsehbar, wobei zentrale Portale wie das bundesweite und das europäische, die Daten von den "unteren" Ebenen harvesten (s. Abb. 3.4). Das heißt, dass über diese Portale nicht zwangsweise ein direkter Zugriff auf die eigentlichen Datensätze möglich ist, da sie diese Daten nicht halten. Allerdings werden zunehmend nicht mehr nur die Metadaten abgefragt und somit angezeigt, welche Daten verfügbar sind, sondern zunehmend auch Links zu den Datensätzen bereitgestellt, sodass diese auch auf den zentralen Plattformen direkt von den Datenbereitstellern heruntergeladen werden können, ohne auf deren Webseite gehen zu müssen. Der Vorteil von zentralen Plattformen liegt in dem Vergleich und der Nebeneinanderstellung vergleichbarer Datensätze - beispielsweise Baumkatasterdaten aus mehreren Städten aus dem gesamten Bundesgebiet. 
 
 
-```{figure} /assets/StandOffener.png
+```{figure} /assets/standardisierungsbedarf-metadatenfoderation.png
 ---
 name: Datenbezug von lokal bis europäisch
 alt: Eine grafische Darstellung des Datenbezugs von der lokalen bis zur europäischen Ebene
 ---
-Darstellung des Datenbezugs von der lokalen bis zur europäischen Ebene, Bildquelle: Open.NRW
-<span style="color:red">*Bitte Quelle angeben; scheinbar gab es auch einen Zeitstempel (Anzahl X Daten zu Zeitpunkt X)*</span>
+Darstellung "Standardisierungsbedarf der Metadatenföderation GovData" unter der Lizenz <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" class="external-link" target="_blank">CC 0</a> via <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/" class="external-link" target="_blank">DCAT-AP.de Spezifikation 3.0</a>.
 ```
 
 
@@ -43,7 +42,7 @@ Um diesen Datenaustausch effizient und einheitlich zu gestalten, hat die Fachgru
 Seit Anfang 2019 akzeptiert GovData ausschließlich Metadaten, die im Standard DCAT-AP.de bereitgestellt werden.
 Mit der Einführung seines Standards hat sich DCAT-AP.de zu einem unverzichtbaren Werkzeug für die Standardisierung und Interoperabilität von Metadaten im öffentlichen Sektor entwickelt {cite}`DCATFraunhofer`. Es schafft die Grundlage für eine effiziente Datenbereitstellung und erleichtert den Datenaustausch zwischen verschiedenen Verwaltungsebenen und Institutionen {cite}`DCATEurope`. Die Einführung dieses Standards ermöglicht es, die Vielfalt der bereitgestellten Datensätze konsistent zu strukturieren und deren Auffindbarkeit sowie Nachnutzbarkeit deutlich zu verbessern.
 
-Mittlerweile gibt es DCAT-AP.de in der <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/" class="external-link" target="_blank">Spezifikation 3.0</a>. 
+Seit 2024 gibt es DCAT-AP.de in der <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/" class="external-link" target="_blank">Spezifikation 3.0</a>. 
 
 
 **Literatur**

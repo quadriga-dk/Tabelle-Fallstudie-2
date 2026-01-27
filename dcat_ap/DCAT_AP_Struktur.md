@@ -31,7 +31,7 @@ Ein wesentlicher Vorteil des Dublin Core-Standards ist seine Modularität. Obwoh
 
 ## DCAT und Dublin Core
 
-Mit dem Wissen über Dublin Core betrachten wir nun das <a href="https://www.w3.org/TR/vocab-dcat-3/" class="external-link" target="_blank">Data Catalog Vocabulary</a> (DCAT). DCAT ist ein RDF-Vokabular, das auf dem Dublin-Core-Benennungsschema basiert. Sein Zweck besteht darin, die Interoperabilität zwischen Datenkatalogen im Web zu ermöglichen. DCAT wurde im Kontext von staatlichen Datenkatalogen wie <a href="https://data.gov/" class="external-link" target="_blank">data.gov</a> und <a href="https://www.data.gov.uk/" class="external-link" target="_blank">data.gov.uk</a> entwickelt {cite}`W3C_DCAT_v3`. DCAT wird durch das <a href="https://www.w3.org/" class="external-link" target="_blank">World Web Consortium</a> (W3C) verwaltet. Es ist daher ein vertrauenwürdiges und institutionalisiertes Projekt, das auf politischer Ebene unterstützt und als staatliche Initiative gefördert wird. Dazu gehören spezifische *Anwendungsprofile (AP)*, die in verschiedenen Ländern für Metadateninfrastrukturen entwickelt wurden.  
+Mit dem Wissen über Dublin Core betrachten wir nun das <a href="https://www.w3.org/TR/vocab-dcat-3/" class="external-link" target="_blank">Data Catalog Vocabulary</a> (DCAT). DCAT ist ein RDF-Vokabular, das auf dem Dublin-Core-Benennungsschema basiert. Sein Zweck besteht darin, die Interoperabilität zwischen Datenkatalogen im Web zu ermöglichen. DCAT wurde im Kontext von staatlichen Datenkatalogen wie <a href="https://data.gov/" class="external-link" target="_blank">data.gov</a> und <a href="https://www.data.gov.uk/" class="external-link" target="_blank">data.gov.uk</a> entwickelt {cite}`W3C_DCAT_v3`. DCAT wird durch das <a href="https://www.w3.org/" class="external-link" target="_blank">World Wide Web Consortium</a> (W3C) verwaltet. Es ist daher ein vertrauenwürdiges und institutionalisiertes Projekt, das auf politischer Ebene unterstützt und als staatliche Initiative gefördert wird. Dazu gehören spezifische *Anwendungsprofile (AP)*, die in verschiedenen Ländern für Metadateninfrastrukturen entwickelt wurden.  
 Dabei steht <a href="https://op.europa.eu/de/web/eu-vocabularies/dcat-ap" class="external-link" target="_blank">*DCAT-AP*</a> für *DCAT-Anwendungsprofil für Datenportale in Europa*. Von der Europäischen Union wird DCAT-AP definiert als "eine Spezifikation, die auf dem Datenkatalog-Vokabular (DCAT) basiert und zur Beschreibung von Datensätzen des öffentlichen Sektors in Europa dient" {cite}`EU_DCAT`. Die Zusammenhänge zwischen Dublin Core, DCAT, DCAT-AP und DCAT-AP.de werden durch die Abb. 3.5 veranschaulicht.
 
 
@@ -40,7 +40,7 @@ Dabei steht <a href="https://op.europa.eu/de/web/eu-vocabularies/dcat-ap" class=
 name: Standardisierungsrahmen
 alt: Eine grafische Darstellung von DCAT-AP.de und den Zusammenhängen mit Dublin Core und anderen Standards.
 ---
-Der unter CC0 veröffentlichte Standardisierungsrahmen DCAT-AP.de, hier von der <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/" class="external-link" target="_blank">DCAT-AP.de Spezifikation 3.0</a>.
+Darstellung "Standardisierungsrahmen DCAT-AP.de" unter der Lizenz <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" class="external-link" target="_blank">CC 0</a> via <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/" class="external-link" target="_blank">DCAT-AP.de Spezifikation 3.0</a>.
 ```
 
 
