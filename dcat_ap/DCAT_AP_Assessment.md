@@ -48,22 +48,22 @@ question1 = [
             {
                 "answer": "DCAT ist ein RDF-basiertes Vokabular zur Beschreibung von Datenkatalogen im Web",
                 "correct": True,
-                "feedback": """✓ Korrekt! DCAT (Data Catalog Vocabulary) ist ein RDF-Vokabular, das auf RDF (Resource Description Framework) basiert und speziell für Datenkataloge entwickelt wurde. Es ermöglicht Interoperabilität zwischen Datenportalen und wurde vom W3C standardisiert."""
+                "feedback": """✓ Korrekt! DCAT (Data Catalog Vocabulary) ist ein auf RDF (Resource Description Framework) basierendes Vokabular, das speziell für Datenkataloge entwickelt wurde. Es ermöglicht die Interoperabilität zwischen Datenportalen und ist vom W3C standardisiert."""
             },
             {
                 "answer": "DCAT ist eine Programmiersprache für Datenbanken",
                 "correct": False,
-                "feedback": """× Nicht korrekt. DCAT ist keine Programmiersprache, sondern ein Metadaten-Vokabular, das der Beschreibung (nicht der Programmierung) dient. Es basiert auf RDF/XML oder Turtle und wird für Metadatenstandards genutzt."""
+                "feedback": """× Nicht korrekt. DCAT ist keine Programmiersprache, sondern ein Metadaten-Vokabular zur Beschreibung von Daten. Es basiert auf Formaten wie RDF oder XML und wird im Kontext von Metadatenstandards eingesetzt."""
             },
             {
                 "answer": "DCAT wurde im Kontext von staatlichen Datenkatalogen wie data.gov entwickelt",
                 "correct": True,
-                "feedback": """✓ Korrekt! DCAT wurde für staatliche Datenportale entwickelt, wobei data.gov und data.gov.uk treibende Beispiele waren. Das Ziel war die Interoperabilität zwischen Portalen als politisch unterstützte Initiative."""
+                "feedback": """✓ Korrekt! DCAT wurde für staatliche Datenportale entwickelt; treibende Beispiele waren data.gov und data.gov.uk. Ziel war die Interoperabilität zwischen Portalen"""
             },
             {
                 "answer": "DCAT ist ein Tool zur Datenanalyse",
                 "correct": False,
-                "feedback": """× Nicht korrekt. DCAT beschreibt Daten, analysiert sie aber nicht. Es ist ein Metadatenstandard mit Fokus auf Auffindbarkeit und Katalogisierung, nicht für Datenverarbeitung gedacht."""
+                "feedback": """× Nicht korrekt. Wichtig ist die Unterscheidung, dass DCAT Daten lediglich beschreibt und nicht analysiert. Es handelt sich um einen Metadatenstandard mit Fokus auf Auffindbarkeit und Katalogisierung und ist nicht für die eigentliche Datenverarbeitung gedacht."""
             }
         ]
     }
@@ -99,7 +99,7 @@ question2 = [
             {
                 "answer": "Dublin Core ist ausschließlich für Bibliotheken entwickelt worden",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Dublin Core ist domänenunabhängig und wurde bewusst generisch gehalten. Es wird in Bibliotheken, Archiven, Museen, E-Government, Wissenschaft, Verlagswesen und Bildung eingesetzt."""
+                "feedback": """× Nicht korrekt! Dublin Core ist bewusst domänenunabhängig gehalten und findet Anwendung in Bibliotheken, Archiven und Museen ebenso wie im E-Government, in der Wissenschaft, im Verlagswesen und in der Bildung."""
             },
             {
                 "answer": "Dublin Core unterstützt die Erstellung von Anwendungsprofilen (Application Profiles)",
