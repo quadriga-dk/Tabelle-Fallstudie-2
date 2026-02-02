@@ -213,11 +213,7 @@ question6 = [
             {
                 "answer": "Die Qualität der Metadaten für Daten des öffentlichen Sektors in Europa zu bewerten und Hindernisse zu identifizieren",
                 "correct": True,
-                "feedback": """✓ Richtig! Das MQA dient der systematischen Bewertung von Metadatenqualität und hilft dabei:
-                - Qualitätsprobleme zu identifizieren
-                - Die größten Hindernisse für bessere Datenqualität aufzuzeigen
-                - Anbietern und Portalen konkrete Verbesserungshinweise zu geben
-                - Die Nachnutzbarkeit offener Daten zu verbessern"""
+                "feedback": """✓ Richtig! Das MQA dient der systematischen Bewertung von Metadatenqualität und hilft dabei, Qualitätsprobleme zu identifizieren, die größten Hindernisse für bessere Datenqualität aufzuzeigen, Anbietern und Portalen konkrete Verbesserungshinweise zu geben und die Nachnutzbarkeit offener Daten zu verbessern."""
             },
             {
                 "answer": "Die Anzahl der Datensätze auf data.europa.eu zu erhöhen",
@@ -268,11 +264,7 @@ question7 = [
             {
                 "answer": "Die Zugänglichkeit und Maschinenlesbarkeit der referenzierten Daten",
                 "correct": True,
-                "feedback": """✓ Richtig! Das MQA prüft:
-                - Ob die in den Metadaten referenzierten Daten tatsächlich erreichbar sind
-                - Ob die Daten in maschinenlesbaren Formaten vorliegen
-                - Ob die Distributionen funktional sind
-                Dies ist essentiell für die praktische Nachnutzung."""
+                "feedback": """✓ Richtig! Das MQA prüft, ob die in den Metadaten referenzierten Daten tatsächlich erreichbar sind, ob die Daten in maschinenlesbaren Formaten vorliegen und ob die Distributionen funktional sind. Dies ist essentiell für die praktische Nachnutzung."""
             },
             {
                 "answer": "Die Lizenzverwendung",
@@ -308,13 +300,7 @@ question8 = [
             {
                 "answer": "In die vier Kategorien 'Exzellent', 'Gut', 'Ausreichend' und 'Mangelhaft'",
                 "correct": True,
-                "feedback": """✓ Richtig! Das MQA verwendet diese vier Kategorien zur Einordnung der erreichten Punktzahl:
-                - **Exzellent**: Sehr hohe Metadatenqualität
-                - **Gut**: Gute Metadatenqualität mit kleinen Verbesserungsmöglichkeiten
-                - **Ausreichend**: Grundlegende Anforderungen erfüllt, aber deutliche Verbesserungspotenziale
-                - **Mangelhaft**: Wesentliche Qualitätsmängel
-                
-                Diese Kategorisierung hilft Portalen, ihre Position einzuschätzen."""
+                "feedback": """✓ Richtig! Das MQA verwendet diese vier Kategorien zur Einordnung der erreichten Punktzahl: Exzellent für sehr hohe Metadatenqualität, Gut für gute Metadatenqualität mit kleinen Verbesserungsmöglichkeiten, Ausreichend wenn grundlegende Anforderungen erfüllt sind aber deutliche Verbesserungspotenziale bestehen, und Mangelhaft bei wesentlichen Qualitätsmängeln. Diese Kategorisierung hilft Portalen, ihre Position einzuschätzen."""
             },
             {
                 "answer": "In Schulnoten von 1 bis 6",
@@ -360,13 +346,7 @@ question9 = [
             {
                 "answer": "Falsch",
                 "correct": True,
-                "feedback": """✓ Richtig! Die Aussage ist falsch. Das MQA bewertet die Qualität der **Metadaten**, nicht der Daten selbst. 
-                
-                **Wichtiger Unterschied:**
-                - **Metadaten**: Beschreibende Informationen über Daten (Titel, Beschreibung, Lizenz, Format, etc.)
-                - **Daten**: Die eigentlichen Inhalte (z.B. Tabellen, Dokumente, Datensätze)
-                
-                Das MQA prüft, ob Metadaten vollständig, korrekt und standardkonform sind, nicht die Qualität der beschriebenen Daten."""
+                "feedback": """✓ Richtig! Die Aussage ist falsch. Das MQA bewertet die Qualität der Metadaten, nicht der Daten selbst. Wichtiger Unterschied: Metadaten sind beschreibende Informationen über Daten (Titel, Beschreibung, Lizenz, Format, etc.), während Daten die eigentlichen Inhalte sind (z.B. Tabellen, Dokumente, Datensätze). Das MQA prüft, ob Metadaten vollständig, korrekt und standardkonform sind, nicht die Qualität der beschriebenen Daten."""
             }
         ]
     }
@@ -428,22 +408,12 @@ question11 = [
             {
                 "answer": "Für einzelne Dimensionen werden verschiedene Indikatoren bewertet und Punkte vergeben",
                 "correct": True,
-                "feedback": """✓ Richtig! Das MQA verwendet ein mehrstufiges Bewertungssystem:
-                1. Jede Dimension hat spezifische Indikatoren
-                2. Für jeden Indikator werden Punkte vergeben
-                3. Die Punkte pro Dimension werden summiert
-                4. Die Gesamtpunktzahl bestimmt die Kategorie
-                
-                Dies ermöglicht eine differenzierte und nachvollziehbare Bewertung."""
+                "feedback": """✓ Richtig! Das MQA verwendet ein mehrstufiges Bewertungssystem: Jede Dimension hat spezifische Indikatoren, für jeden Indikator werden Punkte vergeben, die Punkte pro Dimension werden summiert und die Gesamtpunktzahl bestimmt die Kategorie. Dies ermöglicht eine differenzierte und nachvollziehbare Bewertung."""
             },
             {
                 "answer": "Die insgesamt erreichte Punktzahl entscheidet über die Bewertungskategorie",
                 "correct": True,
-                "feedback": """✓ Richtig! Die Summe aller Punkte aus allen Dimensionen wird verwendet, um das Portal in eine der vier Kategorien einzuordnen:
-                - Exzellent (höchste Punktzahl)
-                - Gut
-                - Ausreichend
-                - Mangelhaft (niedrigste Punktzahl)"""
+                "feedback": """✓ Richtig! Die Summe aller Punkte aus allen Dimensionen wird verwendet, um das Portal in eine der vier Kategorien einzuordnen: Exzellent (höchste Punktzahl), Gut, Ausreichend oder Mangelhaft (niedrigste Punktzahl)."""
             },
             {
                 "answer": "Jede Dimension wird unabhängig bewertet ohne Zusammenhang zur Gesamtbewertung",

@@ -469,36 +469,20 @@ create_answer_box('semanticweb-1')
 Semantische Technologien könnten dem Forschungsprojekt auf vielfältige Weise helfen:
 
 **1. Interoperabilität durch standardisierte Formate:**
-- RDF ermöglicht einheitliche Repräsentation heterogener Datenquellen
-- Unterschiedliche Dokumentformate können in maschinenlesbare Strukturen überführt werden
-- Daten aus verschiedenen Archiven können integriert und gemeinsam analysiert werden
-- Standardisierte Schnittstellen erleichtern den Datenaustausch
+RDF ermöglicht einheitliche Repräsentation heterogener Datenquellen, unterschiedliche Dokumentformate können in maschinenlesbare Strukturen überführt werden, Daten aus verschiedenen Archiven können integriert und gemeinsam analysiert werden und standardisierte Schnittstellen erleichtern den Datenaustausch.
 
 **2. Ontologien für gemeinsame Terminologie:**
-- Eine Ontologie kann verschiedene Terminologien auf gemeinsame Konzepte abbilden
-- Beispiel: "Bürgermeister", "Oberbürgermeister" und "Stadtoberhaupt" können als Instanzen derselben Konzeptklasse definiert werden
-- Explizite Definition von Beziehungen zwischen Konzepten
-- Hierarchische Strukturierung von Begriffen und Kategorien
+Eine Ontologie kann verschiedene Terminologien auf gemeinsame Konzepte abbilden. Beispiel: "Bürgermeister", "Oberbürgermeister" und "Stadtoberhaupt" können als Instanzen derselben Konzeptklasse definiert werden. Dies ermöglicht explizite Definition von Beziehungen zwischen Konzepten und hierarchische Strukturierung von Begriffen und Kategorien.
 
 **3. Maschinenlesbarkeit und Automatisierung:**
-- Software-Agenten können automatisch relevante Dokumente identifizieren
-- Automatisierte Extraktion strukturierter Informationen
-- Maschinelle Auswertung großer Dokumentenbestände
-- Reduzierung manueller Arbeit
+Software-Agenten können automatisch relevante Dokumente identifizieren, automatisierte Extraktion strukturierter Informationen ist möglich, maschinelle Auswertung großer Dokumentenbestände wird unterstützt und die Reduzierung manueller Arbeit ist ein wichtiger Vorteil.
 
 **4. Explizite Beziehungen und Schlussfolgerungen:**
-- Semantische Technologien machen implizite Zusammenhänge explizit
-- Logische Schlussfolgerungen über Dokumentenbeziehungen möglich
-- Verknüpfung von Personen, Orten, Ereignissen über Dokumente hinweg
-- Ermöglicht komplexe Analysen historischer Netzwerke
+Semantische Technologien machen implizite Zusammenhänge explizit, logische Schlussfolgerungen über Dokumentenbeziehungen sind möglich, Verknüpfung von Personen, Orten und Ereignissen über Dokumente hinweg wird ermöglicht und komplexe Analysen historischer Netzwerke werden unterstützt.
 
 **Alternative Ansätze:**
 
-Die Forschungsgruppe könnte auch:
-- Linked Data-Prinzipien nutzen, um Dokumente mit externen Wissensbasen zu verknüpfen
-- SPARQL für komplexe Abfragen über die integrierten Daten verwenden
-- TEI für die standardisierte Kodierung historischer Dokumente einsetzen
-- Mit bestehenden Ontologien wie CIDOC-CRM für Kulturgut arbeiten
+Die Forschungsgruppe könnte auch Linked Data-Prinzipien nutzen, um Dokumente mit externen Wissensbasen zu verknüpfen, SPARQL für komplexe Abfragen über die integrierten Daten verwenden, TEI für die standardisierte Kodierung historischer Dokumente einsetzen und mit bestehenden Ontologien wie CIDOC-CRM für Kulturgut arbeiten.
 
 **Kritische Reflexion:**
 

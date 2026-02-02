@@ -33,6 +33,7 @@
     flex: 0 0 60%;
     padding: 12px;
     background: #f8f9fa;
+    color: #333333;
     border: 1px solid #e9ecef;
     border-radius: 8px;
 }
@@ -83,7 +84,6 @@
 
 .options-title {
     margin-bottom: 15px;
-    color: #555;
     padding-bottom: 5px;
 }
 
@@ -145,6 +145,11 @@
 .reset-button {
     background: transparent;
     color: #00305e;
+}
+
+
+html[data-theme='dark'] .reset-button {
+    color: #818bac;
 }
 
 .reset-button:hover {

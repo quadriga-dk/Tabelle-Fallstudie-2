@@ -89,21 +89,12 @@ question2 = [
             {
                 "answer": "Dublin Core umfasst 15 Kernelemente zur Beschreibung von Ressourcen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die 15 Elemente sind:
-                - Urheber, Mitwirkende, Herausgeber
-                - Titel, Datum, Sprache, Format
-                - Thema, Beschreibung, Kennung
-                - Bezug, Quelle, Typ, Abdeckung, Rechte
-                - Definiert 1995 in Dublin, Ohio"""
+                "feedback": """✓ Korrekt! Die 15 Elemente sind Urheber, Mitwirkende, Herausgeber, Titel, Datum, Sprache, Format, Thema, Beschreibung, Kennung, Bezug, Quelle, Typ, Abdeckung und Rechte. Sie wurden 1995 in Dublin, Ohio definiert."""
             },
             {
                 "answer": "Dublin Core verwendet URIs zur Identifikation von Ressourcen und Begriffen",
                 "correct": True,
-                "feedback": """✓ Korrekt! URI-Verwendung ist zentral:
-                - Eindeutige Identifikation von Objekten
-                - Auch für Vokabularbegriffe
-                - Ermöglicht Linked Data
-                - Basis für Semantic Web"""
+                "feedback": """✓ Korrekt! URI-Verwendung ist zentral für die eindeutige Identifikation von Objekten und auch für Vokabularbegriffe. Sie ermöglicht Linked Data und bildet die Basis für das Semantic Web."""
             },
             {
                 "answer": "Dublin Core ist ausschließlich für Bibliotheken entwickelt worden",
@@ -113,11 +104,7 @@ question2 = [
             {
                 "answer": "Dublin Core unterstützt die Erstellung von Anwendungsprofilen (Application Profiles)",
                 "correct": True,
-                "feedback": """✓ Korrekt! Application Profiles sind wichtig:
-                - Anpassung an spezifische Anforderungen
-                - Kombination mit spezialisierten Vokabularen
-                - Beispiel: DCAT-AP basiert auf Dublin Core
-                - Flexibilität bei Beibehaltung der Interoperabilität"""
+                "feedback": """✓ Korrekt! Application Profiles sind wichtig für die Anpassung an spezifische Anforderungen und die Kombination mit spezialisierten Vokabularen (z.B. DCAT-AP basiert auf Dublin Core), was Flexibilität bei Beibehaltung der Interoperabilität ermöglicht."""
             }
         ]
     }
@@ -171,38 +158,22 @@ question4 = [
             {
                 "answer": "Lokale Datensätze werden zunächst auf kommunaler oder Landesebene erfasst",
                 "correct": True,
-                "feedback": """✓ Korrekt! Bottom-up-Ansatz:
-                - Datenbereitstellung beginnt lokal
-                - Kommunen und Landesbehörden als Quellen
-                - Beispiele: Berlin Open Data, DatenAdler Brandenburg
-                - Dezentrale Datenerzeugung"""
+                "feedback": """✓ Korrekt! Der Bottom-up-Ansatz bedeutet, dass die Datenbereitstellung lokal bei Kommunen und Landesbehörden als Quellen beginnt (z.B. Berlin Open Data, DatenAdler Brandenburg) im Rahmen dezentraler Datenerzeugung."""
             },
             {
                 "answer": "Zentrale Portale wie GovData harvesten Daten von regionalen Portalen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Harvesting-Prozess:
-                - Automatische Metadatensammlung
-                - Von unteren Ebenen zu höheren
-                - Aggregation ohne Datenduplikation
-                - Zentrale Durchsuchbarkeit"""
+                "feedback": """✓ Korrekt! Der Harvesting-Prozess ermöglicht automatische Metadatensammlung von unteren Ebenen zu höheren, was Aggregation ohne Datenduplikation und zentrale Durchsuchbarkeit erlaubt."""
             },
             {
                 "answer": "Alle Datensätze werden direkt auf data.europa.eu gespeichert",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Wichtige Unterscheidung:
-                - Metadaten werden geharvested, nicht Daten selbst
-                - Datensätze bleiben bei Datenbereitstellern
-                - Zentrale Portale bieten oft nur Links
-                - Vermeidung von Redundanz"""
+                "feedback": """× Nicht korrekt! Es werden nur Metadaten geharvested, nicht die Daten selbst. Die Datensätze bleiben bei den Datenbereitstellern, während zentrale Portale oft nur Links bieten, um Redundanz zu vermeiden."""
             },
             {
                 "answer": "Der Vorteil zentraler Plattformen liegt im Vergleich von Datensätzen verschiedener Quellen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Mehrwert der Zentralisierung:
-                - Vergleichbarkeit: z.B. Baumkataster mehrerer Städte
-                - Überregionale Suche möglich
-                - Einheitliche Schnittstellen
-                - Bessere Auffindbarkeit"""
+                "feedback": """✓ Korrekt! Der Mehrwert der Zentralisierung liegt in der Vergleichbarkeit (z.B. Baumkataster mehrerer Städte), überregionalen Suchmöglichkeiten, einheitlichen Schnittstellen und besserer Auffindbarkeit."""
             }
         ]
     }
@@ -228,39 +199,22 @@ question5 = [
             {
                 "answer": "DCAT-AP.de ist die deutsche Anpassung des europäischen DCAT-AP-Standards",
                 "correct": True,
-                "feedback": """✓ Korrekt! Nationale Anpassung:
-                - Basiert auf DCAT-AP v2.0
-                - Entwickelt durch Fachgruppe GovData
-                - Eingeführt November 2016
-                - Pflichtstandard seit 2019 für GovData
-                - Berücksichtigt deutsche Anforderungen"""
+                "feedback": """✓ Korrekt! DCAT-AP.de ist die nationale Anpassung, die auf DCAT-AP v2.0 basiert und durch die Fachgruppe GovData entwickelt wurde. Es wurde im November 2016 eingeführt, ist seit 2019 Pflichtstandard für GovData und berücksichtigt deutsche Anforderungen."""
             },
             {
                 "answer": "DCAT-AP.de funktioniert nur in Deutschland, DCAT-AP nur in anderen EU-Ländern",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Wichtige Kompatibilität:
-                - DCAT-AP.de ist kompatibel mit DCAT-AP
-                - Deutsche Datensätze können zu data.europa.eu übertragen werden
-                - Interoperabilität ist gewährleistet
-                - Nationale Anpassung ≠ Isolation"""
+                "feedback": """× Nicht korrekt! DCAT-AP.de ist kompatibel mit DCAT-AP, sodass deutsche Datensätze zu data.europa.eu übertragen werden können. Interoperabilität ist gewährleistet, denn nationale Anpassung bedeutet nicht Isolation."""
             },
             {
                 "answer": "DCAT-AP.de ermöglicht grenzüberschreitende Datennutzung innerhalb der EU",
                 "correct": True,
-                "feedback": """✓ Korrekt! Europäische Integration:
-                - Kompatibilität mit europäischem Datenportal
-                - Reibungslose Übertragung deutscher Daten
-                - Einheitliche Datennutzung in EU
-                - Fördert länderübergreifende Zusammenarbeit"""
+                "feedback": """✓ Korrekt! Die europäische Integration ermöglicht Kompatibilität mit dem europäischen Datenportal und reibungslose Übertragung deutscher Daten, was einheitliche Datennutzung in der EU und länderübergreifende Zusammenarbeit fördert."""
             },
             {
                 "answer": "DCAT-AP ist nur ein theoretisches Konzept, DCAT-AP.de die praktische Umsetzung",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Beide sind praktisch:
-                - DCAT-AP wird in vielen EU-Ländern genutzt
-                - Verschiedene nationale Anpassungen existieren
-                - Beide sind implementierte Standards
-                - DCAT-AP.de ist EINE von mehreren nationalen Versionen"""
+                "feedback": """× Nicht korrekt! Beide sind praktisch implementierte Standards. DCAT-AP wird in vielen EU-Ländern genutzt, wobei verschiedene nationale Anpassungen existieren. DCAT-AP.de ist eine von mehreren nationalen Versionen."""
             }
         ]
     }
@@ -286,38 +240,22 @@ question6 = [
             {
                 "answer": "dcat:Catalog - beschreibt den Datenkatalog selbst",
                 "correct": True,
-                "feedback": """✓ Korrekt! Catalog ist die oberste Ebene:
-                - Beschreibt das gesamte Datenportal
-                - Enthält Metadaten zum Katalog
-                - Gruppiert Datensätze
-                - Z.B. GovData als Katalog"""
+                "feedback": """✓ Korrekt! Catalog ist die oberste Ebene, die das gesamte Datenportal beschreibt, Metadaten zum Katalog enthält und Datensätze gruppiert (z.B. GovData als Katalog)."""
             },
             {
                 "answer": "dcat:Dataset - beschreibt einen konkreten Datensatz",
                 "correct": True,
-                "feedback": """✓ Korrekt! Dataset ist zentral:
-                - Kerneinheit der Beschreibung
-                - Enthält Titel, Beschreibung, Thema
-                - Verknüpft mit Distributionen
-                - Z.B. Baumkataster Berlin"""
+                "feedback": """✓ Korrekt! Dataset ist die zentrale Kerneinheit der Beschreibung, die Titel, Beschreibung und Thema enthält und mit Distributionen verknüpft ist (z.B. Baumkataster Berlin)."""
             },
             {
                 "answer": "dcat:Distribution - beschreibt eine spezifische Zugangsform zum Datensatz",
                 "correct": True,
-                "feedback": """✓ Korrekt! Distribution für Zugriff:
-                - Verschiedene Formate (CSV, JSON, XML)
-                - Download-URLs oder API-Endpunkte
-                - Ein Dataset kann mehrere Distributionen haben
-                - Z.B. CSV-Download und API-Zugriff"""
+                "feedback": """✓ Korrekt! Distribution beschreibt verschiedene Formate (CSV, JSON, XML) und Download-URLs oder API-Endpunkte für den Zugriff. Ein Dataset kann mehrere Distributionen haben (z.B. CSV-Download und API-Zugriff)."""
             },
             {
                 "answer": "dcat:UserProfile - beschreibt Benutzerkonten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Nicht Teil von DCAT-AP:
-                - DCAT-AP beschreibt Datenkataloge, nicht Nutzer
-                - Benutzerverwaltung ist separate Funktionalität
-                - Fokus: Daten und deren Beschreibung
-                - Keine Elemente für Authentifizierung"""
+                "feedback": """× Nicht korrekt. Dies ist nicht Teil von DCAT-AP, da DCAT-AP Datenkataloge und nicht Nutzer beschreibt. Benutzerverwaltung ist eine separate Funktionalität. Der Fokus liegt auf Daten und deren Beschreibung, nicht auf Elementen für Authentifizierung."""
             }
         ]
     }
