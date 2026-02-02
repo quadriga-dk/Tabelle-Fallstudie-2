@@ -48,52 +48,27 @@ question3 = [
             {
                 "answer": "RDF ist ein Standardmodell zur Beschreibung von Informationen im Web",
                 "correct": True,
-                "feedback": """✓ Richtig! RDF:
-                - Ist ein vom W3C entwickelter Standard
-                - Bietet ein einheitliches Modell für Datenstrukturen
-                - Ermöglicht konsistente Informationsbeschreibung
-                - Bildet die Grundlage für viele semantische Technologien
-                Als Standard gewährleistet RDF Interoperabilität zwischen verschiedenen Systemen."""
+                "feedback": """✓ Richtig! RDF ist ein vom W3C entwickelter Standard, der ein einheitliches Modell für Datenstrukturen bietet, konsistente Informationsbeschreibung ermöglicht und die Grundlage für viele semantische Technologien bildet. Als Standard gewährleistet RDF Interoperabilität zwischen verschiedenen Systemen."""
             },
             {
                 "answer": "RDF ermöglicht es, Daten in maschinenlesbarer Form zu strukturieren und zu verknüpfen",
                 "correct": True,
-                "feedback": """✓ Richtig! RDF:
-                - Strukturiert Informationen in Form von Tripeln (Subjekt-Prädikat-Objekt)
-                - Macht Beziehungen zwischen Ressourcen explizit
-                - Ermöglicht maschinelle Verarbeitung der Datenstrukturen
-                - Unterstützt die Verknüpfung unterschiedlicher Datenquellen
-                Diese Eigenschaften machen RDF zum Rückgrat des Semantic Web."""
+                "feedback": """✓ Richtig! RDF strukturiert Informationen in Form von Tripeln (Subjekt-Prädikat-Objekt), macht Beziehungen zwischen Ressourcen explizit, ermöglicht maschinelle Verarbeitung der Datenstrukturen und unterstützt die Verknüpfung unterschiedlicher Datenquellen. Diese Eigenschaften machen RDF zum Rückgrat des Semantic Web."""
             },
             {
                 "answer": "RDF geht über die Präsentationsmöglichkeiten von HTML und die Dokumenten-Tagging-Funktionen von XML hinaus",
                 "correct": True,
-                "feedback": """✓ Richtig! Im Vergleich zu HTML und XML:
-                - HTML fokussiert auf Darstellung für Menschen
-                - XML ermöglicht strukturierte Dokumentbeschreibung
-                - RDF fügt semantische Beziehungen hinzu
-                - RDF ermöglicht logische Schlussfolgerungen über Daten
-                RDF erweitert diese Technologien um eine semantische Dimension."""
+                "feedback": """✓ Richtig! Im Vergleich zu HTML und XML fokussiert HTML auf Darstellung für Menschen, während XML strukturierte Dokumentbeschreibung ermöglicht. RDF fügt semantische Beziehungen hinzu und ermöglicht logische Schlussfolgerungen über Daten. RDF erweitert diese Technologien um eine semantische Dimension."""
             },
             {
                 "answer": "RDF dient ausschließlich der visuellen Gestaltung von Webseiten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. RDF:
-                - Ist nicht für visuelle Darstellung konzipiert
-                - Fokussiert auf Datenstrukturen und -beziehungen
-                - Ermöglicht semantische Beschreibungen
-                - Unterstützt maschinelle Interpretation
-                Für visuelle Gestaltung werden andere Technologien wie CSS verwendet."""
+                "feedback": """× Nicht korrekt. RDF ist nicht für visuelle Darstellung konzipiert, sondern fokussiert auf Datenstrukturen und -beziehungen, ermöglicht semantische Beschreibungen und unterstützt maschinelle Interpretation. Für visuelle Gestaltung werden andere Technologien wie CSS verwendet."""
             },
             {
                 "answer": "RDF unterstützt die Interoperabilität zwischen verschiedenen Datenquellen",
                 "correct": True,
-                "feedback": """✓ Richtig! RDF fördert Interoperabilität durch:
-                - Einheitliches Datenmodell über Systemgrenzen hinweg
-                - Standardisierte Darstellung von Beziehungen
-                - Möglichkeit zur Integration heterogener Datenquellen
-                - Unterstützung verteilter Wissensrepräsentation
-                Dies ist besonders wichtig für die Entwicklung intelligenter Anwendungen."""
+                "feedback": """✓ Richtig! RDF fördert Interoperabilität durch ein einheitliches Datenmodell über Systemgrenzen hinweg, standardisierte Darstellung von Beziehungen, die Möglichkeit zur Integration heterogener Datenquellen und Unterstützung verteilter Wissensrepräsentation. Dies ist besonders wichtig für die Entwicklung intelligenter Anwendungen."""
             }
         ]
     }
@@ -236,52 +211,27 @@ question8 = [
             {
                 "answer": "Ontologien bieten eine formale und gemeinsame Repräsentation von Wissen",
                 "correct": True,
-                "feedback": """✓ Richtig! Ontologien:
-                - Definieren Wissen formal und strukturiert
-                - Schaffen gemeinsames Verständnis über Domänen hinweg
-                - Ermöglichen einheitliche Interpretation von Konzepten
-                - Bilden die Grundlage für maschinelle Wissensverarbeitung
-                Diese formale Repräsentation ist essentiell für die Interoperabilität im Semantic Web."""
+                "feedback": """✓ Richtig! Ontologien definieren Wissen formal und strukturiert, schaffen gemeinsames Verständnis über Domänen hinweg, ermöglichen einheitliche Interpretation von Konzepten und bilden die Grundlage für maschinelle Wissensverarbeitung. Diese formale Repräsentation ist essentiell für die Interoperabilität im Semantic Web."""
             },
             {
                 "answer": "Ontologien sind ein wichtiges Instrument für produktive Datenadministrierung",
                 "correct": True,
-                "feedback": """✓ Richtig! Ontologien:
-                - Strukturieren komplexe Datenbestände
-                - Erleichtern Datenverwaltung und -integration
-                - Unterstützen Datenqualität und Konsistenz
-                - Sind heute unverzichtbar für professionelle Datensysteme
-                Moderne Datenadministrierung wäre ohne Ontologien kaum vorstellbar."""
+                "feedback": """✓ Richtig! Ontologien strukturieren komplexe Datenbestände, erleichtern Datenverwaltung und -integration, unterstützen Datenqualität und Konsistenz und sind heute unverzichtbar für professionelle Datensysteme. Moderne Datenadministrierung wäre ohne Ontologien kaum vorstellbar."""
             },
             {
                 "answer": "OWL (Ontology Web Language) ermöglicht die formale Definition von Wissen über bestimmte Domänen",
                 "correct": True,
-                "feedback": """✓ Richtig! OWL:
-                - Ist ein W3C-Standard für Ontologie-Erstellung
-                - Ermöglicht präzise Definition von Konzepten und Beziehungen
-                - Unterstützt logische Schlussfolgerungen
-                - Ist spezialisiert für domänenspezifisches Wissen
-                OWL ist ein zentrales Werkzeug zur Realisierung der Semantic Web-Vision."""
+                "feedback": """✓ Richtig! OWL ist ein W3C-Standard für Ontologie-Erstellung, ermöglicht präzise Definition von Konzepten und Beziehungen, unterstützt logische Schlussfolgerungen und ist spezialisiert für domänenspezifisches Wissen. OWL ist ein zentrales Werkzeug zur Realisierung der Semantic Web-Vision."""
             },
             {
                 "answer": "Ontologien dienen ausschließlich der grafischen Darstellung von Webseiten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Ontologien:
-                - Definieren Wissensstrukturen und Beziehungen
-                - Sind nicht für grafische Darstellung konzipiert
-                - Fokussieren auf semantische Repräsentation
-                - Ermöglichen logische Schlussfolgerungen
-                Grafische Darstellung ist bestenfalls eine Nebenfunktion von Ontologie-Tools."""
+                "feedback": """× Nicht korrekt. Ontologien definieren Wissensstrukturen und Beziehungen, sind nicht für grafische Darstellung konzipiert, fokussieren auf semantische Repräsentation und ermöglichen logische Schlussfolgerungen. Grafische Darstellung ist bestenfalls eine Nebenfunktion von Ontologie-Tools."""
             },
             {
                 "answer": "Ontologien machen implizite Informationen explizit",
                 "correct": True,
-                "feedback": """✓ Richtig! Ontologien:
-                - Formalisieren oft implizit vorhandenes Wissen
-                - Machen Beziehungen zwischen Konzepten explizit sichtbar
-                - Definieren Regeln und Einschränkungen formal
-                - Ermöglichen dadurch maschinelle Verarbeitung
-                Diese Explizitmachung ist fundamental für semantische Technologien."""
+                "feedback": """✓ Richtig! Ontologien formalisieren oft implizit vorhandenes Wissen, machen Beziehungen zwischen Konzepten explizit sichtbar, definieren Regeln und Einschränkungen formal und ermöglichen dadurch maschinelle Verarbeitung. Diese Explizitmachung ist fundamental für semantische Technologien."""
             }
         ]
     }
@@ -307,56 +257,27 @@ question10 = [
             {
                 "answer": "In der Verwaltungswissenschaft für effizientere Vernetzung von Verwaltungsdaten über Behördengrenzen hinweg",
                 "correct": True,
-                "feedback": """✓ Richtig! Für die Verwaltung ermöglicht das Semantic Web:
-                - Integration heterogener Datenbestände verschiedener Behörden
-                - Verbesserte Interoperabilität zwischen Verwaltungssystemen
-                - Transparenz und Nachvollziehbarkeit staatlichen Handelns
-                - Unterstützung datenbasierter Entscheidungsprozesse
-                - Entwicklung innovativer E-Government-Lösungen
-                Semantische Technologien sind essentiell für moderne Verwaltungsdigitalisierung."""
+                "feedback": """✓ Richtig! Für die Verwaltung ermöglicht das Semantic Web die Integration heterogener Datenbestände verschiedener Behörden, verbesserte Interoperabilität zwischen Verwaltungssystemen, Transparenz und Nachvollziehbarkeit staatlichen Handelns, Unterstützung datenbasierter Entscheidungsprozesse und die Entwicklung innovativer E-Government-Lösungen. Semantische Technologien sind essentiell für moderne Verwaltungsdigitalisierung."""
             },
             {
                 "answer": "In Forschungsfeldern mit großen Datenmengen und Bedarf an reproduzierbaren Ergebnissen",
                 "correct": True,
-                "feedback": """✓ Richtig! Für die Forschung bietet das Semantic Web:
-                - Bessere Strukturierung großer Datenmengen
-                - Verbesserte Nachnutzbarkeit von Forschungsdaten
-                - Unterstützung reproduzierbarer Analysen
-                - Erleichterte Datenintegration über Projekte hinweg
-                - Standardisierte Datenrepräsentation
-                Dies ist besonders relevant für datenintensive Wissenschaften."""
+                "feedback": """✓ Richtig! Für die Forschung bietet das Semantic Web bessere Strukturierung großer Datenmengen, verbesserte Nachnutzbarkeit von Forschungsdaten, Unterstützung reproduzierbarer Analysen, erleichterte Datenintegration über Projekte hinweg und standardisierte Datenrepräsentation. Dies ist besonders relevant für datenintensive Wissenschaften."""
             },
             {
                 "answer": "Für die Entwicklung intelligenter Anwendungen durch verbesserte Interoperabilität",
                 "correct": True,
-                "feedback": """✓ Richtig! Das Semantic Web ermöglicht:
-                - Nahtlose Integration verschiedener Datenquellen
-                - Automatisierte Datenverarbeitung über Systemgrenzen
-                - Entwicklung von Software-Agenten
-                - Intelligente Dienste und Anwendungen
-                - Maschinelles Schlussfolgern
-                Die Interoperabilität ist Grundlage für fortgeschrittene KI-Anwendungen."""
+                "feedback": """✓ Richtig! Das Semantic Web ermöglicht nahtlose Integration verschiedener Datenquellen, automatisierte Datenverarbeitung über Systemgrenzen, die Entwicklung von Software-Agenten, intelligente Dienste und Anwendungen sowie maschinelles Schlussfolgern. Die Interoperabilität ist Grundlage für fortgeschrittene KI-Anwendungen."""
             },
             {
                 "answer": "Ausschließlich für soziale Netzwerke und Messaging-Dienste",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das Semantic Web:
-                - Hat viel breitere Anwendungsbereiche
-                - Ist nicht auf soziale Medien beschränkt
-                - Wird in Wissenschaft, Verwaltung, Wirtschaft und mehr eingesetzt
-                - Unterstützt verschiedenste Datenintegrations-Szenarien
-                Soziale Netzwerke können semantische Technologien nutzen, sind aber nur ein kleiner Anwendungsbereich."""
+                "feedback": """× Nicht korrekt. Das Semantic Web hat viel breitere Anwendungsbereiche, ist nicht auf soziale Medien beschränkt, wird in Wissenschaft, Verwaltung, Wirtschaft und mehr eingesetzt und unterstützt verschiedenste Datenintegrations-Szenarien. Soziale Netzwerke können semantische Technologien nutzen, sind aber nur ein kleiner Anwendungsbereich."""
             },
             {
                 "answer": "Für die Umsetzung von Open-Data-Initiativen und semantische Aufbereitung öffentlicher Daten",
                 "correct": True,
-                "feedback": """✓ Richtig! Für Open Data bietet das Semantic Web:
-                - Standardisierte Datenformate (z.B. RDF)
-                - Verbesserte Auffindbarkeit offener Daten
-                - Erleichterte Datenverknüpfung über Quellen hinweg
-                - Semantische Beschreibung von Datensätzen
-                - Unterstützung von Linked Open Data
-                Semantische Technologien sind zentral für moderne Open-Data-Strategien."""
+                "feedback": """✓ Richtig! Für Open Data bietet das Semantic Web standardisierte Datenformate (z.B. RDF), verbesserte Auffindbarkeit offener Daten, erleichterte Datenverknüpfung über Quellen hinweg, semantische Beschreibung von Datensätzen und Unterstützung von Linked Open Data. Semantische Technologien sind zentral für moderne Open-Data-Strategien."""
             }
         ]
     }
@@ -458,50 +379,22 @@ question15 = [
             {
                 "answer": "Die Fähigkeit verschiedener Systeme, Daten auszutauschen und gemeinsam zu nutzen",
                 "correct": True,
-                "feedback": """✓ Richtig! Interoperabilität im Semantic Web bedeutet:
-                
-                **Datenaustausch:**
-                - Verschiedene Systeme können Daten miteinander teilen
-                - Standardisierte Formate ermöglichen nahtlose Kommunikation
-                
-                **Gemeinsame Nutzung:**
-                - Daten können über Systemgrenzen hinweg verwendet werden
-                - Einheitliche Interpretation durch semantische Standards
-                
-                **Praktische Vorteile:**
-                - Integration heterogener Datenquellen
-                - Vermeidung von Datensilos
-                - Effizientere Datennutzung
-                - Grundlage für vernetzte Anwendungen
-                
-                Interoperabilität ist ein Kernziel des Semantic Web."""
+                "feedback": """✓ Richtig! Interoperabilität im Semantic Web bedeutet beim Datenaustausch, dass verschiedene Systeme Daten miteinander teilen können und standardisierte Formate nahtlose Kommunikation ermöglichen. Bei der gemeinsamen Nutzung können Daten über Systemgrenzen hinweg verwendet werden mit einheitlicher Interpretation durch semantische Standards. Die praktischen Vorteile umfassen die Integration heterogener Datenquellen, Vermeidung von Datensilos, effizientere Datennutzung und bilden die Grundlage für vernetzte Anwendungen. Interoperabilität ist ein Kernziel des Semantic Web."""
             },
             {
                 "answer": "Die Geschwindigkeit, mit der Webseiten geladen werden",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Interoperabilität bezieht sich nicht auf Geschwindigkeit:
-                - Fokussiert auf Datenaustausch und -integration
-                - Betrifft semantische Kompatibilität
-                - Hat nichts mit Ladezeiten zu tun
-                Performance ist ein separates Thema."""
+                "feedback": """× Nicht korrekt. Interoperabilität bezieht sich nicht auf Geschwindigkeit, sondern fokussiert auf Datenaustausch und -integration, betrifft semantische Kompatibilität und hat nichts mit Ladezeiten zu tun. Performance ist ein separates Thema."""
             },
             {
                 "answer": "Die visuelle Darstellung von Daten auf verschiedenen Geräten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Interoperabilität im Semantic Web:
-                - Betrifft Datenaustausch, nicht Darstellung
-                - Fokussiert auf semantische Ebene
-                - Ist unabhängig von visueller Repräsentation
-                Responsive Design für visuelle Darstellung ist ein anderes Konzept."""
+                "feedback": """× Nicht korrekt. Interoperabilität im Semantic Web betrifft Datenaustausch (nicht Darstellung), fokussiert auf semantische Ebene und ist unabhängig von visueller Repräsentation. Responsive Design für visuelle Darstellung ist ein anderes Konzept."""
             },
             {
                 "answer": "Die Anzahl der Benutzer, die gleichzeitig auf eine Webseite zugreifen können",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Interoperabilität betrifft:
-                - Datenaustausch zwischen Systemen
-                - Semantische Kompatibilität
-                - Nicht die Skalierbarkeit von Webservern
-                Gleichzeitige Nutzerzahlen sind ein Performance-Thema."""
+                "feedback": """× Nicht korrekt. Interoperabilität betrifft den Datenaustausch zwischen Systemen, die semantische Kompatibilität und nicht die Skalierbarkeit von Webservern. Gleichzeitige Nutzerzahlen sind ein Performance-Thema."""
             }
         ]
     }
@@ -578,42 +471,22 @@ create_answer_box('semanticweb-1')
 Semantische Technologien könnten dem Forschungsprojekt auf vielfältige Weise helfen:
 
 **1. Interoperabilität durch standardisierte Formate:**
-- RDF ermöglicht einheitliche Repräsentation heterogener Datenquellen
-- Unterschiedliche Dokumentformate können in maschinenlesbare Strukturen überführt werden
-- Daten aus verschiedenen Archiven können integriert und gemeinsam analysiert werden
-- Standardisierte Schnittstellen erleichtern den Datenaustausch
+RDF ermöglicht einheitliche Repräsentation heterogener Datenquellen, unterschiedliche Dokumentformate können in maschinenlesbare Strukturen überführt werden, Daten aus verschiedenen Archiven können integriert und gemeinsam analysiert werden und standardisierte Schnittstellen erleichtern den Datenaustausch.
 
 **2. Ontologien für gemeinsame Terminologie:**
-- Eine Ontologie kann verschiedene Terminologien auf gemeinsame Konzepte abbilden
-- Beispiel: "Bürgermeister", "Oberbürgermeister" und "Stadtoberhaupt" können als Instanzen derselben Konzeptklasse definiert werden
-- Explizite Definition von Beziehungen zwischen Konzepten
-- Hierarchische Strukturierung von Begriffen und Kategorien
+Eine Ontologie kann verschiedene Terminologien auf gemeinsame Konzepte abbilden. Beispiel: "Bürgermeister", "Oberbürgermeister" und "Stadtoberhaupt" können als Instanzen derselben Konzeptklasse definiert werden. Dies ermöglicht explizite Definition von Beziehungen zwischen Konzepten und hierarchische Strukturierung von Begriffen und Kategorien.
 
 **3. Maschinenlesbarkeit und Automatisierung:**
-- Software-Agenten können automatisch relevante Dokumente identifizieren
-- Automatisierte Extraktion strukturierter Informationen
-- Maschinelle Auswertung großer Dokumentenbestände
-- Reduzierung manueller Arbeit
+Software-Agenten können automatisch relevante Dokumente identifizieren, automatisierte Extraktion strukturierter Informationen ist möglich, maschinelle Auswertung großer Dokumentenbestände wird unterstützt und die Reduzierung manueller Arbeit ist ein wichtiger Vorteil.
 
 **4. Explizite Beziehungen und Schlussfolgerungen:**
-- Semantische Technologien machen implizite Zusammenhänge explizit
-- Logische Schlussfolgerungen über Dokumentenbeziehungen möglich
-- Verknüpfung von Personen, Orten, Ereignissen über Dokumente hinweg
-- Ermöglicht komplexe Analysen historischer Netzwerke
+Semantische Technologien machen implizite Zusammenhänge explizit, logische Schlussfolgerungen über Dokumentenbeziehungen sind möglich, Verknüpfung von Personen, Orten und Ereignissen über Dokumente hinweg wird ermöglicht und komplexe Analysen historischer Netzwerke werden unterstützt.
 
 **Alternative Ansätze:**
 
-Die Forschungsgruppe könnte auch:
-- Linked Data-Prinzipien nutzen, um Dokumente mit externen Wissensbasen zu verknüpfen
-- SPARQL für komplexe Abfragen über die integrierten Daten verwenden
-- TEI für die standardisierte Kodierung historischer Dokumente einsetzen
-- Mit bestehenden Ontologien wie CIDOC-CRM für Kulturgut arbeiten
+Die Forschungsgruppe könnte auch Linked Data-Prinzipien nutzen, um Dokumente mit externen Wissensbasen zu verknüpfen, SPARQL für komplexe Abfragen über die integrierten Daten verwenden, TEI für die standardisierte Kodierung historischer Dokumente einsetzen und mit bestehenden Ontologien wie CIDOC-CRM für Kulturgut arbeiten.
 
 **Kritische Reflexion:**
 
-Zu beachten ist:
-- Der initiale Aufwand für Ontologie-Entwicklung und Datentransformation
-- Notwendigkeit von Domänenexpertise für aussagekräftige Ontologien
-- Balance zwischen Standardisierung und Berücksichtigung historischer Spezifika
-- Langfristige Wartung der semantischen Strukturen
+Zu beachten ist der initiale Aufwand für Ontologie-Entwicklung und Datentransformation, die Notwendigkeit von Domänenexpertise für aussagekräftige Ontologien, die Balance zwischen Standardisierung und Berücksichtigung historischer Spezifika sowie die langfristige Wartung der semantischen Strukturen.
 ````
