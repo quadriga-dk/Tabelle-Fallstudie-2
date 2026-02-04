@@ -36,9 +36,9 @@ Wir befinden uns damit im theoretischen Teil dieses interaktiven Lehrbuchs. Hier
 ```{figure} /assets/case-study-2_steps-1.png
 ---
 name: steps of casestudy
-alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
+alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie mit Hervorhebung des 1. Schritts.
 ---
-Visualisierung der 4 Schritte dieser Fallstudie.
+Der 1. von 4 Abschnitten dieser Fallstudie.
 ```
 
 In diesem Kapitel werden die Grundlagen des Semantic Web sowie die ihm zugrunde liegendende Struktur schrittweise erläutert. Ziel ist es, ein Verständnis dafür zu entwickeln, wie verknüpfte Daten die Art und Weise verändern, wie wir mit Informationen umgehen und Wissen generieren können.
@@ -48,7 +48,7 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Semantic Web Definition](/semantic_web/Semantic_Web_Definition.md)
 - [Semantic Web Layer Cake](/semantic_web/Semantic_Web_Layer_Cake.md)
 - [Semantic Web Übung](/semantic_web/Semantic_Web_Übung.md)
-- [Semantic Web Reflexion](/semantic_web/Semantic_Web_Reflexion.md)
+- [Semantic Web Reflexion](/semantic_web/Semantic_Web_Resümee.md)
 
 
 ```{admonition} Bearbeitungszeit

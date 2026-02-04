@@ -4,7 +4,7 @@ lang: de-DE
 
 # "Layer cake"-Architektur
 
-Die folgende Grafik zeigt die geschichtete Architektur ("Layer Cake"-Architektur) des Semantic Web. Diese Struktur beschreibt, wie verschiedene Technologien und Konzepte zueinander in Bezug stehen, um das Web mit verständlichen und vernetzten Daten anzureichern.
+Die folgende Grafik (Abb. 2.3) zeigt die geschichtete Architektur ("Layer Cake"-Architektur) des Semantic Web. Diese Struktur beschreibt, wie verschiedene Technologien und Konzepte zueinander in Bezug stehen, um das Web mit verständlichen und vernetzten Daten anzureichern.
 
 ```{figure} /assets/The-Semantic-Web-layer-cake-presented-by-Tim-Berners-Lee-at-the-XML-2000-conference.png
 ---
