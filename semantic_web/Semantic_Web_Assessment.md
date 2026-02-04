@@ -25,7 +25,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: 20-25 Minuten
+**Geschätzte Zeit**: 10-15 Minuten
 
 Viel Erfolg!
 ````
@@ -416,7 +416,7 @@ from assessment import create_answer_box
 create_answer_box('semantic-web-1')
 ```
 
-````{admonition} Lösungen
+````{admonition} Musterlösung
 :class: solution, dropdown
 
 **Musterlösung:**

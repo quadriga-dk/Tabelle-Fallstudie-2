@@ -53,9 +53,9 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 15 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 15-20 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
 
-Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ...
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. 25-35 Minuten.
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
 ``` 
