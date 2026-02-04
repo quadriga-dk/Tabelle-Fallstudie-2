@@ -1,7 +1,8 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 version: 1.0.0
-title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
+title: 'Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL
+  und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2'
 abstract: Dieses JupyterBook vermittelt grundlegende Kenntnisse zur Datenabfrage,
   indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können
   und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.
@@ -29,8 +30,8 @@ identifiers:
 - type: doi
   value: null
   description: Zenodo
-repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
-url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html
+repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
+url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
 keywords: &id002
 - Verwaltung
 - Verwaltungswissenschaft
@@ -38,12 +39,11 @@ keywords: &id002
 - Lerneinheit
 - Public Sector
 - Open Educational Resource
-- Semantic Web
-- Metadaten
-- Metadatenportal
-- DCAT-AP
-- Metadata Quality Assessment
-- SPARQL
+- FAIR-Prinzipien
+- Datenqualität
+- Persistente Identifikatoren
+- Reproduzierbarkeit
+- R (Programmiersprache)
 license: CC-BY-4.0
 references:
 - title: Jupyter Book
@@ -55,11 +55,12 @@ preferred-citation:
   year: '2026'
   version: 1.0.0
   authors: *id001
-  title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
+  title: 'Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL
+    und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2'
   type: software
   doi: null
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html
-  repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
+  repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
   license: CC-BY-4.0
   languages:
   - deu
