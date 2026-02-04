@@ -3,7 +3,7 @@ lang: de-DE
 ---
 
 (intro)=
-# Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL.
+# Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL
 
 `````{margin}
 ```{admonition} Fragen oder Feedback 
@@ -47,20 +47,20 @@ width: 420px
 Screenshot einer Suche nach dem Stichwort "Baumkataster" im europäischen Datenportal https://data.europa.eu vom 30.09.2025.
 ```
 
-## Baumbestand-Analyse: Erfassung und Visualisierung der Verteilung der Baumarten
+## Fokus
 
 Daten zu Baumbeständen sind wegen des Klimawandels vor allem in Städten aufgrund deren Auswirkung auf das Mikroklima von zentraler Bedeutung. In diesem Zusammenhang stellen Baumkataster eine wichtige Arbeitsgrundlage dar, da sie Informationen zu Baumarten, deren Standort, Alter und Zustand liefern. Doch wie gut sind diese Daten öffentlich zugänglich?
 
 `````{margin}
 ```{admonition} Hinweis 
 :class: hinweis
-Die Visualisierung von kommunalen Daten mit Dashboards ist Thema einer weiteren Fallstudie von Quadriga, die thematisch auf diese Fallstudie aufbaut: <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-3/intro.html" class="external-link" target="_blank">Fallstudie 3</a>.
+Die Visualisierung von kommunalen Daten mit Dashboards ist Thema einer weiteren <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-3/intro.html" class="external-link" target="_blank">Lerneinheit</a> von Quadriga, die thematisch auf diese Fallstudie aufbaut.
 ```
 `````
 
 ```{admonition} Story
 :class: story
-Dr. Amir Weber, ein Verwaltungswissenschaftler mit Interesse an kommunalen Daten und Bürgerbeteiligung, möchte ein <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-3/intro.html" class="external-link" target="_blank">Dashboard</a> zur Visualisierung von Baumbeständen erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber zunächst die folgende Frage:
+Dr. Amir Weber, ein Verwaltungswissenschaftler mit Interesse an kommunalen Daten und Bürgerbeteiligung, möchte ein Dashboard zur Visualisierung von Baumbeständen erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber zunächst die folgende Frage:
 ```
 
 **Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?**   
@@ -74,16 +74,13 @@ Die Auffindbarkeit von Daten wird durch Metadaten wesentlich vereinfacht, wenn n
 ## Zielgruppe
 
 Dieses JupyterBook wurde für Verwaltungswissenschaftler:innen entworfen, da die Daten, die hier via SPARQL abgefragt werden, Daten aus der öffentlichen Verwaltung sind (Baumkatasterdaten).
-
 Diese Daten können selbstverständlich auch in anderen wissenschaftlichen Kontexten oder für Laien von Bedeutung bzw. Interesse sein.
-
-
-Dieses Lehrbuch steht somit allen Interessierten bzw. Forschenden offen, die wissen möchten, wie man via SPARQL Daten sucht oder generell Interesse an der Funktionsweise von Abfragesprachen haben.
+Dieses Lehrbuch steht daher allen Interessierten bzw. Forschenden offen, die wissen möchten, wie man via SPARQL Daten abfragt oder generell Interesse an der Funktionsweise von Abfragesprachen haben.
 
 
 ## Struktur der Fallstudie
 
-Die Fallstudie ist in 4 Schritte aufgeteilt, die den Kapiteln entsprechen (s. Abb. 2). Dabei wird ein Bogen geschlagen von der Einführung in grundlegende Konzepte über den in der Verwaltung wichtigen Metadatenstandard DCAT-AP und das Messen der Qualität von Metadaten bis zur Suche nach Daten mithilfe der Abfragesprache SPARQL. Basierend auf den verfügbaren offenen Datenquellen werden dann Abfragen entwickelt, um relevante Informationen zu extrahieren. Dabei wird die Nachnutzbarkeit der Daten untersucht, ihre Qualität bewertet sowie der Entstehungskontext nachvollzogen. Die Abfragen ermöglichen eine strukturierte Analyse der Daten, um spezifische Antworten zum Baumbestand zu erhalten.
+Die Fallstudie ist in 4 Schritte aufgeteilt, die den Kapiteln entsprechen (s. Abb. 2). Dabei wird ein Bogen geschlagen von der Einführung in grundlegende Konzepte über den in der Verwaltung wichtigen Metadatenstandard DCAT-AP und das Messen der Qualität von Metadaten bis zur Suche nach Daten mithilfe der Abfragesprache SPARQL. Basierend auf den verfügbaren offenen Datenquellen werden dann Abfragen entwickelt, um relevante Informationen zu extrahieren. Diese können eine strukturierte Analyse der Daten ermöglichen, um spezifische Antworten zum Baumbestand zu erhalten.
 
 Die Nutzung und erste Schritte mit SPARQL werden in dieser Fallstudie anschaulich erläutert.  
 
@@ -103,11 +100,11 @@ Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenpo
 
 **2. Werkzeuge kennenlernen: DCAT-AP Metadatenstandard**
 
-Wir machen Sie mit einem der zentralen Werkzeuge für die Operationalisierung von Metadatenrepositorien vertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. 
+Wir machen Sie mit einem der zentralen Werkzeug für Datenportale im Public Sectorvertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht. 
 
 **3. Datenqualität messen: Metadata Quality Assessment** 
 
-Sie lernen, wie Sie Metadaten anhand von Maßnahmen zur Qualitätsmessung überprüfen können, um sicherzustellen, dass diese den Qualitätsanforderungen entsprechen. Dazu stellen wir Ihnen die verschiedenen Qualitätskriterien des Metadata Quality Assessment (MQA) für Metadaten vor.
+Sie lernen, wie Sie Metadaten anhand von Maßnahmen zur Qualitätsmessung überprüfen können, um sicherzustellen, dass diese den Qualitätsanforderungen entsprechen. Dazu stellen wir Ihnen die verschiedenen Qualitätskriterien des Metadata Quality Assessment (MQA) vor.
 
 **4. Praxis anwenden: SPARQL-Abfragen**
 
