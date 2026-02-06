@@ -25,7 +25,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: XX
+**Geschätzte Zeit**: 10 Minuten
 
 Viel Erfolg!
 ````
@@ -433,89 +433,6 @@ display_quiz(question11, colors=colors.jupyterquiz, max_width=1000)
 
 
 ## Frage 11
-
-**Szenario:** Ein Datenportal zeigt im MQA folgendes Ergebnis:
-- Auffindbarkeit: 100%
-- Zugänglichkeit: 20%
-- Interoperabilität: 85%
-- Wiederverwendbarkeit: 90%
-- Kontext: 75%
-
-**Frage:** Analysieren Sie dieses Bewertungsprofil. Welche konkreten Probleme könnten bei diesem Portal vorliegen und welche Auswirkungen hat dies auf die praktische Nutzbarkeit der Daten? Nennen Sie mindestens zwei spezifische Problembereiche und ihre Konsequenzen.
-
-```{code-cell} ipython3
-:tags: [remove-input]
-import sys
-sys.path.append("../quadriga")
-from assessment import create_answer_box
-
-create_answer_box('mqa-1')
-```
-
-````{admonition} Musterlösung
-:class: solution, dropdown
-
-**Musterlösung:**
-
-**Analyse des Bewertungsprofils:**
-
-Das Portal zeigt ein charakteristisches Problem: Die Metadaten sind exzellent strukturiert und beschreiben die Daten sehr gut (100% Auffindbarkeit), aber die referenzierten Daten sind schwer oder gar nicht erreichbar (nur 20% Zugänglichkeit).
-
-**Konkrete Problembereiche:**
-
-**1. Zugänglichkeitsprobleme (20%):**
-- **Mögliche Ursachen:**
-  - Download-URLs sind defekt oder nicht verfügbar
-  - Distributionen können nicht abgerufen werden
-  - Links führen zu Fehlerseiten (404, 403, etc.)
-  - Server sind nicht erreichbar oder überlastet
-  - Authentifizierung erforderlich, aber nicht dokumentiert
-
-- **Konsequenzen:**
-  - Nutzer finden die Daten (gute Metadaten), können sie aber nicht herunterladen
-  - Frustration bei Nutzern trotz guter Dokumentation
-  - Praktisch sind die Daten unbrauchbar, auch wenn sie gut beschrieben sind
-  - FAIR-Prinzip "Accessible" wird nicht erfüllt
-  - Das Portal täuscht Verfügbarkeit vor, die faktisch nicht gegeben ist
-
-**2. Diskrepanz zwischen Beschreibung und Realität:**
-- **Problem:**
-  - Metadaten versprechen mehr als die Dateninfrastruktur hält
-  - Hohe Erwartungen werden enttäuscht
-  
-- **Konsequenzen:**
-  - Vertrauensverlust bei Nutzern
-  - Zeit- und Ressourcenverschwendung bei Nutzern
-  - Negative Reputation des Portals
-  - Beeinträchtigung der europäischen Open-Data-Strategie
-
-**Vergleichsbeispiel:**
-Das im Text erwähnte spanische Portal "Your Open DAta" zeigt genau dieses Muster: 100% Auffindbarkeit, aber problematische Zugänglichkeit.
-
-**Empfehlungen zur Verbesserung:**
-
-1. **Technische Infrastruktur:**
-   - Regelmäßige Überprüfung aller Download-URLs
-   - Sicherstellung der Serververfügbarkeit
-   - Implementierung von Monitoring-Systemen
-   - Bereitstellung stabiler Download-Mechanismen
-
-2. **Prozesse:**
-   - Automatisierte Tests der Distributionen
-   - Schnelle Behebung defekter Links
-   - Entfernung nicht verfügbarer Datensätze
-   - Koordination zwischen Metadaten- und Datenanbietern
-
-3. **Kommunikation:**
-   - Transparente Information über Zugangsprobleme
-   - Kontaktmöglichkeiten für Nutzer
-   - Realistische Erwartungen setzen
-
-**Fazit:**
-Dieses Beispiel zeigt, dass hohe Metadatenqualität allein nicht ausreicht. Ohne tatsächliche Datenverfügbarkeit bleiben selbst perfekte Metadaten wertlos. Die Balance zwischen allen FAIR-Dimensionen ist entscheidend für erfolgreiche Open Data Portale.
-````
-
-## Frage 12
 
 **Frage:** Das MQA ist ein wichtiges Instrument zur Qualitätssicherung offener Daten in Europa. Reflektieren Sie kritisch über folgende Aspekte:
 

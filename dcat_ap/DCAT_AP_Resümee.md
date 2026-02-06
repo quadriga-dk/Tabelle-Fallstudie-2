@@ -14,7 +14,7 @@ Die Erklärung von DCAT(-AP) ist darüber hinaus wichtig, weil dieser Standard f
 Zusammenfassend können wir festhalten, dass DCAT-AP eine entscheidende Rolle bei der Standardisierung und Zugänglichkeit öffentlicher Daten spielt. Die in diesem Kapitel behandelten Technologien und Standards tragen wesentlich dazu bei, die Datenbereitstellung transparenter, effizienter und interoperabler zu gestalten. Dies ist nicht nur für die öffentliche Verwaltung, sondern auch für Bürger:innen und Forschende von großer Bedeutung, da es den Zugang zu qualitativ hochwertigen Daten erleichtert und deren Nachnutzung fördert. Die konsequente Implementierung solcher Standards bildet somit die Grundlage für eine offene und vertrauenswürdige Dateninfrastruktur.
 
 
-```{admonition} Key points
+```{admonition} Was Sie mitnehmen sollten
 :class: keypoint
 
 - DCAT-AP (Data Catalog Vocabulary - Application Profile) ist ein Metadatenstandard für Datenkataloge, der von der Europäischen Kommission entwickelt wurde.

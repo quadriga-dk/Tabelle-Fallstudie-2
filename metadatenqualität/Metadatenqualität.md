@@ -21,7 +21,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 `````
 
-In diesem Kapitel widmen wir uns der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten. Metadaten sind der Schlüssel, um große Datenmengen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen – Eigenschaften, die durch die <a href="https://www.go-fair.org/fair-principles/" class="external-link" target="_blank">FAIR-Prinzipien</a> definiert werden. Die Orientierung an diesen Prinzipien ist essenziell für den Erfolg offener Datenportale, da eine reibungslose Datennachnutzung besser gewährleistet werden kann, je höher die Qualität der Metadaten ist.
+In diesem Kapitel widmen wir uns der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten. Metadaten sind der Schlüssel, um Daten auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen – Eigenschaften, die durch die <a href="https://www.go-fair.org/fair-principles/" class="external-link" target="_blank">FAIR-Prinzipien</a> definiert werden. Die Orientierung an diesen Prinzipien ist essenziell für den Erfolg offener Datenportale, da eine reibungslose Datennachnutzung besser gewährleistet werden kann, je höher die Qualität der Metadaten ist.
 
 
 ```{admonition} Lernziel: Metadatenqualität
@@ -53,9 +53,9 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 10 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
 
-Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ...
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. 20 Minuten.
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
 ``` 

@@ -8,15 +8,12 @@ In diesem Kapitel wurde die zentrale Bedeutung der Metadatenqualität für den E
 Zur Lösung der Forschungsfrage - der Ermittlung offener Daten zum Baumbestand einer Region - hat dieses Kapitel indirekt beigetragen, denn nur wenn Daten mit qualitätvollen Metadaten beschrieben sind, die (inter-)nationalen Standards entsprechen, sind sie überhaupt auffindbar.
 ```
 
-<span style="color:red">Bezug zur Forschungsfrage: Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?</span>
-
-
-Abschließend lässt sich sagen, dass eine kontinuierliche Verbesserung der Metadatenqualität notwendig ist, um den Zugang zu offenen Daten zu optimieren und die Ziele der europäischen Datenstrategie zu erreichen. Werkzeuge wie das MQA spielen hierbei eine entscheidende Rolle, indem sie systematisch Schwachstellen identifizieren und so die Grundlage für eine nachhaltige Dateninfrastruktur schaffen.
-
 ```{admonition} Was  Sie mitnehmen sollten
 :class: keypoint
-
-<span style="color:red">*Brauchen wir bei diesem kurzen Kapitel eine Zusammenfassung?*</span>
+- Es gibt Bewertungstools für die Qualität von Metadaten.
+- Das MQA basiert auf den FAIR-Prinzipien.
 ```
+
+Abschließend lässt sich sagen, dass eine kontinuierliche Verbesserung der Metadatenqualität notwendig ist, um den Zugang zu offenen Daten zu optimieren und die Ziele der europäischen Datenstrategie zu erreichen. Werkzeuge wie das MQA spielen hierbei eine entscheidende Rolle, indem sie systematisch Schwachstellen identifizieren und so die Grundlage für eine nachhaltige Dateninfrastruktur schaffen.
 
 Im nächsten Kapitel lernen Sie, wie Sie mit SPARQL gezielt Metadaten aus Open Data Portalen wie *data.europa.eu* abrufen und komplexe Fragestellungen beantworten können. Durch praxisorientierte Übungen erhalten Sie einen Einblick in die Syntax, Techniken und Herausforderungen von SPARQL. Auf diese Weise schaffen wir eine Brücke zwischen der Qualität von Metadaten und ihrer effizienten Nutzung durch strukturierte Abfragen.
