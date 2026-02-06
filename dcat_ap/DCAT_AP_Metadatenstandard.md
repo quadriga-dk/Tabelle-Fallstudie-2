@@ -44,15 +44,17 @@ alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
 Visualisierung der 4 Schritte dieser Fallstudie.
 ```
 
-So wird nicht nur der Zweck von DCAT-AP.de beleuchtet, sondern auch die praktische Relevanz für die digitale Verwaltung in Deutschland aufgezeigt. Besonderes Augenmerk liegt dabei auf der Rolle von Metadatenstandards für eine transparente, zugängliche und kooperative Dateninfrastruktur, die sowohl den öffentlichen als auch den wissenschaftlichen und zivilgesellschaftlichen Sektor nachhaltig unterstützt.
+Ein Fokus liegt dabei auf der Rolle von Metadatenstandards für eine transparente, zugängliche und kooperative Dateninfrastruktur, die sowohl den öffentlichen als auch den wissenschaftlichen und zivilgesellschaftlichen Sektor nachhaltig unterstützt.
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [Kurze Einführung/ Rekapitulation Metadaten](recap)
+- [Kurze Rekapitulation Metadaten](recap)
 - [Metadatenportale](portale)
 - [Struktur und Elemente von DCAT-AP](/dcat_ap/DCAT_AP_Struktur.md)
-- [Beispiele für die Implementierung von DCAT-AP](/dcat_ap/DCAT_AP_Beispiel.md)
-- [Resümee des Kapitels](/dcat_ap/DCAT_AP_Reflexion.md)
+- [Beispiel und Implementierungen](/dcat_ap/DCAT_AP_Beispiel.md)
+- [Übung](/dcat_ap/DCAT_AP_Übung.md)
+- [Resümee](/dcat_ap/DCAT_AP_Reflexion.md)
+- [Selbsttest](/dcat_ap/DCAT_AP_Assessment.md)
 
 
 ```{admonition} Bearbeitungszeit

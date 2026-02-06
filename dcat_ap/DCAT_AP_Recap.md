@@ -14,10 +14,10 @@ name: Schlagwortkatalog
 alt: Ein Schlagwortkatalog an der Universitätsbibliothek Graz
 width: 512px
 ---
-Karteikarten in einem Schlagwortkatalog, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" class="external-link" target="_blank">CC BY-SA</a> <a href="https://commons.wikimedia.org/wiki/File:Schlagwortkatalog.jpg?uselang=de" class="external-link" target="_blank">Marcus Gossler</a>.
+Ein Beispiel für Metadaten: Karteikarten in einem Schlagwortkatalog, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" class="external-link" target="_blank">CC BY-SA</a> <a href="https://commons.wikimedia.org/wiki/File:Schlagwortkatalog.jpg?uselang=de" class="external-link" target="_blank">Marcus Gossler</a>.
 ```
 
-Es gibt verschiedene Arten von Metadaten, die unterschiedliche Funktionen erfüllen {cite}`riley2017understanding`. So enthalten zum Beispiel *beschreibende Metadaten* Informationen wie die Autor:innen, das Erstellungsdatum, die Dateigröße und Schlagwörter. *Technische Metadaten* (beispielsweise einer relationalen Datenbank) könnten dagegen die Struktur von Tabellen, Datentypen und Beziehungen zwischen den Tabellen beschreiben.
+Es gibt verschiedene Arten von Metadaten, die unterschiedliche Funktionen erfüllen {cite}`riley2017understanding`. So enthalten zum Beispiel *beschreibende Metadaten* Informationen zur Autorenschaft, dem Erstellungsdatum, der Dateigröße und Schlagwörter. *Technische Metadaten* machen dagegen eine Aussage über die Struktur, das Format oder Speicherung von Daten.
 
 
 ```{admonition} Weitere Informationen
@@ -29,7 +29,7 @@ Metadaten sind unverzichtbar, um Daten zu finden. Das bedeutet im Umkehrschluss 
 Sie ermöglichen einen verbesserten Datenzugriff und vereinfachen die Navigation durch umfangreiche Datensätze.
 Ein Einzelhandelsunternehmen könnte beispielsweise Metadaten nutzen, um Verkaufsdaten für einen bestimmten Monat, gefiltert nach Produktkategorie und Region, schnell zu finden, ohne das gesamte Datenvolumen durchsuchen zu müssen {cite}`duval2002metadata`. Gleiches gilt für Verwaltungs- oder statistische Daten: auch dort ermöglichen Metadaten eine gezielte Suche nach spezifischen Daten einer Kommune (zum Beispiel Baumkatasterdaten einer Stadt) zu einem konkreten Zeitpunkt. Aufgrund dieser Filterfunktion sind Metadaten auch entscheidend für die Datenverwaltung und das Datenmanagement.
 
-Metadaten sollten, wie die Daten, die sie beschreiben, auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar sein. Sie sollten also entsprechend den <a href="https://www.go-fair.org/fair-principles/" class="external-link" target="_blank">FAIR-Prinzipien</a> ausgezeichnet sein. In einer weiteren unserer Lerneinheiten finden Sie eine <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">Einführung in die FAIR-Prinzipien</a>.
+Metadaten sollten, wie die Daten, die sie beschreiben, auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar sein. Sie sollten also nach den <a href="https://www.go-fair.org/fair-principles/" class="external-link" target="_blank">FAIR-Prinzipien</a> gestaltet sein. In einer weiteren unserer Lerneinheiten finden Sie eine <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/3_1_FairPrinzipien.html" class="external-link" target="_blank">Einführung in die FAIR-Prinzipien</a>.
 
 
 ```{admonition} Weitere Informationen
