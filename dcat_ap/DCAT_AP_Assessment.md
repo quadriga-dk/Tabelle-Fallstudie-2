@@ -25,7 +25,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: XX
+**Geschätzte Zeit**: 10 Minuten
 
 Viel Erfolg!
 ````
@@ -130,7 +130,7 @@ quiz.create_matching_quiz(
         "daten.berlin.de",
         "Transparenzportal Hamburg"
     ],
-    options=["Lokal/Regional", "National (Deutschland)", "Europäisch", "International"],
+    options=["Lokal/Regional", "National (Deutschland)", "Europäisch", "Lokal/Regional"],
     correct_mapping={
         "GovData": "National (Deutschland)",
         "data.europa.eu": "Europäisch",
