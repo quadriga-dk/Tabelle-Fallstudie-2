@@ -45,10 +45,11 @@ In diesem Kapitel werden die Grundlagen des Semantic Web sowie die ihm zugrunde 
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [Semantic Web Definition](/semantic_web/Semantic_Web_Definition.md)
-- [Semantic Web Layer Cake](/semantic_web/Semantic_Web_Layer_Cake.md)
-- [Semantic Web Übung](/semantic_web/Semantic_Web_Übung.md)
-- [Semantic Web Reflexion](/semantic_web/Semantic_Web_Resümee.md)
+- [Definition & theoretische Grundsätze](/semantic_web/Semantic_Web_Definition.md)
+- ["Layer Cake"-Architektur](/semantic_web/Semantic_Web_Layer_Cake.md)
+- [Übung](/semantic_web/Semantic_Web_Übung.md)
+- [Resümee](/semantic_web/Semantic_Web_Resümee.md)
+- [Selbsttest](/semantic_web/Semantic_Web_Assessment.md)
 
 
 ```{admonition} Bearbeitungszeit
