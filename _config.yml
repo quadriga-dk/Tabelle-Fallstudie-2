@@ -1,11 +1,11 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "Offene Daten im urbanen Raum: Eine Einführung in die Datenabfrage mit SPARQL und Metadaten. QUADRIGA Open Educational Resources: Tabelle 2"
+title: "Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2"
 author: Jana Plomin, Paul Walter, Juliane Schmeling, Sami Dakruni
 root_file: intro
 logo: assets/Tabelle2Logo.png
-copyright: "2024, QUADRIGA"
+copyright: "2026, QUADRIGA"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md, venv]
 
 # Force re-execution of notebooks on each build.
