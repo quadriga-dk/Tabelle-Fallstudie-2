@@ -40,7 +40,7 @@ Mit diesem Kapitel befinden wir uns im praktischen Teil dieser Fallstudie. Anhan
 name: steps of casestudy
 alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie.
 ---
-Visualisierung der 4 Schritte dieser Fallstudie.
+Die Schritte dieser Fallstudie mit Fokus auf dem 4. Schritt.
 ```
 
 
@@ -51,9 +51,9 @@ Mehr zum Thema Queries erfahren Sie in diesem <a href="https://www.heise-homepag
 ```
 ````
 
-Das Erfragen von Metadaten kann durch die Erstellung von sogenannten *Queries* erreicht werden. Dies ist der englische Begriff für das Abfragen von Daten oder Informationen, beispielsweise aus Datenbanken, Suchmaschinen oder Datensuchportalen wie Google oder aus wissenschaftlichen Archiven. Solche Abfragen können mithilfe von SPARQL durchgeführt werden. 
+Das Erfragen von Metadaten kann durch die Erstellung von sogenannten *Queries* erreicht werden. Dies ist der englische Begriff für das Abfragen von Daten oder Informationen, beispielsweise aus Datenbanken oder aus wissenschaftlichen Archiven. Solche Abfragen können mithilfe von SPARQL durchgeführt werden. 
 
-In den folgenden Übungen dieses Kapitels befassen Sie sich mit der eingangs vorgestellten Forschungsfrage, die die Bereitstellung von offenen Daten analysiert. Durch den technischen Einsatz von Jupyter Notebooks wird eine interaktive Umgebung geschaffen, die sowohl Code als auch Erläuterungen integriert, um die SPARQL-Syntax und deren praktische Anwendung verständlich zu machen. Ein besonderer Fokus liegt auf der Definition von *Endpoints* sowie der Nutzung von *Prefixes*, um Abfragen effizient zu gestalten. Im Laufe des Kapitels werden zudem typische Herausforderungen, wie unvollständige Metadaten und fehlende Paginierungsfunktionen, angesprochen und Lösungsansätze aufgezeigt.
+In den folgenden Übungen dieses Kapitels befassen Sie sich mit der eingangs vorgestellten Forschungsfrage, die die Bereitstellung von offenen Daten analysiert. Durch den technischen Einsatz von Jupyter Notebooks wird eine interaktive Umgebung geschaffen, die sowohl Code als auch Erläuterungen integriert, um die SPARQL-Syntax und deren praktische Anwendung verständlich zu machen. Im Laufe des Kapitels werden zudem typische Herausforderungen, wie unvollständige Metadaten und fehlende Paginierungsfunktionen, angesprochen und Lösungsansätze aufgezeigt.
 
 ```{admonition} Weiterführende Informationen
 :class: seealso
@@ -63,10 +63,11 @@ Weitere Informationen zum Thema SPARQL und RDF, die allerdings ein gewisses Maß
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [SPARQL Grundlagen](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Grundlagen.html)
-- [SPARQL Übung 1](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_1.html)
-- [SPARQL Übung 2]([/SPARQL_Übung_2.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_2.html))
-- [SPARQL Reflexion]([/SPARQL_Reflexion.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Reflexion.html))
+- [Grundlagen](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Grundlagen.html)
+- [Übung Metadaten suchen & filtern](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_1.html)
+- [Übung Metadaten gruppieren & auswerten]([/SPARQL_Übung_2.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_2.html))
+- [Resümee]([/SPARQL_Reflexion.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Reflexion.html))
+- [Selbsttest]([/SPARQL_Assessment.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Assessment.html))
 
 
 ```{admonition} Bearbeitungszeit

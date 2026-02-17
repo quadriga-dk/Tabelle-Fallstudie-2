@@ -27,7 +27,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2025). _Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2_ 
+Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2026). _Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2_ 
 
 ````
 `````
@@ -63,7 +63,7 @@ Die Visualisierung von kommunalen Daten mit Dashboards ist Thema einer weiteren 
 Dr. Amir Weber, ein Verwaltungswissenschaftler mit Interesse an kommunalen Daten und Bürgerbeteiligung, möchte ein Dashboard zur Visualisierung von Baumbeständen erstellen, das auf offenen Datensätzen basiert. Dazu stellt sich Dr. Weber zunächst die folgende Frage:
 ```
 
-**Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?**   
+**Welche offenen Daten gibt es, die dazu beitragen, den Bewässerungsbedarf von Bäumen in einer bestimmten Region zu ermitteln?**   
 
 Um diese Frage zu beantworten, vermittelt dieses JupyterBook Kenntnisse zu wichtigen Konzepten wie Semantic Web und Linked Data sowie Metadatenstandards und -qualität. Darüber hinaus erwartet Sie eine Einführung in die Benutzung der Abfragesprache SPARQL.  
 
