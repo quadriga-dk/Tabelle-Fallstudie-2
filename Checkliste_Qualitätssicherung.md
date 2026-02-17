@@ -53,7 +53,3 @@ lang: de-de
 
 ## Kommunikation
 - [ ] Publikationshinweis
-- [ ] Veröffentlichung in einem Repositorium (bspw. Zenodo)
-- [ ] OER nach Veröffentlichungs-Template beschrieben
-- [ ] Zitationshinweis
-- [ ] FAIR-Assessment durchgeführt
