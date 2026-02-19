@@ -35,7 +35,7 @@ lang: de-de
 ## Formalia
 - [ ] Struktur und Gestaltung
 - [ ] Modularität
-- [ ] Wissenschaftliche Formalia
+- [ ] Wissenschaftlicher Standard
 - [ ] Formale Korrektheit
 - [ ] Vollständigkeit
 - [ ] Kommentarfunktion
@@ -47,6 +47,7 @@ lang: de-de
 - [ ] Metadaten
 - [ ] PID
 - [ ] Versionierung und Upload
+- [ ] Dokumentation
 - [ ] Zitationshinweis
 
 ---
