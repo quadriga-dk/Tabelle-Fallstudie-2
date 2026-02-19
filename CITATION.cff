@@ -1,11 +1,13 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-version: 1.0.0
+version: 1.0.0-beta.2
 title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
   mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
-abstract: Dieses JupyterBook vermittelt grundlegende Kenntnisse zur Datenabfrage,
-  indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können
-  und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.
+abstract: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf
+  in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage
+  auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu
+  werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
+  und Nachvollziehbarkeit von Analysen behandelt.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -52,8 +54,8 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: '2026'
-  version: 1.0.0
+  year: '2025'
+  version: 1.0.0-beta.2
   authors: *id001
   title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
     mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'

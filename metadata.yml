@@ -129,11 +129,10 @@ identifier: https://doi.org/10.5281/zenodo.14999803
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
 prerequisites:
-- description: allgemeines Verständnis von / Interesse an Struktur von Datensätzen,
-    Datenkonzepten, Metadaten und Datendokumentationen
-- description: Verständnis für Statistik und statistische Software bzw. für das Programmieren
-    empfohlen
-- description: Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
+- allgemeines Verständnis von / Interesse an Struktur von Datensätzen, Datenkonzepten,
+  Metadaten und Datendokumentationen
+- Verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen
+- Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
 used-tools:
 - SPARQL
 - https://www.w3.org/TR/sparql11-query/
@@ -142,7 +141,7 @@ chapters:
   description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html
   learning-goal: Forschungssfrage
-  duration: PT5M
+  time-required: PT5M
   learning-objectives:
   - learning-objective: Die Forschungsfrage kann erläutert und in einen Kontext mit
       dem Bildungsbericht gesetzt werden.
@@ -155,7 +154,7 @@ chapters:
   description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html
   learning-goal: Grundsätze des Datenmanagements
-  duration: PT15M
+  time-required: PT15M
   learning-objectives:
   - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten
       Beispiels erläutert werden.
@@ -175,24 +174,24 @@ chapters:
   description: In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html
   learning-goal: Sicherstellen der Qualität von Datensätzen
-  duration: PT30M
+  time-required: PT30M
   learning-objectives:
   - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze
       kann für die Forschung erläutert werden.
     data-flow: 1 Planung
-    competency: 2 Qualitätssicherung
+    competency: 1.2 Qualitätssicherung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten
       können für verschiedene Anwendungsfälle aufgezeigt werden.
     data-flow: 1 Planung
-    competency: 2 Qualitätssicherung
+    competency: 1.2 Qualitätssicherung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Qualität eines gegebenen Datensatzes kann anhand einer
       Checkliste bewertet werden.
     data-flow: 1 Planung
-    competency: 2 Qualitätssicherung
+    competency: 1.2 Qualitätssicherung
     blooms-category: 3 Anwenden
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
@@ -203,24 +202,24 @@ chapters:
     Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Identifikatoren.html
   learning-goal: Datenzitierung und PID
-  duration: PT25M
+  time-required: PT25M
   learning-objectives:
   - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können
       beschrieben werden.
     data-flow: 1 Planung
-    competency: 3 Ethik und Recht
+    competency: 1.3 Ethik und Recht
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung
       kann erläutert werden.
     data-flow: 5 Publikation und Nachnutzung
-    competency: 13 Datenpublikation
+    competency: 5.2 Datenpublikation
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die spezifischen Einsatzbereiche verschiedener Arten von PIDs
       (z.B. DOI, ORCID) können erklärt werden.
     data-flow: 5 Publikation und Nachnutzung
-    competency: 13 Datenpublikation
+    competency: 5.2 Datenpublikation
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
@@ -232,23 +231,23 @@ chapters:
     zu verbessern.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html
   learning-goal: Datenaufbereitung und -strukturierung
-  duration: PT60M
+  time-required: PT60M
   learning-objectives:
   - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
     data-flow: 2 Erhebung und Aufbereitung
-    competency: 5 Validierung
+    competency: 2.2 Validierung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Anwendung spezifischer Aufbereitungstechniken auf einen
       gegebenen Datensatz kann beschrieben werden.
     data-flow: 2 Erhebung und Aufbereitung
-    competency: 6 Aufbereitung
+    competency: 2.3 Aufbereitung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung
       kann anhand eines Beispiels demonstriert werden.
     data-flow: 2 Erhebung und Aufbereitung
-    competency: 6 Aufbereitung
+    competency: 2.3 Aufbereitung
     blooms-category: 3 Anwenden
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
@@ -258,31 +257,34 @@ chapters:
     mit Hilfe der Programmiersprache R.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation2.html
   learning-goal: Datenanalyse und -reproduzierbarkeit
-  duration: PT60M
+  time-required: PT60M
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
     data-flow: 4 Analyse
-    competency: 9 Datenanalyse
+    competency: 4.1 Datenanalyse
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit)
       können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte
       erläutert werden.
     data-flow: 4 Analyse
-    competency: 9 Datenanalyse
+    competency: 4.1 Datenanalyse
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-date-issued: 2024-06-13
-date-modified: 2025-03-24
+date-issued: '2024-06-13'
+date-modified: '2025-03-24'
 version: 1.0.0-beta.2
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+  Datenkompetenzzentrum QUADRIGA erstellt.
+
+
+  Förderkennzeichen: 16DKZ2034'
 quality-assurance:
-- description: DOI needed
-- date: 2025-10-01
+  description: https://doi.org/TODO
+  date: '2025-10-01'
 learning-resource-type: Jupyter Book
 schema-version: 1.0.0
 license:
