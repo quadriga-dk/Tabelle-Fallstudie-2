@@ -10,6 +10,7 @@ Die folgende Grafik (Abb. 2.3) zeigt die geschichtete Architektur ("Layer Cake"-
 ---
 name: The Semantic Web Layer Cake
 alt: Eine grafische Darstellung des Semantic Web Layer Cake.
+width: 450px
 ---
 The Semantic Web Layer Cake, {cite}`Sowa_2011`
 ```
