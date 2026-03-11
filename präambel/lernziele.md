@@ -50,13 +50,7 @@ Beim Durchgehen dieses JupyterBooks werden Sie folgende Lernziele erreichen:
 <!-- END: Datenqualität messen: Metadata Quality Assessment -->
 ```
 
-```{admonition} [Praxis anwenden: SPARQL]()
-:class: lernziele, dropdown
-1. Die grundlegenden Komponenten der SPARQL-Syntax können aufgezählt und ihre Rollen erläutert werden.
-2. Einfache SPARQL-Abfragen können erstellt und durchgeführt werden, um spezifische Informationen aus einem Datenkatalog abzurufen.
-```
-
-```{admonition} [Lernziel: Datenzitierung und PID](sparql)
+```{admonition} [Lernziel: Abfragesprache SPARQL](sparql)
 :class: lernziele, dropdown
 <!-- START: Praxis anwenden: SPARQL-Abfragen -->
 <!-- learning-goal: Abfragesprache SPARQL -->
