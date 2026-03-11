@@ -1,7 +1,7 @@
 (dcat-dc)=
 # Struktur und Elemente von DCAT-AP
 
-Um die Grundlagen des DCAT-AP-Schemas zu verstehen, ist es wichtig, sich zunächst mit den zentralen Konzepten vertraut zu machen, auf denen es basiert. Ein wesentlicher Ursprung liegt in der *Dublin Core Metadata Workshop Series*, die 1995 ins Leben gerufen wurde. Diese Workshops brachten Fachleute aus verschiedenen Bereichen zusammen, deren gemeinsames Ziel es war, Standards zu entwickeln, um die Auffindbarkeit elektronischer Ressourcen zu verbessern {cite}`Weibel1998RFC2413`.
+Um die Grundlagen des DCAT-AP-Schemas zu verstehen, ist es wichtig, sich zunächst mit den zentralen Konzepten vertraut zu machen, auf denen es basiert. Ein wesentlicher Ursprung liegt in den *Dublin Core Metadata Workshop Series*, deren Ziel es war, Standards zu entwickeln, um die Auffindbarkeit elektronischer Ressourcen zu verbessern {cite}`Weibel1998RFC2413`.
 
 ## Metadatenstandard Dublin Core
 
@@ -27,6 +27,7 @@ Zusammenfassend lässt sich sagen, dass Dublin Core Metadaten-Standardelemente d
 ```{admonition} Hinweis
 :class: hinweis
 Ein wesentlicher Vorteil des Dublin Core-Standards ist seine Modularität. Obwohl der Kernstandard nur <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" class="external-link" target="_blank">15 Elemente</a> definiert („Simple Dublin Core“), lässt er sich durch zusätzliche Qualifikatoren erweitern (DC Terms) – dies bezeichnet man als „Qualified Dublin Core“. Damit lassen sich präzisere Beschreibungen erzeugen, die dennoch interoperabel bleiben.
+So soll ein dcat:Dataset bespielsweise mindestens mit dcterms:title, dcterms:description und dcterms:publisher beschrieben werden.
 ```
 ````
 
@@ -48,6 +49,9 @@ Darstellung "Standardisierungsrahmen DCAT-AP.de" unter der Lizenz <a href="https
 In Deutschland nutzen verschiedene staatliche Datenportale wie <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a> und die Datenportale der Bundesländer (z. B. das <a href="https://transparenz.hamburg.de/" class="external-link" target="_blank">Transparenzportal Hamburg</a>) DCAT-AP.de zur Standardisierung von Metadaten. Dies ermöglicht eine konsistente Katalogisierung von Daten und vereinfacht die Datenveröffentlichung und -nutzung, sowohl innerhalb der öffentlichen Verwaltung als auch für Bürger:innen.
 
 Durch die Anlehnung an den <a href="https://op.europa.eu/de/web/eu-vocabularies/dcat-ap" class="external-link" target="_blank">europäischen DCAT-AP-Standard</a> ermöglicht DCAT-AP.de eine reibungslose Zusammenarbeit und Datenintegration mit dem Europäischen Datenportal. Deutsche Datensätze, die mit DCAT-AP.de beschrieben sind, lassen sich so problemlos auf das Europäische Datenportal übertragen, was eine einheitliche und grenzübergreifende Datennutzung innerhalb der EU fördert {cite}`FITKO_DCAT_AP`.
+
+Die DCAT-AP-de Spezifikation beinhaltet eine <a href="https://www.dcat-ap.de/def/dcatde/3.0/spec/#tabellarische-ubersicht" class="external-link" target="_blank">Übersicht</a> über die von DCAT-AP.de verwendeten Klassen (z. B. dcat:Catalog) und Elemente (z. B. dcterms:issued).
+
 
 ```{admonition} Was  Sie mitnehmen sollten
 :class: keypoint 
