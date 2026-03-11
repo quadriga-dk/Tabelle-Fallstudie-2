@@ -4,7 +4,9 @@ lang: de-DE
 
 # "Layer cake"-Architektur
 
-Die folgende Grafik (Abb. 2.3) zeigt die geschichtete Architektur ("Layer Cake"-Architektur) des Semantic Web. Diese Struktur beschreibt, wie verschiedene Technologien und Konzepte zueinander in Bezug stehen, um das Web mit verständlichen und vernetzten Daten anzureichern.
+Die folgende Grafik (Abb. 2.3) zeigt eine Variante der geschichteten Architektur ("Layer Cake"-Architektur) des Semantic Web. Diese Struktur beschreibt, wie verschiedene Technologien und Konzepte zueinander in Bezug stehen, um das Web mit verständlichen und vernetzten Daten anzureichern. Zu diesem Modell gibt es mehrere Varianten, die im Lauf der Zeit zudem erweitert wurden.
+Die <a href="https://www.w3.org/2002/Talks/04-sweb/slide12-0.html" class="external-link" target="_blank">ursprüngliche</a> *Layer-Cake*-Typologie des Semantic Web wurde vom W3C erarbeitet.
+
 
 ```{figure} /assets/new-layer-cake-architecture.png
 ---
@@ -16,22 +18,24 @@ The Semantic Web Layer Cake, {cite}`Sowa_2011`
 ```
 
 
-Die Stufen lassen sich wie folgt von unten nach oben beschreiben:
+Die abgebildete Variante von Sowa (2011) ist eine erweiterte Version dieses ursprünglichen Modells des W3C, die mehr Kästen und Überschneidungen zwischen den Stufen zulässt als das erste Modell. Beide erheben keinen Anspruch auf Vollständigkeit, sondern sind eher als kleinster gemeinsamer Nenner einer Vorstellung des Semantic Web zu verstehen.  
+Die Stufen des Modells lassen sich wie folgt von unten nach oben beschreiben:
 
-1. <span style="color:#1e3a8a"><strong>Unicode & URI (Universal Resource Indicator)</strong></span> - Unicode stellt sicher, dass Texte weltweit einheitlich und in allen Sprachen korrekt dargestellt werden können. URI dient als eindeutige Adresse, um jede Ressource im Web identifizieren zu können.
-2.  <span style="color:#2563eb"><strong>XML, Namespace, & XML Schema </strong></span> - e**x**tensible **M**arkup **L**anguage (XML) ist ein flexibles Textformat, um Daten in strukturierter Form darzustellen – ähnlich wie eine Tabelle oder eine Liste. Es dient als Datenvermittlungswerkzeug. Namespaces legen die Bezeichnungen für Objekte innerhalb eines Raumes fest und schaffen so klare Zuordnungen. XML-Schemata definieren die Struktur und Datentypen von XML-Dokumenten, indem sie entsprechende Regeln festlegen.
-3. <span style="color:#059669"><strong>RDF (Resource Description Framework) & RDF Schema</strong></span> - RDF erlaubt es, Informationen so zu verknüpfen, dass Maschinen sie verstehen können. Zum Beispiel: „Max arbeitet bei Firma XY“. Das RDF Schema erweitert RDF, indem es definiert, welche Art von Informationen angegeben werden können (Bei diesem Beispiel Personen, Firmen oder Beziehungen zwischen ihnen).
-4. <span style="color:#d97706"><strong>Ontology & Vocabulary</strong></span> - die Ontologie bietet eine Möglichkeit, strukturierte Vokabulare zu definieren, die Beziehungen und Kategorien in einem bestimmten Bereich beschreiben (z. B. „Eine Katze ist ein Tier“). Diese Schicht ist entscheidend, um es Maschinen zu ermöglichen, die Beziehungen zwischen verschiedenen Datenpunkten zu verstehen und dadurch Schlussfolgerungen sowie logische Ableitungen zu unterstützen. Das Vokabular bezieht sich auf spezifische Begriffe und Konzepte, die verwendet werden, um Entitäten und ihre Beziehungen innerhalb eines Wissensbereichs zu beschreiben, wie ein Wörterbuch für Daten. 
-5. <span style="color:#9333ea"><strong>Logic</strong></span> - Diese Schicht ermöglicht es, automatisierte Entscheidungen basierend auf den Daten zu treffen. Beispiel: „Wenn A wahr ist und B wahr ist, dann folgt C.“
-6. <span style="color:#ef4444"><strong>Proof</strong></span> - die Prüfschicht stellt die Validität der Ergebnisse sicher, indem sie die Schritte überprüft, die zu einer Schlussfolgerung führen. Ähnlich wie bei einer mathematischen Beweisführung.
-7. <span style="color:#facc15"><strong>Trust</strong></span> - Die oberste Schicht schafft Vertrauen in die Daten, z. B. durch digitale Signaturen. Diese zeigen an, wer die Daten erstellt hat und ob sie unverändert sind. 
+1. URI (Universal Resource Indicator) / IRI (Internationalized Resource Identifier) - URI bzw. IRI stellen die Basis dar, denn sie dienen als eindeutige Adresse, um jede Ressource im Web identifizieren zu können.
+2. XML (extensible Markup Language) - ist der Standard für die strukturierte Darstellung von Daten. In diese Ebene hinein ragt der
+3. Datenaustausch: RDF (Resource Description Framework) - RDF ist ein Modell für die Darstellung von Daten als Tripel und erlaubt damit, Informationen so zu verknüpfen, dass Maschinen sie verstehen können.  
+4. In der Ebene darüber befindet sich mit 'Query: SPARQL' eine Abfragesprache für RDF-Daten, mit 'Ontology: OWL' und 'RDFS' (RDF Schema) zwei Schemata bzw. Ontologien, die es ermöglichen Beziehungen und logische Schlussfolgerungen darzustellen sowie mit 'Rules: RIF' ein Standard, der entwickelt wurde, um Regeln zwischen verschiedenen Regelsprachen und -systemen austauschbar zu machen.
+5. Logic - Diese Schicht ermöglicht es, automatisierte Entscheidungen basierend auf den Daten zu treffen. Beispiel: „Wenn A wahr ist und B wahr ist, dann folgt C.“
+6. Proof - die Prüfschicht stellt die Validität der Ergebnisse sicher, indem sie die Schritte überprüft, die zu einer Schlussfolgerung führen. Ähnlich wie bei einer mathematischen Beweisführung.
+7. Trust - Diese Schicht definiert Vertrauen in die Daten, allerdings ist nicht abschließend geklärt, wie genau das erreicht werden kann. 
+8. User Interface & Applications - Ganz oben befinden sich Anwendungen, die auf den Semantic Web-Technologien aufbauen (z.B. intelligente Suchmaschinen).
 
-Die *Layer-Cake*-Typologie des Semantic Web wurde von Tim Berners-Lee während der XML-2000-Konferenz vorgestellt.
-
-
-Jede dieser Schichten baut auf den vorherigen auf. Das Konzept von verlinkten Daten, oder *Linked Data*, ist essenziell für die vollständige Umsetzung einer erfolgreichen Semantic-Web-Struktur. In der ebenfalls vom Projekt <a href="https://www.quadriga-dk.de/de/" class="external-link" target="_blank">Quadriga</a> entworfenen Fallstudie "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht" finden Sie weitere Informationen zu <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/5_3_Linked-Data.html" class="external-link" target="_blank">Linked Data</a>.
+Der Kryptografie-Balken steht für kryptografischen Technologien, die über digitale Signaturen hinausgehen.
 
 
+Die Schichten bauen aufeinander auf, sind aber mehr ineinander verschränkt als ursprünglich entworfen. 
+
+Das Konzept von verlinkten Daten, oder *Linked Data*, ist essenziell für die vollständige Umsetzung einer erfolgreichen Semantic-Web-Struktur. In der ebenfalls vom Projekt <a href="https://www.quadriga-dk.de/de/" class="external-link" target="_blank">Quadriga</a> entworfenen Fallstudie "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht" finden Sie weitere Informationen zu <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/5_3_Linked-Data.html" class="external-link" target="_blank">Linked Data</a>.
 
 
 **Literatur**
