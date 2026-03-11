@@ -1,23 +1,12 @@
 (sparql_resumee)=
 # Resümee
 
-In den vorangegangenen Übungen haben wir uns die SPARQL-Syntax angesehen, SPAQRL-Befehle wie *PREFIX*, *SELECT* und *WHERE* kennengelernt
-...
+In der SPARQL-Übung wurde deutlich, wie leistungsfähig und flexibel SPARQL für die Abfrage und Analyse offener Daten ist. Die praktische Anwendung der Sprache zeigte jedoch auch einige Herausforderungen auf: unvollständige Metadaten, wie fehlende Angaben zu Bundesländern oder fehlender direkter Zugang zu den Datensätzen, erschwerten die präzise Beantwortung der Forschungsfragen. Dies verdeutlicht, wie wichtig eine saubere und vollständige Metadatenstruktur nach Standards wie DCAT-AP ist, um die Qualität der Abfragen zu sichern.
 
-In der SPARQL-Übung wurde deutlich, wie leistungsfähig und flexibel SPARQL für die Abfrage und Analyse offener Daten ist. Die praktische Anwendung der Sprache zeigte jedoch auch einige Herausforderungen auf: unvollständige Metadaten, wie fehlende Angaben zu Bundesländern, erschwerten die präzise Beantwortung der Forschungsfragen. Dies verdeutlicht, wie wichtig eine saubere und vollständige Metadatenstruktur nach Standards wie DCAT-AP ist, um die Qualität der Abfragen zu sichern.
+Trotz dieser Hindernisse konnten wertvolle Einblicke in die Verfügbarkeit und Vielfalt offener Datensätze gewonnen werden. Besonders hilfreich erwies sich der Einsatz von FILTER-Bedingungen und OPTIONAL-Klauseln, um flexible und robuste Abfragen zu erstellen, die auch bei unvollständigen Datensätzen Ergebnisse liefern. Darüber hinaus zeigte die Analyse der Datenbereitsteller, dass die Bundesländer Bayern und NRW sowohl hinsichtlich der Anzahl der Datensätze als auch der unterstützten Formate momentan führend sind, was ihre Rolle in der Bereitstellung offener Daten unterstreicht.
 
-<span style="color:red">Bezug zur Forschungsfrage: Wie lassen sich offene Daten ermitteln, die dazu beitragen können, den Baumbestand in einer bestimmten Region zu ermitteln?</span>
+Abschließend lässt sich festhalten, dass die Arbeit mit SPARQL nicht nur technisches Wissen, sondern auch ein tiefes Verständnis für die zugrundeliegenden Daten erfordert. Die Übungen in diesem Kapitel haben eine Grundlage gelegt, um komplexe Datenabfragen zu meistern und gleichzeitig die Bedeutung hochwertiger Metadaten für die erfolgreiche Nutzung offener Daten zu erkennen.
 
-
-Trotz dieser Hindernisse konnten wertvolle Einblicke in die Verfügbarkeit und Vielfalt offener Datensätze gewonnen werden. Besonders hilfreich erwies sich der Einsatz von FILTER-Bedingungen und OPTIONAL-Klauseln, um flexible und robuste Abfragen zu erstellen, die auch bei unvollständigen Datensätzen Ergebnisse liefern. Darüber hinaus zeigte die Analyse der Datenbereitsteller, dass die Bundesländer Bayern und NRW sowohl hinsichtlich der Anzahl der Datensätze als auch der unterstützten Formate führend sind, was ihre Rolle in der Bereitstellung offener Daten unterstreicht.
-
-Abschließend lässt sich festhalten, dass die Arbeit mit SPARQL nicht nur technisches Wissen, sondern auch ein tiefes Verständnis für die zugrundeliegenden Daten erfordert. Die Übungen in diesem Kapitel boten eine solide Grundlage, um komplexe Datenabfragen zu meistern und gleichzeitig die Bedeutung hochwertiger Metadaten für die erfolgreiche Nutzung offener Daten zu erkennen.
-
-```{admonition} Was  Sie mitnehmen sollten
-:class: keypoint
-
-*Zusammenfassung des Kapitels einfügen*
-```
 
 ---
 

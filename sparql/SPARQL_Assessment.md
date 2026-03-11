@@ -25,7 +25,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: XX
+**Geschätzte Zeit**: 10 Minuten
 
 Viel Erfolg!
 ````
@@ -146,7 +146,7 @@ question3 = [
                 "feedback": """✓ Korrekt! Die Triplet-Struktur (S-P-O) ist grundlegend für SPARQL. Jede Zeile in der WHERE-Klausel stellt eine Beziehung zwischen zwei Eigenschaften über ein Prädikat her, z.B. „?uri dct:title ?title" verbindet eine URI mit ihrem Titel."""
             },
             {
-                "answer": "SELECT kann nur eine einzige Variable enthalten",
+                "answer": "SELECT kann nicht mehr als eine einzige Variable enthalten",
                 "correct": False,
                 "feedback": """x Nicht korrekt. SELECT kann mehrere Variablen enthalten, die durch Leerzeichen getrennt werden. Beispiel: SELECT ?uri ?title ?contributorid ?stateKey gibt vier verschiedene Eigenschaften aus."""
             },
