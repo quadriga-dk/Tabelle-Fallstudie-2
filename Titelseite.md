@@ -121,5 +121,5 @@ Das JupyterBook lässt sich in zwei Hauptblöcke gliedern:
 
 |       Block              |     Inhalte                                               |    Bearbeitungszeit              |  
 |---------------------|----------------------------------------------------|----------------------------------------------------|
-| **Block 1**           | Kapitel 2, 3, 4: Grundlagen des Semantic Web, Metadatenstandards und Metadatenqualität |  <span style="color:red">*ca. 3 x 20-30 Min pro Kapitel*</span> |  
-| **Block 2**| Kapitel 5: Praktische Anwendung von SPARQL: Abfrage von Daten zur Beantwortung der Forschungsfrage                                                     | <span style="color:red">*45 Min*</span> |
+| **Block 1**           | Kapitel 2, 3, 4: Grundlagen des Semantic Web, Metadatenstandards und Metadatenqualität |  ca. 3 x 20-30 Min pro Kapitel |  
+| **Block 2**| Kapitel 5: Praktische Anwendung von SPARQL: Abfrage von Daten zur Beantwortung der Forschungsfrage                                                     | ca. 40 Min |
