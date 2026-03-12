@@ -19,18 +19,18 @@ Falls sie über keinerlei Vorkenntnisse zu den hier behandelten Themen verfügen
 
 Beim Durchgehen dieses JupyterBooks werden Sie folgende Lernziele erreichen:
 
-```{admonition} [Lernziel: Technologien verstehen](semanticweb)
-:class: lernziele, dropdown
 <!-- START: Technologien verstehen: Semantic Web & Linked Data -->
+```{admonition} [Lernziel: Technologien verstehen](semanticweb)
+:class: lernziele
 <!-- learning-goal: Technologien verstehen -->
 1. Der Begriff Semantic Web kann definiert werden.
 <!-- competency: Orientierungswissen | bloom: 1 Erinnern -->
-<!-- END: Technologien verstehen: Semantic Web & Linked Data -->
 ```
+<!-- END: Technologien verstehen: Semantic Web & Linked Data -->
 
-```{admonition} [Lernziel: Metadatenstandards](dcat-ap)
-:class: lernziele, dropdown
 <!-- START: Werkzeuge kennenlernen: DCAT-AP Metadatenstandard -->
+```{admonition} [Lernziel: Metadatenstandards](dcat-ap)
+:class: lernziele
 <!-- learning-goal: Metadatenstandards -->
 1. Der DCAT-Standard kann definiert werden.
 <!-- competency: 3.2 Erschließung | bloom: 2 Verstehen -->
@@ -38,25 +38,25 @@ Beim Durchgehen dieses JupyterBooks werden Sie folgende Lernziele erreichen:
 <!-- competency: 3.2 Erschließung | bloom: 1 Erinnern -->
 3. Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.
 <!-- competency: 3.2 Erschließung | bloom: 2 Verstehen -->
-<!-- END: Werkzeuge kennenlernen: DCAT-AP Metadatenstandard -->
 ```
+<!-- END: Werkzeuge kennenlernen: DCAT-AP Metadatenstandard -->
 
-```{admonition} [Lernziel: Metadatenqualität](metadatenqualität)
-:class: lernziele, dropdown
 <!-- START: Datenqualität messen: Metadata Quality Assessment -->
+```{admonition} [Lernziel: Metadatenqualität](metadatenqualität)
+:class: lernziele
 <!-- learning-goal: Metadatenqualität -->
 1. Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden.
 <!-- competency: 1.2 Qualitätssicherung | bloom: 2 Verstehen -->
-<!-- END: Datenqualität messen: Metadata Quality Assessment -->
 ```
+<!-- END: Datenqualität messen: Metadata Quality Assessment -->
 
-```{admonition} [Lernziel: Abfragesprache SPARQL](sparql)
-:class: lernziele, dropdown
 <!-- START: Praxis anwenden: SPARQL-Abfragen -->
+```{admonition} [Lernziel: Abfragesprache SPARQL](sparql)
+:class: lernziele
 <!-- learning-goal: Abfragesprache SPARQL -->
 1. Die grundlegenden Komponenten der SPARQL-Syntax können aufgezählt und ihre Rollen erläutert werden.
 <!-- competency: 1.1 Identifikation | bloom: 2 Verstehen -->
 2. Einfache SPARQL-Abfragen können erstellt und durchgeführt werden, um spezifische Informationen aus einem Datenkatalog abzurufen.
 <!-- competency: 1.1 Identifikation | bloom: 3 Anwenden -->
-<!-- END: Praxis anwenden: SPARQL-Abfragen -->
 ```
+<!-- END: Praxis anwenden: SPARQL-Abfragen -->

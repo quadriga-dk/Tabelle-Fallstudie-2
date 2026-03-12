@@ -24,9 +24,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 In diesem Kapitel widmen wir uns der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten. Metadaten sind der Schlüssel, um Daten auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen – Eigenschaften, die durch die <a href="https://www.go-fair.org/fair-principles/" class="external-link" target="_blank">FAIR-Prinzipien</a> definiert werden. Die Orientierung an diesen Prinzipien ist essenziell für den Erfolg offener Datenportale, da eine reibungslose Datennachnutzung besser gewährleistet werden kann, je höher die Qualität der Metadaten ist.
 
 
-```{admonition} Lernziel: Metadatenqualität
-:class: lernziele
-1. Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden.
+```{include} ../präambel/lernziele.md
+:start-after: "<!-- START: Datenqualität messen: Metadata Quality Assessment -->"
+:end-before: "<!-- END: Datenqualität messen: Metadata Quality Assessment -->"
 ```
 
 Im dritten Teil dieser Fallstudie steht die Qualitätsprüfung von Metadaten im Fokus.

@@ -24,11 +24,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard DCAT sowie dessen Anwendungsprofil (application profile) DCAT-AP und dem auf Deutschland angepassten Profil DCAT-AP.de. Dabei werden folgende Lernziele erreicht:
 
 
-```{admonition} Lernziel: Metadatenstandards
-:class: lernziele
-1. Der DCAT-Standard kann definiert werden.
-2. Vier Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.
-3. Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.
+```{include} ../präambel/lernziele.md
+:start-after: "<!-- START: Werkzeuge kennenlernen: DCAT-AP Metadatenstandard -->"
+:end-before: "<!-- END: Werkzeuge kennenlernen: DCAT-AP Metadatenstandard -->"
 ```
 
 Wir befinden uns im theoretischen Teil dieser Fallstudie. Wir rekapitulieren Wissen zu Metadaten, betrachten die Entstehung, Struktur und Bedeutung von DCAT-AP und beleuchten, wie dessen nationale Anpassung, DCAT-AP.de, den Datenaustausch zwischen verschiedenen Verwaltungsebenen und Institutionen in Deutschland standardisiert. Damit schaffen wir die Basis, um zu verstehen, wie solche Standards die Nachnutzbarkeit und Interoperabilität von Daten nachhaltig fördern.
