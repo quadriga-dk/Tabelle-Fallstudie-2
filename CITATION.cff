@@ -1,13 +1,11 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-version: 1.0.0-beta.2
+version: 1.0.0
 title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
   mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
-abstract: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf
-  in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage
-  auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu
-  werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
-  und Nachvollziehbarkeit von Analysen behandelt.
+abstract: Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante
+  Datenportale vor, über die Daten akquiriert werden können und informiert über Metadaten,
+  deren Qualität, Standards und Abfragesprachen.
 type: software
 message: Please cite this software using the metadata from `preferred-citation` in
   `CITATION.cff`.
@@ -32,8 +30,8 @@ identifiers:
 - type: doi
   value: null
   description: Zenodo
-repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
-url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
+repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
+url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html
 keywords: &id002
 - Verwaltung
 - Verwaltungswissenschaft
@@ -41,11 +39,11 @@ keywords: &id002
 - Lerneinheit
 - Public Sector
 - Open Educational Resource
-- FAIR-Prinzipien
-- Datenqualität
-- Persistente Identifikatoren
-- Reproduzierbarkeit
-- R (Programmiersprache)
+- Semantic Web
+- Linked Data
+- Metadaten
+- Metadatenqualität
+- SPARQL
 license: CC-BY-4.0
 references:
 - title: Jupyter Book
@@ -54,15 +52,15 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: '2025'
-  version: 1.0.0-beta.2
+  year: '2026'
+  version: 1.0.0
   authors: *id001
   title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
     mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
   type: software
   doi: null
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
-  repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html
+  repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
   license: CC-BY-4.0
   languages:
   - deu

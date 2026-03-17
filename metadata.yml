@@ -52,7 +52,9 @@ keywords:
 - de: Metadaten
 - de: Metadatenqualität
 - de: SPARQL
-description: Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante Datenportale vor, über die Daten akquiriert werden können und informiert über Metadaten, deren Qualität, Standards und Abfragesprachen.
+description: Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante
+  Datenportale vor, über die Daten akquiriert werden können und informiert über Metadaten,
+  deren Qualität, Standards und Abfragesprachen.
 table-of-contents: '- Präambel
 
   - Technologien verstehen: Semantic Web & Linked Data
@@ -125,7 +127,7 @@ contributors:
   - Conceptualization
   - Funding acquisition
   affiliation: Fachhochschule Potsdam
-identifier: ...
+identifier: '...'
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html
 prerequisites:
@@ -138,52 +140,53 @@ used-tools:
 - https://www.w3.org/TR/sparql11-query/
 chapters:
 - title: 'Technologien verstehen: Semantic Web & Linked Data'
-  description: Dieses Kapitel vermittelt Kenntnisse in den grundlegenden Konzepten des Semantic Web und Linked Data.
+  description: Dieses Kapitel vermittelt Kenntnisse in den grundlegenden Konzepten
+    des Semantic Web und Linked Data.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/semantic_web/Semantic_Web_Linked_Data.html
   learning-goal: Technologien verstehen
   time-required: PT30M
   learning-objectives:
   - learning-objective: Der Begriff Semantic Web kann definiert werden.
-    data-flow: übergreifend
     competency: Orientierungswissen
+    data-flow: übergreifend
     blooms-category: 1 Erinnern
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
 - title: 'Werkzeuge kennenlernen: DCAT-AP Metadatenstandard'
-  description: Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard DCAT sowie dessen Anwendungsprofil DCAT-AP und dem auf Deutschland angepassten Profil DCAT-AP.de.
+  description: Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard
+    DCAT sowie dessen Anwendungsprofil DCAT-AP und dem auf Deutschland angepassten
+    Profil DCAT-AP.de.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/dcat_ap/DCAT_AP_Metadatenstandard.html
   learning-goal: Metadatenstandards
   time-required: PT30M
   learning-objectives:
   - learning-objective: Der DCAT-Standard kann definiert werden.
-    data-flow: 3 Management
     competency: 3.2 Erschließung
+    data-flow: 3 Management
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
-  - learning-objective: Vier Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.
-    data-flow: 3 Management
+  - learning-objective: Vier Hauptmerkmale des Dublin Core-Metadatenstandards können
+      genannt werden.
     competency: 3.2 Erschließung
+    data-flow: 3 Management
     blooms-category: 1 Erinnern
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
-  - learning-objective: Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.
-    data-flow: 3 Management
+  - learning-objective: Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung
+      in Deutschland kann erläutert werden.
     competency: 3.2 Erschließung
+    data-flow: 3 Management
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
 - title: 'Datenqualität messen: Metadata Quality Assessment'
-  description: Dieses Kapitel widmet sich der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten. 
+  description: Dieses Kapitel widmet sich der Qualität von Metadaten und deren Bedeutung
+    für die Nachnutzung offener Daten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/metadatenqualit%C3%A4t/Metadatenqualit%C3%A4t.html
   learning-goal: Metadatenqualität
   time-required: PT20M
   learning-objectives:
-  - learning-objective: Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden.
-    data-flow: 1 Planung
+  - learning-objective: Die Funktionen des Metadata Quality Assessment (MQA) können
+      beschrieben werden.
     competency: 1.2 Qualitätssicherung
-    blooms-category: 2 Verstehen
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-  - learning-objective: Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten
-      können für verschiedene Anwendungsfälle aufgezeigt werden.
     data-flow: 1 Planung
-    competency: 1.2 Qualitätssicherung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
 - title: 'Praxis anwenden: SPARQL-Abfragen'
@@ -192,20 +195,16 @@ chapters:
   learning-goal: Abfragesprache SPARQL
   time-required: PT40M
   learning-objectives:
-  - learning-objective: Die grundlegenden Komponenten der SPARQL-Syntax können aufgezählt und ihre Rollen erläutert werden.
+  - learning-objective: Die grundlegenden Komponenten der SPARQL-Syntax können aufgezählt
+      und ihre Rollen erläutert werden.
+    competency: 1.1 Identifikation
     data-flow: 1 Planung
-    competency: 1.3 Ethik und Recht
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
-  - learning-objective: Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung
-      kann erläutert werden.
-    data-flow: 1 Planung
+  - learning-objective: Einfache SPARQL-Abfragen können erstellt und durchgeführt
+      werden, um spezifische Informationen aus einem Datenkatalog abzurufen.
     competency: 1.1 Identifikation
-    blooms-category: 2 Verstehen
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-  - learning-objective: Einfache SPARQL-Abfragen können erstellt und durchgeführt werden, um spezifische Informationen aus einem Datenkatalog abzurufen.
     data-flow: 1 Planung
-    competency: 1.1 Identifikation
     blooms-category: 3 Anwenden
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
 date-issued: '2026-06-17'

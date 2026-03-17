@@ -12,23 +12,23 @@
     "LearningResource"
   ],
   "name": "Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2",
-  "description": "Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.",
+  "description": "Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante Datenportale vor, über die Daten akquiriert werden können und informiert über Metadaten, deren Qualität, Standards und Abfragesprachen.",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
-    "value": "10.5281/zenodo.14999803",
-    "url": "https://doi.org/10.5281/zenodo.14999803"
+    "value": "...",
+    "url": "..."
   },
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0",
   "schemaVersion": "1.0.0",
-  "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html",
+  "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html",
   "workExample": {
     "@type": "SoftwareSourceCode",
     "name": "Source Code Repository",
-    "codeRepository": "https://github.com/quadriga-dk/Tabelle-Fallstudie-1"
+    "codeRepository": "https://github.com/quadriga-dk/Tabelle-Fallstudie-2"
   },
-  "datePublished": "2024-06-13",
-  "dateModified": "2025-03-24",
+  "datePublished": "2026-06-17",
+  "dateModified": "2026-03-17",
   "author": [
     {
       "@type": "Person",
@@ -211,11 +211,11 @@
     "Lerneinheit",
     "Public Sector",
     "Open Educational Resource",
-    "FAIR-Prinzipien",
-    "Datenqualität",
-    "Persistente Identifikatoren",
-    "Reproduzierbarkeit",
-    "R (Programmiersprache)"
+    "Semantic Web",
+    "Linked Data",
+    "Metadaten",
+    "Metadatenqualität",
+    "SPARQL"
   ],
   "about": [
     {
@@ -244,23 +244,23 @@
     },
     {
       "@type": "Thing",
-      "name": "FAIR-Prinzipien"
+      "name": "Semantic Web"
     },
     {
       "@type": "Thing",
-      "name": "Datenqualität"
+      "name": "Linked Data"
     },
     {
       "@type": "Thing",
-      "name": "Persistente Identifikatoren"
+      "name": "Metadaten"
     },
     {
       "@type": "Thing",
-      "name": "Reproduzierbarkeit"
+      "name": "Metadatenqualität"
     },
     {
       "@type": "Thing",
-      "name": "R (Programmiersprache)"
+      "name": "SPARQL"
     },
     {
       "@type": "Thing",
@@ -293,7 +293,7 @@
       "audienceType": "Hochschullehrende"
     }
   ],
-  "timeRequired": "PT3H15M",
+  "timeRequired": "PT2H10M",
   "license": {
     "@type": "CreativeWork",
     "name": "Content",
@@ -302,157 +302,89 @@
   "hasPart": [
     {
       "@type": "LearningResource",
-      "name": "Datenbasis",
-      "description": "Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.",
-      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html",
-      "timeRequired": "PT5M",
-      "teaches": "Forschungssfrage",
-      "educationalAlignment": [
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Forschungsfrage kann erläutert und in einen Kontext mit dem Bildungsbericht gesetzt werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: 2 Verstehen | Data Flow: nicht anwendbar"
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
-      "name": "Datennachnutzung",
-      "description": "Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.",
-      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html",
-      "timeRequired": "PT15M",
-      "teaches": "Grundsätze des Datenmanagements",
-      "educationalAlignment": [
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten Beispiels erläutert werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: Orientierungswissen | Bloom's: 3 Anwenden | Data Flow: übergreifend",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
-      "name": "Qualitätsbewertung",
-      "description": "In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.",
-      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html",
+      "name": "Technologien verstehen: Semantic Web & Linked Data",
+      "description": "Dieses Kapitel vermittelt Kenntnisse in den grundlegenden Konzepten des Semantic Web und Linked Data.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-2/semantic_web/Semantic_Web_Linked_Data.html",
       "timeRequired": "PT30M",
-      "teaches": "Sicherstellen der Qualität von Datensätzen",
+      "teaches": "Technologien verstehen",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Bedeutung zentraler Qualitätskriterien für Datensätze kann für die Forschung erläutert werden.",
+          "targetName": "Der Begriff Semantic Web kann definiert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 1 Erinnern | Data Flow: übergreifend",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Werkzeuge kennenlernen: DCAT-AP Metadatenstandard",
+      "description": "Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard DCAT sowie dessen Anwendungsprofil DCAT-AP und dem auf Deutschland angepassten Profil DCAT-AP.de.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-2/dcat_ap/DCAT_AP_Metadatenstandard.html",
+      "timeRequired": "PT30M",
+      "teaches": "Metadatenstandards",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Der DCAT-Standard kann definiert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Vier Hauptmerkmale des Dublin Core-Metadatenstandards können genannt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 1 Erinnern | Data Flow: 3 Management",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung in Deutschland kann erläutert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Datenqualität messen: Metadata Quality Assessment",
+      "description": "Dieses Kapitel widmet sich der Qualität von Metadaten und deren Bedeutung für die Nachnutzung offener Daten.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-2/metadatenqualit%C3%A4t/Metadatenqualit%C3%A4t.html",
+      "timeRequired": "PT20M",
+      "teaches": "Metadatenqualität",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Funktionen des Metadata Quality Assessment (MQA) können beschrieben werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
           "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 2 Verstehen | Data Flow: 1 Planung",
           "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten können für verschiedene Anwendungsfälle aufgezeigt werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 2 Verstehen | Data Flow: 1 Planung",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Qualität eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 3 Anwenden | Data Flow: 1 Planung",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
         }
       ]
     },
     {
       "@type": "LearningResource",
-      "name": "Identifikatoren",
-      "description": "Dieses Kapitel behandelt Identifikatoren der eindeutigen und persistenten Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.",
-      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Identifikatoren.html",
-      "timeRequired": "PT25M",
-      "teaches": "Datenzitierung und PID",
+      "name": "Praxis anwenden: SPARQL-Abfragen",
+      "description": "In diesem Kapitel wird die Abfragesprache SPARQL vorgestellt",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL.html",
+      "timeRequired": "PT40M",
+      "teaches": "Abfragesprache SPARQL",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Die allgemein anerkannten Methoden der Datenzitierung können beschrieben werden.",
+          "targetName": "Die grundlegenden Komponenten der SPARQL-Syntax können aufgezählt und ihre Rollen erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1.3 Ethik und Recht | Bloom's: 2 Verstehen | Data Flow: 1 Planung",
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 2 Verstehen | Data Flow: 1 Planung",
           "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung kann erläutert werden.",
+          "targetName": "Einfache SPARQL-Abfragen können erstellt und durchgeführt werden, um spezifische Informationen aus einem Datenkatalog abzurufen.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die spezifischen Einsatzbereiche verschiedener Arten von PIDs (z.B. DOI, ORCID) können erklärt werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
-      "name": "Datenaufbereitung I - Organisation und Strukturierung",
-      "description": "Dieses Kapitel widmet sich der Datenmanipulation als ein entscheidender Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und zu verbessern.",
-      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html",
-      "timeRequired": "PT60M",
-      "teaches": "Datenaufbereitung und -strukturierung",
-      "educationalAlignment": [
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Bedeutung von Datenaufbereitung kann erläutert werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 2.2 Validierung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Anwendung spezifischer Aufbereitungstechniken auf einen gegebenen Datensatz kann beschrieben werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung kann anhand eines Beispiels demonstriert werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
-      "name": "Datenaufbereitung II - Analyse und Reproduzierbarkeit",
-      "description": "Dieses Kapitel widmet sich der Datenanalyse und -reproduzierbarkeit mit Hilfe der Programmiersprache R.",
-      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation2.html",
-      "timeRequired": "PT60M",
-      "teaches": "Datenanalyse und -reproduzierbarkeit",
-      "educationalAlignment": [
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse kann beschrieben werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse",
-          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutert werden.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse",
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung",
           "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
         }
       ]
