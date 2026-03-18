@@ -26,8 +26,6 @@ bibtex_bibfiles:
 
 # Reference style
 sphinx:
-  extra_extensions:
-    - sphinx_apa_references
   config:
     bibtex_reference_style: author_year
     html_show_copyright: false
@@ -38,6 +36,7 @@ sphinx:
     html_js_files:
       - carousel.js
   extra_extensions:
+    - sphinx_apa_references
     - sphinx.ext.autosummary
     - sphinx.ext.autodoc
 
