@@ -48,10 +48,10 @@
 
 - [x] FAIR-Assessment
 - [x] Metadaten
-- [ ] PID
+- [x] PID
 - [x] Versionierung und Upload
 - [x] Dokumentation
-- [ ] Zitationshinweis
+- [x] Zitationshinweis
 
 ---
 
