@@ -55,7 +55,7 @@ keywords:
 description: Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante
   Datenportale vor, über die Daten akquiriert werden können und informiert über Metadaten,
   deren Qualität, Standards und Abfragesprachen.
-table-of-contents: '- Präambel
+table-of-contents: '- Einstieg
 
   - Technologien verstehen: Semantic Web & Linked Data
 
@@ -67,7 +67,7 @@ table-of-contents: '- Präambel
 
   - Zusammenfassung und Reflexion
 
-  - Epilog'
+  - Abschluss'
 discipline:
 - Verwaltungswissenschaften
 - Informationswissenschaft

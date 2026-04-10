@@ -44,13 +44,13 @@
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html">
     <dc:type>Jupyter Book</dc:type>
-    <dcterms:tableOfContents>- Präambel
+    <dcterms:tableOfContents>- Einstieg
 - Technologien verstehen: Semantic Web &amp; Linked Data
 - Werkzeuge kennenlernen: DCAT-AP Metadatenstandard
 - Datenqualität messen: Metadata Quality Assessment
 - Praxis anwenden: SPARQL-Abfragen
 - Zusammenfassung und Reflexion
-- Epilog</dcterms:tableOfContents>
+- Abschluss</dcterms:tableOfContents>
     <dcterms:type>Jupyter Book</dcterms:type>
     <lrmi:learningResourceType>Jupyter Book</lrmi:learningResourceType>
     <schema:about>

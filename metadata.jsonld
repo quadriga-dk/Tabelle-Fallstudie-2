@@ -390,7 +390,7 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Präambel\n- Technologien verstehen: Semantic Web & Linked Data\n- Werkzeuge kennenlernen: DCAT-AP Metadatenstandard\n- Datenqualität messen: Metadata Quality Assessment\n- Praxis anwenden: SPARQL-Abfragen\n- Zusammenfassung und Reflexion\n- Epilog",
+  "dcterms:tableOfContents": "- Einstieg\n- Technologien verstehen: Semantic Web & Linked Data\n- Werkzeuge kennenlernen: DCAT-AP Metadatenstandard\n- Datenqualität messen: Metadata Quality Assessment\n- Praxis anwenden: SPARQL-Abfragen\n- Zusammenfassung und Reflexion\n- Abschluss",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",
