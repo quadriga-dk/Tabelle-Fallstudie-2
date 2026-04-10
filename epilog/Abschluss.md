@@ -1,4 +1,4 @@
-# Epilog 
+# Abschluss 
 
 - [Fragen und Feedback](fragen_und_feedback.md)
 - [Literaturverzeichnis](Literaturverzeichnis.md)

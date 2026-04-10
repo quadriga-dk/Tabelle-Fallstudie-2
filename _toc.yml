@@ -6,7 +6,7 @@ root: Titelseite
 options: 
   numbered: 3
 chapters:
-  - file: präambel/Präambel
+  - file: präambel/Einstieg
     sections:
       - file: präambel/lernziele
       - file: präambel/technische_voraussetzungen
@@ -42,7 +42,7 @@ chapters:
 
   - file: zusammenfassung
   
-  - file: epilog/Epilog
+  - file: epilog/Abschluss
     sections:
     - file: epilog/fragen_und_feedback
     - file: epilog/Literaturverzeichnis
