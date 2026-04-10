@@ -211,6 +211,7 @@
         <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html#contributor_3_org" />
         <schema:familyName>Zhang</schema:familyName>
         <schema:givenName>Yue</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html#contributor_3_orcid" />
         <schema:name>Yue Zhang</schema:name>
       </schema:Person>
     </schema:contributor>
@@ -242,7 +243,7 @@
       </schema:Person>
     </schema:contributor>
     <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-10</schema:dateModified>
-    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-17</schema:datePublished>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-20</schema:datePublished>
     <schema:description>Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante Datenportale vor, über die Daten akquiriert werden können und informiert über Metadaten, deren Qualität, Standards und Abfragesprachen.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
 
@@ -396,6 +397,11 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:propertyID>ORCID</schema:propertyID>
     <schema:url rdf:resource="https://orcid.org/0009-0001-1879-9880" />
     <schema:value>0009-0001-1879-9880</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html#contributor_3_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0009-0007-6432-1259" />
+    <schema:value>0009-0007-6432-1259</schema:value>
   </schema:PropertyValue>
   <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html#contributor_4_orcid">
     <schema:propertyID>ORCID</schema:propertyID>
