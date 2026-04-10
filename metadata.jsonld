@@ -19,7 +19,7 @@
     "value": "...",
     "url": "..."
   },
-  "version": "1.0.0",
+  "version": "1.0.0-rc.1",
   "schemaVersion": "1.0.0",
   "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html",
   "workExample": {
@@ -28,7 +28,7 @@
     "codeRepository": "https://github.com/quadriga-dk/Tabelle-Fallstudie-2"
   },
   "datePublished": "2026-06-17",
-  "dateModified": "2026-03-17",
+  "dateModified": "2026-04-10",
   "author": [
     {
       "@type": "Person",
