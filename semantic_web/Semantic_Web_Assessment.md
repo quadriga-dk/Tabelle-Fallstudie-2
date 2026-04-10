@@ -342,8 +342,8 @@ quiz2 = DragDropQuiz()
 quiz2.create_matching_quiz(
     title="Ordnen Sie die folgenden Charakteristika der jeweiligen Web-Generation zu:",
     descriptions=[
-        "Verlinkte Webseiten",
         "Verlinkte Applikationen (z.B. Soziale Netzwerke)",
+        "Verlinkte Webseiten",
         "Verlinkte Daten (Semantic Web)"
     ],
     options=[

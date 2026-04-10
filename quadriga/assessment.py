@@ -53,14 +53,14 @@ class DragDropQuiz:
                 "partial": "Teilweise richtig: {correct} von {total} Zuordnungen sind korrekt."
             }
         
-        # Convert correct mapping to use indices for easier JavaScript handling
+        # Convert correct mapping to use indices for earlier elements, but map option texts directly
         desc_to_idx = {desc: i for i, desc in enumerate(descriptions)}
-        opt_to_idx = {opt: i for i, opt in enumerate(options)}
         
         correct_pairs = []
         for desc, opt in correct_mapping.items():
-            if desc in desc_to_idx and opt in opt_to_idx:
-                correct_pairs.append([desc_to_idx[desc], opt_to_idx[opt]])
+            if desc in desc_to_idx:
+                # We store the string `opt` instead of the index so duplicate texts work
+                correct_pairs.append([desc_to_idx[desc], opt])
         
         html_content = self._generate_html(
             quiz_id, title, descriptions, options, correct_pairs, show_feedback, feedback_messages
