@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-version: 1.0.0-beta
+version: 1.0.0
 title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
   mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
 abstract: Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante
@@ -53,7 +53,7 @@ references:
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
   year: '2026'
-  version: 1.0.0-beta
+  version: 1.0.0
   authors: *id001
   title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
     mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
