@@ -42,7 +42,7 @@ from quadriga import colors
 
 question1 = [
     {
-        "question": "Was ist DCAT und wofür wurde es entwickelt?",
+        "question": "Was ist DCAT und wofür wurde es entwickelt? Wählen Sie alle zutreffenden Aussagen.",
         "type": "multiple_choice",
         "answers": [
             {
@@ -285,7 +285,6 @@ create_answer_box('dcat-ap-1')
 ````{admonition} Musterlösung
 :class: solution, dropdown
 
-**Musterlösung:**
 
 **1. Welchen Metadatenstandard sollte die Stadt verwenden?**
 

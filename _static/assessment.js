@@ -161,7 +161,7 @@ class DragDropQuizManager {
         let totalPairs = quiz.correctPairs.length;
         
         // Check each correct pair and apply visual feedback
-        quiz.correctPairs.forEach(([descId, optionId]) => {
+        quiz.correctPairs.forEach(([descId, expectedValue]) => {
             const dropArea = document.getElementById(`${quizId}_drop_${descId}`);
             const droppedItem = dropArea.querySelector('.dropped-item');
             
@@ -169,7 +169,24 @@ class DragDropQuizManager {
             dropArea.classList.remove('correct-answer', 'incorrect-answer');
             
             if (droppedItem) {
-                if (parseInt(droppedItem.dataset.itemId) === optionId) {
+                // Compatibility for both old index-based mapping and new text-based mapping
+                let isCorrect = false;
+                if (typeof expectedValue === 'number') {
+                    // Check against index if expectedValue is a number
+                    if (parseInt(droppedItem.dataset.itemId) === expectedValue) {
+                        isCorrect = true;
+                    } else if (droppedItem.textContent.trim() === quiz.originalOptions[expectedValue].trim()) {
+                        // Fallback text check just in case
+                        isCorrect = true;
+                    }
+                } else {
+                    // It's a string natively mapped
+                    if (droppedItem.textContent.trim() === String(expectedValue).trim()) {
+                        isCorrect = true;
+                    }
+                }
+                
+                if (isCorrect) {
                     correctCount++;
                     dropArea.classList.add('correct-answer');
                 } else {
