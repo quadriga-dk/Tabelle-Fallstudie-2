@@ -14,7 +14,7 @@ Anhand modellhafter Forschungsfragen werden für die drei Datentypen Bewegtes Bi
 
 ## Nutzung dieser OER
 
-Dieses JupyterBook ist eine Open Educational Resource (OER) und kann zu Lehr- und Lernzwecken verwendet werden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung (CC BY-SA). Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/blob/main/LICENSE.md" class="external-link" target="_blank">Lizenzhinweisen</a>.
+Dieses JupyterBook ist eine Open Educational Resource (OER) und kann zu Lehr- und Lernzwecken verwendet werden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung (CC BY). Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-2/blob/main/LICENSE.md" class="external-link" target="_blank">Lizenzhinweisen</a>.
 
 ## Inhalt der OER
 
