@@ -126,7 +126,7 @@ lang: de-DE
 
 <table style="margin-left: 0; margin-bottom: 2em;">
 <tr>
-<td><b>Rolle in QUADRIGA:</b></td>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
 <td>Strukturanpassung der Book-Dateien, Review</td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@ lang: de-DE
 
 <table style="margin-left: 0; margin-bottom: 2em;">
 <tr>
-<td><b>Rolle in QUADRIGA:</b></td>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
 <td>Review</td>
 </tr>
 <tr>
@@ -148,9 +148,9 @@ lang: de-DE
 </tr>
 </table>
 
-### Vivien Petras <a href="https://orcid.org/0000-0002-8113-1509" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+**Vivien Petras** <a href="https://orcid.org/0000-0002-8113-1509" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
 
-<table style="margin-left: 0">
+<table style="margin-left: 0; margin-bottom: 2em;">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
 <td>Funding acquisition</td>
@@ -161,9 +161,9 @@ lang: de-DE
 </tr>
 </table>
 
-### Heike Neuroth <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+**Heike Neuroth** <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
 
-<table style="margin-left: 0">
+<table style="margin-left: 0; margin-bottom: 2em;">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
 <td>Conceptualization, Funding acquisition</td>
