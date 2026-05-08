@@ -100,7 +100,7 @@ Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenpo
 
 **2. Werkzeuge kennenlernen: DCAT-AP Metadatenstandard**
 
-Wir machen Sie mit einem der zentralen Werkzeug für Datenportale im Public Sectorvertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht.
+Wir machen Sie mit einem der zentralen Werkzeug für Datenportale im Public Sector vertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht.
 
 **3. Datenqualität messen: Metadata Quality Assessment**
 
