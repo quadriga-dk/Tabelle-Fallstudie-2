@@ -62,5 +62,6 @@ Das DCAT-AP-Schema basiert auf dem Dublin-Core-Metadatenstandard und ermöglicht
 
 ```{bibliography}
 :filter: docname in docnames
+:list: bullet
 ```
 

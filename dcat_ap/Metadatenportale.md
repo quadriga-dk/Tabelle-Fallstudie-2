@@ -49,4 +49,5 @@ Seit 2024 gibt es DCAT-AP.de in der <a href="https://www.dcat-ap.de/def/dcatde/3
 
 ```{bibliography}
 :filter: docname in docnames
+:list: bullet
 ```

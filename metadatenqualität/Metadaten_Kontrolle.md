@@ -42,4 +42,5 @@ Metadaten erleichtern die Suche nach und die Verwendung von Daten. Sie ermöglic
 
 ```{bibliography}
 :filter: docname in docnames
+:list: bullet
 ```
