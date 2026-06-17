@@ -69,4 +69,5 @@ Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorke
 
 ```{bibliography}
 :filter: docname in docnames
+:list: bullet
 ```

@@ -29,4 +29,5 @@ Für weitere Informationen zu CKAN schauen Sie sich die <a href="https://ckan.or
 
 ```{bibliography}
 :filter: docname in docnames
+:list: bullet
 ```
