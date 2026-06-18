@@ -73,5 +73,4 @@ Eine weitere Zusammenfassung hat der deutsche Internetdienstanbieter <a href="ht
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

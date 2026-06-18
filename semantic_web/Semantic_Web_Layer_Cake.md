@@ -42,5 +42,4 @@ Das Konzept von verlinkten Daten, oder *Linked Data*, ist essenziell für die vo
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

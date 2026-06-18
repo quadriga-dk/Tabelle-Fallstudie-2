@@ -47,5 +47,4 @@ Falls Sie noch nach einem grundsätzlichen Überblick zum Thema Metadaten suchen
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```
