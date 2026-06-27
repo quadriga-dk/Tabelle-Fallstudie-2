@@ -21,10 +21,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 `````
 
-Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard DCAT sowie dessen Anwendungsprofil (application profile) DCAT-AP und dem auf Deutschland angepassten Profil DCAT-AP.de. Dabei werden folgende Lernziele erreicht:
+Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard DCAT sowie dessen Anwendungsprofil (application profile) DCAT-AP und dem auf Deutschland angepassten Profil DCAT-AP.de.  Dabei werden folgende Lernziele erreicht:
 
-
-```{include} ../präambel/lernziele.md
+```{include} /einstieg/lernziele.md
 :start-after: "<!-- START: Werkzeuge kennenlernen: DCAT-AP Metadatenstandard -->"
 :end-before: "<!-- END: Werkzeuge kennenlernen: DCAT-AP Metadatenstandard -->"
 ```
@@ -54,6 +53,7 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Resümee](/dcat_ap/DCAT_AP_Reflexion.md)
 - [Selbsttest](/dcat_ap/DCAT_AP_Assessment.md)
 
+---
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
@@ -63,10 +63,3 @@ Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben be
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
 ``` 
-
-
-**Literatur**
-
-```{bibliography}
-:filter: docname in docnames
-```

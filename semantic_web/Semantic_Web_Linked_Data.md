@@ -23,7 +23,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 In diesem Kapitel beschäftigen wir uns mit dem Konzept des Semantic Web, welches eine zentrale Rolle in der modernen Datenverarbeitung und Datennutzung einnimmt. Dabei wird aufgezeigt, wie semantische Technologien dazu beitragen, Informationen besser zu strukturieren, zu verknüpfen und maschinell interpretierbar zu machen.
 
-```{include} ../präambel/lernziele.md
+```{include} /einstieg/lernziele.md
 :start-after: "<!-- START: Technologien verstehen: Semantic Web & Linked Data -->"
 :end-before: "<!-- END: Technologien verstehen: Semantic Web & Linked Data -->"
 ```
@@ -51,6 +51,7 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Resümee](/semantic_web/Semantic_Web_Resümee.md)
 - [Selbsttest](/semantic_web/Semantic_Web_Assessment.md)
 
+---
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo

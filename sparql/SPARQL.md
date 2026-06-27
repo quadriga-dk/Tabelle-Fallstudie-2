@@ -21,10 +21,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 `````
 
-
 In diesem Kapitel wird die Abfragesprache <a href="https://de.wikipedia.org/wiki/SPARQL" class="external-link" target="_blank">SPARQL</a> vorgestellt, die speziell zur Abfrage von Daten in RDF-Formaten entwickelt wurde {cite}`ducharme_learning_2013`. SPARQL ermöglicht es, gezielt Metadaten aus Open Data Portalen wie <a href="https://data.europa.eu/de" class="external-link" target="_blank">data.europa.eu</a> abzurufen und komplexe Fragestellungen maschinell zu beantworten. Ziel dieses Kapitels ist es, eine praxisnahe Anwendung von SPARQL zu veranschaulichen und unterschiedliche Abfragetechniken zu erlernen.
 
-```{include} ../präambel/lernziele.md
+```{include} /einstieg/lernziele.md
 :start-after: "<!-- START: Praxis anwenden: SPARQL-Abfragen -->"
 :end-before: "<!-- END: Praxis anwenden: SPARQL-Abfragen -->"
 ```
@@ -58,7 +57,6 @@ In den folgenden Übungen dieses Kapitels befassen Sie sich mit der eingangs vor
 Weitere Informationen zum Thema SPARQL und RDF, die allerdings ein gewisses Maß an Vorkenntnissen zum Verständnis benötigen, finden Sie auf den Seiten des <a href="https://www.w3.org/TR/sparql11-query/" class="external-link" target="_blank">W3C</a>.  
 ```
 
-
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
 - [Grundlagen](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Grundlagen.html)
@@ -67,6 +65,7 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Resümee]([/SPARQL_Reflexion.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Reflexion.html))
 - [Selbsttest]([/SPARQL_Assessment.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Assessment.html))
 
+---
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
