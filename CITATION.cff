@@ -1,6 +1,5 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-version: 1.0.0
 title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
   mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
 abstract: Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante
@@ -28,7 +27,7 @@ authors: &id001
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
 identifiers:
 - type: doi
-  value: null
+  value: 10.5281/zenodo.19494510
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html
@@ -53,12 +52,11 @@ references:
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
   year: '2026'
-  version: 1.0.0
   authors: *id001
   title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
     mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
-  type: software
-  doi: null
+  type: book
+  doi: 10.5281/zenodo.19494510
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html
   repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
   license: CC-BY-4.0
@@ -66,3 +64,5 @@ preferred-citation:
   - deu
   copyright: CC-BY-4.0
   keywords: *id002
+  version: 1.0.0
+version: 1.0.0
