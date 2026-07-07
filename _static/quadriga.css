@@ -337,7 +337,7 @@ html[data-theme='dark'] div.story > .admonition-title::after {
     color: #b876d1
 }
 
-/* Fix bibliography URL overflow */
+/* Fix bibliography URL overflow — targets actual rendered HTML */
 div.citation {
     display: flex;
     flex-wrap: wrap;
