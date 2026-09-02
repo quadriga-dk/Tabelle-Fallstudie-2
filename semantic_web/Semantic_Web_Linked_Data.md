@@ -41,7 +41,7 @@ alt: Skizzenhafte Darstellung der 4 Schritte dieser Fallstudie mit Hervorhebung 
 Der 1. von 4 Abschnitten dieser Fallstudie.
 ```
 
-In diesem Kapitel werden die Grundlagen des Semantic Web sowie die ihm zugrunde liegendende Struktur schrittweise erläutert. Ziel ist es, ein Verständnis dafür zu entwickeln, wie verknüpfte Daten die Art und Weise verändern, wie wir mit Informationen umgehen und Wissen generieren können.
+In diesem Kapitel werden die Grundlagen des Semantic Web sowie die ihm zugrunde liegende Struktur schrittweise erläutert. Ziel ist es, ein Verständnis dafür zu entwickeln, wie verknüpfte Daten die Art und Weise verändern, wie wir mit Informationen umgehen und Wissen generieren können.
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
