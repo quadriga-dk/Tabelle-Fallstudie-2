@@ -48,7 +48,7 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 
 - [MQA - ein Werkzeug zur Qualitätsbestimmung](/metadatenqualität/Metadaten_Kontrolle.md)
 - [Übung zum MQA](/metadatenqualität/Metadaten_Übung.md)
-- [Resümee des Kapitels](/metadatenqualität/Metadaten_Reflexion.md)
+- [Resümee des Kapitels](/metadatenqualität/Metadaten_Resümee.md)
 
 ---
 
