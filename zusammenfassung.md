@@ -11,9 +11,9 @@ Die Qualität von Metadaten war ein weiterer Teil der Fallstudie. In diesem Zusa
 
 Im abschließenden praktischen Teil wurde die Abfragesprache SPARQL eingeführt, die speziell zur Abfrage von Daten im RDF-Format entwickelt wurde. Dabei konnte die Syntax und Anwendung von SPARQL erlernt werden, um gezielt Metadaten aus Open-Data-Portalen wie data.europa.eu abzurufen. Es wurden SPARQL-Abfragen erstellt und auf typische Herausforderungen wie unvollständige Metadaten oder fehlende Paginierungsfunktionen eingegangen.
 
-Durch die Kombination von theoretischem Wissen und praktischen Übungen wurde auf ein Verständnis für die Bedeutung von Metadatenqualität, Standardisierung und semantischen Technologien hingewirkt. Dieses Wissen konnte auf eine Forschungsfrage angewendet werden, um reale Herausforderungen im Umgang mit offenen Daten zu bewältigen. Dabei wurde die Bedeutung von standardisierten Metadaten (DCAT-AP), einer hohen Datenqualität (FAIR-Prinzipien) und geeigneten Abfragesprachen (SPARQL) vermittelt, die die Voraussetzung für die maschinelle Verarbeitung, Verknüpfung und Ausgewertung von Daten sind.
+Durch die Kombination von theoretischem Wissen und praktischen Übungen wurde auf ein Verständnis für die Bedeutung von Metadatenqualität, Standardisierung und semantischen Technologien hingewirkt. Dieses Wissen konnte auf eine Forschungsfrage angewendet werden, um reale Herausforderungen im Umgang mit offenen Daten zu bewältigen. Dabei wurde die Bedeutung von standardisierten Metadaten (DCAT-AP), einer hohen Datenqualität (FAIR-Prinzipien) und geeigneten Abfragesprachen (SPARQL) vermittelt, die die Voraussetzung für die maschinelle Verarbeitung, Verknüpfung und Auswertung von Daten sind.
 
-```{admonition} Was  Sie mitnehmen sollten
+```{admonition} Was Sie mitnehmen sollten
 :class: keypoint
 
 **Semantic Web**
