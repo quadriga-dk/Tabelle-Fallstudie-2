@@ -52,7 +52,7 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Website:</b></td>
-</td><td><a href="https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
+<td><a href="https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
 </tr>
 </table>
 
@@ -71,7 +71,7 @@ lang: de-DE
 
 ## Weitere Beteiligte  
 
-**Hannes Schnaitter</b>** <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+**Hannes Schnaitter** <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
 
 <table style="margin-left: 0; margin-bottom: 2em;">
 <tr>
