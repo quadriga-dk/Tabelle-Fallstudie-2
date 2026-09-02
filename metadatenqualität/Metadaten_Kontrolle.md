@@ -19,7 +19,7 @@ Screenshot der Indikatoren der Bewertungsdimensionen Auffindbarkeit und Zugängl
 ```
 
 
-Durch den Verlauf kann man nachvollziehen, wie diese Anteile im Laufe der Jahre schwanken, insbesondere da kontinuierlich neue Datensätze hinzugefügt werden, die die Kriterien erfüllen oder nicht. Im Übersichtsbereich ist beispielsweise ersichtlich, dass das spanische Datenportal <a href="https://data.europa.eu/mqa/catalogues/yoda/?locale=de" class="external-link" target="_blank">Your Open DAta</a> auf data.europa.eu eine gute Bewertung erhalten hat, wobei in auffällig ist, dass die Auffindbarkeit 100% erhält, während die Zugänglichkeit voll oder fast gar nicht gegeben ist (s. Abb. 4.3).
+Durch den Verlauf kann man nachvollziehen, wie diese Anteile im Laufe der Jahre schwanken, insbesondere da kontinuierlich neue Datensätze hinzugefügt werden, die die Kriterien erfüllen oder nicht. Im Übersichtsbereich ist beispielsweise ersichtlich, dass das spanische Datenportal <a href="https://data.europa.eu/mqa/catalogues/yoda/?locale=de" class="external-link" target="_blank">Your Open DAta</a> auf data.europa.eu eine gute Bewertung erhalten hat, wobei auffällig ist, dass die Auffindbarkeit 100% erhält, während die Zugänglichkeit voll oder fast gar nicht gegeben ist (s. Abb. 4.3).
 
 ```{figure} /assets/2025-08-01_Screenshot_Portal_DataEuropa.png
 ---
@@ -27,13 +27,13 @@ name: Werte Spanisches Portal
 alt: Darstellung der Auffindbarkeit und der Zugänglichkeit des spanischen Datenportals "Your Open DAta"
 width: 100%
 ---
-Screenshot der Evalutaion des spanischen Datenportals Yor Open DAta, <a href="https://data.europa.eu/mqa/catalogues/yoda?locale=de" class="external-link" target="_blank">https://data.europa.eu/mqa/catalogues/yoda?locale=de</a>, Europäische Union, Zugriff am 01.08.2025. 
+Screenshot der Evaluation des spanischen Datenportals Your Open DAta, <a href="https://data.europa.eu/mqa/catalogues/yoda?locale=de" class="external-link" target="_blank">https://data.europa.eu/mqa/catalogues/yoda?locale=de</a>, Europäische Union, Zugriff am 01.08.2025. 
 ```
 
 Auf dem <a href="https://data.europa.eu/mqa/?locale=de" class="external-link" target="_blank">Metadata Quality Dashboard</a> des europäischen Metadatenportals wird eine Bewertung aller europäischen Portale geboten und die besten 12 Portale hervorgehoben.
 
 
-```{admonition} Was  Sie mitnehmen sollten
+```{admonition} Was Sie mitnehmen sollten
 :class: keypoint
 Metadaten erleichtern die Suche nach und die Verwendung von Daten. Sie ermöglichen eine bessere Navigation durch große Datenmengen und erleichtern die Nachnutzung. Die Anwendung der FAIR-Prinzipien auf die Metadaten stellt sicher, dass diese Daten auffindbar, zugänglich, interoperabel und wiederverwendbar sind, was durch Werkzeuge wie das Metadata Quality Assessment (MQA) überprüft werden kann.
 ```
