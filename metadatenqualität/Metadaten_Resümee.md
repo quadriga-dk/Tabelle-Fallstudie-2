@@ -8,7 +8,7 @@ In diesem Kapitel wurde die zentrale Bedeutung der Metadatenqualität für den E
 Zur Lösung der Forschungsfrage - der Ermittlung offener Daten zum Baumbestand einer Region - hat dieses Kapitel indirekt beigetragen, denn nur wenn Daten mit qualitätvollen Metadaten beschrieben sind, die (inter-)nationalen Standards entsprechen, sind sie überhaupt auffindbar.
 ```
 
-```{admonition} Was  Sie mitnehmen sollten
+```{admonition} Was Sie mitnehmen sollten
 :class: keypoint
 - Es gibt Bewertungstools für die Qualität von Metadaten.
 - Das MQA basiert auf den FAIR-Prinzipien.
