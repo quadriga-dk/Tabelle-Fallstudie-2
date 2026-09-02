@@ -12,7 +12,7 @@ Mit Blick auf die Forschungsfrage und die Suche nach offenen Daten wurden in die
 
 Abschließend lässt sich festhalten, dass das Semantic Web eine Schlüsselrolle in der zukünftigen Nachnutzung und Verarbeitung von Daten einnimmt. Es eröffnet nicht nur eine neue Dimension der Informationsverknüpfung und -interpretation, sondern birgt auch das Potenzial, bestehende Herausforderungen in der Datenverwaltung zu bewältigen. Die in diesem Abschnitt vermittelten Grundlagen bilden das Fundament dafür, wie wir künftig Daten effizienter organisieren, analysieren und austauschen können – eine Kompetenz, die in Wissenschaft, Wirtschaft und staatlichen Institutionen zunehmend an Bedeutung gewinnt.
 
-```{admonition} Was  Sie mitnehmen sollten
+```{admonition} Was Sie mitnehmen sollten
 :class: keypoint 
 
 - Das Semantic Web bildet die Grundlage für die effektive Nutzung verknüpfter Daten durch maschinenlesbare Formate und Standards wie RDF.
