@@ -35,7 +35,7 @@ Plomin, J., Walter, P., Schmeling, J. & Dakruni, S. (2026). _Offene Daten im urb
 Dieses <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBook</a> möchte Kenntnisse zur Datenabfrage vermitteln, indem es relevante Datenportale vorstellt, über die Daten akquiriert werden können und Sie mit Metadaten, deren Qualität, Standards und Abfragesprachen vertraut macht.
 
 Der thematische Fokus liegt auf der Arbeit mit Baumkatasterdaten.
-Daten zu Baumverteilungen oder -pflanzungen in Städten gewinnen zunehmend an Bedeutung, da Bäume das Mikroklima wesentlich beeinflussen. Das gestiegene Interesse der Bevölkerung an "ihren" Stadtbäumen zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie inspirieren lassen haben.
+Daten zu Baumverteilungen oder -pflanzungen in Städten gewinnen zunehmend an Bedeutung, da Bäume das Mikroklima wesentlich beeinflussen. Das gestiegene Interesse der Bevölkerung an "ihren" Stadtbäumen zeigen Portale wie <a href="https://www.giessdenkiez.de/map?treeAgeMax=200&lang=de&lat=52.494590307846366&lng=13.388836926491992" class="external-link" target="_blank">Gieß den Kiez</a>, von denen wir uns zu dieser Fallstudie haben inspirieren lassen.
 
 
 ```{figure} /assets/SucheBaumkatasterDataEuropa_Screenshot_2025-09-30.png
@@ -100,7 +100,7 @@ Wir greifen in dieser Fallstudie auf Metadaten aus dem europäischen Metadatenpo
 
 **2. Werkzeuge kennenlernen: DCAT-AP Metadatenstandard**
 
-Wir machen Sie mit einem der zentralen Werkzeug für Datenportale im Public Sector vertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht.
+Wir machen Sie mit einem der zentralen Werkzeuge für Datenportale im Public Sector vertraut: dem DCAT-AP-Standard, der auch die politisch-administrativen Aspekte im Kontext von öffentlicher Verwaltung und Open Data einbezieht.
 
 **3. Datenqualität messen: Metadata Quality Assessment**
 
