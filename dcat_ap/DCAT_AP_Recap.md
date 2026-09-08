@@ -17,7 +17,7 @@ width: 512px
 Ein Beispiel für Metadaten: Karteikarten in einem Schlagwortkatalog, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" class="external-link" target="_blank">CC BY-SA</a> <a href="https://commons.wikimedia.org/wiki/File:Schlagwortkatalog.jpg?uselang=de" class="external-link" target="_blank">Marcus Gossler</a>.
 ```
 
-Es gibt verschiedene Arten von Metadaten, die unterschiedliche Funktionen erfüllen {cite}`riley2017understanding`. So enthalten zum Beispiel *beschreibende Metadaten* Informationen zur Autorenschaft, dem Erstellungsdatum, der Dateigröße und Schlagwörter. *Technische Metadaten* machen dagegen eine Aussage über die Struktur, das Format oder Speicherung von Daten.
+Es gibt verschiedene Arten von Metadaten, die unterschiedliche Funktionen erfüllen {cite}`riley2017understanding`. So enthalten zum Beispiel *beschreibende Metadaten* Informationen zur Autorenschaft, dem Erstellungsdatum, der Dateigröße und Schlagwörter. *Technische Metadaten* machen dagegen eine Aussage über die Struktur, das Format oder die Speicherung von Daten.
 
 
 ```{admonition} Weitere Informationen

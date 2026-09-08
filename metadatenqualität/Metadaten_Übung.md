@@ -84,7 +84,7 @@ question2 = [{
             "feedback": """× Diese Antwort ist nicht korrekt. Diese Kategorien sind zwar wichtige Parameter in der Untersuchung der Qualität von Daten und Metadaten, aber nicht die Dimensionen des MQA."""
         },
         {
-            "answer": "Lizenzangaben, Zugangsbeschränkung, Heruasgeber und Kontaktinformationen",
+            "answer": "Lizenzangaben, Zugangsbeschränkung, Herausgeber und Kontaktinformationen",
             "correct": False,
             "feedback": """× Diese Antwort ist nicht korrekt. Diese Indikatoren werden zwar untersucht, gehören aber zur Dimension Wiederverwendbarkeit und sind damit nur eine von fünf untersuchten Dimensionen."""
         },

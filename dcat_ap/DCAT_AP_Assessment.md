@@ -58,7 +58,7 @@ question1 = [
             {
                 "answer": "DCAT wurde im Kontext von staatlichen Datenkatalogen wie data.gov entwickelt",
                 "correct": True,
-                "feedback": """✓ Korrekt! DCAT wurde für staatliche Datenportale entwickelt; treibende Beispiele waren data.gov und data.gov.uk. Ziel war die Interoperabilität zwischen Portalen"""
+                "feedback": """✓ Korrekt! DCAT wurde für staatliche Datenportale entwickelt; treibende Beispiele waren data.gov und data.gov.uk. Ziel war die Interoperabilität zwischen Portalen."""
             },
             {
                 "answer": "DCAT ist ein Tool zur Datenanalyse",

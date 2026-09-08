@@ -61,15 +61,15 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 
 - [Grundlagen](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Grundlagen.html)
 - [Übung Metadaten suchen & filtern](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_1.html)
-- [Übung Metadaten gruppieren & auswerten]([/SPARQL_Übung_2.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_2.html))
-- [Resümee]([/SPARQL_Reflexion.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Reflexion.html))
-- [Selbsttest]([/SPARQL_Assessment.md](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Assessment.html))
+- [Übung Metadaten gruppieren & auswerten](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_%C3%9Cbung_2.html)
+- [Resümee](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Resümee.html)
+- [Selbsttest](https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL_Assessment.html)
 
 ---
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 30 Minuten Dies schließt den gekennzeichneten Selbsttest, dessen Bearbeitungsdauer individuell variiert, aus. 
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 30 Minuten. Dies schließt den gekennzeichneten Selbsttest, dessen Bearbeitungsdauer individuell variiert, aus. 
 
 Die geschätzte Bearbeitungsdauer **inklusive** des Tests beträgt ca. 40 Minuten.
 

@@ -63,7 +63,7 @@ question3 = [
             {
                 "answer": "RDF dient ausschließlich der visuellen Gestaltung von Webseiten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. RDF ist nicht für die visuelle     Darstellung konzipiert, sondern fokussiert sich auf Datenstrukturen und deren Beziehungen. Es ermöglicht semantische Beschreibungen und unterstützt die maschinelle Interpretation von Daten. Für die visuelle Gestaltung werden andere Technologien wie CSS verwendet."""
+                "feedback": """× Nicht korrekt. RDF ist nicht für die visuelle Darstellung konzipiert, sondern fokussiert sich auf Datenstrukturen und deren Beziehungen. Es ermöglicht semantische Beschreibungen und unterstützt die maschinelle Interpretation von Daten. Für die visuelle Gestaltung werden andere Technologien wie CSS verwendet."""
             },
             {
                 "answer": "RDF unterstützt die Interoperabilität zwischen verschiedenen Datenquellen",
@@ -382,7 +382,7 @@ question15 = [
             {
                 "answer": "Die Geschwindigkeit, mit der Webseiten geladen werden",
                 "correct": False,
-                "feedback": """× Nicht korrekt.Interoperabilität bezieht sich nicht auf Geschwindigkeit, sondern fokussiert auf Datenaustausch und -integration. Sie betrifft die semantische Kompatibilität und hat nichts mit Ladezeiten zu tun. Performance ist ein separates Thema."""
+                "feedback": """× Nicht korrekt. Interoperabilität bezieht sich nicht auf Geschwindigkeit, sondern fokussiert auf Datenaustausch und -integration. Sie betrifft die semantische Kompatibilität und hat nichts mit Ladezeiten zu tun. Performance ist ein separates Thema."""
             },
             {
                 "answer": "Die visuelle Darstellung von Daten auf verschiedenen Geräten",

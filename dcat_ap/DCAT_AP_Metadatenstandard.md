@@ -21,7 +21,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 `````
 
-Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard DCAT sowie dessen Anwendungsprofil (application profile) DCAT-AP und dem auf Deutschland angepassten Profil DCAT-AP.de.  Dabei werden folgende Lernziele erreicht:
+Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard DCAT sowie dessen Anwendungsprofil (application profile) DCAT-AP und dem auf Deutschland angepassten Profil DCAT-AP.de. Dabei werden folgende Lernziele erreicht:
 
 ```{include} /einstieg/lernziele.md
 :start-after: "<!-- START: Werkzeuge kennenlernen: DCAT-AP Metadatenstandard -->"
@@ -50,7 +50,7 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Struktur und Elemente von DCAT-AP](/dcat_ap/DCAT_AP_Struktur.md)
 - [Beispiel und Implementierungen](/dcat_ap/DCAT_AP_Beispiel.md)
 - [Übung](/dcat_ap/DCAT_AP_Übung.md)
-- [Resümee](/dcat_ap/DCAT_AP_Reflexion.md)
+- [Resümee](/dcat_ap/DCAT_AP_Resümee.md)
 - [Selbsttest](/dcat_ap/DCAT_AP_Assessment.md)
 
 ---

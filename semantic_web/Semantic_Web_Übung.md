@@ -136,7 +136,7 @@ question4 = [{
         {
             "answer": "Nein.",
             "correct": False,
-            "feedback": """× Falsch, OWL ist speziell für Ontologien entwickelt worden.."""
+            "feedback": """× Falsch, OWL ist speziell für Ontologien entwickelt worden."""
         },
         {
             "answer": "Ja.",
