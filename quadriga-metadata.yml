@@ -221,5 +221,5 @@ qualityAssurance:
   date: '2026-04-10'
 learningResourceType: Jupyter Book
 schemaVersion: 2.0.0
-license: https://creativecommons.org/licenses/by-sa/4.0/
-licenseCode: MIT
+license: https://creativecommons.org/licenses/by/4.0/
+licenseCode: https://opensource.org/license/MIT
