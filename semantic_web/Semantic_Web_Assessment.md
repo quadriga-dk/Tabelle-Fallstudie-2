@@ -270,7 +270,9 @@ question10 = [
                 "feedback": """✓ Richtig! Das Semantic Web ermöglicht die nahtlose Integration verschiedener Datenquellen und automatisierte Datenverarbeitung über Systemgrenzen hinweg. Es unterstützt die Entwicklung von Software-Agenten, intelligenten Diensten und Anwendungen sowie maschinelles Schlussfolgern. Die Interoperabilität ist Grundlage für fortgeschrittene KI-Anwendungen."""
             },
             {
-                "answer": "Das Semantic Web hat viel breitere Anwendungsbereiche und ist nicht auf soziale Medien beschränkt. Es wird in Wissenschaft, Verwaltung, Wirtschaft und vielen weiteren Bereichen eingesetzt und unterstützt verschiedenste Datenintegrations-Szenarien. Soziale Netzwerke können semantische Technologien nutzen, sind aber nur ein kleiner Anwendungsbereich."""
+                "answer": "Das Semantic Web ist nur für Soziale Medien relevant",
+                "correct": False,
+                "feedback": "Das Semantic Web hat viel breitere Anwendungsbereiche und ist nicht auf Soziale Medien beschränkt. Es wird in Wissenschaft, Verwaltung, Wirtschaft und vielen weiteren Bereichen eingesetzt und unterstützt verschiedenste Datenintegrations-Szenarien. Soziale Netzwerke können semantische Technologien nutzen, sind aber nur ein kleiner Anwendungsbereich."""
             },
             {
                 "answer": "Für die Umsetzung von Open-Data-Initiativen und semantische Aufbereitung öffentlicher Daten",
