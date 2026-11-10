@@ -1,45 +1,115 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
-title: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
+# Generated from quadriga-metadata.yml by quadriga/metadata/create_oersi_metadata.py. Do not edit manually.
+'@context': https://schema.org/
+creativeWorkStatus: Published
+type: LearningResource
+name: 'Offene Daten im urbanen Raum: Datenportale, Metadaten und die Datenabfrage
   mit SPARQL. QUADRIGA Open Educational Resources: Tabelle 2'
-authors:
-- family-names: Plomin
-  given-names: Jana
-  orcid: https://orcid.org/0000-0003-0127-7493
-  credit:
-  - Investigation
-  - Methodology
-  - Writing – original draft
-  - Writing – review & editing
-  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- family-names: Walter
-  given-names: Paul
-  orcid: https://orcid.org/0000-0002-9236-3268
-  credit:
-  - Data curation
-  - Investigation
-  - Methodology
-  - Validation
-  - Writing – original draft
-  - Writing – review & editing
-  affiliation: Fachhochschule Potsdam
-- family-names: Schmeling
-  given-names: Juliane
-  orcid: https://orcid.org/0009-0005-9814-1139
-  credit:
-  - Conceptualization
-  - Methodology
-  - Project administration
-  - Writing – original draft
-  - Writing – review & editing
-  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- family-names: Dakruni
-  given-names: Sami
-  orcid: https://orcid.org/0009-0009-8541-6358
-  credit:
-  - Investigation
-  - Software
-  - Writing – review & editing
-  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+description: Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante
+  Datenportale vor, über die Daten akquiriert werden können und informiert über Metadaten,
+  deren Qualität, Standards und Abfragesprachen.
+license: https://creativecommons.org/licenses/by/4.0/
+id: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/
+creator:
+- givenName: Jana
+  familyName: Plomin
+  name: Jana Plomin
+  id: https://orcid.org/0000-0003-0127-7493
+  type: Person
+  affiliation:
+    name: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+    id: https://ror.org/00px80p03
+    type: Organization
+- givenName: Paul
+  familyName: Walter
+  name: Paul Walter
+  id: https://orcid.org/0000-0002-9236-3268
+  type: Person
+  affiliation:
+    name: Fachhochschule Potsdam
+    id: https://ror.org/012m9bp23
+    type: Organization
+- givenName: Juliane
+  familyName: Schmeling
+  name: Juliane Schmeling
+  id: https://orcid.org/0009-0005-9814-1139
+  type: Person
+  affiliation:
+    name: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+    id: https://ror.org/00px80p03
+    type: Organization
+- givenName: Sami
+  familyName: Dakruni
+  name: Sami Dakruni
+  id: https://orcid.org/0009-0009-8541-6358
+  type: Person
+  affiliation:
+    name: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+    id: https://ror.org/00px80p03
+    type: Organization
+contributor:
+- givenName: Hannes
+  familyName: Schnaitter
+  name: Hannes Schnaitter
+  id: https://orcid.org/0000-0002-1602-6032
+  type: Person
+  affiliation:
+    name: Humboldt-Universität zu Berlin
+    id: https://ror.org/01hcx6992
+    type: Organization
+- givenName: Evgenia
+  familyName: Samoilova
+  name: Evgenia Samoilova
+  id: https://orcid.org/0000-0003-3858-901X
+  type: Person
+  affiliation:
+    name: Universität Potsdam
+    id: https://ror.org/03bnmw459
+    type: Organization
+- givenName: Lamia
+  familyName: Islam
+  name: Lamia Islam
+  id: https://orcid.org/0009-0001-1879-9880
+  type: Person
+  affiliation:
+    name: Universität Potsdam
+    id: https://ror.org/03bnmw459
+    type: Organization
+- givenName: Yue
+  familyName: Zhang
+  name: Yue Zhang
+  id: https://orcid.org/0009-0007-6432-1259
+  type: Person
+  affiliation:
+    name: Technische Universität Berlin
+    id: https://ror.org/03v4gjf40
+    type: Organization
+- givenName: Melanie
+  familyName: Seltmann
+  name: Melanie Seltmann
+  id: https://orcid.org/0000-0002-7588-4395
+  type: Person
+  affiliation:
+    name: Fachhochschule Potsdam
+    id: https://ror.org/012m9bp23
+    type: Organization
+- givenName: Vivien
+  familyName: Petras
+  name: Vivien Petras
+  id: https://orcid.org/0000-0002-8113-1509
+  type: Person
+  affiliation:
+    name: Humboldt-Universität zu Berlin
+    id: https://ror.org/01hcx6992
+    type: Organization
+- givenName: Heike
+  familyName: Neuroth
+  name: Heike Neuroth
+  id: https://orcid.org/0000-0002-3637-3154
+  type: Person
+  affiliation:
+    name: Fachhochschule Potsdam
+    id: https://ror.org/012m9bp23
+    type: Organization
 keywords:
 - Verwaltung
 - Verwaltungswissenschaft
@@ -52,176 +122,18 @@ keywords:
 - Metadaten
 - Metadatenqualität
 - SPARQL
-description: Diese Fallstudie vermittelt Kenntnisse zur Datenabfrage, stellt relevante
-  Datenportale vor, über die Daten akquiriert werden können und informiert über Metadaten,
-  deren Qualität, Standards und Abfragesprachen.
-table-of-contents: '- Einstieg
-
-  - Technologien verstehen: Semantic Web & Linked Data
-
-  - Werkzeuge kennenlernen: DCAT-AP Metadatenstandard
-
-  - Datenqualität messen: Metadata Quality Assessment
-
-  - Praxis anwenden: SPARQL-Abfragen
-
-  - Zusammenfassung und Reflexion
-
-  - Abschluss'
-discipline:
-- Verwaltungswissenschaften
-- Informationswissenschaft
-research-object-type:
-- Tabelle
-target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
-- Promovierende
-- Hochschullehrende
-time-required: PT2H10M
-language: de
-contributors:
-- family-names: Schnaitter
-  given-names: Hannes
-  orcid: https://orcid.org/0000-0002-1602-6032
-  credit:
-  - Methodology
-  - Software
-  - Validation
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- family-names: Samoilova
-  given-names: Evgenia
-  orcid: https://orcid.org/0000-0003-3858-901X
-  credit:
-  - Methodology
-  - Validation
-  affiliation: Universität Potsdam
-- family-names: Islam
-  given-names: Lamia
-  orcid: https://orcid.org/0009-0001-1879-9880
-  credit:
-  - Software
-  - Validation
-  affiliation: Universität Potsdam
-- family-names: Zhang
-  given-names: Yue
-  orcid: https://orcid.org/0009-0007-6432-1259
-  credit:
-  - Software
-  affiliation: Technische Universität Berlin
-- family-names: Seltmann
-  given-names: Melanie
-  orcid: https://orcid.org/0000-0002-7588-4395
-  credit:
-  - Validation
-  affiliation: Fachhochschule Potsdam
-- given-names: Vivien
-  family-names: Petras
-  orcid: https://orcid.org/0000-0002-8113-1509
-  credit:
-  - Funding acquisition
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- given-names: Heike
-  family-names: Neuroth
-  orcid: https://orcid.org/0000-0002-3637-3154
-  credit:
-  - Conceptualization
-  - Funding acquisition
-  affiliation: Fachhochschule Potsdam
+inLanguage:
+- de
+about:
+- https://w3id.org/kim/hochschulfaechersystematik/n29
+- https://w3id.org/kim/hochschulfaechersystematik/n06
+educationalLevel:
+- https://w3id.org/kim/educationalLevel/level_8
+- https://w3id.org/kim/educationalLevel/level_A
+learningResourceType:
+- https://w3id.org/kim/hcrt/textbook
+duration: PT2H10M
+version: 1.1.0
+datePublished: '2024-08-20'
+dateModified: '2026-10-30'
 identifier: https://doi.org/10.5281/zenodo.19494510
-git: https://github.com/quadriga-dk/Tabelle-Fallstudie-2
-url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/Titelseite.html
-prerequisites:
-- allgemeines Verständnis von / Interesse an Struktur von Datensätzen, Datenkonzepten,
-  Metadaten und Datendokumentationen
-- Verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen
-- Grundlegende Kenntnisse in SPARQL oder anderen Abfragesprachen von Vorteil
-used-tools:
-- SPARQL
-- https://www.w3.org/TR/sparql11-query/
-chapters:
-- title: 'Technologien verstehen: Semantic Web & Linked Data'
-  description: Dieses Kapitel vermittelt Kenntnisse in den grundlegenden Konzepten
-    des Semantic Web und Linked Data.
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/semantic_web/Semantic_Web_Linked_Data.html
-  learning-goal: Technologien verstehen
-  time-required: PT30M
-  learning-objectives:
-  - learning-objective: Der Begriff Semantic Web kann definiert werden.
-    competency: Orientierungswissen
-    data-flow: übergreifend
-    blooms-category: 1 Erinnern
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-- title: 'Werkzeuge kennenlernen: DCAT-AP Metadatenstandard'
-  description: Dieses Kapitel widmet sich Metadaten, Metadatenportalen und dem Metadatenstandard
-    DCAT sowie dessen Anwendungsprofil DCAT-AP und dem auf Deutschland angepassten
-    Profil DCAT-AP.de.
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/dcat_ap/DCAT_AP_Metadatenstandard.html
-  learning-goal: Metadatenstandards
-  time-required: PT30M
-  learning-objectives:
-  - learning-objective: Der DCAT-Standard kann definiert werden.
-    competency: 3.2 Erschließung
-    data-flow: 3 Management
-    blooms-category: 2 Verstehen
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-  - learning-objective: Vier Hauptmerkmale des Dublin Core-Metadatenstandards können
-      genannt werden.
-    competency: 3.2 Erschließung
-    data-flow: 3 Management
-    blooms-category: 1 Erinnern
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-  - learning-objective: Die Ableitung von DCAT-AP.de aus DCAT-AP und dessen Anwendung
-      in Deutschland kann erläutert werden.
-    competency: 3.2 Erschließung
-    data-flow: 3 Management
-    blooms-category: 2 Verstehen
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-- title: 'Datenqualität messen: Metadata Quality Assessment'
-  description: Dieses Kapitel widmet sich der Qualität von Metadaten und deren Bedeutung
-    für die Nachnutzung offener Daten.
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/metadatenqualit%C3%A4t/Metadatenqualit%C3%A4t.html
-  learning-goal: Metadatenqualität
-  time-required: PT20M
-  learning-objectives:
-  - learning-objective: Die Funktionen des Metadata Quality Assessment (MQA) können
-      beschrieben werden.
-    competency: 1.2 Qualitätssicherung
-    data-flow: 1 Planung
-    blooms-category: 2 Verstehen
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-- title: 'Praxis anwenden: SPARQL-Abfragen'
-  description: In diesem Kapitel wird die Abfragesprache SPARQL vorgestellt
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-2/sparql/SPARQL.html
-  learning-goal: Abfragesprache SPARQL
-  time-required: PT40M
-  learning-objectives:
-  - learning-objective: Die grundlegenden Komponenten der SPARQL-Syntax können aufgezählt
-      und ihre Rollen erläutert werden.
-    competency: 1.1 Identifikation
-    data-flow: 1 Planung
-    blooms-category: 2 Verstehen
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-  - learning-objective: Einfache SPARQL-Abfragen können erstellt und durchgeführt
-      werden, um spezifische Informationen aus einem Datenkatalog abzurufen.
-    competency: 1.1 Identifikation
-    data-flow: 1 Planung
-    blooms-category: 3 Anwenden
-    assessment: Multiple-Choice-Quiz, Reflexionsfragen
-date-issued: '2024-08-20'
-date-modified: '2026-04-10'
-version: 1.0.0
-context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt.
-
-
-  Förderkennzeichen: 16DKZ2034'
-quality-assurance:
-  description: https://doi.org/10.5281/zenodo.18953896
-  date: '2026-04-10'
-learning-resource-type: Jupyter Book
-schema-version: 1.0.0
-license:
-  content:
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-    name: CC-BY-4.0
