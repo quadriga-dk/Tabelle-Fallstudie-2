@@ -13,7 +13,7 @@ kernelspec:
 
 # Übung
 
-Hier können Sie hier Ihr Wissen in einem Quiz auf die Probe stellen. Viel Erfolg!
+Hier können Sie Ihr Wissen in einem Quiz auf die Probe stellen. Viel Erfolg!
 
 
 

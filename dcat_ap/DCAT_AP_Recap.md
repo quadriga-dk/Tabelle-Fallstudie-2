@@ -17,7 +17,7 @@ width: 512px
 Ein Beispiel für Metadaten: Karteikarten in einem Schlagwortkatalog, <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" class="external-link" target="_blank">CC BY-SA</a> <a href="https://commons.wikimedia.org/wiki/File:Schlagwortkatalog.jpg?uselang=de" class="external-link" target="_blank">Marcus Gossler</a>.
 ```
 
-Es gibt verschiedene Arten von Metadaten, die unterschiedliche Funktionen erfüllen {cite}`riley2017understanding`. So enthalten zum Beispiel *beschreibende Metadaten* Informationen zur Autorenschaft, dem Erstellungsdatum, der Dateigröße und Schlagwörter. *Technische Metadaten* machen dagegen eine Aussage über die Struktur, das Format oder die Speicherung von Daten.
+Es gibt verschiedene Arten von Metadaten, die unterschiedliche Funktionen erfüllen {cite}`riley2017understanding`. So enthalten zum Beispiel *beschreibende Metadaten* Informationen zur Autorenschaft, dem Erstellungsdatum, der Dateigröße und Schlagwörtern. *Technische Metadaten* machen dagegen eine Aussage über die Struktur, das Format oder die Speicherung von Daten.
 
 
 ```{admonition} Weitere Informationen
@@ -40,7 +40,7 @@ Die Qualität von Daten ist zudem Thema einer weiteren
 <a href="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/4_Qualit%C3%A4tsbewertung.html" class="external-link" target="_blank">Lerneinheit</a> unseres Projektes <a href="https://www.quadriga-dk.de/de/" class="external-link" target="_blank">QUADRIGA</a>.
 
 Falls Sie noch nach einem grundsätzlichen Überblick zum Thema Metadaten suchen, sei Ihnen das 
-<a href="https://wiki.dnb.de/download/attachments/43523047/201209_metadaten.pdf" class="external-link" target="_blank">Kleine Handbuch Metadaten</a> von Stefanie Rühle, Kompetenzzentrum Interoperable Metadaten, empfohlen.
+<a href="https://wiki.dnb.de/download/attachments/43523047/201209_metadaten.pdf" class="external-link" target="_blank">Kleines Handbuch Metadaten</a> von Stefanie Rühle, Kompetenzzentrum Interoperable Metadaten, empfohlen.
 ```
 
 **Literatur**
