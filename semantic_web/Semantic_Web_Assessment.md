@@ -219,7 +219,7 @@ question8 = [
                 "feedback": """✓ Richtig! Ontologien strukturieren komplexe Datenbestände und erleichtern die Datenverwaltung und -integration. Sie unterstützen die Datenqualität und Konsistenz und sind heute unverzichtbar für professionelle Datensysteme. Moderne Datenadministrierung wäre ohne Ontologien kaum vorstellbar."""
             },
             {
-                "answer": "OWL (Ontology Web Language) ermöglicht die formale Definition von Wissen über bestimmte Domänen",
+                "answer": "OWL (Web Ontology Language) ermöglicht die formale Definition von Wissen über bestimmte Domänen",
                 "correct": True,
                 "feedback": """✓ Richtig! OWL ist ein W3C-Standard für die Ontologie-Erstellung und ermöglicht die präzise Definition von Konzepten und Beziehungen. Es unterstützt logische Schlussfolgerungen und ist spezialisiert für domänenspezifisches Wissen. OWL ist ein zentrales Werkzeug zur Realisierung der Semantic Web-Vision."""
             },

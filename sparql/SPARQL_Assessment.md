@@ -141,9 +141,9 @@ question3 = [
                 "feedback": """✓ Korrekt! Der WHERE-Befehl ist der Kern jeder SPARQL-Abfrage. Er legt fest, welche Kriterien die Datensätze erfüllen müssen, um in die Ergebnisliste aufgenommen zu werden."""
             },
             {
-                "answer": "Innerhalb von WHERE werden Beziehungen durch Triplets (Subjekt-Prädikat-Objekt) definiert",
+                "answer": "Innerhalb von WHERE werden Beziehungen durch Tripel (Subjekt-Prädikat-Objekt) definiert",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die Triplet-Struktur (S-P-O) ist grundlegend für SPARQL. Jede Zeile in der WHERE-Klausel stellt eine Beziehung zwischen zwei Eigenschaften über ein Prädikat her, z.B. „?uri dct:title ?title" verbindet eine URI mit ihrem Titel."""
+                "feedback": """✓ Korrekt! Die Tripel-Struktur (S-P-O) ist grundlegend für SPARQL. Jede Zeile in der WHERE-Klausel stellt eine Beziehung zwischen zwei Eigenschaften über ein Prädikat her, z.B. „?uri dct:title ?title" verbindet eine URI mit ihrem Titel."""
             },
             {
                 "answer": "SELECT kann nicht mehr als eine einzige Variable enthalten",
@@ -484,7 +484,7 @@ question11 = [
             {
                 "answer": "Eine SPARQL-Abfrage kann nur eine einzige Datenquelle gleichzeitig abfragen",
                 "correct": False,
-                "feedback": """x Nicht korrekt. Obwohl in den Übungen jeweils ein Endpunkt verwendet wurde (data.europa.eu oder govdata.de), ist es prinzipiell möglich, verschiedene Endpunkte nacheinander abzufragen oder föderierten Abfragen zu nutzen."""
+                "feedback": """x Nicht korrekt. Obwohl in den Übungen jeweils ein Endpunkt verwendet wurde (data.europa.eu oder govdata.de), ist es prinzipiell möglich, verschiedene Endpunkte nacheinander abzufragen oder föderierte Abfragen zu nutzen."""
             }
         ]
     }

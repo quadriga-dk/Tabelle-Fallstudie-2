@@ -22,9 +22,9 @@ Die abgebildete Variante von Sowa (2011) ist eine erweiterte Version dieses ursp
 Die Stufen des Modells lassen sich wie folgt von unten nach oben beschreiben:
 
 1. URI (Uniform Resource Identifier) / IRI (Internationalized Resource Identifier) - URI bzw. IRI stellen die Basis dar, denn sie dienen als eindeutige Adresse, um jede Ressource im Web identifizieren zu können.
-2. XML (extensible Markup Language) - ist der Standard für die strukturierte Darstellung von Daten. In diese Ebene hinein ragt der
+2. XML (Extensible Markup Language) - ist der Standard für die strukturierte Darstellung von Daten. In diese Ebene hinein ragt der
 3. Datenaustausch: RDF (Resource Description Framework) - RDF ist ein Modell für die Darstellung von Daten als Tripel und erlaubt damit, Informationen so zu verknüpfen, dass Maschinen sie verstehen können.  
-4. In der Ebene darüber befindet sich mit 'Query: SPARQL' eine Abfragesprache für RDF-Daten, mit 'Ontology: OWL' und 'RDFS' (RDF Schema) zwei Schemata bzw. Ontologien, die es ermöglichen Beziehungen und logische Schlussfolgerungen darzustellen sowie mit 'Rules: RIF' ein Standard, der entwickelt wurde, um Regeln zwischen verschiedenen Regelsprachen und -systemen austauschbar zu machen.
+4. In der Ebene darüber befindet sich mit 'Query: SPARQL' eine Abfragesprache für RDF-Daten, mit 'Ontology: OWL' und 'RDFS' (RDF Schema) zwei Schemata bzw. Ontologien, die es ermöglichen, Beziehungen und logische Schlussfolgerungen darzustellen sowie mit 'Rules: RIF' ein Standard, der entwickelt wurde, um Regeln zwischen verschiedenen Regelsprachen und -systemen austauschbar zu machen.
 5. Logic - Diese Schicht ermöglicht es, automatisierte Entscheidungen basierend auf den Daten zu treffen. Beispiel: „Wenn A wahr ist und B wahr ist, dann folgt C.“
 6. Proof - die Prüfschicht stellt die Validität der Ergebnisse sicher, indem sie die Schritte überprüft, die zu einer Schlussfolgerung führen. Ähnlich wie bei einer mathematischen Beweisführung.
 7. Trust - Diese Schicht definiert Vertrauen in die Daten, allerdings ist nicht abschließend geklärt, wie genau das erreicht werden kann. 

@@ -5,7 +5,7 @@ In diesem Kapitel wurde die zentrale Bedeutung der Metadatenqualität für den E
 
 ```{admonition} Bezug zur Forschungsfrage
 :class: keypoint
-Zur Lösung der Forschungsfrage - der Ermittlung offener Daten zum Baumbestand einer Region - hat dieses Kapitel indirekt beigetragen, denn nur wenn Daten mit qualitätvollen Metadaten beschrieben sind, die (inter-)nationalen Standards entsprechen, sind sie überhaupt auffindbar.
+Zur Lösung der Forschungsfrage - der Ermittlung offener Daten zum Baumbestand einer Region - hat dieses Kapitel indirekt beigetragen, denn nur wenn Daten mit qualitätsvollen Metadaten beschrieben sind, die (inter-)nationalen Standards entsprechen, sind sie überhaupt auffindbar.
 ```
 
 ```{admonition} Was Sie mitnehmen sollten

@@ -5,7 +5,7 @@ lang: de-DE
 (portale)=
 # Metadatenportale
 
-Im Rahmen dieser Fallstudie befassen wir uns mit der systematischen Abfrage und Nutzung von Metadaten, wie sie über das europäische Metadatenportal <a href="https://www.data.europa.eu/" class="external-link" target="_blank">data.europa</a> bereitgestellt werden. Dieses Portal bildet das Beispiel um sich mit der Datenstruktur von Datenportalen auf verschiedenen Ebenen vertraut zu machen – lokal, national und europäisch – und zu verstehen, wie Metadaten über diese Ebenen hinweg abgerufen und verarbeitet werden können.
+Im Rahmen dieser Fallstudie befassen wir uns mit der systematischen Abfrage und Nutzung von Metadaten, wie sie über das europäische Metadatenportal <a href="https://www.data.europa.eu/" class="external-link" target="_blank">data.europa</a> bereitgestellt werden. Dieses Portal bildet das Beispiel, um sich mit der Datenstruktur von Datenportalen auf verschiedenen Ebenen vertraut zu machen – lokal, national und europäisch – und zu verstehen, wie Metadaten über diese Ebenen hinweg abgerufen und verarbeitet werden können.
 
 ## Funktionsweise von Datenportalen
 
@@ -22,7 +22,7 @@ alt: Eine grafische Darstellung von (Meta-)Datenplattformen verschiedener Ebenen
 Mehrstufige Dateninfrastruktur durch Plattformen verschiedener Ebenen, eigene Darstellung.
 ```
 
-Metadaten zu Datensätzen sind also in mehreren Portalen einsehbar, wobei zentrale Portale wie das bundesweite und das europäische, die Daten von den "unteren" Ebenen harvesten (s. Abb. 3.4). Das heißt, dass über diese Portale nicht zwangsweise ein direkter Zugriff auf die eigentlichen Datensätze möglich ist, da sie diese Daten nicht halten. Allerdings werden zunehmend nicht mehr nur die Metadaten abgefragt und somit angezeigt, welche Daten verfügbar sind, sondern zunehmend auch Links zu den Datensätzen bereitgestellt, sodass diese auch auf den zentralen Plattformen direkt von den Datenbereitstellern heruntergeladen werden können, ohne auf deren Webseite gehen zu müssen. Der Vorteil von zentralen Plattformen liegt in dem Vergleich und der Nebeneinanderstellung vergleichbarer Datensätze - beispielsweise Baumkatasterdaten aus mehreren Städten aus dem gesamten Bundesgebiet. 
+Metadaten zu Datensätzen sind also in mehreren Portalen einsehbar, wobei zentrale Portale wie das bundesweite und das europäische die Daten von den "unteren" Ebenen harvesten (s. Abb. 3.4). Das heißt, dass über diese Portale nicht zwangsweise ein direkter Zugriff auf die eigentlichen Datensätze möglich ist, da sie diese Daten nicht halten. Allerdings werden zunehmend nicht mehr nur die Metadaten abgefragt und somit angezeigt, welche Daten verfügbar sind, sondern zunehmend auch Links zu den Datensätzen bereitgestellt, sodass diese auch auf den zentralen Plattformen direkt von den Datenbereitstellern heruntergeladen werden können, ohne auf deren Webseite gehen zu müssen. Der Vorteil von zentralen Plattformen liegt in dem Vergleich und der Nebeneinanderstellung vergleichbarer Datensätze - beispielsweise Baumkatasterdaten aus mehreren Städten aus dem gesamten Bundesgebiet. 
 
 
 ```{figure} /assets/standardisierungsbedarf-metadatenfoderation.png
